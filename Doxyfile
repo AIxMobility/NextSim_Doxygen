@@ -949,7 +949,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = \\wsl.localhost\Ubuntu\root\NextSim\Captain
+INPUT                  = ~/NextSim/Captain
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1054,17 +1054,17 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/CMake \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Doxygen output \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/lib \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/doctest \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/rapidjson \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Tests \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/gookto_io/build \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/gookto_io/InputGenerator \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/gookto_io/tests \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/gookto_io/includes/gookto_io/tinyapi \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim/Captain/Libraries/gookto_io/sources/gookto_io/tinyapi
+EXCLUDE                = ~/NextSim/Captain/CMake \
+                         ~/NextSim/Captain/Doxygen output \
+                         ~/NextSim/Captain/lib \
+                         ~/NextSim/Captain/Libraries/doctest \
+                         ~/NextSim/Captain/Libraries/rapidjson \
+                         ~/NextSim/Captain/Tests \
+                         ~/NextSim/Captain/Libraries/gookto_io/build \
+                         ~/NextSim/Captain/Libraries/gookto_io/InputGenerator \
+                         ~/NextSim/Captain/Libraries/gookto_io/tests \
+                         ~/NextSim/Captain/Libraries/gookto_io/includes/gookto_io/tinyapi \
+                         ~/NextSim/Captain/Libraries/gookto_io/sources/gookto_io/tinyapi
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

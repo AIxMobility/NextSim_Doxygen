@@ -1,0 +1,11 @@
+<map id="Captain::Node::IntersectionMicroLink" name="Captain::Node::IntersectionMicroLink">
+<area shape="rect" id="node1" title=" " alt="" coords="382,1351,581,1501"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html" title=" " alt="" coords="357,725,605,1301"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,373,192,641"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="217,395,423,619"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="23,27,207,207"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="231,5,409,229"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="433,5,620,229"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1V2X.html" title=" " alt="" coords="448,387,635,626"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="659,351,824,663"/>
+</map>

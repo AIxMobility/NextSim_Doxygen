@@ -1,0 +1,5 @@
+<map id="Captain::Node::UniformLink::GetWeight" name="Captain::Node::UniformLink::GetWeight">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,208,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html#ad0ffc129632e2d77611506660eb38b79" title=" " alt="" coords="256,5,477,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MesoLink.html#a3030a6a0260675c7f8ff3deac4b51988" title="Gets weight (average pass time for all units) for routing." alt="" coords="275,71,459,112"/>
+</map>

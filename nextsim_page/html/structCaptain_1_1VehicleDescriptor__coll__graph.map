@@ -1,0 +1,7 @@
+<map id="Captain::VehicleDescriptor" name="Captain::VehicleDescriptor">
+<area shape="rect" id="node1" title=" " alt="" coords="20,769,215,847"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1VehicleInfo.html" title=" " alt="" coords="5,365,157,707"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1VehicleState.html" title="This Expresses specific state of the vehicle." alt="" coords="181,417,376,655"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1Position.html" title="Wrapper for representing positions of units." alt="" coords="121,93,253,200"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1PathIdentifier.html" title=" " alt="" coords="277,5,467,288"/>
+</map>

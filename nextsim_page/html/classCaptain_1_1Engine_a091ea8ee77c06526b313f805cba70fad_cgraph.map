@@ -1,0 +1,9 @@
+<map id="Captain::Engine::RecordSimulationInfo" name="Captain::Engine::RecordSimulationInfo">
+<area shape="rect" id="node1" title="Record Simulation Information at the end of Simulation." alt="" coords="5,148,277,175"/>
+<area shape="rect" id="node2" href="$classInputMode.html#a13dd75836e647ea58625dffcd9015c73" title=" " alt="" coords="343,5,544,32"/>
+<area shape="rect" id="node3" href="$classInputMode.html#a0c3a64185a64fe5953dedddde69bd003" title=" " alt="" coords="342,56,545,83"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1XmlWriter.html#adf7b2502cbde141e5410d69cfbd8ae81" title=" " alt="" coords="355,107,532,149"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html#a489c9c0a2a2db58966a4601383b5c35b" title=" " alt="" coords="325,173,561,214"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1XmlWriter.html#a158ce87e5a79fba6bb179dc77f58814b" title=" " alt="" coords="355,238,532,279"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1XmlWriter.html#a77b3f451c6f1ee8572586ff670b27ce3" title=" " alt="" coords="355,303,532,345"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Captain::Engine::GenerateRoutes" name="Captain::Engine::GenerateRoutes">
+<area shape="rect" id="node1" title="Finds shortest paths in the networks." alt="" coords="5,27,197,69"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title="Finds shortest UnitRoute from source to destination." alt="" coords="245,5,443,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#acf288a69cc65a6ae9a170f1fea887623" title=" " alt="" coords="251,57,437,98"/>
+</map>

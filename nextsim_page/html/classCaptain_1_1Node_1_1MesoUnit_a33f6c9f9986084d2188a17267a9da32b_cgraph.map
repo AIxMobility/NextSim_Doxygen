@@ -1,6 +1,0 @@
-<map id="Captain::Node::MesoUnit::MoveMandatoryLaneChangeVehicles" name="Captain::Node::MesoUnit::MoveMandatoryLaneChangeVehicles">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,276,98"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="324,5,547,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a4fba47e268eae735f1e2bd4def05a789" title=" " alt="" coords="335,57,535,98"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="335,122,535,163"/>
-</map>

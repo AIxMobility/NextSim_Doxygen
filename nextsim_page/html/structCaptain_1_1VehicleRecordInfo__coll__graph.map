@@ -1,5 +1,0 @@
-<map id="Captain::VehicleRecordInfo" name="Captain::VehicleRecordInfo">
-<area shape="rect" id="node1" title="Struct that stores information to record for micro operations." alt="" coords="59,380,257,677"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Position.html" title="Wrapper for representing positions of units." alt="" coords="5,108,137,215"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="162,5,327,317"/>
-</map>

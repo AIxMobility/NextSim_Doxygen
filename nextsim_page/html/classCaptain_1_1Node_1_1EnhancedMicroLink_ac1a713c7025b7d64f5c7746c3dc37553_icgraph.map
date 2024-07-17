@@ -1,5 +1,0 @@
-<map id="Captain::Node::EnhancedMicroLink::ComputeICF" name="Captain::Node::EnhancedMicroLink::ComputeICF">
-<area shape="rect" id="node1" title=" " alt="" coords="305,39,527,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1UniformLink.html#a496eff394bcf124c38515579f4f860af" title="Computes inter cell flow for both micro and meso models." alt="" coords="30,5,233,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html#a2792e1c1b89a880a8c33a1afd99961d3" title="Computes inter cell flow for both micro and meso models." alt="" coords="5,71,257,112"/>
-</map>

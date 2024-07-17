@@ -1,7 +1,0 @@
-<map id="Captain::VehicleReservationInfo" name="Captain::VehicleReservationInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="225,409,455,633"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="5,101,144,251"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1VehicleInfo.html" title=" " alt="" coords="168,5,320,347"/>
-<area shape="rect" id="node4" href="$structCaptain_1_1PublicTransitInfo.html" title=" " alt="" coords="344,13,531,339"/>
-<area shape="rect" id="node5" href="$structCaptain_1_1VehiclePath.html" title="Describes path of the vehicle." alt="" coords="555,13,792,339"/>
-</map>

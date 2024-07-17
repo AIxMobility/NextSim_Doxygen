@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="5,42,179,69"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1SpinLockVehicleQueue.html" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="234,5,419,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="227,71,427,98"/>
-</map>

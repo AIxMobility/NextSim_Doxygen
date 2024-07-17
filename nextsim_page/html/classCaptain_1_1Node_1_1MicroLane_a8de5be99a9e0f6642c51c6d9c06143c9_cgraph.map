@@ -1,7 +1,0 @@
-<map id="Captain::Node::MicroLane::FlushRecordings" name="Captain::Node::MicroLane::FlushRecordings">
-<area shape="rect" id="node1" title="Records all remaining recordings stored in buffer." alt="" coords="5,57,195,98"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="243,5,465,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="254,57,454,98"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html#a18c842e106dea45487b674fb2e71f2b4" title=" " alt="" coords="251,122,457,163"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html#ac7b4a1dffbeabb30e914090f2388641e" title=" " alt="" coords="513,122,691,163"/>
-</map>

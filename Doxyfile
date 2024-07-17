@@ -61,7 +61,7 @@ PROJECT_BRIEF          = "AI x Mobility Lab Traffic Simulator"
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/AIM_logo.png
+PROJECT_LOGO           = ./AIM_logo.png
 
 # With the PROJECT_ICON tag one can specify an icon that is included in the tabs
 # when the HTML document is shown. Doxygen will copy the logo to the output
@@ -74,8 +74,8 @@ PROJECT_ICON           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = \\wsl.localhost\Ubuntu\home\wjstnwp\NextSim_Doxygen\nextsim_page
-
+OUTPUT_DIRECTORY       = ./nextsim_page
++
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
 # and will distribute the generated files over these directories. Enabling this
@@ -1415,9 +1415,9 @@ HTML_STYLESHEET        =
 # documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/doxygen-awesome-css/doxygen-awesome.css \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only.css \
-                         //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_STYLESHEET  = ./doxygen-awesome-css/doxygen-awesome.css \
+                         ./doxygen-awesome-css/doxygen-awesome-sidebar-only.css \
+                         ./doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1427,7 +1427,7 @@ HTML_EXTRA_STYLESHEET  = //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/dox
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       = //wsl.localhost/Ubuntu/home/wjstnwp/NextSim_Doxygen/doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js
+HTML_EXTRA_FILES       = ./doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme.

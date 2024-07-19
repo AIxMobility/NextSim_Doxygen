@@ -22,8 +22,12 @@ jobs:
     steps:
       - uses: actions/checkout@master
         with:
+          submodules: recursive
+          
+      - uses: actions/checkout@master
+        with:
           repository: AIxMobility/NextSim
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACTION_KEY }}
           submodules: recursive
 
       - name: Doxygen Action

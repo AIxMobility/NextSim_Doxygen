@@ -1,8 +1,0 @@
-<map id="Captain::Util::VehicleQueue::Sort" name="Captain::Util::VehicleQueue::Sort">
-<area shape="rect" id="node1" title=" " alt="" coords="304,136,504,177"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html#ace8d26c809d856cdb3c33f3d0057f4ae" title=" " alt="" coords="5,5,256,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html#a4515ab6a7052d663e549249d5af7b3e2" title="Moves vehicles from lane change queue of nearby lane." alt="" coords="36,71,225,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MesoUnit.html#a9ac72a7c3c0f445647785ab4cffa8aac" title=" " alt="" coords="39,136,223,177"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MicroLane.html#ae819c2da0ce8c1ce45316e0778ec256b" title=" " alt="" coords="36,201,225,243"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1MicroLane.html#ad2bb214356e543a415c857e72c9de8c4" title=" " alt="" coords="36,267,225,308"/>
-</map>

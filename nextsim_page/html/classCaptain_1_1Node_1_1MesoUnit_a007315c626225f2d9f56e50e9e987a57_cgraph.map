@@ -1,5 +1,0 @@
-<map id="Captain::Node::MesoUnit::UpdateVehiclePosition" name="Captain::Node::MesoUnit::UpdateVehiclePosition">
-<area shape="rect" id="node1" title="Computes X position of vehicles inside the vehicleQueue." alt="" coords="5,27,189,69"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="237,5,460,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="249,57,449,98"/>
-</map>

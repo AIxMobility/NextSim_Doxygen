@@ -20,15 +20,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@master
         with:
+          repository: AIxMobility/NextSim
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
 
-      # - name: Doxygen Action
-      #   uses: mattnotmitt/doxygen-action@v1.9
-      #   with:
-      #     doxyfile-path: "./Doxyfile"
-      #     working-directory: "."
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@v1.9
+        with:
+          doxyfile-path: "./Doxyfile"
+          working-directory: "."
 
       - name: Add .nojekyll
         run: sudo touch ./nextsim_page/html/.nojekyll

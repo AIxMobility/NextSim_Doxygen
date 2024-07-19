@@ -1,7 +1,0 @@
-<map id="Captain::Util::XmlWriter::RecordCellInfo" name="Captain::Util::XmlWriter::RecordCellInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="500,39,677,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a336c7ce29a2b0e841e4be079e054dfc9" title=" " alt="" coords="243,5,452,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html#a18c842e106dea45487b674fb2e71f2b4" title=" " alt="" coords="244,71,451,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MesoUnit.html#ac18ca35e3842d9fbe87037a6273013b2" title=" " alt="" coords="8,37,192,79"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MicroLane.html#a8de5be99a9e0f6642c51c6d9c06143c9" title="Records all remaining recordings stored in buffer." alt="" coords="5,103,195,144"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="Captain::Node::SourceUnit::GenerateVehiclesRandom" name="Captain::Node::SourceUnit::GenerateVehiclesRandom">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,204,112"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3b1d50e6a57ecce1358f76b874906805" title=" " alt="" coords="257,5,457,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1RandomDistribution.html#a415a200043b91ef77e302bb8557824d1" title=" " alt="" coords="252,71,463,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="257,136,457,177"/>
-</map>

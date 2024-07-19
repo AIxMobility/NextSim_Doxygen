@@ -1,7 +1,0 @@
-<map id="Captain::Node::MesoUnit::GetCurrentNumVehicles" name="Captain::Node::MesoUnit::GetCurrentNumVehicles">
-<area shape="rect" id="node1" title=" " alt="" coords="268,104,455,145"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html#a727dd4df6ffb108367ea87f0bec86943" title=" " alt="" coords="21,5,205,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MesoUnit.html#a1eebb1d400354b27feaafa66d314809a" title=" " alt="" coords="5,71,220,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MesoUnit.html#a0b773761ca1f7aa49ea4cd718398e6b5" title="Gets weight (average pass time) of this unit." alt="" coords="21,136,205,177"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MesoUnit.html#ab09b7181c64a8b8cc48f5c0ac2ddd418" title=" " alt="" coords="21,201,205,243"/>
-</map>

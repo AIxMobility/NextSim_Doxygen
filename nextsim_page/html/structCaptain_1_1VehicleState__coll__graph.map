@@ -1,5 +1,0 @@
-<map id="Captain::VehicleState" name="Captain::VehicleState">
-<area shape="rect" id="node1" title="This Expresses specific state of the vehicle." alt="" coords="66,365,261,604"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Position.html" title="Wrapper for representing positions of units." alt="" coords="5,93,137,200"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1PathIdentifier.html" title=" " alt="" coords="162,5,351,288"/>
-</map>

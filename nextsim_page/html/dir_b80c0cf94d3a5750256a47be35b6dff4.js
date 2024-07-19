@@ -1,4 +1,0 @@
-var dir_b80c0cf94d3a5750256a47be35b6dff4 =
-[
-    [ "gookto_io", "dir_49234557d801f3a568279127e2c9196b.html", "dir_49234557d801f3a568279127e2c9196b" ]
-];

@@ -1,7 +1,0 @@
-<map id="Captain::Node::SourceUnit::GeneratePublicVehicles" name="Captain::Node::SourceUnit::GeneratePublicVehicles">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,199,145"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a615e903a007fbedb5111262c2867b269" title=" " alt="" coords="247,5,447,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a50528de7c054eccf6014a0ef9cba9d6a" title="Gets maximum capacity of the this vehicleQueue." alt="" coords="247,71,447,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a1c4f0d6747fd7ab18a55b3de33ec74cf" title=" " alt="" coords="247,136,447,177"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="247,201,447,243"/>
-</map>

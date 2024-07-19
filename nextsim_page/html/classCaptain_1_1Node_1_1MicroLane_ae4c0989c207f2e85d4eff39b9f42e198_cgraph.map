@@ -1,6 +1,0 @@
-<map id="Captain::Node::MicroLane::ApplyV2XMessageToVehicles" name="Captain::Node::MicroLane::ApplyV2XMessageToVehicles">
-<area shape="rect" id="node1" title=" " alt="" coords="5,57,224,98"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html#aa8718d96a1d4de06a0defa7a489337d8" title=" " alt="" coords="279,5,465,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1V2X.html#a28561c0a7084aa7038fe841b94b3810a" title=" " alt="" coords="275,57,469,98"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#afa42d83d3b2796577b83ce980b8dcb79" title=" " alt="" coords="272,122,472,163"/>
-</map>

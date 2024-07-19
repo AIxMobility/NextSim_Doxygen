@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@master
         with:
           repository: AIxMobility/NextSim
-          token: ${{ secrets.ACTION_KEY }}
+          ssh-key: ${{ secrets.ACTION_KEY }}
           submodules: recursive
 
       - name: Doxygen Action

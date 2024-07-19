@@ -1,0 +1,25 @@
+var classCaptain_1_1Util_1_1VehicleQueue =
+[
+    [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a9ac3ae3152e5ddebd797e3a7543434f9", null ],
+    [ "~VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#aa7d3b74f955138b97a92df7f906fdc7b", null ],
+    [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a8f5a1350be29e6767c3698b053c32c93", null ],
+    [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a0f6706242356f5899848aed5d484d3a3", null ],
+    [ "At", "classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b", null ],
+    [ "CompareAndInsertByPosition", "classCaptain_1_1Util_1_1VehicleQueue.html#a47afe186e18e15052f774138f4ed6d11", null ],
+    [ "Dequeue", "classCaptain_1_1Util_1_1VehicleQueue.html#a615e903a007fbedb5111262c2867b269", null ],
+    [ "Enqueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a3b1d50e6a57ecce1358f76b874906805", null ],
+    [ "Extract", "classCaptain_1_1Util_1_1VehicleQueue.html#a4fba47e268eae735f1e2bd4def05a789", null ],
+    [ "FindAllFollowers", "classCaptain_1_1Util_1_1VehicleQueue.html#a25db7c4467b0eba6d53888217812e941", null ],
+    [ "FindAllLeaders", "classCaptain_1_1Util_1_1VehicleQueue.html#ac1d0e70d8b5517efe399a8e511f3851c", null ],
+    [ "FindFollowerVehicleByPosition", "classCaptain_1_1Util_1_1VehicleQueue.html#a27a378d835f6ceda6f1fd3f0a10e61df", null ],
+    [ "FindLeaderVehicleByPosition", "classCaptain_1_1Util_1_1VehicleQueue.html#a9e3a5fcf4682ac410aca2241773018dd", null ],
+    [ "GetAvgSpeed", "classCaptain_1_1Util_1_1VehicleQueue.html#a6c9ae6a573857a4e5bec65d59c44c1ff", null ],
+    [ "GetMaxCapacity", "classCaptain_1_1Util_1_1VehicleQueue.html#a50528de7c054eccf6014a0ef9cba9d6a", null ],
+    [ "GetVehicleList", "classCaptain_1_1Util_1_1VehicleQueue.html#afa42d83d3b2796577b83ce980b8dcb79", null ],
+    [ "Insert", "classCaptain_1_1Util_1_1VehicleQueue.html#a1c4f0d6747fd7ab18a55b3de33ec74cf", null ],
+    [ "operator=", "classCaptain_1_1Util_1_1VehicleQueue.html#af6b60c0ffe21b765368ec190321b24c5", null ],
+    [ "operator=", "classCaptain_1_1Util_1_1VehicleQueue.html#a5a540ab9a23fe0a6cad589ab99081080", null ],
+    [ "Peek", "classCaptain_1_1Util_1_1VehicleQueue.html#ae9b0282bd6a1ce223d2d8d4e2d4f8ea8", null ],
+    [ "Size", "classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23", null ],
+    [ "Sort", "classCaptain_1_1Util_1_1VehicleQueue.html#ab10028bf98dc7b0b252ac4685af3c06e", null ]
+];

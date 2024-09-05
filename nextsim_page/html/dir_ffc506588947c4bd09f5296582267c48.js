@@ -42,7 +42,7 @@ var dir_ffc506588947c4bd09f5296582267c48 =
       [ "SpinLockVehicleQueue", "classCaptain_1_1SpinLockVehicleQueue.html", "classCaptain_1_1SpinLockVehicleQueue" ]
     ] ],
     [ "VehicleContainer.hpp", "VehicleContainer_8hpp.html", [
-      [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", null ]
+      [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", "classCaptain_1_1VehicleContainer" ]
     ] ],
     [ "VehicleQueue.hpp", "VehicleQueue_8hpp.html", [
       [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html", "classCaptain_1_1Util_1_1VehicleQueue" ]

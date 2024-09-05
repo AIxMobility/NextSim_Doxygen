@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classPaxArr.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPaxArr-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PaxArr Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for whole passenger information from passenger.xml.  
+ <a href="classPaxArr.html#details">More...</a></p>
 
 <p><code>#include &lt;PaxArr.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for PaxArr:</div>
 <div class="dyncontent">
 <div class="center"><img src="classPaxArr__coll__graph.png" border="0" usemap="#aPaxArr_coll__map" alt="Collaboration graph"/></div>
 <map name="aPaxArr_coll__map" id="aPaxArr_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,135,112"/>
+<area shape="rect" title="Class for whole passenger information from passenger.xml." alt="" coords="5,5,135,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -113,8 +117,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3fad99672fd4ac2278f0639eb7b2655e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad334af730dd4cfc979e25c98a28ec96b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classAgentPax.html">AgentPax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaxArr.html#ad334af730dd4cfc979e25c98a28ec96b">getAgentPax</a> ()</td></tr>
 <tr class="separator:ad334af730dd4cfc979e25c98a28ec96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a791fd4b27f29a757c9346fb5d8268f86"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classODPax.html">ODPax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaxArr.html#a791fd4b27f29a757c9346fb5d8268f86">ODPaxVec</a></td></tr>
+<tr class="separator:a791fd4b27f29a757c9346fb5d8268f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a817bc4b3e3e6b35e7260e28bc7694"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classAgentPax.html">AgentPax</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPaxArr.html#a70a817bc4b3e3e6b35e7260e28bc7694">AgentPaxVec</a></td></tr>
+<tr class="separator:a70a817bc4b3e3e6b35e7260e28bc7694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for whole passenger information from passenger.xml. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a32cb4637b970530e6204ccbe9632da4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32cb4637b970530e6204ccbe9632da4d">&#9670;&nbsp;</a></span>PaxArr()</h2>
 
@@ -129,6 +142,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p>
 
 </div>
 </div>
@@ -155,6 +169,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of agent passengers </p><dl class="section return"><dt>Returns</dt><dd>Sequence of agent passengers that has fixed route </dd></dl>
 
 </div>
 </div>
@@ -180,6 +195,54 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of OD passengers </p><dl class="section return"><dt>Returns</dt><dd>Sequence of OD passengers that has origin and destination </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a70a817bc4b3e3e6b35e7260e28bc7694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70a817bc4b3e3e6b35e7260e28bc7694">&#9670;&nbsp;</a></span>AgentPaxVec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classAgentPax.html">AgentPax</a>&gt; PaxArr::AgentPaxVec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of agent passengers </p>
+
+</div>
+</div>
+<a id="a791fd4b27f29a757c9346fb5d8268f86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791fd4b27f29a757c9346fb5d8268f86">&#9670;&nbsp;</a></span>ODPaxVec</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classODPax.html">ODPax</a>&gt; PaxArr::ODPaxVec</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of OD passengers </p>
 
 </div>
 </div>

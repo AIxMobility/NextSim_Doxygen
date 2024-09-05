@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Node_1_1SourceUnit.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Node_1_1SourceUnit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Node::SourceUnit Class Reference</div>  </div>
@@ -101,7 +103,7 @@ Inheritance diagram for Captain::Node::SourceUnit:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1SourceUnit__inherit__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1SourceUnit_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1Node_1_1SourceUnit_inherit__map" id="aCaptain_1_1Node_1_1SourceUnit_inherit__map">
-<area shape="rect" title=" " alt="" coords="43,351,246,575"/>
+<area shape="rect" title=" " alt="" coords="43,351,246,795"/>
 <area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="5,5,284,303"/>
 </map>
 </div>
@@ -110,13 +112,21 @@ Collaboration diagram for Captain::Node::SourceUnit:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1SourceUnit__coll__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1SourceUnit_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Node_1_1SourceUnit_coll__map" id="aCaptain_1_1Node_1_1SourceUnit_coll__map">
-<area shape="rect" title=" " alt="" coords="307,1043,509,1267"/>
-<area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="269,725,547,993"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="199,395,406,619"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,207"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,5,391,229"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,229"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="431,351,596,663"/>
+<area shape="rect" title=" " alt="" coords="817,1129,1020,1515"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="294,799,573,1067"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="198,417,407,729"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,27,391,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,288"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="432,409,597,736"/>
+<area shape="rect" href="classVehicleTypesArr.html" title="Class for whole vehicle types from vehicleTypes.xml." alt="" coords="597,879,771,986"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Used to store connections in perspective of lane." alt="" coords="795,843,1042,1023"/>
+<area shape="rect" href="classCaptain_1_1V2X.html" title=" " alt="" coords="825,453,1012,692"/>
+<area shape="rect" href="structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="849,71,988,222"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="1065,813,1265,1052"/>
+<area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="1041,431,1279,714"/>
+<area shape="rect" href="classCaptain_1_1NormalDistribution.html" title=" " alt="" coords="1307,865,1511,1001"/>
+<area shape="rect" href="classCaptain_1_1RandomDistribution.html" title=" " alt="" coords="1303,497,1551,648"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -168,8 +178,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5ed995469a9e24a4d4ff7e64faa70a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d6a07faa16efee9b2602e452c977ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a26d6a07faa16efee9b2602e452c977ed">SetVehicleType</a> (const std::vector&lt; std::pair&lt; <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a>, double &gt;&gt; &amp;vehicleTypeProbabilityVector)</td></tr>
 <tr class="separator:a26d6a07faa16efee9b2602e452c977ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2fa02ed714dbb176b4f01aba0500a2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#ae2fa02ed714dbb176b4f01aba0500a2a">SetAgentTypes</a> (<a class="el" href="classAgentTypesArr.html">AgentTypesArr</a> &amp;agentTypesArr)</td></tr>
-<tr class="separator:ae2fa02ed714dbb176b4f01aba0500a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007aee064041a6511b6215bd7a19c1a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a007aee064041a6511b6215bd7a19c1a9">SetVehicleTypes</a> (<a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> &amp;vehicleTypesArr)</td></tr>
+<tr class="separator:a007aee064041a6511b6215bd7a19c1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a965464c356d41e5254bf792e85fd0e62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a965464c356d41e5254bf792e85fd0e62">GenerateVehiclesRandom</a> (std::size_t howMany)</td></tr>
 <tr class="separator:a965464c356d41e5254bf792e85fd0e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4375d2aa2a2ebda8f792b4def097f594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a4375d2aa2a2ebda8f792b4def097f594">GenerateNormalVehicles</a> (std::size_t cycle, std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt; &amp;SourceSink_VehiclePath_Map)</td></tr>
@@ -221,6 +231,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#af7357fcfe246c5a1de302c4bfbdd1e00">SetSignal</a> (const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;leaderUnit, <a class="el" href="namespaceCaptain.html#abc914229623e9ca890ab012482a5e89c">SignalMode</a> signal)</td></tr>
 <tr class="memdesc:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets signal for given leader unit.  <a href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#af7357fcfe246c5a1de302c4bfbdd1e00">More...</a><br /></td></tr>
 <tr class="separator:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a28851cf7366de02de37342bc9e726b57"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Vehicle.html">Vehicle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a28851cf7366de02de37342bc9e726b57">m_generateVehicle</a> (const <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &amp;vehiclePath, const int vehicleType)</td></tr>
+<tr class="separator:a28851cf7366de02de37342bc9e726b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a34eab786fd96f95c7053429f5224ea89"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a34eab786fd96f95c7053429f5224ea89">m_capacity</a></td></tr>
+<tr class="separator:a34eab786fd96f95c7053429f5224ea89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e3b3769c04f9f7c3349ab2dcc93e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#af5e3b3769c04f9f7c3349ab2dcc93e16">m_vehicleQueue</a></td></tr>
+<tr class="separator:af5e3b3769c04f9f7c3349ab2dcc93e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c85a0ac086b4c4190767b9c0b1efd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#af1c85a0ac086b4c4190767b9c0b1efd8">m_leaderConnectionInfo</a></td></tr>
+<tr class="separator:af1c85a0ac086b4c4190767b9c0b1efd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79ddd44b95ddbbcb88eca1ba626da58"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; <a class="el" href="structCaptain_1_1PublicTransitInfo.html">PublicTransitInfo</a>, <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a>, std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#ac79ddd44b95ddbbcb88eca1ba626da58">m_ptLineInfoVector</a></td></tr>
+<tr class="separator:ac79ddd44b95ddbbcb88eca1ba626da58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52fe06b77504110f7098f5d94a30e073"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a52fe06b77504110f7098f5d94a30e073">m_pathTimeVectorIndex</a> = 0</td></tr>
+<tr class="memdesc:a52fe06b77504110f7098f5d94a30e073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index that indicates index for vehiclePathTimeVector.  <a href="classCaptain_1_1Node_1_1SourceUnit.html#a52fe06b77504110f7098f5d94a30e073">More...</a><br /></td></tr>
+<tr class="separator:a52fe06b77504110f7098f5d94a30e073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07fa1d4fa7ae17a84c30d1fd7d15d03"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#ad07fa1d4fa7ae17a84c30d1fd7d15d03">m_generatedVehiclesNum</a> = 0</td></tr>
+<tr class="separator:ad07fa1d4fa7ae17a84c30d1fd7d15d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fd2ab23baab8bd651406d4d22e5e69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1NormalDistribution.html">NormalDistribution</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a69fd2ab23baab8bd651406d4d22e5e69">m_normalDistribution</a></td></tr>
+<tr class="separator:a69fd2ab23baab8bd651406d4d22e5e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac190f2da4d3b18361fa83d6e57f68334"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#ac190f2da4d3b18361fa83d6e57f68334">m_numVehicleGenerated</a> = 0</td></tr>
+<tr class="separator:ac190f2da4d3b18361fa83d6e57f68334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4725f454f1fca7fe394887eed982cc9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#af4725f454f1fca7fe394887eed982cc9">m_numVehicleToGenerate</a> = 0</td></tr>
+<tr class="separator:af4725f454f1fca7fe394887eed982cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbb09f90371c346e90127a4196e422c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classCaptain_1_1VehicleReservationInfo.html">VehicleReservationInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a7cbb09f90371c346e90127a4196e422c">m_reservedVehicleInfo</a></td></tr>
+<tr class="separator:a7cbb09f90371c346e90127a4196e422c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04b5edfe5f94ad565d5d85aa8a64b8b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#ad04b5edfe5f94ad565d5d85aa8a64b8b">m_vehicleInfoVector</a></td></tr>
+<tr class="separator:ad04b5edfe5f94ad565d5d85aa8a64b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f5da5a8e03913a6af70a6bd6c60554"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a12f5da5a8e03913a6af70a6bd6c60554">m_vehicleInfoProbabilityVector</a></td></tr>
+<tr class="separator:a12f5da5a8e03913a6af70a6bd6c60554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af827baec68239147cd78c0758f461798"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#af827baec68239147cd78c0758f461798">m_vehTypesArr</a></td></tr>
+<tr class="separator:af827baec68239147cd78c0758f461798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2716c7a9456618154312f3ce4b167d12"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::vector&lt; <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html#a2716c7a9456618154312f3ce4b167d12">m_sinkPathMap</a></td></tr>
+<tr class="separator:a2716c7a9456618154312f3ce4b167d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -448,11 +495,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1SourceUnit_a908ac5046d04a1ff926afecc0cc9bdcb_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1SourceUnit_a908ac5046d04a1ff926afecc0cc9bdcb_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Node_1_1SourceUnit_a908ac5046d04a1ff926afecc0cc9bdcb_cgraph" id="aclassCaptain_1_1Node_1_1SourceUnit_a908ac5046d04a1ff926afecc0cc9bdcb_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,199,145"/>
+<area shape="rect" title=" " alt="" coords="5,136,199,177"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a615e903a007fbedb5111262c2867b269" title=" " alt="" coords="247,5,447,47"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a50528de7c054eccf6014a0ef9cba9d6a" title="Gets maximum capacity of the this vehicleQueue." alt="" coords="247,71,447,112"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a1c4f0d6747fd7ab18a55b3de33ec74cf" title=" " alt="" coords="247,136,447,177"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="247,201,447,243"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#a28851cf7366de02de37342bc9e726b57" title=" " alt="" coords="250,201,443,243"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="247,267,447,308"/>
+<area shape="rect" href="classVehicleTypesArr.html#a1292463d2ca0640a872c63f89370765c" title=" " alt="" coords="495,179,725,206"/>
+<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="539,231,681,272"/>
 </map>
 </div>
 
@@ -829,6 +879,61 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a28851cf7366de02de37342bc9e726b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28851cf7366de02de37342bc9e726b57">&#9670;&nbsp;</a></span>m_generateVehicle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Vehicle.html">Vehicle</a> &gt; &gt; Captain::Node::SourceUnit::m_generateVehicle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehiclePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>vehicleType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_cgraph" id="aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_cgraph">
+<area shape="rect" title=" " alt="" coords="5,27,199,69"/>
+<area shape="rect" href="classVehicleTypesArr.html#a1292463d2ca0640a872c63f89370765c" title=" " alt="" coords="247,5,477,32"/>
+<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="291,57,433,98"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_icgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_icgraph" id="aclassCaptain_1_1Node_1_1SourceUnit_a28851cf7366de02de37342bc9e726b57_icgraph">
+<area shape="rect" title=" " alt="" coords="247,5,440,47"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#a908ac5046d04a1ff926afecc0cc9bdcb" title=" " alt="" coords="5,5,199,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="afe9cb03540061bda3b095dac71567db1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe9cb03540061bda3b095dac71567db1">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -1040,32 +1145,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae2fa02ed714dbb176b4f01aba0500a2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2fa02ed714dbb176b4f01aba0500a2a">&#9670;&nbsp;</a></span>SetAgentTypes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Node::SourceUnit::SetAgentTypes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAgentTypesArr.html">AgentTypesArr</a> &amp;&#160;</td>
-          <td class="paramname"><em>agentTypesArr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab57b82960d0f610b6b91e83aa7182db4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab57b82960d0f610b6b91e83aa7182db4">&#9670;&nbsp;</a></span>SetLeaderConnectionInfo()</h2>
 
@@ -1142,6 +1221,343 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a007aee064041a6511b6215bd7a19c1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007aee064041a6511b6215bd7a19c1a9">&#9670;&nbsp;</a></span>SetVehicleTypes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::Node::SourceUnit::SetVehicleTypes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicleTypesArr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a34eab786fd96f95c7053429f5224ea89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34eab786fd96f95c7053429f5224ea89">&#9670;&nbsp;</a></span>m_capacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::SourceUnit::m_capacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad07fa1d4fa7ae17a84c30d1fd7d15d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07fa1d4fa7ae17a84c30d1fd7d15d03">&#9670;&nbsp;</a></span>m_generatedVehiclesNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::SourceUnit::m_generatedVehiclesNum = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1c85a0ac086b4c4190767b9c0b1efd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c85a0ac086b4c4190767b9c0b1efd8">&#9670;&nbsp;</a></span>m_leaderConnectionInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> Captain::Node::SourceUnit::m_leaderConnectionInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69fd2ab23baab8bd651406d4d22e5e69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69fd2ab23baab8bd651406d4d22e5e69">&#9670;&nbsp;</a></span>m_normalDistribution</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1NormalDistribution.html">NormalDistribution</a>&lt;double&gt; Captain::Node::SourceUnit::m_normalDistribution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac190f2da4d3b18361fa83d6e57f68334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac190f2da4d3b18361fa83d6e57f68334">&#9670;&nbsp;</a></span>m_numVehicleGenerated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::SourceUnit::m_numVehicleGenerated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4725f454f1fca7fe394887eed982cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4725f454f1fca7fe394887eed982cc9">&#9670;&nbsp;</a></span>m_numVehicleToGenerate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::SourceUnit::m_numVehicleToGenerate = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52fe06b77504110f7098f5d94a30e073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52fe06b77504110f7098f5d94a30e073">&#9670;&nbsp;</a></span>m_pathTimeVectorIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::SourceUnit::m_pathTimeVectorIndex = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Index that indicates index for vehiclePathTimeVector. </p>
+
+</div>
+</div>
+<a id="ac79ddd44b95ddbbcb88eca1ba626da58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79ddd44b95ddbbcb88eca1ba626da58">&#9670;&nbsp;</a></span>m_ptLineInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::tuple&lt;<a class="el" href="structCaptain_1_1PublicTransitInfo.html">PublicTransitInfo</a>, <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a>, std::pair&lt;int, int&gt; &gt; &gt; Captain::Node::SourceUnit::m_ptLineInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cbb09f90371c346e90127a4196e422c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cbb09f90371c346e90127a4196e422c">&#9670;&nbsp;</a></span>m_reservedVehicleInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classCaptain_1_1VehicleReservationInfo.html">VehicleReservationInfo</a>&gt; Captain::Node::SourceUnit::m_reservedVehicleInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2716c7a9456618154312f3ce4b167d12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2716c7a9456618154312f3ce4b167d12">&#9670;&nbsp;</a></span>m_sinkPathMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;int, std::vector&lt;<a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a>&gt; &gt; Captain::Node::SourceUnit::m_sinkPathMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12f5da5a8e03913a6af70a6bd6c60554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f5da5a8e03913a6af70a6bd6c60554">&#9670;&nbsp;</a></span>m_vehicleInfoProbabilityVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Captain::Node::SourceUnit::m_vehicleInfoProbabilityVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad04b5edfe5f94ad565d5d85aa8a64b8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad04b5edfe5f94ad565d5d85aa8a64b8b">&#9670;&nbsp;</a></span>m_vehicleInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a>&gt; Captain::Node::SourceUnit::m_vehicleInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5e3b3769c04f9f7c3349ab2dcc93e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e3b3769c04f9f7c3349ab2dcc93e16">&#9670;&nbsp;</a></span>m_vehicleQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a> Captain::Node::SourceUnit::m_vehicleQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af827baec68239147cd78c0758f461798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af827baec68239147cd78c0758f461798">&#9670;&nbsp;</a></span>m_vehTypesArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> Captain::Node::SourceUnit::m_vehTypesArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

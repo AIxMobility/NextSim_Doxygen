@@ -15,5 +15,14 @@ var classParamArr =
     [ "SetMesoVehLen", "classParamArr.html#a185178e48e8c10a290da5cfa2d2499cb", null ],
     [ "SetModel", "classParamArr.html#a830ab029100276c525c14099c270954e", null ],
     [ "SetSd", "classParamArr.html#ae22ee632173f5bacc47464231fc0b070", null ],
-    [ "SetWaveSpeed", "classParamArr.html#a4c94f946b3327d826676e512d1dc081f", null ]
+    [ "SetWaveSpeed", "classParamArr.html#a4c94f946b3327d826676e512d1dc081f", null ],
+    [ "ff_speed", "classParamArr.html#a8483126a3331feeb306de147db78d733", null ],
+    [ "jam_gap", "classParamArr.html#a32b54000f042a637ec39074a3ca7110a", null ],
+    [ "max_acc", "classParamArr.html#af41908a0fbc319e2f9e7d6c0dc42d6d0", null ],
+    [ "max_dec", "classParamArr.html#aea5f626bf13fb91ff7f2df715b54a957", null ],
+    [ "max_flow", "classParamArr.html#abf3076f3314a6e526101b90a8413f824", null ],
+    [ "meso_veh_len", "classParamArr.html#afc1394b6b49a75127d52af838cca7951", null ],
+    [ "micro_veh_len", "classParamArr.html#acc80926e18dc0aa9bb574966ed12a5d2", null ],
+    [ "reaction_time", "classParamArr.html#ac2a2236bb9d02d1e5c997f7927be0946", null ],
+    [ "wave_speed", "classParamArr.html#a512ce019626e7a36644f21c667a0222f", null ]
 ];

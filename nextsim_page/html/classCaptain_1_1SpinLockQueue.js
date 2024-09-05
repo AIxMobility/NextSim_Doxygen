@@ -12,6 +12,7 @@ var classCaptain_1_1SpinLockQueue =
     [ "Extract", "classCaptain_1_1SpinLockQueue.html#a0282f49b46eb2663ee2e939758e13047", null ],
     [ "Insert", "classCaptain_1_1SpinLockQueue.html#a25698b5d782b7685966a4bf6df130a62", null ],
     [ "Insert", "classCaptain_1_1SpinLockQueue.html#aa1b649941e5a12d3f1e4462b585a2e8d", null ],
+    [ "m_getIterator", "classCaptain_1_1SpinLockQueue.html#a097221c11a762e47aa315c21f14c3eb6", null ],
     [ "operator=", "classCaptain_1_1SpinLockQueue.html#a2869e89ab2595982de2251544b892c18", null ],
     [ "operator=", "classCaptain_1_1SpinLockQueue.html#a3a6e2b31d7f2870e3eac8698b97f4362", null ],
     [ "Size", "classCaptain_1_1SpinLockQueue.html#a589fb66716668232b1810a81d4168294", null ],
@@ -20,5 +21,8 @@ var classCaptain_1_1SpinLockQueue =
     [ "TryEnqueue", "classCaptain_1_1SpinLockQueue.html#a83c9d93428d75bb1797cffd713147439", null ],
     [ "TryExtract", "classCaptain_1_1SpinLockQueue.html#a53f8fa8d2c3a4aa21436276b820ef7b0", null ],
     [ "TryInsert", "classCaptain_1_1SpinLockQueue.html#a0b4e8beed68ddf803b64f02a17d63797", null ],
-    [ "TryInsert", "classCaptain_1_1SpinLockQueue.html#af885d073a5cb70e0546a9ceacca512e2", null ]
+    [ "TryInsert", "classCaptain_1_1SpinLockQueue.html#af885d073a5cb70e0546a9ceacca512e2", null ],
+    [ "m_list", "classCaptain_1_1SpinLockQueue.html#aec04b3edc5a358ba8c40657d718baa20", null ],
+    [ "m_maxCapacity", "classCaptain_1_1SpinLockQueue.html#a611126f6aa7cc6dea7455a17b508a014", null ],
+    [ "m_spinLock", "classCaptain_1_1SpinLockQueue.html#abdaeea91d059256f81a9f42afeac9a59", null ]
 ];

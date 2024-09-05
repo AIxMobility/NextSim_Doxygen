@@ -1,0 +1,10 @@
+<map id="Captain::Node::MicroLane::MoveFromPreviousUnit" name="Captain::Node::MicroLane::MoveFromPreviousUnit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,122,195,163"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MicroLane.html#ade93dc2059d0a2926b092fc6b5c6b58f" title=" " alt="" coords="243,122,433,163"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Node_1_1MicroLane.html#a42f959cd449d575f4d0c35a3a41c69cc" title=" " alt="" coords="243,187,433,229"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Node_1_1MicroLane.html#aa2b372cb64196b411b0de951bf5ff7b4" title=" " alt="" coords="243,57,433,98"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="481,5,704,32"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3b1d50e6a57ecce1358f76b874906805" title=" " alt="" coords="493,122,693,163"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MicroLane.html#a0cf9c171800762cc30da5245a3d03e9f" title=" " alt="" coords="491,187,694,229"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="493,57,693,98"/>
+</map>

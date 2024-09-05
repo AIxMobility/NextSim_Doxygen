@@ -1,3 +1,3 @@
 <map id="InputAgents" name="InputAgents">
-<area shape="rect" id="node1" title="Class for agent vehicles information from agents.xml." alt="" coords="5,5,200,244"/>
+<area shape="rect" id="node1" title="Class for information of each agent from agents.xml." alt="" coords="5,5,200,332"/>
 </map>

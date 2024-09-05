@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classInputLink.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputLink-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputLink Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each link information.  
+ <a href="classInputLink.html#details">More...</a></p>
 
 <p><code>#include &lt;InputLink.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,8 +105,8 @@ Inheritance diagram for InputLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputLink__inherit__graph.png" border="0" usemap="#aInputLink_inherit__map" alt="Inheritance graph"/></div>
 <map name="aInputLink_inherit__map" id="aInputLink_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,380,192,604"/>
-<area shape="rect" href="classMetaData.html" title=" " alt="" coords="31,5,167,332"/>
+<area shape="rect" title="Class for each link information." alt="" coords="5,380,192,707"/>
+<area shape="rect" href="classMetaData.html" title="Class for metadata of network units." alt="" coords="31,5,167,332"/>
 </map>
 </div>
 <div class="dynheader">
@@ -110,8 +114,8 @@ Collaboration diagram for InputLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputLink__coll__graph.png" border="0" usemap="#aInputLink_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputLink_coll__map" id="aInputLink_coll__map">
-<area shape="rect" title=" " alt="" coords="5,380,192,604"/>
-<area shape="rect" href="classMetaData.html" title=" " alt="" coords="31,5,167,332"/>
+<area shape="rect" title="Class for each link information." alt="" coords="5,380,192,707"/>
+<area shape="rect" href="classMetaData.html" title="Class for metadata of network units." alt="" coords="31,5,167,332"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -187,6 +191,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af28781cf2af044c70f0dc4f9fa9ee2f2 inherit pub_methods_classMetaData"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMetaData.html">MetaData</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMetaData.html#af28781cf2af044c70f0dc4f9fa9ee2f2">operator=</a> (const <a class="el" href="classMetaData.html">MetaData</a> &amp;metaData)=default</td></tr>
 <tr class="separator:af28781cf2af044c70f0dc4f9fa9ee2f2 inherit pub_methods_classMetaData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae64a562d4874350a673bb6a451213d84"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#ae64a562d4874350a673bb6a451213d84">m_toNode</a> = 0</td></tr>
+<tr class="separator:ae64a562d4874350a673bb6a451213d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a250a154b7a6a021e800277417bb5c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a79a250a154b7a6a021e800277417bb5c">m_fromNode</a> = 0</td></tr>
+<tr class="separator:a79a250a154b7a6a021e800277417bb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3562a66ae1db469e79b00be2963032ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a3562a66ae1db469e79b00be2963032ae">m_numLane</a></td></tr>
+<tr class="separator:a3562a66ae1db469e79b00be2963032ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e33d57084d0d940e557d478b0978a7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#ae3e33d57084d0d940e557d478b0978a7">_type</a></td></tr>
+<tr class="separator:ae3e33d57084d0d940e557d478b0978a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f7d216f50e8870472a25a55f3118dc3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a1f7d216f50e8870472a25a55f3118dc3">_sim_type</a></td></tr>
+<tr class="separator:a1f7d216f50e8870472a25a55f3118dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e18129c00553ed2226645645aef953b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputLane.html">InputLane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a1e18129c00553ed2226645645aef953b">LaneArr</a></td></tr>
+<tr class="separator:a1e18129c00553ed2226645645aef953b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88a4549d091a18ab6d0a9b1947495a8a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a88a4549d091a18ab6d0a9b1947495a8a">LaneIds</a></td></tr>
+<tr class="separator:a88a4549d091a18ab6d0a9b1947495a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136c8cd684d98b36a763fc4da2dcedc7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLink.html#a136c8cd684d98b36a763fc4da2dcedc7">m_laneNumCellVector</a></td></tr>
+<tr class="separator:a136c8cd684d98b36a763fc4da2dcedc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_classMetaData"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classMetaData')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMetaData.html">MetaData</a></td></tr>
@@ -211,7 +234,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3f5fd3833d2593484532f8545d5397c9 inherit pub_attribs_classMetaData"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMetaData.html#a3f5fd3833d2593484532f8545d5397c9">MaxVehicle</a> = 0</td></tr>
 <tr class="separator:a3f5fd3833d2593484532f8545d5397c9 inherit pub_attribs_classMetaData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each link information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a147dd1649e7a7f1a67a31227f46db06d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a147dd1649e7a7f1a67a31227f46db06d">&#9670;&nbsp;</a></span>InputLink() <span class="overload">[1/2]</span></h2>
 
@@ -255,6 +280,16 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Link ID </td></tr>
+    <tr><td class="paramname">lane</td><td>Lane ID </td></tr>
+    <tr><td class="paramname">length</td><td>Link length </td></tr>
+    <tr><td class="paramname">width</td><td>Link width </td></tr>
+    <tr><td class="paramname">stopline</td><td>Position of stop line </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -324,6 +359,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get free flow speed of each cell </p><dl class="section return"><dt>Returns</dt><dd>Free flow speed of each cell [km/hr] </dd></dl>
 
 </div>
 </div>
@@ -341,6 +377,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get maximum speed of each cell </p><dl class="section return"><dt>Returns</dt><dd>Maximum speed of each cell [km/hr] </dd></dl>
 
 </div>
 </div>
@@ -358,6 +395,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get maximum number of vehicles of each cell </p><dl class="section return"><dt>Returns</dt><dd>Maximum number of vehicles of each cell [veh/link] </dd></dl>
 
 </div>
 </div>
@@ -375,6 +413,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get minimum speed of each cell </p><dl class="section return"><dt>Returns</dt><dd>Minimum speed of each cell [km/hr] </dd></dl>
 
 </div>
 </div>
@@ -392,6 +431,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get max capacity of each cell </p><dl class="section return"><dt>Returns</dt><dd>Max capacity of each cell [veh/hr] </dd></dl>
 
 </div>
 </div>
@@ -409,6 +449,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get wave speed of each cell </p><dl class="section return"><dt>Returns</dt><dd>Wave speed of each cell [km/hr] </dd></dl>
 
 </div>
 </div>
@@ -434,6 +475,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get from node ID </p><dl class="section return"><dt>Returns</dt><dd>From node ID (connected with link start point) </dd></dl>
 
 </div>
 </div>
@@ -459,6 +501,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get link ID </p><dl class="section return"><dt>Returns</dt><dd>Link ID </dd></dl>
 
 </div>
 </div>
@@ -484,6 +527,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of lanes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of lanes </dd></dl>
 
 </div>
 </div>
@@ -509,6 +553,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of lane IDs </p><dl class="section return"><dt>Returns</dt><dd>Sequence of lane IDs </dd></dl>
 
 </div>
 </div>
@@ -534,6 +579,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get number of lanes </p><dl class="section return"><dt>Returns</dt><dd>Number of lanes </dd></dl>
 
 </div>
 </div>
@@ -559,6 +605,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get number of ??? </p><dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -584,6 +631,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get simulation type </p><dl class="section return"><dt>Returns</dt><dd>Simulation type (micro, meso) </dd></dl>
 
 </div>
 </div>
@@ -609,6 +657,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get to node ID </p><dl class="section return"><dt>Returns</dt><dd>To node ID (connected with link end point) </dd></dl>
 
 </div>
 </div>
@@ -634,6 +683,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get link type </p><dl class="section return"><dt>Returns</dt><dd>Link type (straight, curve) </dd></dl>
 
 </div>
 </div>
@@ -678,6 +728,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Add lane into sequence </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_id</td><td>Lane </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -715,6 +771,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set from node ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>From node ID (connected with link start point) </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -742,6 +804,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set number of lanes </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num</td><td>Number of lanes </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -768,6 +836,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set simulation type </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Simulation type (micro, meso) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -786,6 +860,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set to node ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>To node ID (connected with link end point) </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -821,6 +901,197 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set link type </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">val</td><td>Link type (straight, curve) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1f7d216f50e8870472a25a55f3118dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7d216f50e8870472a25a55f3118dc3">&#9670;&nbsp;</a></span>_sim_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string InputLink::_sim_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Simulation type (micro, meso) </p>
+
+</div>
+</div>
+<a id="ae3e33d57084d0d940e557d478b0978a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e33d57084d0d940e557d478b0978a7">&#9670;&nbsp;</a></span>_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string InputLink::_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Link type (straight, curve) </p>
+
+</div>
+</div>
+<a id="a1e18129c00553ed2226645645aef953b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e18129c00553ed2226645645aef953b">&#9670;&nbsp;</a></span>LaneArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputLane.html">InputLane</a>&gt; InputLink::LaneArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of lanes </p>
+
+</div>
+</div>
+<a id="a88a4549d091a18ab6d0a9b1947495a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a4549d091a18ab6d0a9b1947495a8a">&#9670;&nbsp;</a></span>LaneIds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::size_t&gt; InputLink::LaneIds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of lane IDs </p>
+
+</div>
+</div>
+<a id="a79a250a154b7a6a021e800277417bb5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a250a154b7a6a021e800277417bb5c">&#9670;&nbsp;</a></span>m_fromNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputLink::m_fromNode = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>From node ID (connected with link start point) </p>
+
+</div>
+</div>
+<a id="a136c8cd684d98b36a763fc4da2dcedc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136c8cd684d98b36a763fc4da2dcedc7">&#9670;&nbsp;</a></span>m_laneNumCellVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputLink::m_laneNumCellVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of number of cells of each lane </p>
+
+</div>
+</div>
+<a id="a3562a66ae1db469e79b00be2963032ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3562a66ae1db469e79b00be2963032ae">&#9670;&nbsp;</a></span>m_numLane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputLink::m_numLane</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of lanes </p>
+
+</div>
+</div>
+<a id="ae64a562d4874350a673bb6a451213d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64a562d4874350a673bb6a451213d84">&#9670;&nbsp;</a></span>m_toNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputLink::m_toNode = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>To node ID (connected with link end point) </p>
 
 </div>
 </div>

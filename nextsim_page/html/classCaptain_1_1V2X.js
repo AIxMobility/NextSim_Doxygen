@@ -11,5 +11,8 @@ var classCaptain_1_1V2X =
     [ "operator=", "classCaptain_1_1V2X.html#a0c5c487aae737fa086766d46e3b08f3d", null ],
     [ "setIsActive", "classCaptain_1_1V2X.html#abacd8dd7893117bdad24a368e859a7d2", null ],
     [ "setMessageRecieved", "classCaptain_1_1V2X.html#a66523c82c95ab73f9356d47904894fd2", null ],
-    [ "setMessageSend", "classCaptain_1_1V2X.html#acda73df1857e03af4359929ca419488b", null ]
+    [ "setMessageSend", "classCaptain_1_1V2X.html#acda73df1857e03af4359929ca419488b", null ],
+    [ "isactive", "classCaptain_1_1V2X.html#a78dd8c8250e12849dbaf7641b0818972", null ],
+    [ "messageRecieved", "classCaptain_1_1V2X.html#ae1bf2531c2113c39495bcbe048540ad2", null ],
+    [ "messageSend", "classCaptain_1_1V2X.html#ad04a6ea66452aea90a492907a85fee74", null ]
 ];

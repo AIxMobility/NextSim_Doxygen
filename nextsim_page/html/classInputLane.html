@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classInputLane.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputLane-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputLane Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each lane information.  
+ <a href="classInputLane.html#details">More...</a></p>
 
 <p><code>#include &lt;InputLane.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for InputLane:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputLane__coll__graph.png" border="0" usemap="#aInputLane_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputLane_coll__map" id="aInputLane_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,152,229"/>
+<area shape="rect" title="Class for each lane information." alt="" coords="5,5,152,303"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -143,8 +147,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab796b9a05511076a79087de7b70e631f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced6641f095258f458893a3110dbc727"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classInputSegment.html">InputSegment</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#aced6641f095258f458893a3110dbc727">GetSegmentVector</a> () const</td></tr>
 <tr class="separator:aced6641f095258f458893a3110dbc727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:afdec6f99c3c96e88c3edfaec03dcfb2c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#afdec6f99c3c96e88c3edfaec03dcfb2c">m_id</a></td></tr>
+<tr class="separator:afdec6f99c3c96e88c3edfaec03dcfb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad388f09e44a5135643b624c08e30d80e"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#ad388f09e44a5135643b624c08e30d80e">m_leftLaneId</a> = 0</td></tr>
+<tr class="separator:ad388f09e44a5135643b624c08e30d80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4092cd5bd7d5a59848e28ff8710425ca"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#a4092cd5bd7d5a59848e28ff8710425ca">m_rightLaneId</a> = 0</td></tr>
+<tr class="separator:a4092cd5bd7d5a59848e28ff8710425ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d034d4212bff9cedcfdc29790e8ab1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#a0d034d4212bff9cedcfdc29790e8ab1b">m_numCell</a></td></tr>
+<tr class="separator:a0d034d4212bff9cedcfdc29790e8ab1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3627aed3a32fa7943c63c2e8cb042fd6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputCell.html">InputCell</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#a3627aed3a32fa7943c63c2e8cb042fd6">CellArr</a></td></tr>
+<tr class="separator:a3627aed3a32fa7943c63c2e8cb042fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df170372e538f65978f7b5603af2682"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputSegment.html">InputSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputLane.html#a1df170372e538f65978f7b5603af2682">SegmentArr</a></td></tr>
+<tr class="separator:a1df170372e538f65978f7b5603af2682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each lane information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a676d3a627f3890144f06cd905fb3a272"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a676d3a627f3890144f06cd905fb3a272">&#9670;&nbsp;</a></span>InputLane() <span class="overload">[1/4]</span></h2>
 
@@ -182,6 +203,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idVal</td><td>Lane ID </td></tr>
+    <tr><td class="paramname">leftLaneIdVal</td><td>Left lane ID </td></tr>
+    <tr><td class="paramname">rightLaneIdVal</td><td>Right lane ID </td></tr>
+    <tr><td class="paramname">numCellVal</td><td>Number of cells </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -234,6 +264,17 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_val</td><td>Lane ID </td></tr>
+    <tr><td class="paramname">left_lane_id_val</td><td>Left lane ID </td></tr>
+    <tr><td class="paramname">right_lane_id_val</td><td>Right lane ID </td></tr>
+    <tr><td class="paramname">num_cell_val</td><td>Number of cells </td></tr>
+    <tr><td class="paramname">RightEmpty</td><td>Whether right lane is empty or not </td></tr>
+    <tr><td class="paramname">LeftEmpty</td><td>Whether left lane is empty or not </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -336,6 +377,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of cells </p><dl class="section return"><dt>Returns</dt><dd>Sequence of cells </dd></dl>
 
 </div>
 </div>
@@ -361,6 +403,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get lane ID </p><dl class="section return"><dt>Returns</dt><dd>Lane ID </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -396,6 +439,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get left lane ID </p><dl class="section return"><dt>Returns</dt><dd>Left lane ID </dd></dl>
 
 </div>
 </div>
@@ -421,6 +465,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get number of cells </p><dl class="section return"><dt>Returns</dt><dd>Number of cells </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -456,6 +501,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get right lane ID </p><dl class="section return"><dt>Returns</dt><dd>Right lane ID </dd></dl>
 
 </div>
 </div>
@@ -481,6 +527,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of segments </p><dl class="section return"><dt>Returns</dt><dd>Sequence of segments </dd></dl>
 
 </div>
 </div>
@@ -525,6 +572,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Add cell into sequence </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cell</td><td>Cell vector </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -552,6 +605,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Add segment into sequence </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">segment</td><td>Segment vector </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -587,6 +646,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Set lane ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Lane ID </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -605,6 +670,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set left lane ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left_lane_id_val</td><td>Left lane ID </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -623,6 +694,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set number of cells </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_cell_val</td><td>Number of cells </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -641,6 +718,151 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set right lane ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">right_lane_id_val</td><td>Right lane ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3627aed3a32fa7943c63c2e8cb042fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3627aed3a32fa7943c63c2e8cb042fd6">&#9670;&nbsp;</a></span>CellArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputCell.html">InputCell</a>&gt; InputLane::CellArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of cells </p>
+
+</div>
+</div>
+<a id="afdec6f99c3c96e88c3edfaec03dcfb2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdec6f99c3c96e88c3edfaec03dcfb2c">&#9670;&nbsp;</a></span>m_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputLane::m_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Lane ID </p>
+
+</div>
+</div>
+<a id="ad388f09e44a5135643b624c08e30d80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad388f09e44a5135643b624c08e30d80e">&#9670;&nbsp;</a></span>m_leftLaneId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputLane::m_leftLaneId = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Left lane ID </p>
+
+</div>
+</div>
+<a id="a0d034d4212bff9cedcfdc29790e8ab1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d034d4212bff9cedcfdc29790e8ab1b">&#9670;&nbsp;</a></span>m_numCell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputLane::m_numCell</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of cells </p>
+
+</div>
+</div>
+<a id="a4092cd5bd7d5a59848e28ff8710425ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4092cd5bd7d5a59848e28ff8710425ca">&#9670;&nbsp;</a></span>m_rightLaneId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputLane::m_rightLaneId = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Right lane ID </p>
+
+</div>
+</div>
+<a id="a1df170372e538f65978f7b5603af2682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df170372e538f65978f7b5603af2682">&#9670;&nbsp;</a></span>SegmentArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputSegment.html">InputSegment</a>&gt; InputLane::SegmentArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of segments </p>
 
 </div>
 </div>

@@ -1,9 +1,9 @@
 <map id="/home/wjstnwp/NextSim/Captain/Includes/captain/Util/GlobalHyperParameters.hpp" name="/home/wjstnwp/NextSim/Captain/Includes/captain/Util/GlobalHyperParameters.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="360,5,596,61"/>
-<area shape="rect" id="node2" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="367,109,589,136"/>
-<area shape="rect" id="node3" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="68,184,315,211"/>
-<area shape="rect" id="node13" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="360,184,596,211"/>
-<area shape="rect" id="node15" href="$InputAgentTypes_8hpp.html" title=" " alt="" coords="630,184,867,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="356,5,592,61"/>
+<area shape="rect" id="node2" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="363,109,585,136"/>
+<area shape="rect" id="node3" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="67,184,313,211"/>
+<area shape="rect" id="node13" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="356,184,592,211"/>
+<area shape="rect" id="node15" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="625,184,872,211"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,259,68,285"/>
 <area shape="rect" id="node5" href="$Enumerations_8hpp.html" title=" " alt="" coords="75,333,316,360"/>
 <area shape="rect" id="node9" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="242,259,477,285"/>

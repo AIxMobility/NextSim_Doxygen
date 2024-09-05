@@ -90,6 +90,8 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Util_1_1EventRecorder.
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classCaptain_1_1Util_1_1EventRecorder-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Util::EventRecorder Class Reference</div>  </div>
@@ -102,10 +104,10 @@ Collaboration diagram for Captain::Util::EventRecorder:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1EventRecorder__coll__graph.png" border="0" usemap="#aCaptain_1_1Util_1_1EventRecorder_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Util_1_1EventRecorder_coll__map" id="aCaptain_1_1Util_1_1EventRecorder_coll__map">
-<area shape="rect" title=" " alt="" coords="199,351,406,575"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,207"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,5,391,229"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,229"/>
+<area shape="rect" title=" " alt="" coords="198,409,407,721"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,27,391,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -187,6 +189,26 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a124f9a37287e6a94775a009c0901af91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a499dbb9bcdaadb33e8bd3b3f87cf7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classCaptain_1_1Util_1_1JsonReader.html">JsonReader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#af5a499dbb9bcdaadb33e8bd3b3f87cf7">PaxRouteJsonReader</a></td></tr>
 <tr class="separator:af5a499dbb9bcdaadb33e8bd3b3f87cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8ebf34edf43938f68fbd0ec04c53b15f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#a8ebf34edf43938f68fbd0ec04c53b15f">m_prefix</a></td></tr>
+<tr class="separator:a8ebf34edf43938f68fbd0ec04c53b15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0074532994d4ad492af9e79a778bcf9a"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#a0074532994d4ad492af9e79a778bcf9a">m_recordPath</a></td></tr>
+<tr class="separator:a0074532994d4ad492af9e79a778bcf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af589b7cdc87c1a86fd1a328f9d9428a4"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structCaptain_1_1VehicleRecordInfo.html">VehicleRecordInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#af589b7cdc87c1a86fd1a328f9d9428a4">m_vehicleRecordInfoVector</a></td></tr>
+<tr class="separator:af589b7cdc87c1a86fd1a328f9d9428a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa349d7cbee8a280afa1ffe7acd845b76"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structCaptain_1_1CellRecordInfo.html">CellRecordInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#aa349d7cbee8a280afa1ffe7acd845b76">m_cellRecordInfoVector</a></td></tr>
+<tr class="separator:aa349d7cbee8a280afa1ffe7acd845b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a900ee1104aff94941b5e3a2006b715fc"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::deque&lt; <a class="el" href="structCaptain_1_1StationRecordInfo.html">StationRecordInfo</a> &gt;, std::deque&lt; <a class="el" href="structCaptain_1_1StationRecordInfo.html">StationRecordInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#a900ee1104aff94941b5e3a2006b715fc">m_stationRecordInfoVector</a></td></tr>
+<tr class="separator:a900ee1104aff94941b5e3a2006b715fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea223ec266f7dea8f880936d46a13dc"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="structCaptain_1_1SinkRecordInfo.html">SinkRecordInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#a0ea223ec266f7dea8f880936d46a13dc">m_sinkRecordInfoVector</a></td></tr>
+<tr class="separator:a0ea223ec266f7dea8f880936d46a13dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a0a61faf25e31275c8283b07aa3db825b"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#a0a61faf25e31275c8283b07aa3db825b">m_mtx</a></td></tr>
+<tr class="separator:a0a61faf25e31275c8283b07aa3db825b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac1af62c01ae816dfa357b0d29667c1ac"></a>
@@ -1020,6 +1042,160 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="aa349d7cbee8a280afa1ffe7acd845b76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa349d7cbee8a280afa1ffe7acd845b76">&#9670;&nbsp;</a></span>m_cellRecordInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::deque&lt;<a class="el" href="structCaptain_1_1CellRecordInfo.html">CellRecordInfo</a>&gt; Captain::Util::EventRecorder::m_cellRecordInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a61faf25e31275c8283b07aa3db825b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a61faf25e31275c8283b07aa3db825b">&#9670;&nbsp;</a></span>m_mtx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex Captain::Util::EventRecorder::m_mtx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ebf34edf43938f68fbd0ec04c53b15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ebf34edf43938f68fbd0ec04c53b15f">&#9670;&nbsp;</a></span>m_prefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Captain::Util::EventRecorder::m_prefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0074532994d4ad492af9e79a778bcf9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0074532994d4ad492af9e79a778bcf9a">&#9670;&nbsp;</a></span>m_recordPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::filesystem::path Captain::Util::EventRecorder::m_recordPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0ea223ec266f7dea8f880936d46a13dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea223ec266f7dea8f880936d46a13dc">&#9670;&nbsp;</a></span>m_sinkRecordInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::deque&lt;<a class="el" href="structCaptain_1_1SinkRecordInfo.html">SinkRecordInfo</a>&gt; Captain::Util::EventRecorder::m_sinkRecordInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a900ee1104aff94941b5e3a2006b715fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a900ee1104aff94941b5e3a2006b715fc">&#9670;&nbsp;</a></span>m_stationRecordInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;std::deque&lt;<a class="el" href="structCaptain_1_1StationRecordInfo.html">StationRecordInfo</a>&gt;, std::deque&lt;<a class="el" href="structCaptain_1_1StationRecordInfo.html">StationRecordInfo</a>&gt; &gt; Captain::Util::EventRecorder::m_stationRecordInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af589b7cdc87c1a86fd1a328f9d9428a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af589b7cdc87c1a86fd1a328f9d9428a4">&#9670;&nbsp;</a></span>m_vehicleRecordInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::deque&lt;<a class="el" href="structCaptain_1_1VehicleRecordInfo.html">VehicleRecordInfo</a>&gt; Captain::Util::EventRecorder::m_vehicleRecordInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af5a499dbb9bcdaadb33e8bd3b3f87cf7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5a499dbb9bcdaadb33e8bd3b3f87cf7">&#9670;&nbsp;</a></span>PaxRouteJsonReader</h2>
 
@@ -1040,7 +1216,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">    JsonReader(STSIO::PaxRouteJSONPath)</div>
+<div class="line">    JsonReader(NextSimIO::PaxRouteJSONPath)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1064,7 +1240,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">    JsonWriter(STSIO::PaxRouteJSONPath)</div>
+<div class="line">    JsonWriter(NextSimIO::PaxRouteJSONPath)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1088,7 +1264,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">    JsonReader(STSIO::RouteJSONPath)</div>
+<div class="line">    JsonReader(NextSimIO::RouteJSONPath)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1112,7 +1288,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= </div>
-<div class="line">    JsonWriter(STSIO::RouteJSONPath)</div>
+<div class="line">    JsonWriter(NextSimIO::RouteJSONPath)</div>
 </div><!-- fragment -->
 </div>
 </div>

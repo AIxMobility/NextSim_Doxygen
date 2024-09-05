@@ -13,5 +13,9 @@ var classCaptain_1_1ConcurrentQueue =
     [ "operator=", "classCaptain_1_1ConcurrentQueue.html#acde56da4cbab2833e21616b8a876430f", null ],
     [ "Size", "classCaptain_1_1ConcurrentQueue.html#a18fe4e32759ec466333ec5efb8a7a848", null ],
     [ "TryDequeue", "classCaptain_1_1ConcurrentQueue.html#aa8a68a0bf09c4b4929f61f9da67356c8", null ],
-    [ "TryEnqueue", "classCaptain_1_1ConcurrentQueue.html#a45cde49fb35324b98bbf7461a32da1ff", null ]
+    [ "TryEnqueue", "classCaptain_1_1ConcurrentQueue.html#a45cde49fb35324b98bbf7461a32da1ff", null ],
+    [ "m_cond", "classCaptain_1_1ConcurrentQueue.html#a6b81e61840e7fcd5e040addb8b6d7115", null ],
+    [ "m_list", "classCaptain_1_1ConcurrentQueue.html#a71a656d5539211ec36071c830ab557e3", null ],
+    [ "m_maxSize", "classCaptain_1_1ConcurrentQueue.html#a6abe05a8b671452dabf8fe7892744e63", null ],
+    [ "m_mtx", "classCaptain_1_1ConcurrentQueue.html#a89aaef19e76bae9795dbef64278c6fae", null ]
 ];

@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classintersectionPhase.html',''); init
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classintersectionPhase-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">intersectionPhase Class Reference</div>  </div>
@@ -101,13 +102,13 @@ Collaboration diagram for intersectionPhase:</div>
 <div class="dyncontent">
 <div class="center"><img src="classintersectionPhase__coll__graph.png" border="0" usemap="#aintersectionPhase_coll__map" alt="Collaboration graph"/></div>
 <map name="aintersectionPhase_coll__map" id="aintersectionPhase_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,179,156"/>
+<area shape="rect" title=" " alt="" coords="5,5,179,185"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d96969dbee322294c8a67b6b9f8ba1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a0d96969dbee322294c8a67b6b9f8ba1d">intersectionPhase</a> (int id)</td></tr>
+<tr class="memitem:a0d96969dbee322294c8a67b6b9f8ba1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a0d96969dbee322294c8a67b6b9f8ba1d">intersectionPhase</a> (int <a class="el" href="classintersectionPhase.html#a7a47c0ab1ba97669b6db47bd7c702a15">id</a>)</td></tr>
 <tr class="separator:a0d96969dbee322294c8a67b6b9f8ba1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19510e00542e427e606a3e1e036251dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a19510e00542e427e606a3e1e036251dd">pushConnectionRef</a> (int val)</td></tr>
 <tr class="separator:a19510e00542e427e606a3e1e036251dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +120,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a514cefdcb97cdfa2fb4982fea0848239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b22d41e7327dcf5b2174e1c61291488"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a8b22d41e7327dcf5b2174e1c61291488">getPriority</a> ()</td></tr>
 <tr class="separator:a8b22d41e7327dcf5b2174e1c61291488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a7a47c0ab1ba97669b6db47bd7c702a15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a7a47c0ab1ba97669b6db47bd7c702a15">id</a></td></tr>
+<tr class="separator:a7a47c0ab1ba97669b6db47bd7c702a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348c64be9e4779d67bf0bf1c7754c048"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a348c64be9e4779d67bf0bf1c7754c048">connectionRef</a></td></tr>
+<tr class="separator:a348c64be9e4779d67bf0bf1c7754c048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472472898da1c367dd98762bc27ca410"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classintersectionPhase.html#a472472898da1c367dd98762bc27ca410">priority</a></td></tr>
+<tr class="separator:a472472898da1c367dd98762bc27ca410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0d96969dbee322294c8a67b6b9f8ba1d"></a>
@@ -266,6 +276,73 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classNodeArr.html#acee4dcaaf3e8b4b9b6559a8b23a5e827" title=" " alt="" coords="5,13,141,39"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a348c64be9e4779d67bf0bf1c7754c048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348c64be9e4779d67bf0bf1c7754c048">&#9670;&nbsp;</a></span>connectionRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; intersectionPhase::connectionRef</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a47c0ab1ba97669b6db47bd7c702a15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a47c0ab1ba97669b6db47bd7c702a15">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int intersectionPhase::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a472472898da1c367dd98762bc27ca410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472472898da1c367dd98762bc27ca410">&#9670;&nbsp;</a></span>priority</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; intersectionPhase::priority</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

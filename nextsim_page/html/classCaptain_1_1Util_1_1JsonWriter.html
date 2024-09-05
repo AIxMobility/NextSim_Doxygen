@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Util_1_1JsonWriter.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Util_1_1JsonWriter-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Util::JsonWriter Class Reference</div>  </div>
@@ -101,7 +102,7 @@ Collaboration diagram for Captain::Util::JsonWriter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1JsonWriter__coll__graph.png" border="0" usemap="#aCaptain_1_1Util_1_1JsonWriter_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Util_1_1JsonWriter_coll__map" id="aCaptain_1_1Util_1_1JsonWriter_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,192,229"/>
+<area shape="rect" title=" " alt="" coords="5,5,192,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -143,6 +144,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaf384bec138d0dcad085e156a43c23d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a977051d1fcc825c3580586224fc95c94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#a977051d1fcc825c3580586224fc95c94">WritePaxRoute</a> (<a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> route, int originID, int destID)</td></tr>
 <tr class="separator:a977051d1fcc825c3580586224fc95c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa483ca312e4388f1571c1a462e492364"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#aa483ca312e4388f1571c1a462e492364">m_path</a></td></tr>
+<tr class="separator:aa483ca312e4388f1571c1a462e492364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd9de5eb3b201062c58dfa003a49e91"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#aebd9de5eb3b201062c58dfa003a49e91">m_fp</a></td></tr>
+<tr class="separator:aebd9de5eb3b201062c58dfa003a49e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b82f11ea2096fbd98b3d11a8e86bc86"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#a3b82f11ea2096fbd98b3d11a8e86bc86">m_ip</a></td></tr>
+<tr class="separator:a3b82f11ea2096fbd98b3d11a8e86bc86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2cb8d713281acce808036485561d7eb"><td class="memItemLeft" align="right" valign="top">rapidjson::Document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#ab2cb8d713281acce808036485561d7eb">m_document</a></td></tr>
+<tr class="separator:ab2cb8d713281acce808036485561d7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1744a9450925976e627267df5a902224"><td class="memItemLeft" align="right" valign="top">rapidjson::StringBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#a1744a9450925976e627267df5a902224">m_buffer</a></td></tr>
+<tr class="separator:a1744a9450925976e627267df5a902224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5fe5e892611923d7fc116e3adb919dea"></a>
@@ -880,6 +894,117 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classCaptain_1_1Vehicle.html#a4ad0dd90e10a75c0f5533226fec1244f" title=" " alt="" coords="5,5,187,47"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1744a9450925976e627267df5a902224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1744a9450925976e627267df5a902224">&#9670;&nbsp;</a></span>m_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">rapidjson::StringBuffer Captain::Util::JsonWriter::m_buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2cb8d713281acce808036485561d7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2cb8d713281acce808036485561d7eb">&#9670;&nbsp;</a></span>m_document</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">rapidjson::Document Captain::Util::JsonWriter::m_document</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebd9de5eb3b201062c58dfa003a49e91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebd9de5eb3b201062c58dfa003a49e91">&#9670;&nbsp;</a></span>m_fp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ofstream Captain::Util::JsonWriter::m_fp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b82f11ea2096fbd98b3d11a8e86bc86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b82f11ea2096fbd98b3d11a8e86bc86">&#9670;&nbsp;</a></span>m_ip</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ifstream Captain::Util::JsonWriter::m_ip</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa483ca312e4388f1571c1a462e492364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa483ca312e4388f1571c1a462e492364">&#9670;&nbsp;</a></span>m_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::filesystem::path Captain::Util::JsonWriter::m_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

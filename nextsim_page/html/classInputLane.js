@@ -17,5 +17,11 @@ var classInputLane =
     [ "SetID", "classInputLane.html#a550dab3ca9c984770147dbfa2a705dc9", null ],
     [ "setLeftLaneID", "classInputLane.html#a2032217a64ab3379b3591c5552734476", null ],
     [ "setNumCell", "classInputLane.html#a549678b4953072cb67562e78dac36eaf", null ],
-    [ "setRightLaneID", "classInputLane.html#aba8a7c08898f3903f67457d75e863cce", null ]
+    [ "setRightLaneID", "classInputLane.html#aba8a7c08898f3903f67457d75e863cce", null ],
+    [ "CellArr", "classInputLane.html#a3627aed3a32fa7943c63c2e8cb042fd6", null ],
+    [ "m_id", "classInputLane.html#afdec6f99c3c96e88c3edfaec03dcfb2c", null ],
+    [ "m_leftLaneId", "classInputLane.html#ad388f09e44a5135643b624c08e30d80e", null ],
+    [ "m_numCell", "classInputLane.html#a0d034d4212bff9cedcfdc29790e8ab1b", null ],
+    [ "m_rightLaneId", "classInputLane.html#a4092cd5bd7d5a59848e28ff8710425ca", null ],
+    [ "SegmentArr", "classInputLane.html#a1df170372e538f65978f7b5603af2682", null ]
 ];

@@ -96,15 +96,18 @@ $(document).ready(function(){initNavTree('classMetaData.html',''); initResizable
 </div><!--header-->
 <div class="contents">
 
+<p>Class for metadata of network units.  
+ <a href="classMetaData.html#details">More...</a></p>
+
 <p><code>#include &lt;BaseClass.hpp&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MetaData:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMetaData__inherit__graph.png" border="0" usemap="#aMetaData_inherit__map" alt="Inheritance graph"/></div>
 <map name="aMetaData_inherit__map" id="aMetaData_inherit__map">
-<area shape="rect" title=" " alt="" coords="83,5,219,332"/>
-<area shape="rect" href="classInputCell.html" title=" " alt="" coords="5,417,121,567"/>
-<area shape="rect" href="classInputLink.html" title=" " alt="" coords="146,380,333,604"/>
+<area shape="rect" title="Class for metadata of network units." alt="" coords="76,5,212,332"/>
+<area shape="rect" href="classInputCell.html" title="Class for each cell information." alt="" coords="5,490,112,597"/>
+<area shape="rect" href="classInputLink.html" title="Class for each link information." alt="" coords="136,380,323,707"/>
 </map>
 </div>
 <div class="dynheader">
@@ -112,7 +115,7 @@ Collaboration diagram for MetaData:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMetaData__coll__graph.png" border="0" usemap="#aMetaData_coll__map" alt="Collaboration graph"/></div>
 <map name="aMetaData_coll__map" id="aMetaData_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,141,332"/>
+<area shape="rect" title="Class for metadata of network units." alt="" coords="5,5,141,332"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -160,7 +163,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3f5fd3833d2593484532f8545d5397c9"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMetaData.html#a3f5fd3833d2593484532f8545d5397c9">MaxVehicle</a> = 0</td></tr>
 <tr class="separator:a3f5fd3833d2593484532f8545d5397c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for metadata of network units. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a666d1eea92f7243c39dae95de0352b11"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a666d1eea92f7243c39dae95de0352b11">&#9670;&nbsp;</a></span>MetaData() <span class="overload">[1/7]</span></h2>
 
@@ -183,6 +188,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Default constructor </p>
 
 </div>
 </div>
@@ -209,6 +215,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor with ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the unit </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -245,6 +257,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor with ID and length </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the unit </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the unit </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -287,6 +306,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor with ID, length, and width </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the unit </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the unit </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the unit </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -335,6 +362,15 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor with ID, length, width, and stopline </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the unit </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the unit </td></tr>
+    <tr><td class="paramname">width</td><td>Width of the unit </td></tr>
+    <tr><td class="paramname">stopline</td><td>Stop line distance of the unit </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -407,6 +443,19 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor with ID, length, freeflowSpeed, maxSpeed, minSpeed, waveSpeed, maxVehicle, and qmax </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>ID of the unit </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the unit </td></tr>
+    <tr><td class="paramname">freeFlowSpeed</td><td>Free flow speed of the unit </td></tr>
+    <tr><td class="paramname">maxSpeed</td><td>Maximum speed of the unit </td></tr>
+    <tr><td class="paramname">minSpeed</td><td>Minimum speed of the unit </td></tr>
+    <tr><td class="paramname">waveSpeed</td><td>Wave speed of the unit </td></tr>
+    <tr><td class="paramname">maxVehicle</td><td>Maximum number of vehicles of the unit </td></tr>
+    <tr><td class="paramname">qMax</td><td>Maximum flow of the unit </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -500,6 +549,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Free flow speed of the unit [km/h] </p>
 
 </div>
 </div>
@@ -514,6 +564,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the unit </p>
 
 </div>
 </div>
@@ -528,6 +579,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Length of the unit [m] </p>
 
 </div>
 </div>
@@ -542,6 +594,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Maximum speed of the unit [km/h] </p>
 
 </div>
 </div>
@@ -556,6 +609,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Maximum number of vehicles of the unit [veh] </p>
 
 </div>
 </div>
@@ -570,6 +624,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Minimum speed of the unit [km/h] </p>
 
 </div>
 </div>
@@ -584,6 +639,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Maximum flow of the unit [veh/h] </p>
 
 </div>
 </div>
@@ -598,6 +654,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stop line distance of the unit [m] </p>
 
 </div>
 </div>
@@ -612,6 +669,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Wave speed of the unit [km/h] </p>
 
 </div>
 </div>
@@ -626,6 +684,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Width of the unit [m] </p>
 
 </div>
 </div>

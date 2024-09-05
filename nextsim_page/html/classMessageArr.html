@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classMessageArr.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classMessageArr-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MessageArr Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for whole message information.  
+ <a href="classMessageArr.html#details">More...</a></p>
 
 <p><code>#include &lt;MessageArr.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for MessageArr:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMessageArr__coll__graph.png" border="0" usemap="#aMessageArr_coll__map" alt="Collaboration graph"/></div>
 <map name="aMessageArr_coll__map" id="aMessageArr_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,176,112"/>
+<area shape="rect" title="Class for whole message information." alt="" coords="5,5,176,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -113,8 +117,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab0cfc4f8bc00affe59403e8fb1c2b4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745799214ba5a54ad17d9e9cba592ded"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputMessage.html">InputMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageArr.html#a745799214ba5a54ad17d9e9cba592ded">getVehMessage</a> ()</td></tr>
 <tr class="separator:a745799214ba5a54ad17d9e9cba592ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa97a3478578491b8988c1a0a794f2f87"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputMessage.html">InputMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageArr.html#aa97a3478578491b8988c1a0a794f2f87">RegionMessage</a></td></tr>
+<tr class="separator:aa97a3478578491b8988c1a0a794f2f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70ef2964fdd20d800c3a15fbd4f4a80"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputMessage.html">InputMessage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMessageArr.html#ad70ef2964fdd20d800c3a15fbd4f4a80">VehMessage</a></td></tr>
+<tr class="separator:ad70ef2964fdd20d800c3a15fbd4f4a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for whole message information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af0ccb77d4117f017e269526980a3c71f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0ccb77d4117f017e269526980a3c71f">&#9670;&nbsp;</a></span>MessageArr()</h2>
 
@@ -129,14 +142,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMessageArr_af0ccb77d4117f017e269526980a3c71f_cgraph.png" border="0" usemap="#aclassMessageArr_af0ccb77d4117f017e269526980a3c71f_cgraph" alt=""/></div>
 <map name="aclassMessageArr_af0ccb77d4117f017e269526980a3c71f_cgraph" id="aclassMessageArr_af0ccb77d4117f017e269526980a3c71f_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,189,57"/>
-<area shape="rect" href="classInputMessage.html#ac58a71641b3f17ae5284facf99566f45" title=" " alt="" coords="237,5,432,32"/>
-<area shape="rect" href="classInputMessage.html#a5a1b3687b95897c1759dc54b4ef82698" title=" " alt="" coords="243,56,427,83"/>
+<area shape="rect" href="classInputMessage.html#ac58a71641b3f17ae5284facf99566f45" title="Set node ID." alt="" coords="237,5,432,32"/>
+<area shape="rect" href="classInputMessage.html#a5a1b3687b95897c1759dc54b4ef82698" title="Set vehicle ID." alt="" coords="243,56,427,83"/>
 </map>
 </div>
 
@@ -165,7 +179,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Creates a vector of <a class="el" href="classInputMessage.html">InputMessage</a> </p>
+<p>Get sequence of region messages </p><dl class="section return"><dt>Returns</dt><dd>Sequence of region messages </dd></dl>
 
 </div>
 </div>
@@ -191,6 +205,54 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of vehicle messages </p><dl class="section return"><dt>Returns</dt><dd>Sequence of vehicle messages </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa97a3478578491b8988c1a0a794f2f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa97a3478578491b8988c1a0a794f2f87">&#9670;&nbsp;</a></span>RegionMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputMessage.html">InputMessage</a>&gt; MessageArr::RegionMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of region messages </p>
+
+</div>
+</div>
+<a id="ad70ef2964fdd20d800c3a15fbd4f4a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70ef2964fdd20d800c3a15fbd4f4a80">&#9670;&nbsp;</a></span>VehMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputMessage.html">InputMessage</a>&gt; MessageArr::VehMessage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of vehicle messages </p>
 
 </div>
 </div>

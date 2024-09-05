@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1DMode_1_1CCF.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classCaptain_1_1DMode_1_1CCF-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::DMode::CCF Class Reference</div>  </div>
@@ -101,7 +102,7 @@ Inheritance diagram for Captain::DMode::CCF:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1DMode_1_1CCF__inherit__graph.png" border="0" usemap="#aCaptain_1_1DMode_1_1CCF_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1DMode_1_1CCF_inherit__map" id="aCaptain_1_1DMode_1_1CCF_inherit__map">
-<area shape="rect" title=" " alt="" coords="159,409,319,531"/>
+<area shape="rect" title=" " alt="" coords="159,409,319,545"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,5,227,361"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1IMultipleVehicleTrackable.html" title=" " alt="" coords="251,49,474,317"/>
 </map>
@@ -111,7 +112,7 @@ Collaboration diagram for Captain::DMode::CCF:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1DMode_1_1CCF__coll__graph.png" border="0" usemap="#aCaptain_1_1DMode_1_1CCF_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1DMode_1_1CCF_coll__map" id="aCaptain_1_1DMode_1_1CCF_coll__map">
-<area shape="rect" title=" " alt="" coords="159,409,319,531"/>
+<area shape="rect" title=" " alt="" coords="159,409,319,545"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,5,227,361"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1IMultipleVehicleTrackable.html" title=" " alt="" coords="251,49,474,317"/>
 </map>
@@ -189,6 +190,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ade12fb2b39d02d172294fa6664d6114b inherit pub_methods_classCaptain_1_1DMode_1_1IMultipleVehicleTrackable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac3188b83ec3533ceef2f4b8be6665a8 inherit pub_methods_classCaptain_1_1DMode_1_1IMultipleVehicleTrackable"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DMode_1_1IMultipleVehicleTrackable.html#aac3188b83ec3533ceef2f4b8be6665a8">NumTrackingVehicles</a> () const</td></tr>
 <tr class="separator:aac3188b83ec3533ceef2f4b8be6665a8 inherit pub_methods_classCaptain_1_1DMode_1_1IMultipleVehicleTrackable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a154ef4952fbd9c93dde686c3649f2104"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DMode_1_1CCF.html#a154ef4952fbd9c93dde686c3649f2104">m_getCCFARM</a> (const <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> &amp;subjectInfo, const <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> &amp;leaderInfo, const <a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> &amp;subjectState, const <a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> &amp;leaderState, double deltaTime) const</td></tr>
+<tr class="separator:a154ef4952fbd9c93dde686c3649f2104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -271,6 +277,60 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a154ef4952fbd9c93dde686c3649f2104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154ef4952fbd9c93dde686c3649f2104">&#9670;&nbsp;</a></span>m_getCCFARM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Captain::DMode::CCF::m_getCCFARM </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>subjectInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>leaderInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> &amp;&#160;</td>
+          <td class="paramname"><em>subjectState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> &amp;&#160;</td>
+          <td class="paramname"><em>leaderState</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>deltaTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a89cc02f88ef6260b55f4268309af9409"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89cc02f88ef6260b55f4268309af9409">&#9670;&nbsp;</a></span>operator()()</h2>
 

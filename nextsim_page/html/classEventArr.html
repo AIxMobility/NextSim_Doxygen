@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classEventArr.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classEventArr-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">EventArr Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for event scenario from events.xml.  
+ <a href="classEventArr.html#details">More...</a></p>
 
 <p><code>#include &lt;EventArr.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for EventArr:</div>
 <div class="dyncontent">
 <div class="center"><img src="classEventArr__coll__graph.png" border="0" usemap="#aEventArr_coll__map" alt="Collaboration graph"/></div>
 <map name="aEventArr_coll__map" id="aEventArr_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,117,97"/>
+<area shape="rect" title="Class for event scenario from events.xml." alt="" coords="5,5,117,97"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -111,8 +115,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a01503e9c3e16dd1cb524cfa23993a199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7636d5c6671055d72d4451ed7936c29"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputEvent.html">InputEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEventArr.html#ac7636d5c6671055d72d4451ed7936c29">getEvents</a> ()</td></tr>
 <tr class="separator:ac7636d5c6671055d72d4451ed7936c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a910bf74f2b12c2fc97cb2d42bb4607f9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputEvent.html">InputEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEventArr.html#a910bf74f2b12c2fc97cb2d42bb4607f9">Events</a></td></tr>
+<tr class="separator:a910bf74f2b12c2fc97cb2d42bb4607f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for event scenario from events.xml. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a01503e9c3e16dd1cb524cfa23993a199"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01503e9c3e16dd1cb524cfa23993a199">&#9670;&nbsp;</a></span>EventArr()</h2>
 
@@ -127,6 +138,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor (Parse events from eventdata.xml) </p>
 
 </div>
 </div>
@@ -153,7 +165,31 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Creates a vector of <a class="el" href="classInputEvent.html">InputEvent</a> </p>
+<p>Get vector of events </p><dl class="section return"><dt>Returns</dt><dd>Vector of events </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a910bf74f2b12c2fc97cb2d42bb4607f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910bf74f2b12c2fc97cb2d42bb4607f9">&#9670;&nbsp;</a></span>Events</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputEvent.html">InputEvent</a>&gt; EventArr::Events</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Vector of events </p>
 
 </div>
 </div>

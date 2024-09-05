@@ -21,5 +21,7 @@ var classCaptain_1_1Util_1_1VehicleQueue =
     [ "operator=", "classCaptain_1_1Util_1_1VehicleQueue.html#a5a540ab9a23fe0a6cad589ab99081080", null ],
     [ "Peek", "classCaptain_1_1Util_1_1VehicleQueue.html#ae9b0282bd6a1ce223d2d8d4e2d4f8ea8", null ],
     [ "Size", "classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23", null ],
-    [ "Sort", "classCaptain_1_1Util_1_1VehicleQueue.html#ab10028bf98dc7b0b252ac4685af3c06e", null ]
+    [ "Sort", "classCaptain_1_1Util_1_1VehicleQueue.html#ab10028bf98dc7b0b252ac4685af3c06e", null ],
+    [ "m_maxCapacity", "classCaptain_1_1Util_1_1VehicleQueue.html#a40f702d4d0fc0320df89e4c18c69c45a", null ],
+    [ "m_vehicleList", "classCaptain_1_1Util_1_1VehicleQueue.html#adf509d904edf249050bf1cca7f171868", null ]
 ];

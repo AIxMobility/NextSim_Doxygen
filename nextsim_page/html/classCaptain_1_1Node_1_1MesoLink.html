@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Node_1_1MesoLink.html'
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Node_1_1MesoLink-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Node::MesoLink Class Reference</div>  </div>
@@ -102,8 +103,8 @@ Inheritance diagram for Captain::Node::MesoLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1MesoLink__inherit__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1MesoLink_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1Node_1_1MesoLink_inherit__map" id="aCaptain_1_1Node_1_1MesoLink_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,321,192,545"/>
-<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,5,192,273"/>
+<area shape="rect" title=" " alt="" coords="5,321,220,721"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="19,5,206,273"/>
 </map>
 </div>
 <div class="dynheader">
@@ -111,8 +112,9 @@ Collaboration diagram for Captain::Node::MesoLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1MesoLink__coll__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1MesoLink_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Node_1_1MesoLink_coll__map" id="aCaptain_1_1Node_1_1MesoLink_coll__map">
-<area shape="rect" title=" " alt="" coords="5,321,192,545"/>
-<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,5,192,273"/>
+<area shape="rect" title=" " alt="" coords="91,395,306,780"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,35,192,303"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="216,5,381,332"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -222,6 +224,33 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9c87ff0b9806cc788df755cd80448d53"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646">VehiclePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a9c87ff0b9806cc788df755cd80448d53">newQueue</a></td></tr>
 <tr class="separator:a9c87ff0b9806cc788df755cd80448d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad74bbdc34bea80fd15b5e085b24d570a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#ad74bbdc34bea80fd15b5e085b24d570a">m_identifier</a></td></tr>
+<tr class="separator:ad74bbdc34bea80fd15b5e085b24d570a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b6cd71be896ac74fa923b636cf37c5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a65b6cd71be896ac74fa923b636cf37c5">m_numLane</a></td></tr>
+<tr class="separator:a65b6cd71be896ac74fa923b636cf37c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45de6684d5a4a7074388567a478a1343"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a45de6684d5a4a7074388567a478a1343">m_numSection</a></td></tr>
+<tr class="separator:a45de6684d5a4a7074388567a478a1343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49c6505dddc7860107a647124d5572f8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a49c6505dddc7860107a647124d5572f8">m_freeFlowSpeedInfoVector</a></td></tr>
+<tr class="separator:a49c6505dddc7860107a647124d5572f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cce69f4b725b8796d33859c89d663b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a17cce69f4b725b8796d33859c89d663b">m_waveSpeedInfoVector</a></td></tr>
+<tr class="separator:a17cce69f4b725b8796d33859c89d663b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77165cf84ccfb4a11de8000be40fa9e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#ac77165cf84ccfb4a11de8000be40fa9e">m_qmaxInfoVector</a></td></tr>
+<tr class="separator:ac77165cf84ccfb4a11de8000be40fa9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6226818837219209dca686144c42b30b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a6226818837219209dca686144c42b30b">m_maxVehicleInfoVector</a></td></tr>
+<tr class="separator:a6226818837219209dca686144c42b30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ea5df3debe5ede69bc3fc6dd2446df"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a30ea5df3debe5ede69bc3fc6dd2446df">m_lengthInfoVector</a></td></tr>
+<tr class="separator:a30ea5df3debe5ede69bc3fc6dd2446df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada31be377262142016f70d913aec77f4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#ada31be377262142016f70d913aec77f4">m_widthInfoVector</a></td></tr>
+<tr class="separator:ada31be377262142016f70d913aec77f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df68598ce61282b13b3c982042dabe6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a5df68598ce61282b13b3c982042dabe6">m_stopLineInfoVector</a></td></tr>
+<tr class="separator:a5df68598ce61282b13b3c982042dabe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603ef3414f16ddf7ed342db7acc6edc4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::optional&lt; <a class="el" href="structCaptain_1_1SegmentInfo.html">SegmentInfo</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a603ef3414f16ddf7ed342db7acc6edc4">m_segmentInfoVector</a></td></tr>
+<tr class="separator:a603ef3414f16ddf7ed342db7acc6edc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d40c9abf154883ba9922e519210c20"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html">MesoUnit</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a16d40c9abf154883ba9922e519210c20">m_lanes</a></td></tr>
+<tr class="separator:a16d40c9abf154883ba9922e519210c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a28184416d3e703dc18ab79503be979f8"></a>
@@ -1389,6 +1418,270 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a49c6505dddc7860107a647124d5572f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c6505dddc7860107a647124d5572f8">&#9670;&nbsp;</a></span>m_freeFlowSpeedInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; Captain::Node::MesoLink::m_freeFlowSpeedInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad74bbdc34bea80fd15b5e085b24d570a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74bbdc34bea80fd15b5e085b24d570a">&#9670;&nbsp;</a></span>m_identifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> Captain::Node::MesoLink::m_identifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16d40c9abf154883ba9922e519210c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16d40c9abf154883ba9922e519210c20">&#9670;&nbsp;</a></span>m_lanes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;<a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html">MesoUnit</a>&gt; &gt; &gt; Captain::Node::MesoLink::m_lanes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30ea5df3debe5ede69bc3fc6dd2446df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ea5df3debe5ede69bc3fc6dd2446df">&#9670;&nbsp;</a></span>m_lengthInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; Captain::Node::MesoLink::m_lengthInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6226818837219209dca686144c42b30b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6226818837219209dca686144c42b30b">&#9670;&nbsp;</a></span>m_maxVehicleInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;std::size_t&gt; &gt; Captain::Node::MesoLink::m_maxVehicleInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65b6cd71be896ac74fa923b636cf37c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b6cd71be896ac74fa923b636cf37c5">&#9670;&nbsp;</a></span>m_numLane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Captain::Node::MesoLink::m_numLane</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45de6684d5a4a7074388567a478a1343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45de6684d5a4a7074388567a478a1343">&#9670;&nbsp;</a></span>m_numSection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int Captain::Node::MesoLink::m_numSection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac77165cf84ccfb4a11de8000be40fa9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77165cf84ccfb4a11de8000be40fa9e">&#9670;&nbsp;</a></span>m_qmaxInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; Captain::Node::MesoLink::m_qmaxInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a603ef3414f16ddf7ed342db7acc6edc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603ef3414f16ddf7ed342db7acc6edc4">&#9670;&nbsp;</a></span>m_segmentInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::optional&lt;<a class="el" href="structCaptain_1_1SegmentInfo.html">SegmentInfo</a>&gt; &gt; Captain::Node::MesoLink::m_segmentInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5df68598ce61282b13b3c982042dabe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df68598ce61282b13b3c982042dabe6">&#9670;&nbsp;</a></span>m_stopLineInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Captain::Node::MesoLink::m_stopLineInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17cce69f4b725b8796d33859c89d663b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17cce69f4b725b8796d33859c89d663b">&#9670;&nbsp;</a></span>m_waveSpeedInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; Captain::Node::MesoLink::m_waveSpeedInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada31be377262142016f70d913aec77f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada31be377262142016f70d913aec77f4">&#9670;&nbsp;</a></span>m_widthInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; Captain::Node::MesoLink::m_widthInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c87ff0b9806cc788df755cd80448d53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c87ff0b9806cc788df755cd80448d53">&#9670;&nbsp;</a></span>newQueue</h2>
 

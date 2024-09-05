@@ -14,6 +14,7 @@ var structCaptain_1_1UnitIdentifier =
     [ "operator=", "structCaptain_1_1UnitIdentifier.html#acb8c204f8e264cd3ce73f66d3903f5d3", null ],
     [ "operator==", "structCaptain_1_1UnitIdentifier.html#a6214904c89ba52714b11989f117ada74", null ],
     [ "WithSubID", "structCaptain_1_1UnitIdentifier.html#aa3c00b710caca42b33a2c2977cabd23d", null ],
+    [ "m_prefix", "structCaptain_1_1UnitIdentifier.html#a5cef26d17bfca4fb161499502045b84f", null ],
     [ "PrimaryID", "structCaptain_1_1UnitIdentifier.html#a02ffd5bac139e8da74137cd91ea0527d", null ],
     [ "SubID", "structCaptain_1_1UnitIdentifier.html#aa4e713c12f8ae18c5a9b704eee9c7097", null ],
     [ "SubType", "structCaptain_1_1UnitIdentifier.html#a6317d362f12c449f543b080b4c0cd24e", null ],

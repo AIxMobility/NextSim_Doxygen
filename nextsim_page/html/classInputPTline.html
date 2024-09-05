@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classInputPTline.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputPTline-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputPTline Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each public transit line information.  
+ <a href="classInputPTline.html#details">More...</a></p>
 
 <p><code>#include &lt;InputPTline.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,13 +105,13 @@ Collaboration diagram for InputPTline:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputPTline__coll__graph.png" border="0" usemap="#aInputPTline_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputPTline_coll__map" id="aInputPTline_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,200,229"/>
+<area shape="rect" title="Class for each public transit line information." alt="" coords="5,5,200,303"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a14e23999704762b05a3668f9640f5a4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a14e23999704762b05a3668f9640f5a4e">InputPTline</a> (int id, double interval)</td></tr>
+<tr class="memitem:a14e23999704762b05a3668f9640f5a4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a14e23999704762b05a3668f9640f5a4e">InputPTline</a> (int <a class="el" href="classInputPTline.html#adbf6b2dfd742bf232e3035adb767dfb7">id</a>, double <a class="el" href="classInputPTline.html#ac7c2767a35e8e7d9d98eefbd5e738193">interval</a>)</td></tr>
 <tr class="separator:a14e23999704762b05a3668f9640f5a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c0630761db84416ae9ff3072bf0df53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a2c0630761db84416ae9ff3072bf0df53">setLinkSeq</a> (std::string linkSeq)</td></tr>
 <tr class="separator:a2c0630761db84416ae9ff3072bf0df53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,8 +133,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aef251635d24225e8eaa4aaef16d4ce0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a677d773f1df0a076f80f37e8f0d76114"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a677d773f1df0a076f80f37e8f0d76114">getStationDistanceSeq</a> ()</td></tr>
 <tr class="separator:a677d773f1df0a076f80f37e8f0d76114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:adbf6b2dfd742bf232e3035adb767dfb7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#adbf6b2dfd742bf232e3035adb767dfb7">id</a></td></tr>
+<tr class="separator:adbf6b2dfd742bf232e3035adb767dfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c2767a35e8e7d9d98eefbd5e738193"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#ac7c2767a35e8e7d9d98eefbd5e738193">interval</a></td></tr>
+<tr class="separator:ac7c2767a35e8e7d9d98eefbd5e738193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676bd639f34b488d1e54469126896696"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a676bd639f34b488d1e54469126896696">link_seq</a></td></tr>
+<tr class="separator:a676bd639f34b488d1e54469126896696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fd51dade6a87d18a851df4424d4892f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a8fd51dade6a87d18a851df4424d4892f">node_seq</a></td></tr>
+<tr class="separator:a8fd51dade6a87d18a851df4424d4892f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f4509745ce57416634c77c3976db8c8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a6f4509745ce57416634c77c3976db8c8">station_seq</a></td></tr>
+<tr class="separator:a6f4509745ce57416634c77c3976db8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a18457e95b0c35a5308174a1c44315"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputPTline.html#a65a18457e95b0c35a5308174a1c44315">station_distance_seq</a></td></tr>
+<tr class="separator:a65a18457e95b0c35a5308174a1c44315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each public transit line information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a14e23999704762b05a3668f9640f5a4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14e23999704762b05a3668f9640f5a4e">&#9670;&nbsp;</a></span>InputPTline()</h2>
 
@@ -156,6 +177,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Public transit line ID </td></tr>
+    <tr><td class="paramname">interval</td><td>Dispatch interval </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -182,6 +210,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get public transit line ID </p><dl class="section return"><dt>Returns</dt><dd>Public transit line ID </dd></dl>
 
 </div>
 </div>
@@ -207,6 +236,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get dispatch interval </p><dl class="section return"><dt>Returns</dt><dd>Dispatch interval [min] </dd></dl>
 
 </div>
 </div>
@@ -232,6 +262,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of links </p><dl class="section return"><dt>Returns</dt><dd>Sequence of links that line passes </dd></dl>
 
 </div>
 </div>
@@ -257,6 +288,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of nodes that line passes </dd></dl>
 
 </div>
 </div>
@@ -282,6 +314,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of distance between stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of distance between stations </dd></dl>
 
 </div>
 </div>
@@ -307,6 +340,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of stations that line passes </dd></dl>
 
 </div>
 </div>
@@ -325,6 +359,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set sequence of links </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">linkSeq</td><td>Sequence of links that line passes </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -353,6 +393,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set sequence of nodes </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nodeSeq</td><td>Sequence of nodes that line passes </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -381,6 +427,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set sequence of distance between stations </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stationDistanceSeq</td><td>Sequence of distance between stations </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -409,6 +461,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set sequence of stations </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stationSeq</td><td>Sequence of stations that line passes </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -419,6 +477,145 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classPTlineArr.html#aac463c16632ebb05590eefe88148fb6a" title=" " alt="" coords="5,5,153,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adbf6b2dfd742bf232e3035adb767dfb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf6b2dfd742bf232e3035adb767dfb7">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputPTline::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Public transit line ID </p>
+
+</div>
+</div>
+<a id="ac7c2767a35e8e7d9d98eefbd5e738193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c2767a35e8e7d9d98eefbd5e738193">&#9670;&nbsp;</a></span>interval</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InputPTline::interval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Dispatch interval [min] </p>
+
+</div>
+</div>
+<a id="a676bd639f34b488d1e54469126896696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a676bd639f34b488d1e54469126896696">&#9670;&nbsp;</a></span>link_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputPTline::link_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of links that line passes </p>
+
+</div>
+</div>
+<a id="a8fd51dade6a87d18a851df4424d4892f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fd51dade6a87d18a851df4424d4892f">&#9670;&nbsp;</a></span>node_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputPTline::node_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of nodes that line passes </p>
+
+</div>
+</div>
+<a id="a65a18457e95b0c35a5308174a1c44315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a18457e95b0c35a5308174a1c44315">&#9670;&nbsp;</a></span>station_distance_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; InputPTline::station_distance_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of distance between stations </p>
+
+</div>
+</div>
+<a id="a6f4509745ce57416634c77c3976db8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f4509745ce57416634c77c3976db8c8">&#9670;&nbsp;</a></span>station_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputPTline::station_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of stations that line passes </p>
 
 </div>
 </div>

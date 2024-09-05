@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1SpinLockVehicleQueue.h
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1SpinLockVehicleQueue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::SpinLockVehicleQueue Class Reference</div>  </div>
@@ -104,7 +105,7 @@ Inheritance diagram for Captain::SpinLockVehicleQueue:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1SpinLockVehicleQueue__inherit__graph.png" border="0" usemap="#aCaptain_1_1SpinLockVehicleQueue_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1SpinLockVehicleQueue_inherit__map" id="aCaptain_1_1SpinLockVehicleQueue_inherit__map">
-<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="21,336,227,575"/>
+<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="21,336,227,589"/>
 <area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="5,5,243,288"/>
 </map>
 </div>
@@ -113,8 +114,9 @@ Collaboration diagram for Captain::SpinLockVehicleQueue:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1SpinLockVehicleQueue__coll__graph.png" border="0" usemap="#aCaptain_1_1SpinLockVehicleQueue_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1SpinLockVehicleQueue_coll__map" id="aCaptain_1_1SpinLockVehicleQueue_coll__map">
-<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="21,336,227,575"/>
+<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="137,351,343,589"/>
 <area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="5,5,243,288"/>
+<area shape="rect" href="classCaptain_1_1SpinLockQueue.html" title=" " alt="" coords="267,5,447,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -174,6 +176,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a85c9165b2cf52b2e16ce92c8b281a843 inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512896e5c4584a4d5b77b296c9c2247a inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1IVehicleQueue.html">IVehicleQueue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1IVehicleQueue.html#a512896e5c4584a4d5b77b296c9c2247a">operator=</a> (<a class="el" href="classCaptain_1_1IVehicleQueue.html">IVehicleQueue</a> &amp;&amp;other) noexcept</td></tr>
 <tr class="separator:a512896e5c4584a4d5b77b296c9c2247a inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0a041c7cd7e93f88b1904e89cccb0102"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockVehicleQueue.html#a0a041c7cd7e93f88b1904e89cccb0102">m_maxCapacity</a></td></tr>
+<tr class="memdesc:a0a041c7cd7e93f88b1904e89cccb0102"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum size of the queue  <a href="classCaptain_1_1SpinLockVehicleQueue.html#a0a041c7cd7e93f88b1904e89cccb0102">More...</a><br /></td></tr>
+<tr class="separator:a0a041c7cd7e93f88b1904e89cccb0102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1caca9024da862a68ab9ab692cca17d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1SpinLockQueue.html">SpinLockQueue</a>&lt; <a class="el" href="namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646">VehiclePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockVehicleQueue.html#ab1caca9024da862a68ab9ab692cca17d">m_queue</a></td></tr>
+<tr class="memdesc:ab1caca9024da862a68ab9ab692cca17d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues that contain vehicles depending on next cell to go.  <a href="classCaptain_1_1SpinLockVehicleQueue.html#ab1caca9024da862a68ab9ab692cca17d">More...</a><br /></td></tr>
+<tr class="separator:ab1caca9024da862a68ab9ab692cca17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>: Concurrent queue class wrapper for storing vehicles </p>
@@ -771,6 +782,55 @@ Here is the call graph for this function:</div>
 <p>Gets size of this vehicleQueue </p><dl class="section return"><dt>Returns</dt><dd>: size of this vehicleQueue </dd></dl>
 
 <p>Implements <a class="el" href="classCaptain_1_1IVehicleQueue.html#aa9a6cb2f386f15ae4c11ff142e2f9849">Captain::IVehicleQueue</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0a041c7cd7e93f88b1904e89cccb0102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a041c7cd7e93f88b1904e89cccb0102">&#9670;&nbsp;</a></span>m_maxCapacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::SpinLockVehicleQueue::m_maxCapacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>maximum size of the queue </p>
+
+</div>
+</div>
+<a id="ab1caca9024da862a68ab9ab692cca17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1caca9024da862a68ab9ab692cca17d">&#9670;&nbsp;</a></span>m_queue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1SpinLockQueue.html">SpinLockQueue</a>&lt;<a class="el" href="namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646">VehiclePtr</a>&gt; Captain::SpinLockVehicleQueue::m_queue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Queues that contain vehicles depending on next cell to go. </p>
 
 </div>
 </div>

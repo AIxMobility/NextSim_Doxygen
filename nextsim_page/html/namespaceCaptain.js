@@ -129,7 +129,7 @@ var namespaceCaptain =
     [ "SharedSpinlock", "classCaptain_1_1SharedSpinlock.html", null ],
     [ "SpinLockQueue", "classCaptain_1_1SpinLockQueue.html", "classCaptain_1_1SpinLockQueue" ],
     [ "SpinLockVehicleQueue", "classCaptain_1_1SpinLockVehicleQueue.html", "classCaptain_1_1SpinLockVehicleQueue" ],
-    [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", null ],
+    [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", "classCaptain_1_1VehicleContainer" ],
     [ "IVehicleQueue", "classCaptain_1_1IVehicleQueue.html", "classCaptain_1_1IVehicleQueue" ],
     [ "PassengerPtr", "namespaceCaptain.html#a31830f1f6ac90d080996b34b36170ad3", null ],
     [ "PassengerWeakPtr", "namespaceCaptain.html#a22b42a5e2a77a04db363e1827757c5f1", null ],

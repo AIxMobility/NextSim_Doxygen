@@ -24,5 +24,11 @@ var classCaptain_1_1Util_1_1EventRecorder =
     [ "WriteSimulationToFile", "classCaptain_1_1Util_1_1EventRecorder.html#ac13754621cc5d66b1357a97fd5492d4b", null ],
     [ "WriteSinkToFile", "classCaptain_1_1Util_1_1EventRecorder.html#a745210bbc0f7c8904631e1d0bbb8775d", null ],
     [ "WriteStationToFile", "classCaptain_1_1Util_1_1EventRecorder.html#af2f57ac92d127c0353ddd5c897557f1e", null ],
-    [ "WriteVehicleToFile", "classCaptain_1_1Util_1_1EventRecorder.html#a121776b415bbba3555aee47bc481c8d1", null ]
+    [ "WriteVehicleToFile", "classCaptain_1_1Util_1_1EventRecorder.html#a121776b415bbba3555aee47bc481c8d1", null ],
+    [ "m_cellRecordInfoVector", "classCaptain_1_1Util_1_1EventRecorder.html#aa349d7cbee8a280afa1ffe7acd845b76", null ],
+    [ "m_prefix", "classCaptain_1_1Util_1_1EventRecorder.html#a8ebf34edf43938f68fbd0ec04c53b15f", null ],
+    [ "m_recordPath", "classCaptain_1_1Util_1_1EventRecorder.html#a0074532994d4ad492af9e79a778bcf9a", null ],
+    [ "m_sinkRecordInfoVector", "classCaptain_1_1Util_1_1EventRecorder.html#a0ea223ec266f7dea8f880936d46a13dc", null ],
+    [ "m_stationRecordInfoVector", "classCaptain_1_1Util_1_1EventRecorder.html#a900ee1104aff94941b5e3a2006b715fc", null ],
+    [ "m_vehicleRecordInfoVector", "classCaptain_1_1Util_1_1EventRecorder.html#af589b7cdc87c1a86fd1a328f9d9428a4", null ]
 ];

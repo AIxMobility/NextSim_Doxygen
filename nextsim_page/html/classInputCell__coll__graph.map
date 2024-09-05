@@ -1,4 +1,4 @@
 <map id="InputCell" name="InputCell">
-<area shape="rect" id="node1" title=" " alt="" coords="15,380,131,531"/>
-<area shape="rect" id="node2" href="$classMetaData.html" title=" " alt="" coords="5,5,141,332"/>
+<area shape="rect" id="node1" title="Class for each cell information." alt="" coords="20,380,127,487"/>
+<area shape="rect" id="node2" href="$classMetaData.html" title="Class for metadata of network units." alt="" coords="5,5,141,332"/>
 </map>

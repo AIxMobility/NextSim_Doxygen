@@ -1,3 +1,4 @@
 <map id="Captain::WeakPtr&lt; T &gt;" name="Captain::WeakPtr&lt; T &gt;">
-<area shape="rect" id="node1" title=": This class declares custom version of atomic std::weak_ptr" alt="" coords="5,5,177,229"/>
+<area shape="rect" id="node1" title=": This class declares custom version of atomic std::weak_ptr" alt="" coords="15,145,187,369"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1SharedObjectInfo.html" title=" " alt="" coords="5,5,197,83"/>
 </map>

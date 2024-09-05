@@ -89,13 +89,14 @@ $(document).ready(function(){initNavTree('classInputAgents.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputAgents-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputAgents Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Class for agent vehicles information from agents.xml.  
+<p>Class for information of each agent from agents.xml.  
  <a href="classInputAgents.html#details">More...</a></p>
 
 <p><code>#include &lt;InputAgents.hpp&gt;</code></p>
@@ -104,13 +105,13 @@ Collaboration diagram for InputAgents:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputAgents__coll__graph.png" border="0" usemap="#aInputAgents_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputAgents_coll__map" id="aInputAgents_coll__map">
-<area shape="rect" title="Class for agent vehicles information from agents.xml." alt="" coords="5,5,200,244"/>
+<area shape="rect" title="Class for information of each agent from agents.xml." alt="" coords="5,5,200,332"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af99bfe8a1290a803ff7c8b7e62f1b267"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#af99bfe8a1290a803ff7c8b7e62f1b267">InputAgents</a> (int id, int typeId, double dpt_time)</td></tr>
+<tr class="memitem:af99bfe8a1290a803ff7c8b7e62f1b267"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#af99bfe8a1290a803ff7c8b7e62f1b267">InputAgents</a> (int <a class="el" href="classInputAgents.html#ae51d51fd51ed45499797321297434343">id</a>, int <a class="el" href="classInputAgents.html#a5bf189da5707e9459cbf1261c645c5db">typeId</a>, double <a class="el" href="classInputAgents.html#a2a37f38bdc1ae08d6c19c82e0f894be4">dpt_time</a>)</td></tr>
 <tr class="separator:af99bfe8a1290a803ff7c8b7e62f1b267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb7025ce90ca4b2e5c4ee5de3ca0960"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#afdb7025ce90ca4b2e5c4ee5de3ca0960">setLinkSeq</a> (std::string linkSeq)</td></tr>
 <tr class="separator:afdb7025ce90ca4b2e5c4ee5de3ca0960"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,9 +135,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a97adc9588d11230f5bec4477fb250742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc67b668db72330de5a17b3b1bfd320"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#a9cc67b668db72330de5a17b3b1bfd320">getStationDistanceSeq</a> ()</td></tr>
 <tr class="separator:a9cc67b668db72330de5a17b3b1bfd320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ae51d51fd51ed45499797321297434343"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#ae51d51fd51ed45499797321297434343">id</a></td></tr>
+<tr class="separator:ae51d51fd51ed45499797321297434343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf189da5707e9459cbf1261c645c5db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#a5bf189da5707e9459cbf1261c645c5db">typeId</a></td></tr>
+<tr class="separator:a5bf189da5707e9459cbf1261c645c5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a37f38bdc1ae08d6c19c82e0f894be4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#a2a37f38bdc1ae08d6c19c82e0f894be4">dpt_time</a></td></tr>
+<tr class="separator:a2a37f38bdc1ae08d6c19c82e0f894be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7c87f1550be304732aa19c4184a4c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#a4e7c87f1550be304732aa19c4184a4c4">link_seq</a></td></tr>
+<tr class="separator:a4e7c87f1550be304732aa19c4184a4c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10fa36fac1737e398715b84fdc6f42e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#af10fa36fac1737e398715b84fdc6f42e">node_seq</a></td></tr>
+<tr class="separator:af10fa36fac1737e398715b84fdc6f42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb4f09d7fb9ca694b7a78b6bfedd2e6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#a8fb4f09d7fb9ca694b7a78b6bfedd2e6">station_seq</a></td></tr>
+<tr class="separator:a8fb4f09d7fb9ca694b7a78b6bfedd2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7c518181bfb961e54b2d863ac715b4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputAgents.html#ace7c518181bfb961e54b2d863ac715b4">station_distance_seq</a></td></tr>
+<tr class="separator:ace7c518181bfb961e54b2d863ac715b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for agent vehicles information from agents.xml. </p>
+<div class="textblock"><p>Class for information of each agent from agents.xml. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af99bfe8a1290a803ff7c8b7e62f1b267"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af99bfe8a1290a803ff7c8b7e62f1b267">&#9670;&nbsp;</a></span>InputAgents()</h2>
@@ -172,7 +190,7 @@ Public Member Functions</h2></td></tr>
 <p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>Agent ID </td></tr>
-    <tr><td class="paramname">type</td><td>Agent Type ID </td></tr>
+    <tr><td class="paramname">type</td><td>Agent type ID </td></tr>
     <tr><td class="paramname">dpt_time</td><td>Departure time </td></tr>
   </table>
   </dd>
@@ -203,7 +221,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get Departure time </p><dl class="section return"><dt>Returns</dt><dd>Departure time </dd></dl>
+<p>Get Departure time </p><dl class="section return"><dt>Returns</dt><dd>Departure time [s] </dd></dl>
 
 </div>
 </div>
@@ -229,7 +247,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get Agent ID </p><dl class="section return"><dt>Returns</dt><dd>Agent ID </dd></dl>
+<p>Get agent ID </p><dl class="section return"><dt>Returns</dt><dd>Agent ID </dd></dl>
 
 </div>
 </div>
@@ -255,7 +273,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get link sequence </p><dl class="section return"><dt>Returns</dt><dd>Sequence of links </dd></dl>
+<p>Get sequence of links </p><dl class="section return"><dt>Returns</dt><dd>Sequence of links that agent passes </dd></dl>
 
 </div>
 </div>
@@ -281,7 +299,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get node sequence </p><dl class="section return"><dt>Returns</dt><dd>Sequence of nodes </dd></dl>
+<p>Get sequence of nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of nodes that agent passes </dd></dl>
 
 </div>
 </div>
@@ -307,7 +325,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get station distance sequence </p><dl class="section return"><dt>Returns</dt><dd>Sequence of distance between stations </dd></dl>
+<p>Get sequence of distance between stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of distance between stations </dd></dl>
 
 </div>
 </div>
@@ -333,7 +351,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get station sequence </p><dl class="section return"><dt>Returns</dt><dd>Sequence of stations </dd></dl>
+<p>Get sequence of stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of stations that agent passes </dd></dl>
 
 </div>
 </div>
@@ -359,7 +377,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get Agent Type ID </p><dl class="section return"><dt>Returns</dt><dd>Agent Type ID </dd></dl>
+<p>Get agent type ID </p><dl class="section return"><dt>Returns</dt><dd>Agent type ID </dd></dl>
 
 </div>
 </div>
@@ -378,7 +396,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set link sequence </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set sequence of links </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">linkSeq</td><td>Sequence of links </td></tr>
   </table>
@@ -389,8 +407,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputAgents_afdb7025ce90ca4b2e5c4ee5de3ca0960_icgraph.png" border="0" usemap="#aclassInputAgents_afdb7025ce90ca4b2e5c4ee5de3ca0960_icgraph" alt=""/></div>
 <map name="aclassInputAgents_afdb7025ce90ca4b2e5c4ee5de3ca0960_icgraph" id="aclassInputAgents_afdb7025ce90ca4b2e5c4ee5de3ca0960_icgraph">
-<area shape="rect" title=" " alt="" coords="428,5,607,32"/>
-<area shape="rect" href="classAgentsArr.html#abfa6ed36162c3bf7b6a263f01033087c" title=" " alt="" coords="212,5,380,32"/>
+<area shape="rect" title=" " alt="" coords="212,5,391,32"/>
 <area shape="rect" href="classAgentsArr.html#a20ab15448d0c8ded38daf3fead44ff01" title=" " alt="" coords="5,5,164,32"/>
 </map>
 </div>
@@ -412,7 +429,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set node sequence </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set sequence of nodes </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">nodeSeq</td><td>Sequence of nodes </td></tr>
   </table>
@@ -423,8 +440,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputAgents_ad787bd5d52b955ff9f3d73002be53416_icgraph.png" border="0" usemap="#aclassInputAgents_ad787bd5d52b955ff9f3d73002be53416_icgraph" alt=""/></div>
 <map name="aclassInputAgents_ad787bd5d52b955ff9f3d73002be53416_icgraph" id="aclassInputAgents_ad787bd5d52b955ff9f3d73002be53416_icgraph">
-<area shape="rect" title=" " alt="" coords="428,5,615,32"/>
-<area shape="rect" href="classAgentsArr.html#abfa6ed36162c3bf7b6a263f01033087c" title=" " alt="" coords="212,5,380,32"/>
+<area shape="rect" title=" " alt="" coords="212,5,399,32"/>
 <area shape="rect" href="classAgentsArr.html#a20ab15448d0c8ded38daf3fead44ff01" title=" " alt="" coords="5,5,164,32"/>
 </map>
 </div>
@@ -446,7 +462,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set station distance sequence </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set sequence of distance between stations </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stationDistanceSeq</td><td>Sequence of distance between stations </td></tr>
   </table>
@@ -457,8 +473,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputAgents_ad1714a9136feba1f553dde5e8cfdb4c4_icgraph.png" border="0" usemap="#aclassInputAgents_ad1714a9136feba1f553dde5e8cfdb4c4_icgraph" alt=""/></div>
 <map name="aclassInputAgents_ad1714a9136feba1f553dde5e8cfdb4c4_icgraph" id="aclassInputAgents_ad1714a9136feba1f553dde5e8cfdb4c4_icgraph">
-<area shape="rect" title=" " alt="" coords="428,5,683,32"/>
-<area shape="rect" href="classAgentsArr.html#abfa6ed36162c3bf7b6a263f01033087c" title=" " alt="" coords="212,5,380,32"/>
+<area shape="rect" title=" " alt="" coords="212,5,467,32"/>
 <area shape="rect" href="classAgentsArr.html#a20ab15448d0c8ded38daf3fead44ff01" title=" " alt="" coords="5,5,164,32"/>
 </map>
 </div>
@@ -480,7 +495,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set station sequence </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set sequence of stations </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">stationSeq</td><td>Sequence of stations </td></tr>
   </table>
@@ -491,11 +506,172 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputAgents_ae3d8304a98111e42a897a2896544d4ba_icgraph.png" border="0" usemap="#aclassInputAgents_ae3d8304a98111e42a897a2896544d4ba_icgraph" alt=""/></div>
 <map name="aclassInputAgents_ae3d8304a98111e42a897a2896544d4ba_icgraph" id="aclassInputAgents_ae3d8304a98111e42a897a2896544d4ba_icgraph">
-<area shape="rect" title=" " alt="" coords="428,5,627,32"/>
-<area shape="rect" href="classAgentsArr.html#abfa6ed36162c3bf7b6a263f01033087c" title=" " alt="" coords="212,5,380,32"/>
+<area shape="rect" title=" " alt="" coords="212,5,411,32"/>
 <area shape="rect" href="classAgentsArr.html#a20ab15448d0c8ded38daf3fead44ff01" title=" " alt="" coords="5,5,164,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2a37f38bdc1ae08d6c19c82e0f894be4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a37f38bdc1ae08d6c19c82e0f894be4">&#9670;&nbsp;</a></span>dpt_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InputAgents::dpt_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Departure time [s] </p>
+
+</div>
+</div>
+<a id="ae51d51fd51ed45499797321297434343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51d51fd51ed45499797321297434343">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputAgents::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Agent ID </p>
+
+</div>
+</div>
+<a id="a4e7c87f1550be304732aa19c4184a4c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7c87f1550be304732aa19c4184a4c4">&#9670;&nbsp;</a></span>link_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputAgents::link_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of links that agent passes </p>
+
+</div>
+</div>
+<a id="af10fa36fac1737e398715b84fdc6f42e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10fa36fac1737e398715b84fdc6f42e">&#9670;&nbsp;</a></span>node_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputAgents::node_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of nodes that agent passes </p>
+
+</div>
+</div>
+<a id="ace7c518181bfb961e54b2d863ac715b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7c518181bfb961e54b2d863ac715b4">&#9670;&nbsp;</a></span>station_distance_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; InputAgents::station_distance_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of distance between stations </p>
+
+</div>
+</div>
+<a id="a8fb4f09d7fb9ca694b7a78b6bfedd2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb4f09d7fb9ca694b7a78b6bfedd2e6">&#9670;&nbsp;</a></span>station_seq</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputAgents::station_seq</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of stations that agent passes </p>
+
+</div>
+</div>
+<a id="a5bf189da5707e9459cbf1261c645c5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf189da5707e9459cbf1261c645c5db">&#9670;&nbsp;</a></span>typeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputAgents::typeId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Agent type ID </p>
 
 </div>
 </div>

@@ -1,0 +1,4 @@
+<map id="InputVehicleTypes" name="InputVehicleTypes">
+<area shape="rect" id="node1" title="Class for agent types information from agenttypes.xml." alt="" coords="5,497,169,765"/>
+<area shape="rect" id="node2" href="$classInputDistribution.html" title="Class for each distribution information." alt="" coords="9,5,165,317"/>
+</map>

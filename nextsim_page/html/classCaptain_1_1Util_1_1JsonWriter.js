@@ -17,5 +17,10 @@ var classCaptain_1_1Util_1_1JsonWriter =
     [ "WritePaxRoute", "classCaptain_1_1Util_1_1JsonWriter.html#a977051d1fcc825c3580586224fc95c94", null ],
     [ "WriteRoute", "classCaptain_1_1Util_1_1JsonWriter.html#a4fcec9906fe58ba9c0c5f1b7e708b23a", null ],
     [ "WriteRouteFromIntersection", "classCaptain_1_1Util_1_1JsonWriter.html#aaf384bec138d0dcad085e156a43c23d7", null ],
-    [ "WriteVehicle", "classCaptain_1_1Util_1_1JsonWriter.html#a8168151900cf9c6d2c9d3168200217af", null ]
+    [ "WriteVehicle", "classCaptain_1_1Util_1_1JsonWriter.html#a8168151900cf9c6d2c9d3168200217af", null ],
+    [ "m_buffer", "classCaptain_1_1Util_1_1JsonWriter.html#a1744a9450925976e627267df5a902224", null ],
+    [ "m_document", "classCaptain_1_1Util_1_1JsonWriter.html#ab2cb8d713281acce808036485561d7eb", null ],
+    [ "m_fp", "classCaptain_1_1Util_1_1JsonWriter.html#aebd9de5eb3b201062c58dfa003a49e91", null ],
+    [ "m_ip", "classCaptain_1_1Util_1_1JsonWriter.html#a3b82f11ea2096fbd98b3d11a8e86bc86", null ],
+    [ "m_path", "classCaptain_1_1Util_1_1JsonWriter.html#aa483ca312e4388f1571c1a462e492364", null ]
 ];

@@ -2,7 +2,7 @@ var structCaptain_1_1VehicleInfo =
 [
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#aad84deb35b80e7f783d3274a36a55d78", null ],
     [ "~VehicleInfo", "structCaptain_1_1VehicleInfo.html#aa913eca93e772fa911ae4e9f3fe902b9", null ],
-    [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#aa3249a36d79e3766ff6fb45ba16f309c", null ],
+    [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a1e1f5ff8efd554f7b9876beb5b30f2b5", null ],
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a6bcd18b6caabb763c51bec7341e2c1b6", null ],
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a39bffe0a6cf76a97e47d60c773b2e4f1", null ],
     [ "operator!=", "structCaptain_1_1VehicleInfo.html#a4ee9c3da280d928e22dfb91b52f2574e", null ],

@@ -1,0 +1,27 @@
+var classInputVehicleTypes =
+[
+    [ "InputVehicleTypes", "classInputVehicleTypes.html#a738805778d7bfb2945fa4785d747ea8a", null ],
+    [ "genjamgap", "classInputVehicleTypes.html#abb9ac06658b5a93886ea1c412b39bb20", null ],
+    [ "genLCparam", "classInputVehicleTypes.html#addb3e0d12dac90186780666be36bfa5a", null ],
+    [ "genLCsensitivity", "classInputVehicleTypes.html#af9e333f0656e42b387610800eea9c096", null ],
+    [ "genmax_acc", "classInputVehicleTypes.html#a0430dd742591b039f452681ab696f256", null ],
+    [ "genmax_dec", "classInputVehicleTypes.html#ac2219ea8557a97c99eca56fed7e33125", null ],
+    [ "genreaction_time", "classInputVehicleTypes.html#a4bdc5fe2c776aba96435fc4301ba2ca8", null ],
+    [ "genveh_len", "classInputVehicleTypes.html#af698f1117fc6d4ee6e68e95bd8cae100", null ],
+    [ "genvf", "classInputVehicleTypes.html#a8a955de30d5074c338d339ad6ff4c189", null ],
+    [ "getmax_pax", "classInputVehicleTypes.html#aa5d3f10ded9b0f90178a1fdb70624706", null ],
+    [ "getv2xActive", "classInputVehicleTypes.html#ae6bdcab9553b585dedba5720c6fd5ac4", null ],
+    [ "getvehType", "classInputVehicleTypes.html#a4a827220f28d2c6aa7067436a5767e10", null ],
+    [ "jamgap", "classInputVehicleTypes.html#a94732439bc1cec5b34eae8ed7468fcb8", null ],
+    [ "lc_param1", "classInputVehicleTypes.html#a4a32dd55e69ecb6a0299ee406ff99ac7", null ],
+    [ "lc_param2", "classInputVehicleTypes.html#a63b13dca0172584fc4dc34cfc3da0ce8", null ],
+    [ "lc_sensitivity", "classInputVehicleTypes.html#a674a6f72ae64bb26293fb0b5d8b61c7b", null ],
+    [ "max_acc", "classInputVehicleTypes.html#afaaeb2e9059607fbea288ab5502e7656", null ],
+    [ "max_dec", "classInputVehicleTypes.html#ae9b14e6975844f2d37fe30725b65054f", null ],
+    [ "max_pax", "classInputVehicleTypes.html#af3d5509711a9026c59dade25b61ea2c9", null ],
+    [ "reaction_time", "classInputVehicleTypes.html#a28bb88d2c80dcc39cd31e55fbd29286e", null ],
+    [ "v2xActive", "classInputVehicleTypes.html#ab700b045f65c6e1042be7757d45ca61e", null ],
+    [ "veh_len", "classInputVehicleTypes.html#ac9713609f2fac8e9cb243b681fc45076", null ],
+    [ "vehType", "classInputVehicleTypes.html#a445db7f6e22a0d34d7df46ad6439a1fd", null ],
+    [ "vf", "classInputVehicleTypes.html#a635c103e9c16a33b8903bf5fa5700c24", null ]
+];

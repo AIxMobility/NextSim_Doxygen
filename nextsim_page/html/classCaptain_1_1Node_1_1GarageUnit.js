@@ -19,6 +19,7 @@ var classCaptain_1_1Node_1_1GarageUnit =
     [ "GetStopLine", "classCaptain_1_1Node_1_1GarageUnit.html#a0cae67bd2bd8c1bfef3c2851584d19a0", null ],
     [ "GetVehicleQueue", "classCaptain_1_1Node_1_1GarageUnit.html#a91f51bc967b11baee88cd561f7d884ad", null ],
     [ "GetWidth", "classCaptain_1_1Node_1_1GarageUnit.html#a31db043aa598bec7506581895b510ba7", null ],
+    [ "m_generateVehicle", "classCaptain_1_1Node_1_1GarageUnit.html#af80a91217ee91cc8cebb0938a2a599b4", null ],
     [ "MoveVehiclesFromPreviousUnit", "classCaptain_1_1Node_1_1GarageUnit.html#a179286f529d6150b6ecfaf0dd8cb201e", null ],
     [ "operator=", "classCaptain_1_1Node_1_1GarageUnit.html#a32f9c88abf3ea8c7f214799a2d0a6e9a", null ],
     [ "operator=", "classCaptain_1_1Node_1_1GarageUnit.html#ad48d2abfaa3869ef0f5af6d54012e0b8", null ],
@@ -26,9 +27,17 @@ var classCaptain_1_1Node_1_1GarageUnit =
     [ "PopVehicle", "classCaptain_1_1Node_1_1GarageUnit.html#afd65e67375c83ab95e4023cf30629904", null ],
     [ "PushVehicle", "classCaptain_1_1Node_1_1GarageUnit.html#a5d9475337c0f519a4c081d4a0b7b9d40", null ],
     [ "ReserveVehicle", "classCaptain_1_1Node_1_1GarageUnit.html#ad4c67fd359cefb015be75cd6d0376249", null ],
-    [ "SetAgentTypes", "classCaptain_1_1Node_1_1GarageUnit.html#a63dd4f17fc800fa9a235357f14b4f97f", null ],
     [ "SetFollowerConnectionInfo", "classCaptain_1_1Node_1_1GarageUnit.html#ad431e2f9f66205f4e492cd7601895d5a", null ],
     [ "SetLeaderConnectionInfo", "classCaptain_1_1Node_1_1GarageUnit.html#a75d94edab3f6d7abb24ebff065f9ad9d", null ],
     [ "SetPTLineInfoVector", "classCaptain_1_1Node_1_1GarageUnit.html#aa3820fb731a47c846119155ddb52283d", null ],
-    [ "SetStopVehicleMap", "classCaptain_1_1Node_1_1GarageUnit.html#ac1ac75077ed7cca370587ede7bed72ac", null ]
+    [ "SetStopVehicleMap", "classCaptain_1_1Node_1_1GarageUnit.html#ac1ac75077ed7cca370587ede7bed72ac", null ],
+    [ "SetVehicleTypes", "classCaptain_1_1Node_1_1GarageUnit.html#a7f4fb762fe48d3082a1478034b78ec37", null ],
+    [ "m_capacity", "classCaptain_1_1Node_1_1GarageUnit.html#a0a2918935e4448218b7f71d3f2f8a191", null ],
+    [ "m_followerConnectionInfo", "classCaptain_1_1Node_1_1GarageUnit.html#a577a0179e00cb32ad363e1c874d57d8c", null ],
+    [ "m_leaderConnectionInfo", "classCaptain_1_1Node_1_1GarageUnit.html#a8203e9de6a0ae9e54e76909363e3d086", null ],
+    [ "m_ptLineInfoVector", "classCaptain_1_1Node_1_1GarageUnit.html#aaa93220962c3459e2c889a9e1211c195", null ],
+    [ "m_reservedVehicleInfo", "classCaptain_1_1Node_1_1GarageUnit.html#aba4e308a9e33caffe43e6da66ef80c06", null ],
+    [ "m_vehicleQueue", "classCaptain_1_1Node_1_1GarageUnit.html#a7d48433f3e612b2ba86556afeea35b6e", null ],
+    [ "m_vehicleWaitQueue", "classCaptain_1_1Node_1_1GarageUnit.html#aef7da1b39c1e4601b691d63b80f86c1c", null ],
+    [ "m_vehTypesArr", "classCaptain_1_1Node_1_1GarageUnit.html#a14449bc57995a15e06e48ad9c307f02d", null ]
 ];

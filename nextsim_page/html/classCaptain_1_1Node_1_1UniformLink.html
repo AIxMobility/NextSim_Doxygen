@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Node_1_1UniformLink.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Node_1_1UniformLink-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Node::UniformLink Class Reference</div>  </div>
@@ -102,8 +103,8 @@ Inheritance diagram for Captain::Node::UniformLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1UniformLink__inherit__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1UniformLink_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1Node_1_1UniformLink_inherit__map" id="aCaptain_1_1Node_1_1UniformLink_inherit__map">
-<area shape="rect" title=" " alt="" coords="27,321,263,648"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="5,696,284,920"/>
+<area shape="rect" title=" " alt="" coords="27,321,263,663"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="5,711,284,949"/>
 <area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="51,5,238,273"/>
 </map>
 </div>
@@ -112,10 +113,17 @@ Collaboration diagram for Captain::Node::UniformLink:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1UniformLink__coll__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1UniformLink_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Node_1_1UniformLink_coll__map" id="aCaptain_1_1Node_1_1UniformLink_coll__map">
-<area shape="rect" title=" " alt="" coords="95,697,331,995"/>
-<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,5,192,273"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="120,367,307,591"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="331,323,496,635"/>
+<area shape="rect" title=" " alt="" coords="150,1437,386,1735"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="36,439,223,707"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="65,894,279,1279"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html" title=" " alt="" coords="445,799,693,1375"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="247,409,412,736"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="754,417,963,729"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="809,27,993,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="1018,27,1195,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="599,5,785,288"/>
+<area shape="rect" href="classCaptain_1_1V2X.html" title=" " alt="" coords="456,453,643,692"/>
+<area shape="rect" href="structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="436,71,575,222"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -239,6 +247,11 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ade4f76570e6a89a118fd722266f2c2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99fa81ad460f0f5f30bdf75b6188c9dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html">MesoLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a99fa81ad460f0f5f30bdf75b6188c9dc">m_mesoLink</a></td></tr>
 <tr class="separator:a99fa81ad460f0f5f30bdf75b6188c9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aaf3c68ef8f7fa65ea8ab12d7d02b1e46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html">EnhancedMicroLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#aaf3c68ef8f7fa65ea8ab12d7d02b1e46">m_microLink</a></td></tr>
+<tr class="separator:aaf3c68ef8f7fa65ea8ab12d7d02b1e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afa10f05bf39cb0edc699353012060828"></a>
@@ -1943,6 +1956,28 @@ Here is the call graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf3c68ef8f7fa65ea8ab12d7d02b1e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3c68ef8f7fa65ea8ab12d7d02b1e46">&#9670;&nbsp;</a></span>m_microLink</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html">EnhancedMicroLink</a> Captain::Node::UniformLink::m_microLink</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

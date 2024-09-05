@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classNodeArr.html',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classNodeArr-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">NodeArr Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for whole node information.  
+ <a href="classNodeArr.html#details">More...</a></p>
 
 <p><code>#include &lt;NodeArr.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for NodeArr:</div>
 <div class="dyncontent">
 <div class="center"><img src="classNodeArr__coll__graph.png" border="0" usemap="#aNodeArr_coll__map" alt="Collaboration graph"/></div>
 <map name="aNodeArr_coll__map" id="aNodeArr_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,192,200"/>
+<area shape="rect" title="Class for whole node information." alt="" coords="5,5,192,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -125,8 +129,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:addb280003ed4c0e02401d9ea7ce12645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6da7f99b88b0a9d33e0ae2c8586400e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#a6da7f99b88b0a9d33e0ae2c8586400e5">showArr</a> ()</td></tr>
 <tr class="separator:a6da7f99b88b0a9d33e0ae2c8586400e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abb905d9933e300cdab7079d6c5e02900"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#abb905d9933e300cdab7079d6c5e02900">Nodes</a></td></tr>
+<tr class="separator:abb905d9933e300cdab7079d6c5e02900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bce9ae5be1472a0a8e31ba3b8f6d159"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#a6bce9ae5be1472a0a8e31ba3b8f6d159">NormalNodes</a></td></tr>
+<tr class="separator:a6bce9ae5be1472a0a8e31ba3b8f6d159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f4ecd6723b46b5fe3107bfdeea5d0f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#a18f4ecd6723b46b5fe3107bfdeea5d0f">IntersectionNodes</a></td></tr>
+<tr class="separator:a18f4ecd6723b46b5fe3107bfdeea5d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af428031bd54d0a3eeb6ec709b6e7a1aa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#af428031bd54d0a3eeb6ec709b6e7a1aa">DivergingNodes</a></td></tr>
+<tr class="separator:af428031bd54d0a3eeb6ec709b6e7a1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855a1a856cbaaa84db4031c61b928c7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#a855a1a856cbaaa84db4031c61b928c7b">MergingNodes</a></td></tr>
+<tr class="separator:a855a1a856cbaaa84db4031c61b928c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafab1b7ed377f70dc2f76f67d917e15a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#aafab1b7ed377f70dc2f76f67d917e15a">TerminalNodes</a></td></tr>
+<tr class="separator:aafab1b7ed377f70dc2f76f67d917e15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613dfcd5dd29c0646841da0075ffa3fd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classIntersectionNode.html">IntersectionNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNodeArr.html#a613dfcd5dd29c0646841da0075ffa3fd">GarageNodes</a></td></tr>
+<tr class="separator:a613dfcd5dd29c0646841da0075ffa3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for whole node information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acee4dcaaf3e8b4b9b6559a8b23a5e827"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acee4dcaaf3e8b4b9b6559a8b23a5e827">&#9670;&nbsp;</a></span>NodeArr()</h2>
 
@@ -141,6 +164,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -188,6 +212,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of diverging nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of diverging nodes (node with multiple outgoing links) </dd></dl>
 
 </div>
 </div>
@@ -213,6 +238,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of garage nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of garage nodes (???) </dd></dl>
 
 </div>
 </div>
@@ -238,6 +264,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of intersection nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of intersection nodes (node with signal) </dd></dl>
 
 </div>
 </div>
@@ -263,6 +290,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of merging nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of merging nodes (node with multiple incoming links) </dd></dl>
 
 </div>
 </div>
@@ -288,6 +316,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of all nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of all nodes </dd></dl>
 
 </div>
 </div>
@@ -313,6 +342,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of normal nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of normal nodes (node between connected two links) </dd></dl>
 
 </div>
 </div>
@@ -338,6 +368,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of terminal nodes </p><dl class="section return"><dt>Returns</dt><dd>Sequence of terminal nodes (source, sink node) </dd></dl>
 
 </div>
 </div>
@@ -355,6 +386,168 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af428031bd54d0a3eeb6ec709b6e7a1aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af428031bd54d0a3eeb6ec709b6e7a1aa">&#9670;&nbsp;</a></span>DivergingNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::DivergingNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of diverging nodes </p>
+
+</div>
+</div>
+<a id="a613dfcd5dd29c0646841da0075ffa3fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613dfcd5dd29c0646841da0075ffa3fd">&#9670;&nbsp;</a></span>GarageNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::GarageNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of garage nodes </p>
+
+</div>
+</div>
+<a id="a18f4ecd6723b46b5fe3107bfdeea5d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f4ecd6723b46b5fe3107bfdeea5d0f">&#9670;&nbsp;</a></span>IntersectionNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::IntersectionNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of intersection nodes </p>
+
+</div>
+</div>
+<a id="a855a1a856cbaaa84db4031c61b928c7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a855a1a856cbaaa84db4031c61b928c7b">&#9670;&nbsp;</a></span>MergingNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::MergingNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of merging nodes </p>
+
+</div>
+</div>
+<a id="abb905d9933e300cdab7079d6c5e02900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb905d9933e300cdab7079d6c5e02900">&#9670;&nbsp;</a></span>Nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::Nodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of all nodes </p>
+
+</div>
+</div>
+<a id="a6bce9ae5be1472a0a8e31ba3b8f6d159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bce9ae5be1472a0a8e31ba3b8f6d159">&#9670;&nbsp;</a></span>NormalNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::NormalNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of normal nodes </p>
+
+</div>
+</div>
+<a id="aafab1b7ed377f70dc2f76f67d917e15a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafab1b7ed377f70dc2f76f67d917e15a">&#9670;&nbsp;</a></span>TerminalNodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classIntersectionNode.html">IntersectionNode</a>&gt; NodeArr::TerminalNodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of terminal nodes </p>
 
 </div>
 </div>

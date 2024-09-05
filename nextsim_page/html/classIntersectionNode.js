@@ -28,5 +28,17 @@ var classIntersectionNode =
     [ "setCycle", "classIntersectionNode.html#ada823a953a7b6627db5b9c8488eaff7b", null ],
     [ "setOffset", "classIntersectionNode.html#a424a6fab2d9bb1fa55ec01f41080bfe6", null ],
     [ "setPhase", "classIntersectionNode.html#a4fb93d787321ee4ec8907fdec0326ac2", null ],
-    [ "setType", "classIntersectionNode.html#ac7f05d430ea87055692b9840c54afd8d", null ]
+    [ "setType", "classIntersectionNode.html#ac7f05d430ea87055692b9840c54afd8d", null ],
+    [ "connectedLinks", "classIntersectionNode.html#a31abc2fec95d45e2e0e9af271f11fe6e", null ],
+    [ "connectionTable", "classIntersectionNode.html#a7c5d66ec5b0ce38db5e4475e6cb86b70", null ],
+    [ "cycle", "classIntersectionNode.html#a75cc9d4c948d47edc9d1d365fb47ae77", null ],
+    [ "id", "classIntersectionNode.html#ae0b98fe5231eabc033f782ca3f483712", null ],
+    [ "numConnections", "classIntersectionNode.html#a4979a56df96f35a242e00361eccbcac3", null ],
+    [ "numLinks", "classIntersectionNode.html#aa37ba04381214d0ae37a76fd63b0e7bd", null ],
+    [ "offset", "classIntersectionNode.html#aadfe6b7c00ed4cb66fe2929d932e168a", null ],
+    [ "phaseLength", "classIntersectionNode.html#ab5a03f72bda163df208c9dbd4f05a193", null ],
+    [ "phaseOrder", "classIntersectionNode.html#a1721693923081dcd90143d0886f80ca4", null ],
+    [ "phaseTable", "classIntersectionNode.html#acbd4e9c021c4bdcfe81387fb5db3cb91", null ],
+    [ "type", "classIntersectionNode.html#a1d5742794dbfdc569a6b050f2e66ce97", null ],
+    [ "v2xActive", "classIntersectionNode.html#a37681d22f60886d5ccdbb1edbda1337e", null ]
 ];

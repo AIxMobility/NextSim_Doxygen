@@ -19,5 +19,7 @@ var classCaptain_1_1Node_1_1UniformIntersectionLink =
     [ "SortVehicles", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ab1b30ac97e0fa23c3a112b4c9c8d7476", null ],
     [ "UpdatePhaseInfo", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ad03a7869e2eee65a439fc9a05809d29f", null ],
     [ "UpdateStationState", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8941dd258525dc16d77c7e864c00dab3", null ],
-    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ab74874f2fa4e1eb926fdaf3f287ad0c5", null ]
+    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ab74874f2fa4e1eb926fdaf3f287ad0c5", null ],
+    [ "m_conIDvector", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#aa664af0a3240e16f92d13d82ba4bb92e", null ],
+    [ "m_intersectionMicroLink", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a9ffac6d4b2f7c0d0b4bacf3cc56623fa", null ]
 ];

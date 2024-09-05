@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1ConcurrentQueue.html',
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1ConcurrentQueue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::ConcurrentQueue&lt; T &gt; Class Template Reference</div>  </div>
@@ -101,7 +102,7 @@ Collaboration diagram for Captain::ConcurrentQueue&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1ConcurrentQueue__coll__graph.png" border="0" usemap="#aCaptain_1_1ConcurrentQueue_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1ConcurrentQueue_3_01T_01_4_coll__map" id="aCaptain_1_1ConcurrentQueue_3_01T_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,236,273"/>
+<area shape="rect" title=" " alt="" coords="5,5,236,317"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -138,6 +139,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18fe4e32759ec466333ec5efb8a7a848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b07cf2347f21a76782b01b80f5d51f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1ConcurrentQueue.html#a65b07cf2347f21a76782b01b80f5d51f">Clear</a> ()</td></tr>
 <tr class="separator:a65b07cf2347f21a76782b01b80f5d51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6abe05a8b671452dabf8fe7892744e63"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1ConcurrentQueue.html#a6abe05a8b671452dabf8fe7892744e63">m_maxSize</a> = -1</td></tr>
+<tr class="separator:a6abe05a8b671452dabf8fe7892744e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a656d5539211ec36071c830ab557e3"><td class="memItemLeft" align="right" valign="top">std::list&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1ConcurrentQueue.html#a71a656d5539211ec36071c830ab557e3">m_list</a></td></tr>
+<tr class="memdesc:a71a656d5539211ec36071c830ab557e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum size of this <a class="el" href="classCaptain_1_1ConcurrentQueue.html">ConcurrentQueue</a>.  <a href="classCaptain_1_1ConcurrentQueue.html#a71a656d5539211ec36071c830ab557e3">More...</a><br /></td></tr>
+<tr class="separator:a71a656d5539211ec36071c830ab557e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89aaef19e76bae9795dbef64278c6fae"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1ConcurrentQueue.html#a89aaef19e76bae9795dbef64278c6fae">m_mtx</a></td></tr>
+<tr class="memdesc:a89aaef19e76bae9795dbef64278c6fae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deque to store elements.  <a href="classCaptain_1_1ConcurrentQueue.html#a89aaef19e76bae9795dbef64278c6fae">More...</a><br /></td></tr>
+<tr class="separator:a89aaef19e76bae9795dbef64278c6fae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b81e61840e7fcd5e040addb8b6d7115"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1ConcurrentQueue.html#a6b81e61840e7fcd5e040addb8b6d7115">m_cond</a></td></tr>
+<tr class="memdesc:a6b81e61840e7fcd5e040addb8b6d7115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for controlling access to m_list.  <a href="classCaptain_1_1ConcurrentQueue.html#a6b81e61840e7fcd5e040addb8b6d7115">More...</a><br /></td></tr>
+<tr class="separator:a6b81e61840e7fcd5e040addb8b6d7115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -518,6 +533,109 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>: true if enqueue successes false otherwise </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6b81e61840e7fcd5e040addb8b6d7115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b81e61840e7fcd5e040addb8b6d7115">&#9670;&nbsp;</a></span>m_cond</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::condition_variable <a class="el" href="classCaptain_1_1ConcurrentQueue.html">Captain::ConcurrentQueue</a>&lt; T &gt;::m_cond</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutex for controlling access to m_list. </p>
+
+</div>
+</div>
+<a id="a71a656d5539211ec36071c830ab557e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a656d5539211ec36071c830ab557e3">&#9670;&nbsp;</a></span>m_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;T&gt; <a class="el" href="classCaptain_1_1ConcurrentQueue.html">Captain::ConcurrentQueue</a>&lt; T &gt;::m_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum size of this <a class="el" href="classCaptain_1_1ConcurrentQueue.html">ConcurrentQueue</a>. </p>
+
+</div>
+</div>
+<a id="a6abe05a8b671452dabf8fe7892744e63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6abe05a8b671452dabf8fe7892744e63">&#9670;&nbsp;</a></span>m_maxSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t <a class="el" href="classCaptain_1_1ConcurrentQueue.html">Captain::ConcurrentQueue</a>&lt; T &gt;::m_maxSize = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89aaef19e76bae9795dbef64278c6fae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89aaef19e76bae9795dbef64278c6fae">&#9670;&nbsp;</a></span>m_mtx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex <a class="el" href="classCaptain_1_1ConcurrentQueue.html">Captain::ConcurrentQueue</a>&lt; T &gt;::m_mtx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deque to store elements. </p>
 
 </div>
 </div>

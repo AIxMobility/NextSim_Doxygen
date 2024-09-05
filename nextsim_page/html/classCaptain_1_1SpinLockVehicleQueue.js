@@ -19,5 +19,7 @@ var classCaptain_1_1SpinLockVehicleQueue =
     [ "operator=", "classCaptain_1_1SpinLockVehicleQueue.html#a55738d129eff75089eb9bcf80726ae10", null ],
     [ "operator=", "classCaptain_1_1SpinLockVehicleQueue.html#a4d630e4f1a9756ed9eb29e1424f3b4d8", null ],
     [ "Peek", "classCaptain_1_1SpinLockVehicleQueue.html#ad3369d2b42b702224924ceb1215368ba", null ],
-    [ "Size", "classCaptain_1_1SpinLockVehicleQueue.html#a57e192eb1ae67c0ca307ae347a8e0b3b", null ]
+    [ "Size", "classCaptain_1_1SpinLockVehicleQueue.html#a57e192eb1ae67c0ca307ae347a8e0b3b", null ],
+    [ "m_maxCapacity", "classCaptain_1_1SpinLockVehicleQueue.html#a0a041c7cd7e93f88b1904e89cccb0102", null ],
+    [ "m_queue", "classCaptain_1_1SpinLockVehicleQueue.html#ab1caca9024da862a68ab9ab692cca17d", null ]
 ];

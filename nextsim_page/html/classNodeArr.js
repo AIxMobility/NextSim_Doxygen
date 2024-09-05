@@ -8,5 +8,12 @@ var classNodeArr =
     [ "getNodes", "classNodeArr.html#a2b338c7d893cfb3a072975deb2d9ff08", null ],
     [ "getNormalNodes", "classNodeArr.html#a3ae83818690746f02c4d460c92cec1a6", null ],
     [ "getTerminalNodes", "classNodeArr.html#a9088bcf7040379331c867e6f233ef1ef", null ],
-    [ "showArr", "classNodeArr.html#a6da7f99b88b0a9d33e0ae2c8586400e5", null ]
+    [ "showArr", "classNodeArr.html#a6da7f99b88b0a9d33e0ae2c8586400e5", null ],
+    [ "DivergingNodes", "classNodeArr.html#af428031bd54d0a3eeb6ec709b6e7a1aa", null ],
+    [ "GarageNodes", "classNodeArr.html#a613dfcd5dd29c0646841da0075ffa3fd", null ],
+    [ "IntersectionNodes", "classNodeArr.html#a18f4ecd6723b46b5fe3107bfdeea5d0f", null ],
+    [ "MergingNodes", "classNodeArr.html#a855a1a856cbaaa84db4031c61b928c7b", null ],
+    [ "Nodes", "classNodeArr.html#abb905d9933e300cdab7079d6c5e02900", null ],
+    [ "NormalNodes", "classNodeArr.html#a6bce9ae5be1472a0a8e31ba3b8f6d159", null ],
+    [ "TerminalNodes", "classNodeArr.html#aafab1b7ed377f70dc2f76f67d917e15a", null ]
 ];

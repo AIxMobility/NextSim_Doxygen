@@ -17,5 +17,7 @@ var classCaptain_1_1Util_1_1XmlWriter =
     [ "RecordVehicleInfo", "classCaptain_1_1Util_1_1XmlWriter.html#a61b4faed38be2e378f294c058bb49543", null ],
     [ "RecordVehicleInfo", "classCaptain_1_1Util_1_1XmlWriter.html#a30811d669c29d3323901bd72d6e3977c", null ],
     [ "WriteCloser", "classCaptain_1_1Util_1_1XmlWriter.html#a158ce87e5a79fba6bb179dc77f58814b", null ],
-    [ "WriteHeader", "classCaptain_1_1Util_1_1XmlWriter.html#a77b3f451c6f1ee8572586ff670b27ce3", null ]
+    [ "WriteHeader", "classCaptain_1_1Util_1_1XmlWriter.html#a77b3f451c6f1ee8572586ff670b27ce3", null ],
+    [ "m_fp", "classCaptain_1_1Util_1_1XmlWriter.html#af23f4040133ca987606f6e26eecf65ae", null ],
+    [ "m_path", "classCaptain_1_1Util_1_1XmlWriter.html#a4a04ccd6d1746b2e3c15fc5d60b7c6cd", null ]
 ];

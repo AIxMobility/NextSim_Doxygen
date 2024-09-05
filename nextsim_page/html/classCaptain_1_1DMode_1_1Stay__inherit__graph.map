@@ -1,5 +1,5 @@
 <map id="Captain::DMode::Stay" name="Captain::DMode::Stay">
-<area shape="rect" id="node1" title=" " alt="" coords="160,409,323,545"/>
+<area shape="rect" id="node1" title=" " alt="" coords="155,409,328,575"/>
 <area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,5,227,361"/>
 <area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html" title=" " alt="" coords="251,93,483,273"/>
 </map>

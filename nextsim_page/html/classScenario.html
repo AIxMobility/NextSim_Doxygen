@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classScenario.html',''); initResizable
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classScenario-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Scenario Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each origin-destination scenario information from odscenario.xml.  
+ <a href="classScenario.html#details">More...</a></p>
 
 <p><code>#include &lt;Scenario.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for Scenario:</div>
 <div class="dyncontent">
 <div class="center"><img src="classScenario__coll__graph.png" border="0" usemap="#aScenario_coll__map" alt="Collaboration graph"/></div>
 <map name="aScenario_coll__map" id="aScenario_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,129,97"/>
+<area shape="rect" title="Class for each origin&#45;destination scenario information from odscenario.xml." alt="" coords="5,5,129,97"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -111,8 +115,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac81a05dad61b30116332ea971359a41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d47d87faf2cf80af7cceb6d2e8268ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScenario.html#a6d47d87faf2cf80af7cceb6d2e8268ea">getScenario</a> ()</td></tr>
 <tr class="separator:a6d47d87faf2cf80af7cceb6d2e8268ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1fe854756618f3480117d2fdd8d7583e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScenario.html#a1fe854756618f3480117d2fdd8d7583e">ODscenario</a></td></tr>
+<tr class="separator:a1fe854756618f3480117d2fdd8d7583e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each origin-destination scenario information from odscenario.xml. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac81a05dad61b30116332ea971359a41e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac81a05dad61b30116332ea971359a41e">&#9670;&nbsp;</a></span>Scenario()</h2>
 
@@ -127,6 +138,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ODscenario</td><td>Pair of origin and destination node ID </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -153,6 +170,31 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get origin-destination scenario </p><dl class="section return"><dt>Returns</dt><dd>Pair of origin and destination node ID </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1fe854756618f3480117d2fdd8d7583e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fe854756618f3480117d2fdd8d7583e">&#9670;&nbsp;</a></span>ODscenario</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;int, int&gt; &gt; Scenario::ODscenario</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pair of origin and destination node ID </p>
 
 </div>
 </div>

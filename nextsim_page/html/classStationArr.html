@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classStationArr.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classStationArr-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">StationArr Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for whole station information.  
+ <a href="classStationArr.html#details">More...</a></p>
 
 <p><code>#include &lt;StationArr.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for StationArr:</div>
 <div class="dyncontent">
 <div class="center"><img src="classStationArr__coll__graph.png" border="0" usemap="#aStationArr_coll__map" alt="Collaboration graph"/></div>
 <map name="aStationArr_coll__map" id="aStationArr_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,152,112"/>
+<area shape="rect" title="Class for whole station information." alt="" coords="5,5,152,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -113,8 +117,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a928ceafad3f7d87fd1d9d9a8899e63c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b3853a178e00bf830d710850fe87cbb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputDRTStation.html">InputDRTStation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStationArr.html#a8b3853a178e00bf830d710850fe87cbb">getDRTStations</a> ()</td></tr>
 <tr class="separator:a8b3853a178e00bf830d710850fe87cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aff79a8cb5cf6a3b86562148ba479890b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputStation.html">InputStation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStationArr.html#aff79a8cb5cf6a3b86562148ba479890b">Stations</a></td></tr>
+<tr class="separator:aff79a8cb5cf6a3b86562148ba479890b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203ab9034c5c72b0426f2a3d9e87ce1e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputDRTStation.html">InputDRTStation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classStationArr.html#a203ab9034c5c72b0426f2a3d9e87ce1e">DRTStations</a></td></tr>
+<tr class="separator:a203ab9034c5c72b0426f2a3d9e87ce1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for whole station information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa33f8cb0d4efb95c5dae814f4d491f9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa33f8cb0d4efb95c5dae814f4d491f9b">&#9670;&nbsp;</a></span>StationArr()</h2>
 
@@ -129,6 +142,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructor </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -165,6 +179,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of DRT stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of DRT stations </dd></dl>
 
 </div>
 </div>
@@ -190,6 +205,54 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get sequence of stations </p><dl class="section return"><dt>Returns</dt><dd>Sequence of stations </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a203ab9034c5c72b0426f2a3d9e87ce1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203ab9034c5c72b0426f2a3d9e87ce1e">&#9670;&nbsp;</a></span>DRTStations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputDRTStation.html">InputDRTStation</a>&gt; StationArr::DRTStations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of DRT stations </p>
+
+</div>
+</div>
+<a id="aff79a8cb5cf6a3b86562148ba479890b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff79a8cb5cf6a3b86562148ba479890b">&#9670;&nbsp;</a></span>Stations</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classInputStation.html">InputStation</a>&gt; StationArr::Stations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of stations </p>
 
 </div>
 </div>

@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1SpinLock.html',''); in
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1SpinLock-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::SpinLock&lt; T &gt; Class Template Reference</div>  </div>
@@ -101,7 +102,7 @@ Collaboration diagram for Captain::SpinLock&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1SpinLock__coll__graph.png" border="0" usemap="#aCaptain_1_1SpinLock_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1SpinLock_3_01T_01_4_coll__map" id="aCaptain_1_1SpinLock_3_01T_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,181,156"/>
+<area shape="rect" title=" " alt="" coords="5,5,181,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -120,6 +121,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e33fd185440551d440182e829b8278b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bb0fd47c243cc49892ae6629950cae7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLock.html#a4bb0fd47c243cc49892ae6629950cae7">SharedRelease</a> ()</td></tr>
 <tr class="separator:a4bb0fd47c243cc49892ae6629950cae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9f29a5d25705b8c840adb250b6556424"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLock.html#a9f29a5d25705b8c840adb250b6556424">m_exclusiveAccess</a></td></tr>
+<tr class="memdesc:a9f29a5d25705b8c840adb250b6556424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exclusive Access flag.  <a href="classCaptain_1_1SpinLock.html#a9f29a5d25705b8c840adb250b6556424">More...</a><br /></td></tr>
+<tr class="separator:a9f29a5d25705b8c840adb250b6556424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b5b7ee44fd82eabfcdf9555501b783"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLock.html#a66b5b7ee44fd82eabfcdf9555501b783">m_referenceCount</a></td></tr>
+<tr class="memdesc:a66b5b7ee44fd82eabfcdf9555501b783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference counter for shared accesses.  <a href="classCaptain_1_1SpinLock.html#a66b5b7ee44fd82eabfcdf9555501b783">More...</a><br /></td></tr>
+<tr class="separator:a66b5b7ee44fd82eabfcdf9555501b783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -254,6 +264,59 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>If some thread acquired SharedLock, it must free the lock using this method </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9f29a5d25705b8c840adb250b6556424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f29a5d25705b8c840adb250b6556424">&#9670;&nbsp;</a></span>m_exclusiveAccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; <a class="el" href="classCaptain_1_1SpinLock.html">Captain::SpinLock</a>&lt; T &gt;::m_exclusiveAccess</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exclusive Access flag. </p>
+
+</div>
+</div>
+<a id="a66b5b7ee44fd82eabfcdf9555501b783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b5b7ee44fd82eabfcdf9555501b783">&#9670;&nbsp;</a></span>m_referenceCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;int&gt; <a class="el" href="classCaptain_1_1SpinLock.html">Captain::SpinLock</a>&lt; T &gt;::m_referenceCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference counter for shared accesses. </p>
 
 </div>
 </div>

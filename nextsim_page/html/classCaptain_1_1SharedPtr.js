@@ -1,5 +1,6 @@
 var classCaptain_1_1SharedPtr =
 [
+    [ "SharedPtr", "classCaptain_1_1SharedPtr.html#ae390d181706688d2bcdf5054c19021ea", null ],
     [ "SharedPtr", "classCaptain_1_1SharedPtr.html#a65e4056da2f2a29e72cb772e29a5359a", null ],
     [ "SharedPtr", "classCaptain_1_1SharedPtr.html#aa658a376fdc275ae23f600e8c8afe23a", null ],
     [ "SharedPtr", "classCaptain_1_1SharedPtr.html#a7fe4000a18b112f93cbaaa15ec28d7f2", null ],
@@ -9,6 +10,7 @@ var classCaptain_1_1SharedPtr =
     [ "Get", "classCaptain_1_1SharedPtr.html#a66c5c42edb8f5ad556345097505e55cb", null ],
     [ "GetCurrentRefCount", "classCaptain_1_1SharedPtr.html#a02f4ef6c21d3064ee6d191951b8bd478", null ],
     [ "IsValid", "classCaptain_1_1SharedPtr.html#ad86df0632eeaef19a75127d9345d8342", null ],
+    [ "m_delete", "classCaptain_1_1SharedPtr.html#a5342e941b05e8f5dbbf6d0a63b4b813f", null ],
     [ "operator!=", "classCaptain_1_1SharedPtr.html#a205dbfcd8bea5c8768cf09384d6a69c1", null ],
     [ "operator!=", "classCaptain_1_1SharedPtr.html#a73bef9a42b68c7707f0a10f54eee32fa", null ],
     [ "operator->", "classCaptain_1_1SharedPtr.html#a155dc088d7b02884925be972d4e4c51b", null ],
@@ -20,6 +22,7 @@ var classCaptain_1_1SharedPtr =
     [ "operator==", "classCaptain_1_1SharedPtr.html#ab00b23c38762dc0958ef800366ad8818", null ],
     [ "SharedPtr", "classCaptain_1_1SharedPtr.html#adf66bfb5d9f0f374ec092232e6b43eb3", null ],
     [ "WeakPtr< T >", "classCaptain_1_1SharedPtr.html#aa41019c2e01db7e96b47e2bf8b2a9f13", null ],
+    [ "m_id", "classCaptain_1_1SharedPtr.html#a8be0a9ce400ef09692bac3b440365ce8", null ],
     [ "m_objectPtr", "classCaptain_1_1SharedPtr.html#a680052b2089443fc36a13553e8ef486f", null ],
     [ "m_sharedObjectInfoPtr", "classCaptain_1_1SharedPtr.html#acd825974311f4b16e9164c524d689f13", null ]
 ];

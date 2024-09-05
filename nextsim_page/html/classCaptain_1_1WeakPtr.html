@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1WeakPtr.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classCaptain_1_1WeakPtr-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -105,7 +106,8 @@ Collaboration diagram for Captain::WeakPtr&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1WeakPtr__coll__graph.png" border="0" usemap="#aCaptain_1_1WeakPtr_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1WeakPtr_3_01T_01_4_coll__map" id="aCaptain_1_1WeakPtr_3_01T_01_4_coll__map">
-<area shape="rect" title=": This class declares custom version of atomic std::weak_ptr" alt="" coords="5,5,177,229"/>
+<area shape="rect" title=": This class declares custom version of atomic std::weak_ptr" alt="" coords="15,145,187,369"/>
+<area shape="rect" href="structCaptain_1_1SharedObjectInfo.html" title=" " alt="" coords="5,5,197,83"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -150,6 +152,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad950a8d15e114ef80c955a5b95a11377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2d4f124780c395d5a92142c682b79a"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1WeakPtr.html#aab2d4f124780c395d5a92142c682b79a">operator-&gt;</a> () const</td></tr>
 <tr class="separator:aab2d4f124780c395d5a92142c682b79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ada2c92f7edfc15732a517689a99be5c0"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1WeakPtr.html#ada2c92f7edfc15732a517689a99be5c0">m_objectPtr</a> = nullptr</td></tr>
+<tr class="separator:ada2c92f7edfc15732a517689a99be5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435d5d6953129557f432b79ea07029fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1SharedObjectInfo.html">SharedObjectInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1WeakPtr.html#a435d5d6953129557f432b79ea07029fa">m_sharedObjectInfoPtr</a> = nullptr</td></tr>
+<tr class="separator:a435d5d6953129557f432b79ea07029fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -646,6 +655,55 @@ template&lt;typename U &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ada2c92f7edfc15732a517689a99be5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2c92f7edfc15732a517689a99be5c0">&#9670;&nbsp;</a></span>m_objectPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="classCaptain_1_1WeakPtr.html">Captain::WeakPtr</a>&lt; T &gt;::m_objectPtr = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a435d5d6953129557f432b79ea07029fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435d5d6953129557f432b79ea07029fa">&#9670;&nbsp;</a></span>m_sharedObjectInfoPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1SharedObjectInfo.html">SharedObjectInfo</a>* <a class="el" href="classCaptain_1_1WeakPtr.html">Captain::WeakPtr</a>&lt; T &gt;::m_sharedObjectInfoPtr = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

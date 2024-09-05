@@ -16,5 +16,11 @@ var classInputSegment =
     [ "setEndPoint", "classInputSegment.html#af45d7872ff32a0e421549b4d066998d2", null ],
     [ "setID", "classInputSegment.html#a81331708088c9bb7694f0ed328722d18", null ],
     [ "setInitialPoint", "classInputSegment.html#a837da8145a6c58ad5c6188e04d0c751a", null ],
-    [ "setLeftRight_lc", "classInputSegment.html#a025eeeac89ad38d39aacfec75d22c5f4", null ]
+    [ "setLeftRight_lc", "classInputSegment.html#a025eeeac89ad38d39aacfec75d22c5f4", null ],
+    [ "blocked", "classInputSegment.html#a33f46a80d16733cdf689c8e6bb51aabc", null ],
+    [ "end_point", "classInputSegment.html#a366f8c3a84a69acc1834d62a5cbfec2f", null ],
+    [ "id", "classInputSegment.html#a535371806981c17fa785c26185e40d58", null ],
+    [ "init_point", "classInputSegment.html#a505231095baf6c996ee05b8e9f0d1974", null ],
+    [ "left_lc", "classInputSegment.html#a255c448cacc70a96ac3fdb1308cc6df2", null ],
+    [ "right_lc", "classInputSegment.html#a3434de63b4c429acb5a4664259109d7b", null ]
 ];

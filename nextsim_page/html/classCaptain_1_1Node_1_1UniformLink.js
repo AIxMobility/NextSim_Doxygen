@@ -47,6 +47,7 @@ var classCaptain_1_1Node_1_1UniformLink =
     [ "m_icfVector", "classCaptain_1_1Node_1_1UniformLink.html#ade4f76570e6a89a118fd722266f2c2c5", null ],
     [ "m_identifier", "classCaptain_1_1Node_1_1UniformLink.html#a43c4486e22b6108b478bc2694dd1ca8d", null ],
     [ "m_mesoLink", "classCaptain_1_1Node_1_1UniformLink.html#a99fa81ad460f0f5f30bdf75b6188c9dc", null ],
+    [ "m_microLink", "classCaptain_1_1Node_1_1UniformLink.html#aaf3c68ef8f7fa65ea8ab12d7d02b1e46", null ],
     [ "m_mode", "classCaptain_1_1Node_1_1UniformLink.html#a3078523e2e9262e51057a8cde7f68e11", null ],
     [ "m_numLane", "classCaptain_1_1Node_1_1UniformLink.html#a3e2f63b3121f792253445b075d31bd4d", null ]
 ];

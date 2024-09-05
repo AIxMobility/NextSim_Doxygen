@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('classCaptain_1_1SpinLockQueue.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1SpinLockQueue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::SpinLockQueue&lt; T &gt; Class Template Reference</div>  </div>
@@ -101,7 +103,7 @@ Collaboration diagram for Captain::SpinLockQueue&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1SpinLockQueue__coll__graph.png" border="0" usemap="#aCaptain_1_1SpinLockQueue_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1SpinLockQueue_3_01T_01_4_coll__map" id="aCaptain_1_1SpinLockQueue_3_01T_01_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,224,229"/>
+<area shape="rect" title=" " alt="" coords="5,5,224,273"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -162,6 +164,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25698b5d782b7685966a4bf6df130a62"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a25698b5d782b7685966a4bf6df130a62"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockQueue.html#a25698b5d782b7685966a4bf6df130a62">Insert</a> (U &amp;&amp;elem, size_t index)</td></tr>
 <tr class="separator:a25698b5d782b7685966a4bf6df130a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a097221c11a762e47aa315c21f14c3eb6"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockQueue.html#a097221c11a762e47aa315c21f14c3eb6">m_getIterator</a> (std::size_t containerIndex)</td></tr>
+<tr class="separator:a097221c11a762e47aa315c21f14c3eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a611126f6aa7cc6dea7455a17b508a014"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockQueue.html#a611126f6aa7cc6dea7455a17b508a014">m_maxCapacity</a></td></tr>
+<tr class="memdesc:a611126f6aa7cc6dea7455a17b508a014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores capacity of this <a class="el" href="classCaptain_1_1SpinLockQueue.html">SpinLockQueue</a>.  <a href="classCaptain_1_1SpinLockQueue.html#a611126f6aa7cc6dea7455a17b508a014">More...</a><br /></td></tr>
+<tr class="separator:a611126f6aa7cc6dea7455a17b508a014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdaeea91d059256f81a9f42afeac9a59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1SpinLock.html">SpinLock</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockQueue.html#abdaeea91d059256f81a9f42afeac9a59">m_spinLock</a></td></tr>
+<tr class="separator:abdaeea91d059256f81a9f42afeac9a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec04b3edc5a358ba8c40657d718baa20"><td class="memItemLeft" align="right" valign="top">std::list&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1SpinLockQueue.html#aec04b3edc5a358ba8c40657d718baa20">m_list</a></td></tr>
+<tr class="separator:aec04b3edc5a358ba8c40657d718baa20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -528,6 +545,34 @@ template&lt;typename U &gt; </div>
 
 </div>
 </div>
+<a id="a097221c11a762e47aa315c21f14c3eb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a097221c11a762e47aa315c21f14c3eb6">&#9670;&nbsp;</a></span>m_getIterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">decltype(auto) <a class="el" href="classCaptain_1_1SpinLockQueue.html">Captain::SpinLockQueue</a>&lt; T &gt;::m_getIterator </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>containerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2869e89ab2595982de2251544b892c18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2869e89ab2595982de2251544b892c18">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -792,6 +837,81 @@ template&lt;typename U &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>: true if insertion successes false otherwise </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aec04b3edc5a358ba8c40657d718baa20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec04b3edc5a358ba8c40657d718baa20">&#9670;&nbsp;</a></span>m_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;T&gt; <a class="el" href="classCaptain_1_1SpinLockQueue.html">Captain::SpinLockQueue</a>&lt; T &gt;::m_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a611126f6aa7cc6dea7455a17b508a014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a611126f6aa7cc6dea7455a17b508a014">&#9670;&nbsp;</a></span>m_maxCapacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t <a class="el" href="classCaptain_1_1SpinLockQueue.html">Captain::SpinLockQueue</a>&lt; T &gt;::m_maxCapacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores capacity of this <a class="el" href="classCaptain_1_1SpinLockQueue.html">SpinLockQueue</a>. </p>
+
+</div>
+</div>
+<a id="abdaeea91d059256f81a9f42afeac9a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdaeea91d059256f81a9f42afeac9a59">&#9670;&nbsp;</a></span>m_spinLock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1SpinLock.html">SpinLock</a>&lt;T&gt; <a class="el" href="classCaptain_1_1SpinLockQueue.html">Captain::SpinLockQueue</a>&lt; T &gt;::m_spinLock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

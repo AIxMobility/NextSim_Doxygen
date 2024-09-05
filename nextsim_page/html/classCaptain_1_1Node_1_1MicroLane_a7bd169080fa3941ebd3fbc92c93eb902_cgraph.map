@@ -1,4 +1,7 @@
 <map id="Captain::Node::MicroLane::FindLeaderVehicleByPosition" name="Captain::Node::MicroLane::FindLeaderVehicleByPosition">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,223,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a9e3a5fcf4682ac410aca2241773018dd" title=" " alt="" coords="271,5,488,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,223,145"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a9e3a5fcf4682ac410aca2241773018dd" title=" " alt="" coords="277,5,495,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html#a115dbba35dd15fa2e94ae5d4f214c6e1" title=" " alt="" coords="281,71,491,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MicroLane.html#af04febbf8f2da2faecc2654d00a47571" title=" " alt="" coords="271,136,501,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MicroLane.html#ac25fb81f7de7482ad30dbd7c5f849017" title=" " alt="" coords="279,201,493,243"/>
 </map>

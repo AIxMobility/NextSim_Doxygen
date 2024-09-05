@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Util_1_1JsonReader.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Util_1_1JsonReader-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Util::JsonReader Class Reference</div>  </div>
@@ -101,7 +102,7 @@ Collaboration diagram for Captain::Util::JsonReader:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1JsonReader__coll__graph.png" border="0" usemap="#aCaptain_1_1Util_1_1JsonReader_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Util_1_1JsonReader_coll__map" id="aCaptain_1_1Util_1_1JsonReader_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,189,185"/>
+<area shape="rect" title=" " alt="" coords="5,5,189,244"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -123,6 +124,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae4284a3d14ccdd8ed7a51a49357cb548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e435ae9c5961c29d664940abb0dbde6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#a8e435ae9c5961c29d664940abb0dbde6">CloseJson</a> ()</td></tr>
 <tr class="separator:a8e435ae9c5961c29d664940abb0dbde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aa6bbdfb2f75333501b8aad884fbf9b7c"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#aa6bbdfb2f75333501b8aad884fbf9b7c">m_path</a></td></tr>
+<tr class="separator:aa6bbdfb2f75333501b8aad884fbf9b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e2eb53b1259e631c329d5f57a40b74"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#ab3e2eb53b1259e631c329d5f57a40b74">m_fp</a></td></tr>
+<tr class="separator:ab3e2eb53b1259e631c329d5f57a40b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4c03984f43a889a815b7d7266ecb41"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#a2d4c03984f43a889a815b7d7266ecb41">m_ip</a></td></tr>
+<tr class="separator:a2d4c03984f43a889a815b7d7266ecb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945f8d61a2c0e66614497134185bcbed"><td class="memItemLeft" align="right" valign="top">rapidjson::Document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#a945f8d61a2c0e66614497134185bcbed">m_document</a></td></tr>
+<tr class="separator:a945f8d61a2c0e66614497134185bcbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aae7bebd5e8c38c649f3c242b31a582"><td class="memItemLeft" align="right" valign="top">rapidjson::StringBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1JsonReader.html#a7aae7bebd5e8c38c649f3c242b31a582">m_buffer</a></td></tr>
+<tr class="separator:a7aae7bebd5e8c38c649f3c242b31a582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8ed17d542883ae04f5b5b8963a1d9ba4"></a>
@@ -326,6 +340,117 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7aae7bebd5e8c38c649f3c242b31a582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aae7bebd5e8c38c649f3c242b31a582">&#9670;&nbsp;</a></span>m_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">rapidjson::StringBuffer Captain::Util::JsonReader::m_buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a945f8d61a2c0e66614497134185bcbed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a945f8d61a2c0e66614497134185bcbed">&#9670;&nbsp;</a></span>m_document</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">rapidjson::Document Captain::Util::JsonReader::m_document</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3e2eb53b1259e631c329d5f57a40b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e2eb53b1259e631c329d5f57a40b74">&#9670;&nbsp;</a></span>m_fp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ofstream Captain::Util::JsonReader::m_fp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d4c03984f43a889a815b7d7266ecb41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4c03984f43a889a815b7d7266ecb41">&#9670;&nbsp;</a></span>m_ip</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ifstream Captain::Util::JsonReader::m_ip</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6bbdfb2f75333501b8aad884fbf9b7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6bbdfb2f75333501b8aad884fbf9b7c">&#9670;&nbsp;</a></span>m_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::filesystem::path Captain::Util::JsonReader::m_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

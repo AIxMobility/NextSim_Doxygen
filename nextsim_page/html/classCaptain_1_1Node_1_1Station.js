@@ -28,5 +28,14 @@ var classCaptain_1_1Node_1_1Station =
     [ "RemovePassenger", "classCaptain_1_1Node_1_1Station.html#a34b77fa7f61b11778c6cd9464184310c", null ],
     [ "SortReservedVehicles", "classCaptain_1_1Node_1_1Station.html#ad4c63c45f328370297801adf4758dae2", null ],
     [ "UpdatePosition", "classCaptain_1_1Node_1_1Station.html#adc232a3ba0c84c11d887d687471dddfb", null ],
+    [ "m_adjacentStationVector", "classCaptain_1_1Node_1_1Station.html#ae1bb9f3699215954fe5fd72ba3eb6de8", null ],
+    [ "m_eventRecorder", "classCaptain_1_1Node_1_1Station.html#a2b316ba3b7efa877594115c6cf1d9f5d", null ],
+    [ "m_identifier", "classCaptain_1_1Node_1_1Station.html#ae57da71f48e9cb9250283be3d2d9635d", null ],
+    [ "m_linkID", "classCaptain_1_1Node_1_1Station.html#a11d50d12d4b06e380ddd0f3687c37764", null ],
+    [ "m_numPassenger", "classCaptain_1_1Node_1_1Station.html#a272155c6c73037bd9477c80949011c85", null ],
+    [ "m_parkPositionVector", "classCaptain_1_1Node_1_1Station.html#a15ba547107b163a165aee64b277d1b43", null ],
+    [ "m_passengerList", "classCaptain_1_1Node_1_1Station.html#a25b13d074e7257e818b7989848385011", null ],
+    [ "m_ptLineVector", "classCaptain_1_1Node_1_1Station.html#ab9cfac03517225df0120b66dfd6f11bc", null ],
+    [ "m_reservationList", "classCaptain_1_1Node_1_1Station.html#ae1f21a4ce03aee3799c1d3a2aa6e2a2b", null ],
     [ "RecordInfo", "classCaptain_1_1Node_1_1Station.html#aa2be6464e18e43fd509e9f49c2a5433f", null ]
 ];

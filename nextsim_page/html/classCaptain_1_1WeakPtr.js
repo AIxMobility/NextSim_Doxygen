@@ -17,5 +17,7 @@ var classCaptain_1_1WeakPtr =
     [ "operator==", "classCaptain_1_1WeakPtr.html#a482de01d5a916601f887e33372d32b79", null ],
     [ "operator==", "classCaptain_1_1WeakPtr.html#afa86a6d9ff8c1899cdf649552119a228", null ],
     [ "SharedPtr< T >", "classCaptain_1_1WeakPtr.html#a9316d09dd38459d597be5e6fa34be61a", null ],
-    [ "WeakPtr", "classCaptain_1_1WeakPtr.html#a2df746dc8f5450b6f1eb70897d8d5c8b", null ]
+    [ "WeakPtr", "classCaptain_1_1WeakPtr.html#a2df746dc8f5450b6f1eb70897d8d5c8b", null ],
+    [ "m_objectPtr", "classCaptain_1_1WeakPtr.html#ada2c92f7edfc15732a517689a99be5c0", null ],
+    [ "m_sharedObjectInfoPtr", "classCaptain_1_1WeakPtr.html#a435d5d6953129557f432b79ea07029fa", null ]
 ];

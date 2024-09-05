@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Node_1_1GarageUnit.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Node_1_1GarageUnit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Node::GarageUnit Class Reference</div>  </div>
@@ -101,7 +103,7 @@ Inheritance diagram for Captain::Node::GarageUnit:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1GarageUnit__inherit__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1GarageUnit_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1Node_1_1GarageUnit_inherit__map" id="aCaptain_1_1Node_1_1GarageUnit_inherit__map">
-<area shape="rect" title=" " alt="" coords="43,351,246,575"/>
+<area shape="rect" title=" " alt="" coords="43,351,246,692"/>
 <area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="5,5,284,303"/>
 </map>
 </div>
@@ -110,13 +112,19 @@ Collaboration diagram for Captain::Node::GarageUnit:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1GarageUnit__coll__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1GarageUnit_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Node_1_1GarageUnit_coll__map" id="aCaptain_1_1Node_1_1GarageUnit_coll__map">
-<area shape="rect" title=" " alt="" coords="307,1043,509,1267"/>
-<area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="269,725,547,993"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="199,395,406,619"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,207"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,5,391,229"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,229"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="431,351,596,663"/>
+<area shape="rect" title=" " alt="" coords="676,1144,879,1412"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="294,799,573,1067"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="198,417,407,729"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,27,189,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,27,391,266"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,603,288"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="432,409,597,736"/>
+<area shape="rect" href="classVehicleTypesArr.html" title="Class for whole vehicle types from vehicleTypes.xml." alt="" coords="597,879,771,986"/>
+<area shape="rect" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Used to store connections in perspective of lane." alt="" coords="795,843,1042,1023"/>
+<area shape="rect" href="classCaptain_1_1V2X.html" title=" " alt="" coords="825,453,1012,692"/>
+<area shape="rect" href="structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="849,71,988,222"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="1065,813,1265,1052"/>
+<area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="1047,431,1284,714"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -168,8 +176,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad431e2f9f66205f4e492cd7601895d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d1e47785d871e346b76ca9d217c8d1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a92d1e47785d871e346b76ca9d217c8d1">GetFollowerConnectionInfo</a> ()</td></tr>
 <tr class="separator:a92d1e47785d871e346b76ca9d217c8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63dd4f17fc800fa9a235357f14b4f97f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a63dd4f17fc800fa9a235357f14b4f97f">SetAgentTypes</a> (<a class="el" href="classAgentTypesArr.html">AgentTypesArr</a> &amp;agentTypesArr)</td></tr>
-<tr class="separator:a63dd4f17fc800fa9a235357f14b4f97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4fb762fe48d3082a1478034b78ec37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a7f4fb762fe48d3082a1478034b78ec37">SetVehicleTypes</a> (<a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> &amp;vehTypesArr)</td></tr>
+<tr class="separator:a7f4fb762fe48d3082a1478034b78ec37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a155123b5454171ac054fa3116dfcf7db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a155123b5454171ac054fa3116dfcf7db">GeneratePublicVehicles</a> (std::size_t cycle)</td></tr>
 <tr class="separator:a155123b5454171ac054fa3116dfcf7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f952655c873b370cae0d3ccee3e678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a59f952655c873b370cae0d3ccee3e678">GenerateReservedVehicles</a> (std::size_t cycle)</td></tr>
@@ -215,6 +223,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#af7357fcfe246c5a1de302c4bfbdd1e00">SetSignal</a> (const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;leaderUnit, <a class="el" href="namespaceCaptain.html#abc914229623e9ca890ab012482a5e89c">SignalMode</a> signal)</td></tr>
 <tr class="memdesc:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets signal for given leader unit.  <a href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#af7357fcfe246c5a1de302c4bfbdd1e00">More...</a><br /></td></tr>
 <tr class="separator:af7357fcfe246c5a1de302c4bfbdd1e00 inherit pub_methods_structCaptain_1_1Node_1_1IVehicleContainableUnit"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af80a91217ee91cc8cebb0938a2a599b4"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Vehicle.html">Vehicle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#af80a91217ee91cc8cebb0938a2a599b4">m_generateVehicle</a> (const <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &amp;vehiclePath, const int vehicleType)</td></tr>
+<tr class="separator:af80a91217ee91cc8cebb0938a2a599b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0a2918935e4448218b7f71d3f2f8a191"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a0a2918935e4448218b7f71d3f2f8a191">m_capacity</a></td></tr>
+<tr class="separator:a0a2918935e4448218b7f71d3f2f8a191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d48433f3e612b2ba86556afeea35b6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a7d48433f3e612b2ba86556afeea35b6e">m_vehicleQueue</a></td></tr>
+<tr class="separator:a7d48433f3e612b2ba86556afeea35b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7da1b39c1e4601b691d63b80f86c1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#aef7da1b39c1e4601b691d63b80f86c1c">m_vehicleWaitQueue</a></td></tr>
+<tr class="separator:aef7da1b39c1e4601b691d63b80f86c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8203e9de6a0ae9e54e76909363e3d086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a8203e9de6a0ae9e54e76909363e3d086">m_leaderConnectionInfo</a></td></tr>
+<tr class="separator:a8203e9de6a0ae9e54e76909363e3d086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a577a0179e00cb32ad363e1c874d57d8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a577a0179e00cb32ad363e1c874d57d8c">m_followerConnectionInfo</a></td></tr>
+<tr class="separator:a577a0179e00cb32ad363e1c874d57d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa93220962c3459e2c889a9e1211c195"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; <a class="el" href="structCaptain_1_1PublicTransitInfo.html">PublicTransitInfo</a>, <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a>, std::pair&lt; int, int &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#aaa93220962c3459e2c889a9e1211c195">m_ptLineInfoVector</a></td></tr>
+<tr class="separator:aaa93220962c3459e2c889a9e1211c195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4e308a9e33caffe43e6da66ef80c06"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classCaptain_1_1VehicleReservationInfo.html">VehicleReservationInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#aba4e308a9e33caffe43e6da66ef80c06">m_reservedVehicleInfo</a></td></tr>
+<tr class="separator:aba4e308a9e33caffe43e6da66ef80c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14449bc57995a15e06e48ad9c307f02d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html#a14449bc57995a15e06e48ad9c307f02d">m_vehTypesArr</a></td></tr>
+<tr class="separator:a14449bc57995a15e06e48ad9c307f02d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -408,8 +440,11 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Node_1_1GarageUnit_a155123b5454171ac054fa3116dfcf7db_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1GarageUnit_a155123b5454171ac054fa3116dfcf7db_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Node_1_1GarageUnit_a155123b5454171ac054fa3116dfcf7db_cgraph" id="aclassCaptain_1_1Node_1_1GarageUnit_a155123b5454171ac054fa3116dfcf7db_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,201,47"/>
+<area shape="rect" title=" " alt="" coords="5,39,201,80"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1VehicleQueue.html#a3b1d50e6a57ecce1358f76b874906805" title=" " alt="" coords="249,5,449,47"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#af80a91217ee91cc8cebb0938a2a599b4" title=" " alt="" coords="251,71,447,112"/>
+<area shape="rect" href="classVehicleTypesArr.html#a1292463d2ca0640a872c63f89370765c" title=" " alt="" coords="497,49,728,75"/>
+<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="541,100,684,141"/>
 </map>
 </div>
 
@@ -779,6 +814,61 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="af80a91217ee91cc8cebb0938a2a599b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80a91217ee91cc8cebb0938a2a599b4">&#9670;&nbsp;</a></span>m_generateVehicle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Vehicle.html">Vehicle</a> &gt; &gt; Captain::Node::GarageUnit::m_generateVehicle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehiclePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>vehicleType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_cgraph" id="aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,27,201,69"/>
+<area shape="rect" href="classVehicleTypesArr.html#a1292463d2ca0640a872c63f89370765c" title=" " alt="" coords="249,5,480,32"/>
+<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="293,57,436,98"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_icgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_icgraph" id="aclassCaptain_1_1Node_1_1GarageUnit_af80a91217ee91cc8cebb0938a2a599b4_icgraph">
+<area shape="rect" title=" " alt="" coords="249,5,445,47"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a155123b5454171ac054fa3116dfcf7db" title=" " alt="" coords="5,5,201,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a179286f529d6150b6ecfaf0dd8cb201e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a179286f529d6150b6ecfaf0dd8cb201e">&#9670;&nbsp;</a></span>MoveVehiclesFromPreviousUnit()</h2>
 
@@ -995,32 +1085,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a63dd4f17fc800fa9a235357f14b4f97f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63dd4f17fc800fa9a235357f14b4f97f">&#9670;&nbsp;</a></span>SetAgentTypes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Node::GarageUnit::SetAgentTypes </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classAgentTypesArr.html">AgentTypesArr</a> &amp;&#160;</td>
-          <td class="paramname"><em>agentTypesArr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad431e2f9f66205f4e492cd7601895d5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad431e2f9f66205f4e492cd7601895d5a">&#9670;&nbsp;</a></span>SetFollowerConnectionInfo()</h2>
 
@@ -1105,6 +1169,209 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f4fb762fe48d3082a1478034b78ec37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4fb762fe48d3082a1478034b78ec37">&#9670;&nbsp;</a></span>SetVehicleTypes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::Node::GarageUnit::SetVehicleTypes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehTypesArr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0a2918935e4448218b7f71d3f2f8a191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2918935e4448218b7f71d3f2f8a191">&#9670;&nbsp;</a></span>m_capacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Node::GarageUnit::m_capacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a577a0179e00cb32ad363e1c874d57d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a577a0179e00cb32ad363e1c874d57d8c">&#9670;&nbsp;</a></span>m_followerConnectionInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> Captain::Node::GarageUnit::m_followerConnectionInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8203e9de6a0ae9e54e76909363e3d086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8203e9de6a0ae9e54e76909363e3d086">&#9670;&nbsp;</a></span>m_leaderConnectionInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> Captain::Node::GarageUnit::m_leaderConnectionInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa93220962c3459e2c889a9e1211c195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa93220962c3459e2c889a9e1211c195">&#9670;&nbsp;</a></span>m_ptLineInfoVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::tuple&lt;<a class="el" href="structCaptain_1_1PublicTransitInfo.html">PublicTransitInfo</a>, <a class="el" href="structCaptain_1_1VehiclePath.html">VehiclePath</a>, std::pair&lt;int, int&gt; &gt; &gt; Captain::Node::GarageUnit::m_ptLineInfoVector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba4e308a9e33caffe43e6da66ef80c06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4e308a9e33caffe43e6da66ef80c06">&#9670;&nbsp;</a></span>m_reservedVehicleInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classCaptain_1_1VehicleReservationInfo.html">VehicleReservationInfo</a>&gt; Captain::Node::GarageUnit::m_reservedVehicleInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d48433f3e612b2ba86556afeea35b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d48433f3e612b2ba86556afeea35b6e">&#9670;&nbsp;</a></span>m_vehicleQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a> Captain::Node::GarageUnit::m_vehicleQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef7da1b39c1e4601b691d63b80f86c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7da1b39c1e4601b691d63b80f86c1c">&#9670;&nbsp;</a></span>m_vehicleWaitQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html">Util::VehicleQueue</a> Captain::Node::GarageUnit::m_vehicleWaitQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14449bc57995a15e06e48ad9c307f02d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14449bc57995a15e06e48ad9c307f02d">&#9670;&nbsp;</a></span>m_vehTypesArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVehicleTypesArr.html">VehicleTypesArr</a> Captain::Node::GarageUnit::m_vehTypesArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

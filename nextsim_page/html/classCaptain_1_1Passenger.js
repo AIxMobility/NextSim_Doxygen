@@ -28,5 +28,10 @@ var classCaptain_1_1Passenger =
     [ "SetStationVector", "classCaptain_1_1Passenger.html#abe53da319a3e7ea2229674b0a1fa0e7e", null ],
     [ "currentPTlineIndex", "classCaptain_1_1Passenger.html#ae4fd3230799e0c2603b5da479582ddcf", null ],
     [ "currentStationIndex", "classCaptain_1_1Passenger.html#a64bf7ae85c6feeabda1a2ab9dd438563", null ],
+    [ "m_dptTime", "classCaptain_1_1Passenger.html#af456377120c691714adc3e0742f1747d", null ],
+    [ "m_dwellTime", "classCaptain_1_1Passenger.html#a5fea780c359687f108dd90fd43ed1b66", null ],
+    [ "m_handicapped", "classCaptain_1_1Passenger.html#a519d83a97cc377fd7090a1abdcb00dee", null ],
+    [ "m_id", "classCaptain_1_1Passenger.html#ab251ac530b24338e50b6403f307d068f", null ],
+    [ "m_onVehicle", "classCaptain_1_1Passenger.html#a7c87c9590fd99933c7b381d13282ee93", null ],
     [ "paxRoute", "classCaptain_1_1Passenger.html#a64e2eb442937cb0f6cc541208c8da313", null ]
 ];

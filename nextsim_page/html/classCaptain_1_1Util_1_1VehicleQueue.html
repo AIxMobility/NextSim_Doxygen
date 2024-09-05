@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Util_1_1VehicleQueue.h
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classCaptain_1_1Util_1_1VehicleQueue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::Util::VehicleQueue Class Reference</div>  </div>
@@ -104,7 +105,7 @@ Inheritance diagram for Captain::Util::VehicleQueue:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1VehicleQueue__inherit__graph.png" border="0" usemap="#aCaptain_1_1Util_1_1VehicleQueue_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1Util_1_1VehicleQueue_inherit__map" id="aCaptain_1_1Util_1_1VehicleQueue_inherit__map">
-<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="24,336,224,560"/>
+<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="24,336,224,575"/>
 <area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="5,5,243,288"/>
 </map>
 </div>
@@ -113,7 +114,7 @@ Collaboration diagram for Captain::Util::VehicleQueue:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1VehicleQueue__coll__graph.png" border="0" usemap="#aCaptain_1_1Util_1_1VehicleQueue_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Util_1_1VehicleQueue_coll__map" id="aCaptain_1_1Util_1_1VehicleQueue_coll__map">
-<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="24,336,224,560"/>
+<area shape="rect" title=": Concurrent queue class wrapper for storing vehicles" alt="" coords="24,336,224,575"/>
 <area shape="rect" href="classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="5,5,243,288"/>
 </map>
 </div>
@@ -179,6 +180,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a85c9165b2cf52b2e16ce92c8b281a843 inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512896e5c4584a4d5b77b296c9c2247a inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1IVehicleQueue.html">IVehicleQueue</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1IVehicleQueue.html#a512896e5c4584a4d5b77b296c9c2247a">operator=</a> (<a class="el" href="classCaptain_1_1IVehicleQueue.html">IVehicleQueue</a> &amp;&amp;other) noexcept</td></tr>
 <tr class="separator:a512896e5c4584a4d5b77b296c9c2247a inherit pub_methods_classCaptain_1_1IVehicleQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a40f702d4d0fc0320df89e4c18c69c45a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html#a40f702d4d0fc0320df89e4c18c69c45a">m_maxCapacity</a></td></tr>
+<tr class="memdesc:a40f702d4d0fc0320df89e4c18c69c45a"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum size of the queue  <a href="classCaptain_1_1Util_1_1VehicleQueue.html#a40f702d4d0fc0320df89e4c18c69c45a">More...</a><br /></td></tr>
+<tr class="separator:a40f702d4d0fc0320df89e4c18c69c45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf509d904edf249050bf1cca7f171868"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646">VehiclePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html#adf509d904edf249050bf1cca7f171868">m_vehicleList</a></td></tr>
+<tr class="memdesc:adf509d904edf249050bf1cca7f171868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues that contain vehicles depending on next cell to go.  <a href="classCaptain_1_1Util_1_1VehicleQueue.html#adf509d904edf249050bf1cca7f171868">More...</a><br /></td></tr>
+<tr class="separator:adf509d904edf249050bf1cca7f171868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>: Concurrent queue class wrapper for storing vehicles </p>
@@ -331,7 +341,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1VehicleQueue_a60555e9d58471dbaf547d89f9b89fa1b_icgraph.png" border="0" usemap="#aclassCaptain_1_1Util_1_1VehicleQueue_a60555e9d58471dbaf547d89f9b89fa1b_icgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Util_1_1VehicleQueue_a60555e9d58471dbaf547d89f9b89fa1b_icgraph" id="aclassCaptain_1_1Util_1_1VehicleQueue_a60555e9d58471dbaf547d89f9b89fa1b_icgraph">
-<area shape="rect" title=" " alt="" coords="575,699,797,726"/>
+<area shape="rect" title=" " alt="" coords="575,765,797,791"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a111f8003bde0e4265a04548005a7e116" title=" " alt="" coords="299,5,483,47"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#aa496448e87b68ea66a5e80fa0747e254" title=" " alt="" coords="297,71,486,112"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ac18ca35e3842d9fbe87037a6273013b2" title=" " alt="" coords="299,136,483,177"/>
@@ -343,20 +353,23 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#a7ec5074b120d5d21559b7f5489e00eb7" title=" " alt="" coords="295,528,488,569"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a58d97981eb576042b8fdf02b782f91cd" title=" " alt="" coords="297,593,486,635"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a4fc7c481d4a0b2597fc84fabdc6ade56" title=" " alt="" coords="297,659,486,700"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a33f6c9f9986084d2188a17267a9da32b" title=" " alt="" coords="256,724,527,765"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab8861953c83cd46b4ad71858fae87e69" title=" " alt="" coords="264,789,519,831"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab5435bd1e06cd98cafd200cb6a3d3900" title=" " alt="" coords="299,855,483,896"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab09b7181c64a8b8cc48f5c0ac2ddd418" title=" " alt="" coords="299,920,483,961"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a1a70849c68e9dccdb5e08d01dd043766" title=" " alt="" coords="297,985,486,1027"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a80e3091d0cb5b8a476d52f407d7e08a0" title=" " alt="" coords="272,1051,511,1092"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#a92137e1f328c103a6ae32edb921d6dcb" title=" " alt="" coords="281,1116,502,1157"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#ae65b36f53670d4de3b41f9ff1e42165b" title=" " alt="" coords="281,1181,502,1223"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#aa96ccb35401f289af052d47065faf4f1" title=" " alt="" coords="280,1247,503,1288"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#ae9f61dc7058bb514199fa84d082c21d0" title=" " alt="" coords="281,1312,502,1353"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a007315c626225f2d9f56e50e9e987a57" title="Computes X position of vehicles inside the vehicleQueue." alt="" coords="299,1377,483,1419"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#ade93dc2059d0a2926b092fc6b5c6b58f" title=" " alt="" coords="297,724,486,765"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#aa2b372cb64196b411b0de951bf5ff7b4" title=" " alt="" coords="296,789,487,831"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a33f6c9f9986084d2188a17267a9da32b" title=" " alt="" coords="256,855,527,896"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab8861953c83cd46b4ad71858fae87e69" title=" " alt="" coords="264,920,519,961"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab5435bd1e06cd98cafd200cb6a3d3900" title=" " alt="" coords="299,985,483,1027"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ab09b7181c64a8b8cc48f5c0ac2ddd418" title=" " alt="" coords="299,1051,483,1092"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a1a70849c68e9dccdb5e08d01dd043766" title=" " alt="" coords="297,1116,486,1157"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a80e3091d0cb5b8a476d52f407d7e08a0" title=" " alt="" coords="272,1181,511,1223"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#a92137e1f328c103a6ae32edb921d6dcb" title=" " alt="" coords="281,1247,502,1288"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#ae65b36f53670d4de3b41f9ff1e42165b" title=" " alt="" coords="281,1312,502,1353"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#aa96ccb35401f289af052d47065faf4f1" title=" " alt="" coords="280,1377,503,1419"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#ae9f61dc7058bb514199fa84d082c21d0" title=" " alt="" coords="281,1443,502,1484"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a007315c626225f2d9f56e50e9e987a57" title="Computes X position of vehicles inside the vehicleQueue." alt="" coords="299,1508,483,1549"/>
 <area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a12e9a63850a185690fd720cf83a3fe74" title=" " alt="" coords="12,593,201,635"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1UniformLink.html#a04166ca4b42b6afacf5f5d21fe365470" title=" " alt="" coords="5,1116,208,1157"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1UniformLink.html#a0d6041476a4e88f85e67c5e67d7bd7ef" title=" " alt="" coords="5,1181,208,1223"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#af76a177c26d2913f37b977f9a9b0a6f9" title=" " alt="" coords="12,756,201,797"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1UniformLink.html#a04166ca4b42b6afacf5f5d21fe365470" title=" " alt="" coords="5,1247,208,1288"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1UniformLink.html#a0d6041476a4e88f85e67c5e67d7bd7ef" title=" " alt="" coords="5,1312,208,1353"/>
 </map>
 </div>
 
@@ -492,24 +505,31 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Util_1_1VehicleQueue_a3b1d50e6a57ecce1358f76b874906805_icgraph.png" border="0" usemap="#aclassCaptain_1_1Util_1_1VehicleQueue_a3b1d50e6a57ecce1358f76b874906805_icgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Util_1_1VehicleQueue_a3b1d50e6a57ecce1358f76b874906805_icgraph" id="aclassCaptain_1_1Util_1_1VehicleQueue_a3b1d50e6a57ecce1358f76b874906805_icgraph">
-<area shape="rect" title=" " alt="" coords="289,528,489,569"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#acee45a419f557a0fc2afe0ca2d3718d9" title=" " alt="" coords="31,5,215,47"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a5b02e0582aa2f9544619f8b33e593657" title=" " alt="" coords="29,71,218,112"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a4e22bb0015e7d0ab1a1c610c9001f08b" title=" " alt="" coords="31,136,215,177"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a32c6b715c2411a2d1678d0caa8cb3e56" title=" " alt="" coords="31,201,215,243"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a155123b5454171ac054fa3116dfcf7db" title=" " alt="" coords="25,267,221,308"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a59f952655c873b370cae0d3ccee3e678" title=" " alt="" coords="21,332,226,373"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#a965464c356d41e5254bf792e85fd0e62" title=" " alt="" coords="24,397,223,439"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a4515ab6a7052d663e549249d5af7b3e2" title="Moves vehicles from lane change queue of nearby lane." alt="" coords="29,463,218,504"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a179286f529d6150b6ecfaf0dd8cb201e" title=" " alt="" coords="5,528,241,569"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1SinkUnit.html#a56ed609eeebbdbbb785650664c2a5945" title=" " alt="" coords="5,593,241,635"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a5d9475337c0f519a4c081d4a0b7b9d40" title=" " alt="" coords="25,659,221,700"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a942d8030b0dd71d82f7e769c51715be1" title=" " alt="" coords="31,724,215,765"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a1268626fcdf20aef960d86d49efa668e" title=" " alt="" coords="29,789,218,831"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1SinkUnit.html#aea5b2945e46b9e08182cf383b3acad5a" title=" " alt="" coords="35,855,212,896"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#ade7c8ac0982c32e4da89c11320e65ddc" title=" " alt="" coords="27,920,220,961"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a6bd257cf179ba1b04cd5624d0bc4158c" title=" " alt="" coords="31,985,215,1027"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#ad2bb214356e543a415c857e72c9de8c4" title=" " alt="" coords="29,1051,218,1092"/>
+<area shape="rect" title=" " alt="" coords="617,659,817,700"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#acee45a419f557a0fc2afe0ca2d3718d9" title=" " alt="" coords="357,5,541,47"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a5b02e0582aa2f9544619f8b33e593657" title=" " alt="" coords="354,71,543,112"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a4e22bb0015e7d0ab1a1c610c9001f08b" title=" " alt="" coords="357,136,541,177"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a32c6b715c2411a2d1678d0caa8cb3e56" title=" " alt="" coords="357,201,541,243"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a155123b5454171ac054fa3116dfcf7db" title=" " alt="" coords="351,267,547,308"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a59f952655c873b370cae0d3ccee3e678" title=" " alt="" coords="346,332,551,373"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#a965464c356d41e5254bf792e85fd0e62" title=" " alt="" coords="349,397,548,439"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a38a6d624e666e90ced068a438cf96c19" title=" " alt="" coords="328,463,569,504"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#ade93dc2059d0a2926b092fc6b5c6b58f" title=" " alt="" coords="354,528,543,569"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a42f959cd449d575f4d0c35a3a41c69cc" title=" " alt="" coords="354,659,543,700"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#aa2b372cb64196b411b0de951bf5ff7b4" title=" " alt="" coords="353,593,544,635"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a4515ab6a7052d663e549249d5af7b3e2" title="Moves vehicles from lane change queue of nearby lane." alt="" coords="354,724,543,765"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a179286f529d6150b6ecfaf0dd8cb201e" title=" " alt="" coords="331,789,567,831"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SinkUnit.html#a56ed609eeebbdbbb785650664c2a5945" title=" " alt="" coords="331,855,567,896"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1GarageUnit.html#a5d9475337c0f519a4c081d4a0b7b9d40" title=" " alt="" coords="351,920,547,961"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a942d8030b0dd71d82f7e769c51715be1" title=" " alt="" coords="357,985,541,1027"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a1268626fcdf20aef960d86d49efa668e" title=" " alt="" coords="354,1051,543,1092"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SinkUnit.html#aea5b2945e46b9e08182cf383b3acad5a" title=" " alt="" coords="360,1116,537,1157"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1SourceUnit.html#ade7c8ac0982c32e4da89c11320e65ddc" title=" " alt="" coords="352,1181,545,1223"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#a6bd257cf179ba1b04cd5624d0bc4158c" title=" " alt="" coords="357,1247,541,1288"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#ad2bb214356e543a415c857e72c9de8c4" title=" " alt="" coords="354,1312,543,1353"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html#ad5e8f0ec18876f1c39157b27b8ef6884" title=" " alt="" coords="51,463,235,504"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#af76a177c26d2913f37b977f9a9b0a6f9" title=" " alt="" coords="48,593,237,635"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#a1b7a35256242768fde5f54fb27145804" title=" " alt="" coords="5,659,280,700"/>
 </map>
 </div>
 
@@ -979,6 +999,55 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html#ad2bb214356e543a415c857e72c9de8c4" title=" " alt="" coords="36,267,225,308"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a40f702d4d0fc0320df89e4c18c69c45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f702d4d0fc0320df89e4c18c69c45a">&#9670;&nbsp;</a></span>m_maxCapacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::Util::VehicleQueue::m_maxCapacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>maximum size of the queue </p>
+
+</div>
+</div>
+<a id="adf509d904edf249050bf1cca7f171868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf509d904edf249050bf1cca7f171868">&#9670;&nbsp;</a></span>m_vehicleList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::list&lt;<a class="el" href="namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646">VehiclePtr</a>&gt; Captain::Util::VehicleQueue::m_vehicleList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Queues that contain vehicles depending on next cell to go. </p>
 
 </div>
 </div>

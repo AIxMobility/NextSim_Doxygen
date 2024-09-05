@@ -1,5 +1,5 @@
 <map id="Captain::Node::MesoUnit" name="Captain::Node::MesoUnit">
-<area shape="rect" id="node1" title=" " alt="" coords="167,351,383,575"/>
+<area shape="rect" id="node1" title=" " alt="" coords="149,351,401,780"/>
 <area shape="rect" id="node2" href="$structCaptain_1_1Node_1_1IVehicleContainableUnit.html" title=" " alt="" coords="5,5,284,303"/>
 <area shape="rect" id="node3" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="309,71,503,237"/>
 </map>

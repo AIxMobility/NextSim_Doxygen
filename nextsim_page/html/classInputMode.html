@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classInputMode.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputMode-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputMode Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each simulation mode information.  
+ <a href="classInputMode.html#details">More...</a></p>
 
 <p><code>#include &lt;InputMode.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,30 +105,50 @@ Collaboration diagram for InputMode:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputMode__coll__graph.png" border="0" usemap="#aInputMode_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputMode_coll__map" id="aInputMode_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,156,185"/>
+<area shape="rect" title="Class for each simulation mode information." alt="" coords="5,5,156,229"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f0ca021a5089011c445068601e9bb25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a1f0ca021a5089011c445068601e9bb25">InputMode</a> (int id, int scycle)</td></tr>
+<tr class="memitem:a1f0ca021a5089011c445068601e9bb25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a1f0ca021a5089011c445068601e9bb25">InputMode</a> (int <a class="el" href="classInputMode.html#a87a7f458eb47a6f560e7377840b2370e">id</a>, int <a class="el" href="classInputMode.html#a45b3610800c3b52fef5ce6fa695c9941">scycle</a>)</td></tr>
+<tr class="memdesc:a1f0ca021a5089011c445068601e9bb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classInputMode.html#a1f0ca021a5089011c445068601e9bb25">More...</a><br /></td></tr>
 <tr class="separator:a1f0ca021a5089011c445068601e9bb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4884ae8efd410c0cfaf28858d61221b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a4884ae8efd410c0cfaf28858d61221b6">InputMode</a> (const <a class="el" href="classInputMode.html">InputMode</a> &amp;other)=default</td></tr>
 <tr class="separator:a4884ae8efd410c0cfaf28858d61221b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd93b74c146b5020f4078b5220efaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a1fd93b74c146b5020f4078b5220efaf4">setMicroLinkArr</a> (std::string linkArr)</td></tr>
+<tr class="memdesc:a1fd93b74c146b5020f4078b5220efaf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set sequence of micro link IDs.  <a href="classInputMode.html#a1fd93b74c146b5020f4078b5220efaf4">More...</a><br /></td></tr>
 <tr class="separator:a1fd93b74c146b5020f4078b5220efaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84e87c54c12207b92d6d50fbbd5245c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a84e87c54c12207b92d6d50fbbd5245c0">setMesoLinkArr</a> (std::string linkArr)</td></tr>
+<tr class="memdesc:a84e87c54c12207b92d6d50fbbd5245c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set sequence of meso link IDs.  <a href="classInputMode.html#a84e87c54c12207b92d6d50fbbd5245c0">More...</a><br /></td></tr>
 <tr class="separator:a84e87c54c12207b92d6d50fbbd5245c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886bdddb1f8173b53db5a5e71e8df67c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a886bdddb1f8173b53db5a5e71e8df67c">getId</a> ()</td></tr>
+<tr class="memdesc:a886bdddb1f8173b53db5a5e71e8df67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get period ID.  <a href="classInputMode.html#a886bdddb1f8173b53db5a5e71e8df67c">More...</a><br /></td></tr>
 <tr class="separator:a886bdddb1f8173b53db5a5e71e8df67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb8f86bcf0eb0b091a25d0cee42a965d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#aeb8f86bcf0eb0b091a25d0cee42a965d">getScycle</a> ()</td></tr>
+<tr class="memdesc:aeb8f86bcf0eb0b091a25d0cee42a965d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get start cycle.  <a href="classInputMode.html#aeb8f86bcf0eb0b091a25d0cee42a965d">More...</a><br /></td></tr>
 <tr class="separator:aeb8f86bcf0eb0b091a25d0cee42a965d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c3a64185a64fe5953dedddde69bd003"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a0c3a64185a64fe5953dedddde69bd003">getMicroLinkArr</a> ()</td></tr>
+<tr class="memdesc:a0c3a64185a64fe5953dedddde69bd003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sequence of micro link IDs.  <a href="classInputMode.html#a0c3a64185a64fe5953dedddde69bd003">More...</a><br /></td></tr>
 <tr class="separator:a0c3a64185a64fe5953dedddde69bd003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13dd75836e647ea58625dffcd9015c73"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a13dd75836e647ea58625dffcd9015c73">getMesoLinkArr</a> ()</td></tr>
+<tr class="memdesc:a13dd75836e647ea58625dffcd9015c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get sequence of meso link IDs.  <a href="classInputMode.html#a13dd75836e647ea58625dffcd9015c73">More...</a><br /></td></tr>
 <tr class="separator:a13dd75836e647ea58625dffcd9015c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a87a7f458eb47a6f560e7377840b2370e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a87a7f458eb47a6f560e7377840b2370e">id</a></td></tr>
+<tr class="separator:a87a7f458eb47a6f560e7377840b2370e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45b3610800c3b52fef5ce6fa695c9941"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a45b3610800c3b52fef5ce6fa695c9941">scycle</a></td></tr>
+<tr class="separator:a45b3610800c3b52fef5ce6fa695c9941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e8eb98d18b5c1511a60bed4f992df3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#a29e8eb98d18b5c1511a60bed4f992df3">microLinkArr</a></td></tr>
+<tr class="separator:a29e8eb98d18b5c1511a60bed4f992df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa6ed89de2eb89d1810226e84e6f989d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputMode.html#afa6ed89de2eb89d1810226e84e6f989d">mesoLinkArr</a></td></tr>
+<tr class="separator:afa6ed89de2eb89d1810226e84e6f989d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each simulation mode information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1f0ca021a5089011c445068601e9bb25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f0ca021a5089011c445068601e9bb25">&#9670;&nbsp;</a></span>InputMode() <span class="overload">[1/2]</span></h2>
 
@@ -150,6 +174,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Period ID </td></tr>
+    <tr><td class="paramname">scycle</td><td>Start cycle </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -203,6 +236,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get period ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>Period ID to change simulation level </dd></dl>
+
 </div>
 </div>
 <a id="a13dd75836e647ea58625dffcd9015c73"></a>
@@ -227,12 +263,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get sequence of meso link IDs. </p>
+<dl class="section return"><dt>Returns</dt><dd>Sequence of mesoscopic link IDs </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputMode_a13dd75836e647ea58625dffcd9015c73_icgraph.png" border="0" usemap="#aclassInputMode_a13dd75836e647ea58625dffcd9015c73_icgraph" alt=""/></div>
 <map name="aclassInputMode_a13dd75836e647ea58625dffcd9015c73_icgraph" id="aclassInputMode_a13dd75836e647ea58625dffcd9015c73_icgraph">
-<area shape="rect" title=" " alt="" coords="325,35,527,61"/>
+<area shape="rect" title="Get sequence of meso link IDs." alt="" coords="325,35,527,61"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a091ea8ee77c06526b313f805cba70fad" title="Record Simulation Information at the end of Simulation." alt="" coords="5,5,277,32"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#aac38c3cc33c03ebc9fd1c85386f33340" title=" " alt="" coords="45,57,237,98"/>
 </map>
@@ -262,12 +301,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get sequence of micro link IDs. </p>
+<dl class="section return"><dt>Returns</dt><dd>Sequence of microscopic link IDs </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputMode_a0c3a64185a64fe5953dedddde69bd003_icgraph.png" border="0" usemap="#aclassInputMode_a0c3a64185a64fe5953dedddde69bd003_icgraph" alt=""/></div>
 <map name="aclassInputMode_a0c3a64185a64fe5953dedddde69bd003_icgraph" id="aclassInputMode_a0c3a64185a64fe5953dedddde69bd003_icgraph">
-<area shape="rect" title=" " alt="" coords="325,35,528,61"/>
+<area shape="rect" title="Get sequence of micro link IDs." alt="" coords="325,35,528,61"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a091ea8ee77c06526b313f805cba70fad" title="Record Simulation Information at the end of Simulation." alt="" coords="5,5,277,32"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#aac38c3cc33c03ebc9fd1c85386f33340" title=" " alt="" coords="45,57,237,98"/>
 </map>
@@ -298,6 +340,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Get start cycle. </p>
+<dl class="section return"><dt>Returns</dt><dd>Start cycle for applying the corresponding cycle </dd></dl>
+
 </div>
 </div>
 <a id="a84e87c54c12207b92d6d50fbbd5245c0"></a>
@@ -315,12 +360,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set sequence of meso link IDs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">linkArr</td><td>Sequence of mesoscopic link IDs ("Link1 Link2 Link3 Link4") </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputMode_a84e87c54c12207b92d6d50fbbd5245c0_icgraph.png" border="0" usemap="#aclassInputMode_a84e87c54c12207b92d6d50fbbd5245c0_icgraph" alt=""/></div>
 <map name="aclassInputMode_a84e87c54c12207b92d6d50fbbd5245c0_icgraph" id="aclassInputMode_a84e87c54c12207b92d6d50fbbd5245c0_icgraph">
-<area shape="rect" title=" " alt="" coords="381,5,581,32"/>
+<area shape="rect" title="Set sequence of meso link IDs." alt="" coords="381,5,581,32"/>
 <area shape="rect" href="classModeArr.html#ab1ad2d7183d2a659f2bd120c67d2276c" title=" " alt="" coords="193,5,333,32"/>
 <area shape="rect" href="classModeArr.html#a1aa59463e28e951ad3104d49f18adf1f" title=" " alt="" coords="5,5,145,32"/>
 </map>
@@ -343,16 +396,117 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set sequence of micro link IDs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">linkArr</td><td>Sequence of microscopic link IDs ("Link1 Link2 Link3 Link4") </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputMode_a1fd93b74c146b5020f4078b5220efaf4_icgraph.png" border="0" usemap="#aclassInputMode_a1fd93b74c146b5020f4078b5220efaf4_icgraph" alt=""/></div>
 <map name="aclassInputMode_a1fd93b74c146b5020f4078b5220efaf4_icgraph" id="aclassInputMode_a1fd93b74c146b5020f4078b5220efaf4_icgraph">
-<area shape="rect" title=" " alt="" coords="381,5,583,32"/>
+<area shape="rect" title="Set sequence of micro link IDs." alt="" coords="381,5,583,32"/>
 <area shape="rect" href="classModeArr.html#ab1ad2d7183d2a659f2bd120c67d2276c" title=" " alt="" coords="193,5,333,32"/>
 <area shape="rect" href="classModeArr.html#a1aa59463e28e951ad3104d49f18adf1f" title=" " alt="" coords="5,5,145,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a87a7f458eb47a6f560e7377840b2370e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a7f458eb47a6f560e7377840b2370e">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputMode::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Period ID to change simulation level </p>
+
+</div>
+</div>
+<a id="afa6ed89de2eb89d1810226e84e6f989d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa6ed89de2eb89d1810226e84e6f989d">&#9670;&nbsp;</a></span>mesoLinkArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputMode::mesoLinkArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of mesoscopic link IDs </p>
+
+</div>
+</div>
+<a id="a29e8eb98d18b5c1511a60bed4f992df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e8eb98d18b5c1511a60bed4f992df3">&#9670;&nbsp;</a></span>microLinkArr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; InputMode::microLinkArr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sequence of microscopic link IDs </p>
+
+</div>
+</div>
+<a id="a45b3610800c3b52fef5ce6fa695c9941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45b3610800c3b52fef5ce6fa695c9941">&#9670;&nbsp;</a></span>scycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InputMode::scycle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start cycle for applying the corresponding cycle </p>
 
 </div>
 </div>

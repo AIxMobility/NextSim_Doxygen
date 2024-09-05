@@ -89,11 +89,15 @@ $(document).ready(function(){initNavTree('classInputSegment.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classInputSegment-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputSegment Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for each segment information.  
+ <a href="classInputSegment.html#details">More...</a></p>
 
 <p><code>#include &lt;InputSegment.hpp&gt;</code></p>
 <div class="dynheader">
@@ -101,7 +105,7 @@ Collaboration diagram for InputSegment:</div>
 <div class="dyncontent">
 <div class="center"><img src="classInputSegment__coll__graph.png" border="0" usemap="#aInputSegment_coll__map" alt="Collaboration graph"/></div>
 <map name="aInputSegment_coll__map" id="aInputSegment_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,155,229"/>
+<area shape="rect" title="Class for each segment information." alt="" coords="5,5,155,303"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -141,8 +145,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a40b39a317107a840d2f7ea45485a2bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1bb554d3ecbfef0795ea21f7c9afa02"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#ab1bb554d3ecbfef0795ea21f7c9afa02">getEndPoint</a> () const</td></tr>
 <tr class="separator:ab1bb554d3ecbfef0795ea21f7c9afa02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a33f46a80d16733cdf689c8e6bb51aabc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a33f46a80d16733cdf689c8e6bb51aabc">blocked</a></td></tr>
+<tr class="separator:a33f46a80d16733cdf689c8e6bb51aabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535371806981c17fa785c26185e40d58"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a535371806981c17fa785c26185e40d58">id</a></td></tr>
+<tr class="separator:a535371806981c17fa785c26185e40d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a505231095baf6c996ee05b8e9f0d1974"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a505231095baf6c996ee05b8e9f0d1974">init_point</a></td></tr>
+<tr class="separator:a505231095baf6c996ee05b8e9f0d1974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366f8c3a84a69acc1834d62a5cbfec2f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a366f8c3a84a69acc1834d62a5cbfec2f">end_point</a></td></tr>
+<tr class="separator:a366f8c3a84a69acc1834d62a5cbfec2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255c448cacc70a96ac3fdb1308cc6df2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a255c448cacc70a96ac3fdb1308cc6df2">left_lc</a></td></tr>
+<tr class="separator:a255c448cacc70a96ac3fdb1308cc6df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3434de63b4c429acb5a4664259109d7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classInputSegment.html#a3434de63b4c429acb5a4664259109d7b">right_lc</a></td></tr>
+<tr class="separator:a3434de63b4c429acb5a4664259109d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class for each segment information. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad589f3082d82fbf89e8f191c4ad0bafc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad589f3082d82fbf89e8f191c4ad0bafc">&#9670;&nbsp;</a></span>InputSegment() <span class="overload">[1/3]</span></h2>
 
@@ -200,6 +221,17 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_val</td><td>Segment ID </td></tr>
+    <tr><td class="paramname">block</td><td>Whether segment is blocked or not </td></tr>
+    <tr><td class="paramname">left_lc_val</td><td>Whether left lane change is allowed or not </td></tr>
+    <tr><td class="paramname">right_lc_val</td><td>Whether right lane change is allowed or not </td></tr>
+    <tr><td class="paramname">init_point_val</td><td>Start point of segment </td></tr>
+    <tr><td class="paramname">end_point_val</td><td>End point of segment </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -302,6 +334,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get whether segment is blocked or not </p><dl class="section return"><dt>Returns</dt><dd>True(blocked) or False(not) </dd></dl>
 
 </div>
 </div>
@@ -327,6 +360,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get end point of segment </p><dl class="section return"><dt>Returns</dt><dd>End point of segment (from link start point) </dd></dl>
 
 </div>
 </div>
@@ -352,6 +386,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get segment ID </p><dl class="section return"><dt>Returns</dt><dd>Segment ID </dd></dl>
 
 </div>
 </div>
@@ -377,6 +412,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get start point of segment </p><dl class="section return"><dt>Returns</dt><dd>Start point of segment (from link start point) </dd></dl>
 
 </div>
 </div>
@@ -402,6 +438,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get whether left lane change is allowed or not </p><dl class="section return"><dt>Returns</dt><dd>True(left lane change is allowed) or False(not) </dd></dl>
 
 </div>
 </div>
@@ -427,6 +464,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get whether left and right lane change is allowed or not </p><dl class="section return"><dt>Returns</dt><dd>Pair of left and right value (True(lane change is allowed) or False(not)) </dd></dl>
 
 </div>
 </div>
@@ -452,6 +490,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Get whether right lane change is allowed or not </p><dl class="section return"><dt>Returns</dt><dd>True(right lane change is allowed) or False(not) </dd></dl>
 
 </div>
 </div>
@@ -496,6 +535,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set whether segment is blocked or not </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">block</td><td>True(blocked) or False(not) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -514,6 +559,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set end point of segment </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">end_point_val</td><td>End point of segment (from link start point) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -532,6 +583,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set segment ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id_val</td><td>Segment ID </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -550,6 +607,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set start point of segment </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">init_point_val</td><td>Start point of segment (from link start point) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -578,6 +641,152 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set whether left and right lane change is allowed or not </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left_lc_val</td><td>True(left lane change is allowed) or False(not) </td></tr>
+    <tr><td class="paramname">right_lc_val</td><td>True(right lane change is allowed) or False(not) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a33f46a80d16733cdf689c8e6bb51aabc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f46a80d16733cdf689c8e6bb51aabc">&#9670;&nbsp;</a></span>blocked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InputSegment::blocked</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether segment is blocked or not </p>
+
+</div>
+</div>
+<a id="a366f8c3a84a69acc1834d62a5cbfec2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a366f8c3a84a69acc1834d62a5cbfec2f">&#9670;&nbsp;</a></span>end_point</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InputSegment::end_point</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>End point of segment (from link start point) </p>
+
+</div>
+</div>
+<a id="a535371806981c17fa785c26185e40d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535371806981c17fa785c26185e40d58">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t InputSegment::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Segment ID </p>
+
+</div>
+</div>
+<a id="a505231095baf6c996ee05b8e9f0d1974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a505231095baf6c996ee05b8e9f0d1974">&#9670;&nbsp;</a></span>init_point</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double InputSegment::init_point</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start point of segment (from link start point) </p>
+
+</div>
+</div>
+<a id="a255c448cacc70a96ac3fdb1308cc6df2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255c448cacc70a96ac3fdb1308cc6df2">&#9670;&nbsp;</a></span>left_lc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InputSegment::left_lc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether left lane change is allowed or not </p>
+
+</div>
+</div>
+<a id="a3434de63b4c429acb5a4664259109d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3434de63b4c429acb5a4664259109d7b">&#9670;&nbsp;</a></span>right_lc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InputSegment::right_lc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether right lane change is allowed or not </p>
 
 </div>
 </div>

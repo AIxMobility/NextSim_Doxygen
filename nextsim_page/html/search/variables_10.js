@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['targetlaneid_2801',['targetLaneID',['../structCaptain_1_1VehicleRecordInfo.html#abac0a26e545ac2ed7546f1b4d16f30fd',1,'Captain::VehicleRecordInfo']]],
-  ['targetlaneid_2802',['targetLaneId',['../structCaptain_1_1MicroLinkEventInfo.html#a4c456de6233097f715f195e696843b94',1,'Captain::MicroLinkEventInfo']]],
-  ['targetlaneindex_2803',['TargetLaneIndex',['../structCaptain_1_1VehicleState.html#a76859d4f204ea72e662177bf70fa1a17',1,'Captain::VehicleState']]],
-  ['time_2804',['Time',['../structCaptain_1_1PaxRoute.html#a6946f6ed2992543bb2370e142ac9a47d',1,'Captain::PaxRoute']]],
-  ['time_5fper_5fcycle_2805',['time_per_cycle',['../structCaptain_1_1SimulationRecordInfo.html#a1811160e8baed722b6615a31339ac7d9',1,'Captain::SimulationRecordInfo']]],
-  ['timeperiod_2806',['TimePeriod',['../structCaptain_1_1UnitConnectionDescriptor.html#a48575ee22f3987f59181d19330716f20',1,'Captain::UnitConnectionDescriptor']]],
-  ['timestamp_2807',['TimeStamp',['../structCaptain_1_1VehicleRecordInfo.html#adc6970db1b64e974eb2bafef2cd95187',1,'Captain::VehicleRecordInfo::TimeStamp()'],['../structCaptain_1_1CellRecordInfo.html#ad1da2cebb904d7205a24c55295c4a327',1,'Captain::CellRecordInfo::TimeStamp()'],['../structCaptain_1_1StationRecordInfo.html#a9c6b17967476fa8a4524531532429643',1,'Captain::StationRecordInfo::TimeStamp()']]],
-  ['timestamp_2808',['timestamp',['../structCaptain_1_1SinkRecordInfo.html#aeee426d1f648dc27954c6b7f1304e700',1,'Captain::SinkRecordInfo']]],
-  ['total_5fcycle_2809',['total_cycle',['../structCaptain_1_1SimulationRecordInfo.html#a1416324aa953d7b5011394dd80c6d28d',1,'Captain::SimulationRecordInfo']]],
-  ['total_5ftime_2810',['total_time',['../structCaptain_1_1SimulationRecordInfo.html#aa620cbbed767dc718d2e963852b97616',1,'Captain::SimulationRecordInfo']]],
-  ['transfercount_2811',['TransferCount',['../structCaptain_1_1PaxRoute.html#aa8d132116da2d785517bc3c95111a77b',1,'Captain::PaxRoute']]],
-  ['transferstationvector_2812',['transferStationVector',['../structCaptain_1_1PaxRoute.html#a27c7118c04986e3f24208c9ff1197d75',1,'Captain::PaxRoute']]],
-  ['type_2813',['Type',['../structCaptain_1_1UnitPosition.html#ac1e71376bbaeeecb484a1d22a1fabb28',1,'Captain::UnitPosition::Type()'],['../structCaptain_1_1VehicleRecordInfo.html#a0ef2a9b555c98aca73c9fe4caeb0ef5e',1,'Captain::VehicleRecordInfo::Type()'],['../structCaptain_1_1StationRecordInfo.html#ad0e6828d39d5a319602ee490c5254e4d',1,'Captain::StationRecordInfo::Type()'],['../structCaptain_1_1PathIdentifier.html#ac78737a2e79cb3241421bcbffd0cd0b0',1,'Captain::PathIdentifier::Type()'],['../structCaptain_1_1UnitIdentifier.html#ac105f7546699da74ab3db76adb3f2a48',1,'Captain::UnitIdentifier::Type()'],['../structCaptain_1_1VehicleInfo.html#a5e770cb3040a843e40315be875d25964',1,'Captain::VehicleInfo::Type()']]]
+  ['reaction_5ftime_3253',['reaction_time',['../classParamArr.html#ac2a2236bb9d02d1e5c997f7927be0946',1,'ParamArr::reaction_time()'],['../classInputVehicleTypes.html#a28bb88d2c80dcc39cd31e55fbd29286e',1,'InputVehicleTypes::reaction_time()']]],
+  ['recordinfo_3254',['RecordInfo',['../classCaptain_1_1Node_1_1Station.html#aa2be6464e18e43fd509e9f49c2a5433f',1,'Captain::Node::Station::RecordInfo()'],['../classCaptain_1_1Vehicle.html#a79f2114b7c847aff691382eeb8397b1a',1,'Captain::Vehicle::RecordInfo()']]],
+  ['recordqueuecapacity_3255',['RecordQueueCapacity',['../namespaceCaptain_1_1RecorderParams.html#a4b8931ff0fe0148e5529719974b6eed0',1,'Captain::RecorderParams']]],
+  ['recordtype_3256',['RecordType',['../structCaptain_1_1VehicleInfo.html#aa9db14e33e483663891e8bf7a02dc659',1,'Captain::VehicleInfo::RecordType()'],['../structCaptain_1_1VehicleRecordInfo.html#a7a0758ab5de649e6e70ed4d343dd60f4',1,'Captain::VehicleRecordInfo::RecordType()']]],
+  ['refcount_3257',['RefCount',['../structCaptain_1_1SharedObjectInfo.html#ab2f1397e95d1ff46aac5a44241968d4b',1,'Captain::SharedObjectInfo']]],
+  ['regionmessage_3258',['RegionMessage',['../classMessageArr.html#aa97a3478578491b8988c1a0a794f2f87',1,'MessageArr']]],
+  ['remainingdistance_3259',['RemainingDistance',['../structCaptain_1_1VehicleState.html#aec5dafe54bf3eb2a87d8c73e262298e9',1,'Captain::VehicleState']]],
+  ['reservetype_3260',['reserveType',['../classCaptain_1_1PassengerReservationInfo.html#a41c657a7db045979b124ab83e18b637e',1,'Captain::PassengerReservationInfo']]],
+  ['right_5flc_3261',['right_lc',['../classInputSegment.html#a3434de63b4c429acb5a4664259109d7b',1,'InputSegment']]],
+  ['rightlaneoutflow_3262',['RightLaneOutflow',['../structCaptain_1_1CellRecordInfo.html#acab056e68bfde08ed6fdf0e18601bec4',1,'Captain::CellRecordInfo']]],
+  ['rightleftlcvector_3263',['RightLeftLCVector',['../structCaptain_1_1SegmentInfo.html#a5b0ca7e4155def0618f7d5d9c5b93896',1,'Captain::SegmentInfo']]],
+  ['routejsonreader_3264',['RouteJsonReader',['../classCaptain_1_1Util_1_1EventRecorder.html#aa2990cc3c3cee677008d7930fa597b28',1,'Captain::Util::EventRecorder']]],
+  ['routejsonwriter_3265',['RouteJsonWriter',['../classCaptain_1_1Util_1_1EventRecorder.html#acea25f5c954486b6ce6eb7220dbb0725',1,'Captain::Util::EventRecorder']]],
+  ['runtimes_3266',['runTimes',['../structCaptain_1_1SimulationRecordInfo.html#a867909ae25d5937e318703700f861a5b',1,'Captain::SimulationRecordInfo']]]
 ];

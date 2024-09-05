@@ -12,5 +12,10 @@ var classInputDistribution =
     [ "setmax", "classInputDistribution.html#aebe9b77a5e7d2aa13fe0cb21f543d1cd", null ],
     [ "setmean", "classInputDistribution.html#aa04e1d11ab87273a5555e4a1f3f0df67", null ],
     [ "setmin", "classInputDistribution.html#a7642362c72522386cea3c2bb05ce6d25", null ],
-    [ "setsd", "classInputDistribution.html#a319b25c9e33d973a2faac881e2a88790", null ]
+    [ "setsd", "classInputDistribution.html#a319b25c9e33d973a2faac881e2a88790", null ],
+    [ "vehdist", "classInputDistribution.html#a0ef19ee63032442fb53586c67ff74792", null ],
+    [ "vehmax", "classInputDistribution.html#a639460dcaf7d9197f7f28c401a42a57b", null ],
+    [ "vehmean", "classInputDistribution.html#a1aa77bb75d2b1bace0040488d1245740", null ],
+    [ "vehmin", "classInputDistribution.html#ab40e81b1721d0c3409017baa1eb6562b", null ],
+    [ "vehsd", "classInputDistribution.html#a9ed7db40b001d25e4945779bb2d3830f", null ]
 ];

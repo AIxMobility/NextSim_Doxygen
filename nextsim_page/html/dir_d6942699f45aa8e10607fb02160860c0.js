@@ -1,6 +1,5 @@
 var dir_d6942699f45aa8e10607fb02160860c0 =
 [
-    [ "CellInfo.hpp", "CellInfo_8hpp.html", null ],
     [ "DriveModeDescriptor.hpp", "DriveModeDescriptor_8hpp.html", [
       [ "DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html", "classCaptain_1_1DriveModeDescriptor" ]
     ] ],

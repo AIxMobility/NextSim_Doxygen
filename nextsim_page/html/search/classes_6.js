@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['garageunit_1701',['GarageUnit',['../classCaptain_1_1Node_1_1GarageUnit.html',1,'Captain::Node']]]
+  ['hash_3c_20captain_3a_3aunitidentifier_20_3e_1684',['hash&lt; Captain::UnitIdentifier &gt;',['../structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4.html',1,'std']]]
 ];

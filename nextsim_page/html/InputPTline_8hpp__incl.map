@@ -1,6 +1,5 @@
-<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/InputPTline.hpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/InputPTline.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,288,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="13,109,93,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="117,109,176,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="201,109,263,136"/>
+<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/inputclass/InputPTline.hpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/inputclass/InputPTline.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,253,76"/>
+<area shape="rect" id="node2" title=" " alt="" coords="57,124,116,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,124,203,151"/>
 </map>

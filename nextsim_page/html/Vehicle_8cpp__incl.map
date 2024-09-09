@@ -1,51 +1,50 @@
 <map id="/home/wjstnwp/NextSim/Captain/Sources/captain/Structs/Vehicle.cpp" name="/home/wjstnwp/NextSim/Captain/Sources/captain/Structs/Vehicle.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="317,5,500,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="495,623,580,650"/>
-<area shape="rect" id="node3" href="$Vehicle_8hpp.html" title=" " alt="" coords="818,109,1017,136"/>
-<area shape="rect" id="node4" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="1058,623,1305,650"/>
-<area shape="rect" id="node13" title=" " alt="" coords="747,705,822,732"/>
-<area shape="rect" id="node14" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="1513,541,1736,568"/>
-<area shape="rect" id="node22" href="$EventRecorder_8hpp.html" title=" " alt="" coords="1984,370,2206,397"/>
-<area shape="rect" id="node28" href="$VehiclePath_8hpp.html" title=" " alt="" coords="847,541,1074,568"/>
-<area shape="rect" id="node37" href="$WeakPtr_8hpp.html" title=" " alt="" coords="45,541,228,568"/>
-<area shape="rect" id="node39" href="$DriveModeDescriptor_8hpp.html" title=" " alt="" coords="930,184,1124,225"/>
-<area shape="rect" id="node44" href="$V2X_8hpp.html" title=" " alt="" coords="594,281,772,307"/>
-<area shape="rect" id="node45" href="$PublicTransitInfo_8hpp.html" title=" " alt="" coords="263,363,468,404"/>
-<area shape="rect" id="node46" href="$Passenger_8hpp.html" title=" " alt="" coords="455,459,671,486"/>
-<area shape="rect" id="node47" title=" " alt="" coords="1200,191,1262,218"/>
-<area shape="rect" id="node48" title=" " alt="" coords="1287,191,1330,218"/>
-<area shape="rect" id="node49" title=" " alt="" coords="1354,191,1441,218"/>
-<area shape="rect" id="node5" title=" " alt="" coords="1673,705,1736,732"/>
-<area shape="rect" id="node6" href="$Enumerations_8hpp.html" title=" " alt="" coords="1348,787,1589,814"/>
-<area shape="rect" id="node10" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="1326,705,1560,732"/>
-<area shape="rect" id="node11" title=" " alt="" coords="1709,787,1772,814"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1391,869,1447,896"/>
-<area shape="rect" id="node8" title=" " alt="" coords="2094,869,2152,896"/>
-<area shape="rect" id="node9" title=" " alt="" coords="1472,869,1564,896"/>
-<area shape="rect" id="node12" title=" " alt="" coords="2902,787,2992,814"/>
-<area shape="rect" id="node15" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="1329,623,1565,650"/>
-<area shape="rect" id="node17" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="1860,623,2106,650"/>
-<area shape="rect" id="node16" title=" " alt="" coords="1584,705,1627,732"/>
-<area shape="rect" id="node18" title=" " alt="" coords="2712,787,2792,814"/>
-<area shape="rect" id="node19" href="$InputDistribution_8hpp.html" title=" " alt="" coords="1901,705,2060,732"/>
-<area shape="rect" id="node20" title=" " alt="" coords="1844,787,1916,814"/>
-<area shape="rect" id="node21" title=" " alt="" coords="1941,787,2009,814"/>
-<area shape="rect" id="node23" href="$GlobalHyperParameters_8hpp.html" title=" " alt="" coords="1302,452,1485,493"/>
-<area shape="rect" id="node24" title=" " alt="" coords="2958,459,3022,486"/>
-<area shape="rect" id="node25" href="$XmlParser_8hpp.html" title=" " alt="" coords="2920,541,3115,568"/>
-<area shape="rect" id="node27" href="$JsonParser_8hpp.html" title=" " alt="" coords="1998,459,2192,486"/>
-<area shape="rect" id="node34" href="$SharedPtr_8hpp.html" title=" " alt="" coords="170,705,361,732"/>
-<area shape="rect" id="node26" title=" " alt="" coords="2870,623,2944,650"/>
-<area shape="rect" id="node29" href="$Route_8hpp.html" title=" " alt="" coords="1199,541,1388,568"/>
-<area shape="rect" id="node30" title=" " alt="" coords="1911,541,2074,568"/>
-<area shape="rect" id="node31" title=" " alt="" coords="2098,541,2298,568"/>
-<area shape="rect" id="node32" title=" " alt="" coords="2322,541,2497,568"/>
-<area shape="rect" id="node33" title=" " alt="" coords="2521,541,2693,568"/>
-<area shape="rect" id="node35" href="$SharedPtr-Decl_8hpp.html" title=" " alt="" coords="184,780,348,821"/>
-<area shape="rect" id="node36" title=" " alt="" coords="232,869,299,896"/>
-<area shape="rect" id="node38" href="$WeakPtr-Decl_8hpp.html" title=" " alt="" coords="59,616,214,657"/>
-<area shape="rect" id="node40" href="$GeneralLC_8hpp.html" title=" " alt="" coords="1199,273,1356,315"/>
-<area shape="rect" id="node42" title=" " alt="" coords="996,281,1074,307"/>
-<area shape="rect" id="node43" title=" " alt="" coords="848,281,972,307"/>
-<area shape="rect" id="node41" href="$DriveModel_8hpp.html" title=" " alt="" coords="1199,363,1356,404"/>
+<area shape="rect" id="node1" title=" " alt="" coords="724,5,907,61"/>
+<area shape="rect" id="node2" href="$Vehicle_8hpp.html" title=" " alt="" coords="716,109,915,136"/>
+<area shape="rect" id="node27" title=" " alt="" coords="595,549,681,575"/>
+<area shape="rect" id="node48" title=" " alt="" coords="938,109,1010,136"/>
+<area shape="rect" id="node3" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="1403,549,1649,575"/>
+<area shape="rect" id="node12" title=" " alt="" coords="782,631,857,657"/>
+<area shape="rect" id="node13" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="1472,459,1695,486"/>
+<area shape="rect" id="node18" href="$DriveModeDescriptor_8hpp.html" title=" " alt="" coords="982,184,1177,225"/>
+<area shape="rect" id="node25" href="$V2X_8hpp.html" title=" " alt="" coords="1201,191,1379,218"/>
+<area shape="rect" id="node26" href="$VehiclePath_8hpp.html" title=" " alt="" coords="806,459,1033,486"/>
+<area shape="rect" id="node28" href="$PublicTransitInfo_8hpp.html" title=" " alt="" coords="425,273,630,315"/>
+<area shape="rect" id="node29" href="$Passenger_8hpp.html" title=" " alt="" coords="223,370,439,397"/>
+<area shape="rect" id="node34" href="$WeakPtr_8hpp.html" title=" " alt="" coords="5,459,188,486"/>
+<area shape="rect" id="node36" href="$EventRecorder_8hpp.html" title=" " alt="" coords="1777,281,2000,307"/>
+<area shape="rect" id="node46" title=" " alt="" coords="784,191,847,218"/>
+<area shape="rect" id="node47" title=" " alt="" coords="871,191,957,218"/>
+<area shape="rect" id="node4" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="1409,631,1643,657"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1719,713,1781,739"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1719,631,1781,657"/>
+<area shape="rect" id="node5" href="$Enumerations_8hpp.html" title=" " alt="" coords="2416,713,2657,739"/>
+<area shape="rect" id="node10" title=" " alt="" coords="2853,713,2943,739"/>
+<area shape="rect" id="node6" title=" " alt="" coords="2558,795,2614,821"/>
+<area shape="rect" id="node7" title=" " alt="" coords="2995,795,3054,821"/>
+<area shape="rect" id="node8" title=" " alt="" coords="2441,795,2533,821"/>
+<area shape="rect" id="node14" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="856,549,1092,575"/>
+<area shape="rect" id="node16" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="1819,541,1990,583"/>
+<area shape="rect" id="node15" title=" " alt="" coords="715,631,758,657"/>
+<area shape="rect" id="node17" href="$InputDistribution_8hpp.html" title=" " alt="" coords="1857,631,2016,657"/>
+<area shape="rect" id="node19" href="$GeneralLC_8hpp.html" title=" " alt="" coords="1171,273,1329,315"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1070,281,1147,307"/>
+<area shape="rect" id="node24" title=" " alt="" coords="871,281,995,307"/>
+<area shape="rect" id="node20" href="$DriveModel_8hpp.html" title=" " alt="" coords="1505,363,1662,404"/>
+<area shape="rect" id="node21" href="$GlobalHyperParameters_8hpp.html" title=" " alt="" coords="1820,452,2003,493"/>
+<area shape="rect" id="node22" title=" " alt="" coords="2014,549,2073,575"/>
+<area shape="rect" id="node30" href="$Route_8hpp.html" title=" " alt="" coords="1107,459,1297,486"/>
+<area shape="rect" id="node31" href="$SharedPtr_8hpp.html" title=" " alt="" coords="236,631,427,657"/>
+<area shape="rect" id="node32" href="$SharedPtr-Decl_8hpp.html" title=" " alt="" coords="249,705,413,747"/>
+<area shape="rect" id="node33" title=" " alt="" coords="298,795,365,821"/>
+<area shape="rect" id="node35" href="$WeakPtr-Decl_8hpp.html" title=" " alt="" coords="99,541,254,583"/>
+<area shape="rect" id="node37" title=" " alt="" coords="1787,370,1851,397"/>
+<area shape="rect" id="node38" href="$XmlParser_8hpp.html" title=" " alt="" coords="3050,370,3245,397"/>
+<area shape="rect" id="node41" href="$JsonParser_8hpp.html" title=" " alt="" coords="2413,370,2607,397"/>
+<area shape="rect" id="node39" title=" " alt="" coords="3091,459,3164,486"/>
+<area shape="rect" id="node40" title=" " alt="" coords="2986,459,3066,486"/>
+<area shape="rect" id="node42" title=" " alt="" coords="2223,459,2386,486"/>
+<area shape="rect" id="node43" title=" " alt="" coords="2410,459,2610,486"/>
+<area shape="rect" id="node44" title=" " alt="" coords="2635,459,2809,486"/>
+<area shape="rect" id="node45" title=" " alt="" coords="2027,459,2199,486"/>
 </map>

@@ -1,7 +1,6 @@
-<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputMessage.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputMessage.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,301,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="8,184,67,211"/>
-<area shape="rect" id="node3" title=" " alt="" coords="235,184,315,211"/>
-<area shape="rect" id="node4" href="$InputMessage_8hpp.html" title=" " alt="" coords="43,109,263,136"/>
-<area shape="rect" id="node5" title=" " alt="" coords="122,184,185,211"/>
+<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputMessage.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputMessage.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,249,76"/>
+<area shape="rect" id="node2" href="$InputMessage_8hpp.html" title=" " alt="" coords="44,124,211,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="55,213,114,240"/>
+<area shape="rect" id="node4" title=" " alt="" coords="139,213,201,240"/>
 </map>

@@ -1,10 +1,7 @@
-<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputVehicleTypes.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputVehicleTypes.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="129,5,388,76"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,273,64,300"/>
-<area shape="rect" id="node3" title=" " alt="" coords="364,273,444,300"/>
-<area shape="rect" id="node4" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="55,124,302,151"/>
-<area shape="rect" id="node6" href="$InputDistribution_8hpp.html" title=" " alt="" coords="158,199,317,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="89,273,151,300"/>
-<area shape="rect" id="node7" title=" " alt="" coords="268,273,340,300"/>
-<area shape="rect" id="node8" title=" " alt="" coords="175,273,243,300"/>
+<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputVehicleTypes.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputVehicleTypes.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,249,76"/>
+<area shape="rect" id="node2" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="42,124,213,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="47,288,106,315"/>
+<area shape="rect" id="node4" title=" " alt="" coords="147,288,209,315"/>
+<area shape="rect" id="node5" href="$InputDistribution_8hpp.html" title=" " alt="" coords="48,213,207,240"/>
 </map>

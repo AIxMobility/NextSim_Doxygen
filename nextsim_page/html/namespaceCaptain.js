@@ -72,7 +72,6 @@ var namespaceCaptain =
     ] ],
     [ "VehicleGenerationParams", "namespaceCaptain_1_1VehicleGenerationParams.html", [
       [ "DefaultMaxPassengerNum", "namespaceCaptain_1_1VehicleGenerationParams.html#a9652210b3959fe15c8dfe6f8379de205", null ],
-      [ "DefaultVehicleInfo", "namespaceCaptain_1_1VehicleGenerationParams.html#a9f3617702337f386a5f169286278c7d5", null ],
       [ "DefaultVehicleLength", "namespaceCaptain_1_1VehicleGenerationParams.html#ae3ed77f52f99890798d0d96dca9fbfa4", null ]
     ] ],
     [ "Engine", "classCaptain_1_1Engine.html", "classCaptain_1_1Engine" ],
@@ -110,10 +109,6 @@ var namespaceCaptain =
     [ "VehicleDescriptor", "structCaptain_1_1VehicleDescriptor.html", "structCaptain_1_1VehicleDescriptor" ],
     [ "VehiclePath", "structCaptain_1_1VehiclePath.html", "structCaptain_1_1VehiclePath" ],
     [ "ConcurrentQueue", "classCaptain_1_1ConcurrentQueue.html", "classCaptain_1_1ConcurrentQueue" ],
-    [ "EnumStrings", "structCaptain_1_1EnumStrings.html", null ],
-    [ "EnumRefHolder", "structCaptain_1_1EnumRefHolder.html", "structCaptain_1_1EnumRefHolder" ],
-    [ "EnumConstRefHolder", "structCaptain_1_1EnumConstRefHolder.html", "structCaptain_1_1EnumConstRefHolder" ],
-    [ "FileManager", "classCaptain_1_1FileManager.html", "classCaptain_1_1FileManager" ],
     [ "MesoComputationModel", "structCaptain_1_1MesoComputationModel.html", "structCaptain_1_1MesoComputationModel" ],
     [ "BasicMesoModel", "structCaptain_1_1BasicMesoModel.html", "structCaptain_1_1BasicMesoModel" ],
     [ "RandomEngine", "classCaptain_1_1RandomEngine.html", "classCaptain_1_1RandomEngine" ],
@@ -129,7 +124,6 @@ var namespaceCaptain =
     [ "SharedSpinlock", "classCaptain_1_1SharedSpinlock.html", null ],
     [ "SpinLockQueue", "classCaptain_1_1SpinLockQueue.html", "classCaptain_1_1SpinLockQueue" ],
     [ "SpinLockVehicleQueue", "classCaptain_1_1SpinLockVehicleQueue.html", "classCaptain_1_1SpinLockVehicleQueue" ],
-    [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", "classCaptain_1_1VehicleContainer" ],
     [ "IVehicleQueue", "classCaptain_1_1IVehicleQueue.html", "classCaptain_1_1IVehicleQueue" ],
     [ "PassengerPtr", "namespaceCaptain.html#a31830f1f6ac90d080996b34b36170ad3", null ],
     [ "PassengerWeakPtr", "namespaceCaptain.html#a22b42a5e2a77a04db363e1827757c5f1", null ],
@@ -222,11 +216,7 @@ var namespaceCaptain =
       [ "AB", "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794ab86fc6b051f63d73de262d4c34e3a0a9", null ],
       [ "TR", "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794aebe021079e5a3c4f42ca6119eab92633", null ]
     ] ],
-    [ "EnumFromStringStream", "namespaceCaptain.html#acae17b728767ca8ed99718bdba4a9a1c", null ],
     [ "EnumToString", "namespaceCaptain.html#a9162fe75a28e680c8abba340e844a76b", null ],
-    [ "enumToString", "namespaceCaptain.html#a73cca8cbe411f3b6fa0fb7498e83599b", null ],
-    [ "operator<<", "namespaceCaptain.html#ac1cf6ac075b259c2278be5a9ad82aa91", null ],
-    [ "operator>>", "namespaceCaptain.html#a5a0c2bc55822fe6dc279763ef926016b", null ],
     [ "stringToLCDirection", "namespaceCaptain.html#ae878d781e24eaa4c9fe1b3832bfb217d", null ],
     [ "stringToUnitType", "namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f", null ],
     [ "stringToVehicleType", "namespaceCaptain.html#aa8ee17f19a04cae1d6a431dde8505655", null ],

@@ -1,10 +1,10 @@
-<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/InputLink.hpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/InputLink.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,276,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="187,333,249,360"/>
-<area shape="rect" id="node3" title=" " alt="" coords="78,109,137,136"/>
-<area shape="rect" id="node4" href="$BaseClass_8hpp.html" title=" " alt="" coords="159,259,277,285"/>
-<area shape="rect" id="node5" href="$InputLane_8hpp.html" title=" " alt="" coords="255,109,370,136"/>
-<area shape="rect" id="node6" href="$InputCell_8hpp.html" title=" " alt="" coords="212,184,320,211"/>
-<area shape="rect" id="node7" href="$InputSegment_8hpp.html" title=" " alt="" coords="395,184,537,211"/>
-<area shape="rect" id="node8" title=" " alt="" coords="436,259,496,285"/>
+<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/inputclass/InputLink.hpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/inputclass/InputLink.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,253,76"/>
+<area shape="rect" id="node2" title=" " alt="" coords="97,348,159,375"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,124,159,151"/>
+<area shape="rect" id="node4" href="$InputLane_8hpp.html" title=" " alt="" coords="183,124,297,151"/>
+<area shape="rect" id="node5" href="$InputCell_8hpp.html" title=" " alt="" coords="170,199,278,225"/>
+<area shape="rect" id="node7" href="$InputSegment_8hpp.html" title=" " alt="" coords="303,199,444,225"/>
+<area shape="rect" id="node6" href="$BaseClass_8hpp.html" title=" " alt="" coords="165,273,283,300"/>
+<area shape="rect" id="node8" title=" " alt="" coords="343,273,403,300"/>
 </map>

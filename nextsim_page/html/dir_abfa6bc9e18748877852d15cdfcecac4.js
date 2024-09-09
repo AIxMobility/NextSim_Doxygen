@@ -20,7 +20,9 @@ var dir_abfa6bc9e18748877852d15cdfcecac4 =
       [ "MesoLink", "classCaptain_1_1Node_1_1MesoLink.html", "classCaptain_1_1Node_1_1MesoLink" ]
     ] ],
     [ "MesoUnit.hpp", "MesoUnit_8hpp.html", "MesoUnit_8hpp" ],
-    [ "MicroLane.hpp", "MicroLane_8hpp.html", "MicroLane_8hpp" ],
+    [ "MicroLane.hpp", "MicroLane_8hpp.html", [
+      [ "MicroLane", "classCaptain_1_1Node_1_1MicroLane.html", "classCaptain_1_1Node_1_1MicroLane" ]
+    ] ],
     [ "MicroLink.hpp", "MicroLink_8hpp.html", [
       [ "MicroLink", "classCaptain_1_1Node_1_1MicroLink.html", "classCaptain_1_1Node_1_1MicroLink" ]
     ] ],

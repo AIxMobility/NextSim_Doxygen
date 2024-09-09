@@ -1,19 +1,7 @@
 var searchData=
 [
-  ['id_2916',['id',['../classInputEvent.html#ae527acc5da1005b5e322ebe9cb81adb4',1,'InputEvent::id()'],['../classInputMessage.html#a8dc6b036ef32f5caea2ead80fe619f53',1,'InputMessage::id()'],['../classInputMode.html#a87a7f458eb47a6f560e7377840b2370e',1,'InputMode::id()'],['../classInputODMatrix.html#aa2b276f37ee4c2460acabcb144a4abbd',1,'InputODMatrix::id()'],['../classAgentPax.html#abccc77318a27171ef75b167151486d17',1,'AgentPax::id()'],['../classInputPTline.html#adbf6b2dfd742bf232e3035adb767dfb7',1,'InputPTline::id()'],['../classInputSegment.html#a535371806981c17fa785c26185e40d58',1,'InputSegment::id()'],['../classInputStation.html#aa614b31cea281c9ceab81b1e5cda2b79',1,'InputStation::id()'],['../classInputDRTStation.html#aebdaee4824f11a754f154638b4e389e4',1,'InputDRTStation::id()'],['../classintersectionPhase.html#a7a47c0ab1ba97669b6db47bd7c702a15',1,'intersectionPhase::id()'],['../classIntersectionNode.html#ae0b98fe5231eabc033f782ca3f483712',1,'IntersectionNode::id()']]],
-  ['id_2917',['ID',['../structCaptain_1_1UnitPosition.html#a50c9d9cd4739f46312e6b4c77885bcd5',1,'Captain::UnitPosition::ID()'],['../classMetaData.html#a1633593d0bbba320cf7a3db24be52f8c',1,'MetaData::ID()']]],
-  ['id_2918',['id',['../classInputAgents.html#ae51d51fd51ed45499797321297434343',1,'InputAgents']]],
-  ['idcountconst_2919',['IDcountConst',['../namespaceCaptain_1_1ExceptionParams.html#a92c459e83d6021636188b7c0cb0dbc01',1,'Captain::ExceptionParams']]],
-  ['identifiervector_2920',['IdentifierVector',['../structCaptain_1_1UnitConnectionDescriptor.html#ab52e18406ef1c498a99d45864e5c6fc6',1,'Captain::UnitConnectionDescriptor']]],
-  ['inflength_2921',['InfLength',['../namespaceCaptain_1_1ExceptionParams.html#afa4eaee7f4cda6ab62815587e7920a43',1,'Captain::ExceptionParams']]],
-  ['inflow_2922',['Inflow',['../structCaptain_1_1CellRecordInfo.html#a24c0971d2cff54436878333fe3d02062',1,'Captain::CellRecordInfo']]],
-  ['info_2923',['Info',['../classCaptain_1_1VehicleReservationInfo.html#ac369ca77be09797fad688c7857ad7901',1,'Captain::VehicleReservationInfo::Info()'],['../structCaptain_1_1VehicleDescriptor.html#a252293a0fdc963853f64a43f734a10cc',1,'Captain::VehicleDescriptor::Info()']]],
-  ['init_5fpoint_2924',['init_point',['../classInputSegment.html#a505231095baf6c996ee05b8e9f0d1974',1,'InputSegment']]],
-  ['initendpointvector_2925',['InitEndPointVector',['../structCaptain_1_1SegmentInfo.html#a620778d2cb7c695bfcd301a017af3a76',1,'Captain::SegmentInfo']]],
-  ['intercellflow_2926',['InterCellFlow',['../structCaptain_1_1CellRecordInfo.html#abca4d519b29d60d3b5ebf653a6cc589e',1,'Captain::CellRecordInfo']]],
-  ['intersectionmicro_2927',['IntersectionMicro',['../namespaceCaptain_1_1TimeStepParams.html#a03916f33cdb76807cbdafb276f02ce3c',1,'Captain::TimeStepParams']]],
-  ['intersectionnodes_2928',['IntersectionNodes',['../classNodeArr.html#a18f4ecd6723b46b5fe3107bfdeea5d0f',1,'NodeArr']]],
-  ['interval_2929',['interval',['../classInputPTline.html#ac7c2767a35e8e7d9d98eefbd5e738193',1,'InputPTline']]],
-  ['isactive_2930',['isactive',['../classCaptain_1_1V2X.html#a78dd8c8250e12849dbaf7641b0818972',1,'Captain::V2X']]],
-  ['isparked_2931',['IsParked',['../structCaptain_1_1VehicleState.html#a7ce302b23af65ad3eca76c0ad9735d62',1,'Captain::VehicleState']]]
+  ['jam_5fgap_2893',['jam_gap',['../classNextSimIO_1_1ParamArr.html#a9b35c00711ee07b04c4d1e75f213f34f',1,'NextSimIO::ParamArr']]],
+  ['jamgap_2894',['JamGap',['../structCaptain_1_1VehicleInfo.html#ac310de4a0b6234bac67537ad096c487b',1,'Captain::VehicleInfo']]],
+  ['jamgap_2895',['jamgap',['../classNextSimIO_1_1InputVehicleTypes.html#a7501eff433b904d14f6a502ca955dd59',1,'NextSimIO::InputVehicleTypes']]],
+  ['jamgapconstant_2896',['jamGapConstant',['../namespaceCaptain_1_1V2Xparams.html#a57083872dc15d80fd7f312a522df05e8',1,'Captain::V2Xparams']]]
 ];

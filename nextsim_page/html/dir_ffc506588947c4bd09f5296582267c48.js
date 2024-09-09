@@ -5,11 +5,7 @@ var dir_ffc506588947c4bd09f5296582267c48 =
       [ "ConcurrentQueue", "classCaptain_1_1ConcurrentQueue.html", "classCaptain_1_1ConcurrentQueue" ]
     ] ],
     [ "ConcurrentQueue.hpp", "ConcurrentQueue_8hpp.html", null ],
-    [ "EnumToStringStream.hpp", "EnumToStringStream_8hpp.html", "EnumToStringStream_8hpp" ],
     [ "EventRecorder.hpp", "EventRecorder_8hpp.html", "EventRecorder_8hpp" ],
-    [ "fileManager.hpp", "fileManager_8hpp.html", [
-      [ "FileManager", "classCaptain_1_1FileManager.html", "classCaptain_1_1FileManager" ]
-    ] ],
     [ "GlobalHyperParameters.hpp", "GlobalHyperParameters_8hpp.html", "GlobalHyperParameters_8hpp" ],
     [ "JsonParser.hpp", "JsonParser_8hpp.html", "JsonParser_8hpp" ],
     [ "MesoComputations.hpp", "MesoComputations_8hpp.html", [
@@ -40,9 +36,6 @@ var dir_ffc506588947c4bd09f5296582267c48 =
     [ "SpinLockQueue.hpp", "SpinLockQueue_8hpp.html", null ],
     [ "SpinLockVehicleQueue.hpp", "SpinLockVehicleQueue_8hpp.html", [
       [ "SpinLockVehicleQueue", "classCaptain_1_1SpinLockVehicleQueue.html", "classCaptain_1_1SpinLockVehicleQueue" ]
-    ] ],
-    [ "VehicleContainer.hpp", "VehicleContainer_8hpp.html", [
-      [ "VehicleContainer", "classCaptain_1_1VehicleContainer.html", "classCaptain_1_1VehicleContainer" ]
     ] ],
     [ "VehicleQueue.hpp", "VehicleQueue_8hpp.html", [
       [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html", "classCaptain_1_1Util_1_1VehicleQueue" ]

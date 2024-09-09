@@ -1,9 +1,6 @@
-<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputFlow.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/InputFlow.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="143,5,411,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,199,64,225"/>
-<area shape="rect" id="node3" title=" " alt="" coords="219,199,299,225"/>
-<area shape="rect" id="node4" href="$InputFlow_8hpp.html" title=" " alt="" coords="48,117,240,143"/>
-<area shape="rect" id="node6" title=" " alt="" coords="315,109,461,151"/>
-<area shape="rect" id="node7" title=" " alt="" coords="485,109,632,151"/>
-<area shape="rect" id="node5" title=" " alt="" coords="113,199,175,225"/>
+<map id="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputFlow.cpp" name="/home/wjstnwp/NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/inputclass/InputFlow.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,249,76"/>
+<area shape="rect" id="node2" href="$InputFlow_8hpp.html" title=" " alt="" coords="44,124,211,165"/>
+<area shape="rect" id="node3" title=" " alt="" coords="53,213,116,240"/>
+<area shape="rect" id="node4" title=" " alt="" coords="141,213,199,240"/>
 </map>

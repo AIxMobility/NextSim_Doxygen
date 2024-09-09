@@ -9,7 +9,6 @@ var GlobalHyperParameters_8hpp =
     [ "DCFKeepTime", "GlobalHyperParameters_8hpp.html#a31d0342884fbeeee629140059a4ea1db", null ],
     [ "DefaultLCDistance", "GlobalHyperParameters_8hpp.html#aa9ef8b3299ec116520cb6d82869796fa", null ],
     [ "DefaultMaxPassengerNum", "GlobalHyperParameters_8hpp.html#a9652210b3959fe15c8dfe6f8379de205", null ],
-    [ "DefaultVehicleInfo", "GlobalHyperParameters_8hpp.html#a9f3617702337f386a5f169286278c7d5", null ],
     [ "DefaultVehicleLength", "GlobalHyperParameters_8hpp.html#ae3ed77f52f99890798d0d96dca9fbfa4", null ],
     [ "DefaultWidth", "GlobalHyperParameters_8hpp.html#a4f2d2a7d486c887e6484626ae1d84067", null ],
     [ "ELCThreshold", "GlobalHyperParameters_8hpp.html#a78a077ef541ad0988f0d18a6d3de1a9a", null ],

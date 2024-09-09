@@ -1,0 +1,5 @@
+<map id="NextSimIO::MessageArr::MessageArr" name="NextSimIO::MessageArr::MessageArr">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,183,80"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1InputMessage.html#ae92065f99d1108cab958fb5eb9308248" title="Set node ID." alt="" coords="231,5,421,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputMessage.html#a4aff48eff933ff4263567383e32f1d3d" title="Set vehicle ID." alt="" coords="231,71,421,112"/>
+</map>

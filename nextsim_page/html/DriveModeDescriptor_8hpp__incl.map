@@ -1,26 +1,24 @@
 <map id="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/DriveModeDescriptor.hpp" name="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/DriveModeDescriptor.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="364,5,604,61"/>
-<area shape="rect" id="node2" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="323,452,570,479"/>
-<area shape="rect" id="node12" href="$GeneralLC_8hpp.html" title=" " alt="" coords="229,109,387,151"/>
-<area shape="rect" id="node23" title=" " alt="" coords="484,117,561,143"/>
-<area shape="rect" id="node24" title=" " alt="" coords="586,117,710,143"/>
-<area shape="rect" id="node3" title=" " alt="" coords="481,527,543,553"/>
-<area shape="rect" id="node4" href="$Enumerations_8hpp.html" title=" " alt="" coords="42,601,283,628"/>
-<area shape="rect" id="node8" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="123,527,357,553"/>
-<area shape="rect" id="node9" title=" " alt="" coords="499,601,562,628"/>
-<area shape="rect" id="node11" title=" " alt="" coords="381,527,456,553"/>
-<area shape="rect" id="node5" title=" " alt="" coords="85,676,141,703"/>
-<area shape="rect" id="node6" title=" " alt="" coords="571,676,629,703"/>
-<area shape="rect" id="node7" title=" " alt="" coords="166,676,258,703"/>
-<area shape="rect" id="node10" title=" " alt="" coords="308,601,399,628"/>
-<area shape="rect" id="node13" href="$DriveModel_8hpp.html" title=" " alt="" coords="107,199,264,240"/>
-<area shape="rect" id="node22" href="$GlobalHyperParameters_8hpp.html" title=" " alt="" coords="217,288,399,329"/>
-<area shape="rect" id="node14" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="187,377,410,404"/>
-<area shape="rect" id="node16" title=" " alt="" coords="5,527,48,553"/>
-<area shape="rect" id="node15" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="63,452,299,479"/>
-<area shape="rect" id="node17" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="626,452,873,479"/>
-<area shape="rect" id="node18" title=" " alt="" coords="827,601,907,628"/>
-<area shape="rect" id="node19" href="$InputDistribution_8hpp.html" title=" " alt="" coords="670,527,829,553"/>
-<area shape="rect" id="node20" title=" " alt="" coords="637,601,709,628"/>
-<area shape="rect" id="node21" title=" " alt="" coords="734,601,802,628"/>
+<area shape="rect" id="node1" title=" " alt="" coords="359,5,599,61"/>
+<area shape="rect" id="node2" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="146,385,393,411"/>
+<area shape="rect" id="node12" href="$GeneralLC_8hpp.html" title=" " alt="" coords="329,109,487,151"/>
+<area shape="rect" id="node21" title=" " alt="" coords="511,117,588,143"/>
+<area shape="rect" id="node22" title=" " alt="" coords="613,117,737,143"/>
+<area shape="rect" id="node3" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="325,467,560,493"/>
+<area shape="rect" id="node8" title=" " alt="" coords="659,541,722,568"/>
+<area shape="rect" id="node10" title=" " alt="" coords="238,467,301,493"/>
+<area shape="rect" id="node11" title=" " alt="" coords="139,467,213,493"/>
+<area shape="rect" id="node4" href="$Enumerations_8hpp.html" title=" " alt="" coords="346,541,587,568"/>
+<area shape="rect" id="node9" title=" " alt="" coords="108,541,199,568"/>
+<area shape="rect" id="node5" title=" " alt="" coords="488,616,544,643"/>
+<area shape="rect" id="node6" title=" " alt="" coords="803,616,861,643"/>
+<area shape="rect" id="node7" title=" " alt="" coords="371,616,463,643"/>
+<area shape="rect" id="node13" href="$DriveModel_8hpp.html" title=" " alt="" coords="375,199,532,240"/>
+<area shape="rect" id="node14" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="365,295,587,322"/>
+<area shape="rect" id="node16" title=" " alt="" coords="635,467,677,493"/>
+<area shape="rect" id="node19" href="$GlobalHyperParameters_8hpp.html" title=" " alt="" coords="10,288,193,329"/>
+<area shape="rect" id="node15" href="$PathIdentifier_8hpp.html" title=" " alt="" coords="417,385,653,411"/>
+<area shape="rect" id="node17" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="736,377,907,419"/>
+<area shape="rect" id="node18" href="$InputDistribution_8hpp.html" title=" " alt="" coords="753,467,911,493"/>
+<area shape="rect" id="node20" title=" " alt="" coords="5,385,64,411"/>
 </map>

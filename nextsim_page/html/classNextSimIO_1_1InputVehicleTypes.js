@@ -1,0 +1,27 @@
+var classNextSimIO_1_1InputVehicleTypes =
+[
+    [ "InputVehicleTypes", "classNextSimIO_1_1InputVehicleTypes.html#af92afa905edafd5aebae0696dd7e08ba", null ],
+    [ "genjamgap", "classNextSimIO_1_1InputVehicleTypes.html#a550cd4392b19695682e83a10e48d7980", null ],
+    [ "genLCparam", "classNextSimIO_1_1InputVehicleTypes.html#a16ad39fb17552253b9031582615ea3f9", null ],
+    [ "genLCsensitivity", "classNextSimIO_1_1InputVehicleTypes.html#ac268146f8252c1965022be9e63524b1a", null ],
+    [ "genmax_acc", "classNextSimIO_1_1InputVehicleTypes.html#a587c569cadcb932e962b9f686bb5894e", null ],
+    [ "genmax_dec", "classNextSimIO_1_1InputVehicleTypes.html#ad4a77c812cbc5e0c1a53b09d713a14be", null ],
+    [ "genreaction_time", "classNextSimIO_1_1InputVehicleTypes.html#aeb1e2e1ec058595b8ae52bbbc9d01025", null ],
+    [ "genveh_len", "classNextSimIO_1_1InputVehicleTypes.html#a4d3b993161223f7666f3c41571f2ba0f", null ],
+    [ "genvf", "classNextSimIO_1_1InputVehicleTypes.html#ade57475b5a8b091dad4c46292baaa836", null ],
+    [ "getmax_pax", "classNextSimIO_1_1InputVehicleTypes.html#acc1d11abbdf6d0829c51754843bf3540", null ],
+    [ "getv2xActive", "classNextSimIO_1_1InputVehicleTypes.html#a0f52b8c7507f2b02d997c0b4520e77d7", null ],
+    [ "getvehType", "classNextSimIO_1_1InputVehicleTypes.html#a95fe0679d3e281763ea5781a9385ce34", null ],
+    [ "jamgap", "classNextSimIO_1_1InputVehicleTypes.html#a7501eff433b904d14f6a502ca955dd59", null ],
+    [ "lc_param1", "classNextSimIO_1_1InputVehicleTypes.html#a0ad9595ee382817d58ef93700fd08c8c", null ],
+    [ "lc_param2", "classNextSimIO_1_1InputVehicleTypes.html#aa05fafdfd02f817ade639430847fb2a8", null ],
+    [ "lc_sensitivity", "classNextSimIO_1_1InputVehicleTypes.html#a9432c8d2942d109c3a24d7511b205b73", null ],
+    [ "max_acc", "classNextSimIO_1_1InputVehicleTypes.html#a5d2fbc0b7ab43a7228ef2cc39aadee3d", null ],
+    [ "max_dec", "classNextSimIO_1_1InputVehicleTypes.html#a07b808025f3b430faef0b0c83855a64a", null ],
+    [ "max_pax", "classNextSimIO_1_1InputVehicleTypes.html#a68cbdfb0d348a4a2cc24bfe6146a2336", null ],
+    [ "reaction_time", "classNextSimIO_1_1InputVehicleTypes.html#ac4e0ddf71f58eb1c8842065a4624eb5e", null ],
+    [ "v2xActive", "classNextSimIO_1_1InputVehicleTypes.html#a86c87f99f1225e7aef4b03e2756286bf", null ],
+    [ "veh_len", "classNextSimIO_1_1InputVehicleTypes.html#af57c2d309721212cd75e1d7271933e41", null ],
+    [ "vehType", "classNextSimIO_1_1InputVehicleTypes.html#aa16ce7ab174d027468c933112952f5fe", null ],
+    [ "vf", "classNextSimIO_1_1InputVehicleTypes.html#a07ffdb8094119992b057f625049c5123", null ]
+];

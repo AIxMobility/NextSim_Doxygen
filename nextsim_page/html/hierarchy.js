@@ -24,7 +24,6 @@ var hierarchy =
     [ "NextSimIO::EventArr", "classNextSimIO_1_1EventArr.html", null ],
     [ "Captain::Util::EventRecorder", "classCaptain_1_1Util_1_1EventRecorder.html", null ],
     [ "Captain::Util::EventRecorderContainer", "structCaptain_1_1Util_1_1EventRecorderContainer.html", null ],
-    [ "std::hash< Captain::UnitIdentifier >", "structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4.html", null ],
     [ "Captain::DMode::IAutomaticallyDeactivated", "classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html", [
       [ "Captain::DMode::AdjSpeed", "classCaptain_1_1DMode_1_1AdjSpeed.html", null ],
       [ "Captain::DMode::ApproachStation", "classCaptain_1_1DMode_1_1ApproachStation.html", null ],

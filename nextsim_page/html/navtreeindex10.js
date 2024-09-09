@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"structCaptain_1_1Node_1_1IVehicleContainableUnit.html#ae3fb8f20863fb4aeb1e569152763d3b4":[3,0,0,1,3,23],
 "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#ae655029155119ae6b493b2bfece9eaf2":[3,0,0,1,3,29],
 "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#af7357fcfe246c5a1de302c4bfbdd1e00":[3,0,0,1,3,24],
 "structCaptain_1_1Node_1_1UnitConnectionInfo.html":[3,0,0,1,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "structCaptain_1_1VehicleRecordInfo.html#a7987036a4858808ac73be3d2c5af43d5":[3,0,0,14,16],
 "structCaptain_1_1VehicleRecordInfo.html#a7a0758ab5de649e6e70ed4d343dd60f4":[3,0,0,14,21],
 "structCaptain_1_1VehicleRecordInfo.html#a7d52cd732e6a99b60758feda5dc621dc":[3,0,0,14,31],
-"structCaptain_1_1VehicleRecordInfo.html#a828f256b84303ecc5597f77e6ca92257":[3,0,0,14,34]
+"structCaptain_1_1VehicleRecordInfo.html#a828f256b84303ecc5597f77e6ca92257":[3,0,0,14,34],
+"structCaptain_1_1VehicleRecordInfo.html#a8d15191c0c222a3b9e21afea152f0d0f":[3,0,0,14,11]
 };

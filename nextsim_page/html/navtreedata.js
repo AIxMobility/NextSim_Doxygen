@@ -75,8 +75,8 @@ var NAVTREEINDEX =
 "classNextSimIO_1_1InputLink.html#a81f5ac338f8c8d6187d68c4d04aed413",
 "classNextSimIO_1_1ParamArr.html#a9b35c00711ee07b04c4d1e75f213f34f",
 "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794ab86fc6b051f63d73de262d4c34e3a0a9",
-"structCaptain_1_1Node_1_1IVehicleContainableUnit.html#ae3fb8f20863fb4aeb1e569152763d3b4",
-"structCaptain_1_1VehicleRecordInfo.html#a8d15191c0c222a3b9e21afea152f0d0f"
+"structCaptain_1_1Node_1_1IVehicleContainableUnit.html#ae655029155119ae6b493b2bfece9eaf2",
+"structCaptain_1_1VehicleRecordInfo.html#a8dd84344af728b719ab7e831d2d0c369"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

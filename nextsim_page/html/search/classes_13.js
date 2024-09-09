@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weakptr_1789',['WeakPtr',['../classCaptain_1_1WeakPtr.html',1,'Captain']]]
+  ['xmlwriter_1788',['XmlWriter',['../classCaptain_1_1Util_1_1XmlWriter.html',1,'Captain::Util']]]
 ];

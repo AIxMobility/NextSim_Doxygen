@@ -39,8 +39,7 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
     ] ],
     [ "UnitIdentifier.hpp", "UnitIdentifier_8hpp.html", [
       [ "UnitIdentifier", "structCaptain_1_1UnitIdentifier.html", "structCaptain_1_1UnitIdentifier" ],
-      [ "UnitConnectionDescriptor", "structCaptain_1_1UnitConnectionDescriptor.html", "structCaptain_1_1UnitConnectionDescriptor" ],
-      [ "hash< Captain::UnitIdentifier >", "structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4.html", "structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4" ]
+      [ "UnitConnectionDescriptor", "structCaptain_1_1UnitConnectionDescriptor.html", "structCaptain_1_1UnitConnectionDescriptor" ]
     ] ],
     [ "V2X.hpp", "V2X_8hpp.html", [
       [ "V2X", "classCaptain_1_1V2X.html", "classCaptain_1_1V2X" ]

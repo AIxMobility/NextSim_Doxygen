@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structCaptain_1_1VehicleRecordInfo.html#a8d15191c0c222a3b9e21afea152f0d0f":[3,0,0,14,11],
 "structCaptain_1_1VehicleRecordInfo.html#a8dd84344af728b719ab7e831d2d0c369":[3,0,0,14,3],
 "structCaptain_1_1VehicleRecordInfo.html#a947437b15c4e53fc1fc624b8906c3729":[3,0,0,14,2],
 "structCaptain_1_1VehicleRecordInfo.html#a991239a3ab97766fc4e17064d8b1af48":[3,0,0,14,32],
@@ -42,7 +41,5 @@ var NAVTREEINDEX11 =
 "structCaptain_1_1pair__hash.html":[3,0,0,19],
 "structCaptain_1_1pair__hash.html#a4311232e77fb39112e896549132b3e95":[3,0,0,19,0],
 "structCaptain_1_1tuple__hash.html":[3,0,0,20],
-"structCaptain_1_1tuple__hash.html#a60408bd0ad9d7464b6cd35319e543a84":[3,0,0,20,0],
-"structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4.html":[3,0,2,0],
-"structstd_1_1hash_3_01Captain_1_1UnitIdentifier_01_4.html#a0a49dc745c2e42d7664342e8dc141f96":[3,0,2,0,0]
+"structCaptain_1_1tuple__hash.html#a60408bd0ad9d7464b6cd35319e543a84":[3,0,0,20,0]
 };

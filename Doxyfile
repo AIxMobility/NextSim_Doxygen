@@ -1061,17 +1061,20 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = */CMakeFiles \
+EXCLUDE                = ../NextSim/Captain/CMakeFiles \
                          ../NextSim/Captain/CMake \
                          ../NextSim/Captain/lib \
                          ../NextSim/Captain/Tests \
                          ../NextSim/Captain/bin \
+                         ../NextSim/Captain/Sources/main.cpp \
                          ../NextSim/Captain/Libraries/doctest \
                          ../NextSim/Captain/Libraries/rapidjson \
                          ../NextSim/Captain/Libraries/NextSim_io/tests \
+                         ../NextSim/Captain/Libraries/NextSim_io/CMakeFiles \
                          ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/tinyapi \
+                         ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/FilePath.hpp \
                          ../NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/tinyapi \
-                         ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/FilePath.hpp
+                         ../NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/CMakeFiles \
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

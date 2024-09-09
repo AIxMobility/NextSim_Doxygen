@@ -1061,7 +1061,7 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = ../NextSim/Captain/CMakeFiles \
+EXCLUDE                = */CMakeFiles \
                          ../NextSim/Captain/CMake \
                          ../NextSim/Captain/lib \
                          ../NextSim/Captain/Tests \
@@ -1069,7 +1069,6 @@ EXCLUDE                = ../NextSim/Captain/CMakeFiles \
                          ../NextSim/Captain/Libraries/doctest \
                          ../NextSim/Captain/Libraries/rapidjson \
                          ../NextSim/Captain/Libraries/NextSim_io/tests \
-                         ../NextSim/Captain/Libraries/NextSim_io/CMakeFiles \
                          ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/tinyapi \
                          ../NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/tinyapi \
                          ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/FilePath.hpp

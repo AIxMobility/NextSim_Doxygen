@@ -2,7 +2,6 @@ var classCaptain_1_1Engine =
 [
     [ "RouteUnitPtrPair", "structCaptain_1_1Engine_1_1RouteUnitPtrPair.html", "structCaptain_1_1Engine_1_1RouteUnitPtrPair" ],
     [ "Engine", "classCaptain_1_1Engine.html#ac3145375a7873613bade539f8b6d8d4a", null ],
-    [ "~Engine", "classCaptain_1_1Engine.html#a5b8b47066aea12419b5b19da51762cac", null ],
     [ "AddEvent", "classCaptain_1_1Engine.html#aa618a24b4be7c19eaac60feb4bfda040", null ],
     [ "AddGarageUnit", "classCaptain_1_1Engine.html#ab0b16a7e9679c3a75efb5103ff09aeb9", null ],
     [ "AddGarageUnit", "classCaptain_1_1Engine.html#a226f0173b8f45e11534fbcd4ca4b07b0", null ],

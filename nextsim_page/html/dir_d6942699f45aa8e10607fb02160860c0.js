@@ -23,9 +23,6 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
       [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ]
     ] ],
     [ "Passenger.hpp", "Passenger_8hpp.html", "Passenger_8hpp" ],
-    [ "PathIdentifier.hpp", "PathIdentifier_8hpp.html", [
-      [ "PathIdentifier", "structCaptain_1_1PathIdentifier.html", "structCaptain_1_1PathIdentifier" ]
-    ] ],
     [ "PublicTransitInfo.hpp", "PublicTransitInfo_8hpp.html", [
       [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html", "structCaptain_1_1PublicTransitInfo" ]
     ] ],
@@ -36,6 +33,9 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
     [ "Route.hpp", "Route_8hpp.html", [
       [ "Route", "structCaptain_1_1Route.html", "structCaptain_1_1Route" ],
       [ "PaxRoute", "structCaptain_1_1PaxRoute.html", "structCaptain_1_1PaxRoute" ]
+    ] ],
+    [ "RouteIdentifier.hpp", "RouteIdentifier_8hpp.html", [
+      [ "RouteIdentifier", "structCaptain_1_1RouteIdentifier.html", "structCaptain_1_1RouteIdentifier" ]
     ] ],
     [ "UnitIdentifier.hpp", "UnitIdentifier_8hpp.html", [
       [ "UnitIdentifier", "structCaptain_1_1UnitIdentifier.html", "structCaptain_1_1UnitIdentifier" ],
@@ -50,7 +50,7 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
       [ "VehicleState", "structCaptain_1_1VehicleState.html", "structCaptain_1_1VehicleState" ],
       [ "VehicleDescriptor", "structCaptain_1_1VehicleDescriptor.html", "structCaptain_1_1VehicleDescriptor" ]
     ] ],
-    [ "VehiclePath.hpp", "VehiclePath_8hpp.html", [
-      [ "VehiclePath", "structCaptain_1_1VehiclePath.html", "structCaptain_1_1VehiclePath" ]
+    [ "VehicleRoute.hpp", "VehicleRoute_8hpp.html", [
+      [ "VehicleRoute", "structCaptain_1_1VehicleRoute.html", "structCaptain_1_1VehicleRoute" ]
     ] ]
 ];

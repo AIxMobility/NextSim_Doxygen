@@ -1,5 +1,5 @@
 <map id="Captain::Engine::RecordSimulationInfo" name="Captain::Engine::RecordSimulationInfo">
-<area shape="rect" id="node1" title="Record Simulation Information at the end of Simulation." alt="" coords="5,177,277,203"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,177,277,203"/>
 <area shape="rect" id="node2" href="$classNextSimIO_1_1InputMode.html#a56d7ca71765aae01d9fabef4b3e627ce" title="Get vector of meso link IDs." alt="" coords="359,5,528,47"/>
 <area shape="rect" id="node3" href="$classNextSimIO_1_1InputMode.html#a33ba71be2f860faa1829fd374dfb6d51" title="Get vector of micro link IDs." alt="" coords="359,71,528,112"/>
 <area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1XmlWriter.html#adf7b2502cbde141e5410d69cfbd8ae81" title=" " alt="" coords="355,136,532,177"/>

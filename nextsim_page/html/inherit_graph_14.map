@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structCaptain_1_1MicroLinkInfo.html" title=" " alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node1" href="$structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="5,56,185,83"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="243,5,427,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html" title=" " alt="" coords="242,56,427,83"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1UniformLink.html" title=" " alt="" coords="233,108,436,135"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title=" " alt="" coords="524,46,723,87"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="484,112,763,139"/>
 </map>

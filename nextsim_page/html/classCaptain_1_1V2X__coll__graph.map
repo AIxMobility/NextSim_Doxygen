@@ -1,4 +1,4 @@
 <map id="Captain::V2X" name="Captain::V2X">
-<area shape="rect" id="node1" title=" " alt="" coords="5,233,192,472"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="29,5,168,156"/>
+<area shape="rect" id="node1" title=" " alt="" coords="21,109,128,136"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="5,5,144,32"/>
 </map>

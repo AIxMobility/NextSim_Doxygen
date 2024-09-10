@@ -1,9 +1,6 @@
 var classCaptain_1_1Node_1_1MesoUnit =
 [
     [ "MesoUnit", "classCaptain_1_1Node_1_1MesoUnit.html#a73caeec8e8b556b23caeda9436152e93", null ],
-    [ "MesoUnit", "classCaptain_1_1Node_1_1MesoUnit.html#a1312d96ed3fe3fbea418bbb7567158c9", null ],
-    [ "MesoUnit", "classCaptain_1_1Node_1_1MesoUnit.html#acb034828e7ba2aa1031d9236e6443474", null ],
-    [ "~MesoUnit", "classCaptain_1_1Node_1_1MesoUnit.html#a53b8fa4c80d60eddc2372610ce816b8a", null ],
     [ "AddVehicle", "classCaptain_1_1Node_1_1MesoUnit.html#acee45a419f557a0fc2afe0ca2d3718d9", null ],
     [ "ComputeICF", "classCaptain_1_1Node_1_1MesoUnit.html#a727dd4df6ffb108367ea87f0bec86943", null ],
     [ "ComputeLaneChange", "classCaptain_1_1Node_1_1MesoUnit.html#acfa1357db8ad5ee278cf611241b80b49", null ],
@@ -45,8 +42,6 @@ var classCaptain_1_1Node_1_1MesoUnit =
     [ "MoveFromPreviousUnit", "classCaptain_1_1Node_1_1MesoUnit.html#ad5e8f0ec18876f1c39157b27b8ef6884", null ],
     [ "MoveMandatoryLaneChangeVehicles", "classCaptain_1_1Node_1_1MesoUnit.html#a33f6c9f9986084d2188a17267a9da32b", null ],
     [ "MoveOptionalLaneChangeVehicles", "classCaptain_1_1Node_1_1MesoUnit.html#ab8861953c83cd46b4ad71858fae87e69", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1MesoUnit.html#acc78ab01b75d32f9f596bd2147e1ce1d", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1MesoUnit.html#a707ae9f308d7f80710fc8856fa8234fa", null ],
     [ "PeekVehicle", "classCaptain_1_1Node_1_1MesoUnit.html#ab5435bd1e06cd98cafd200cb6a3d3900", null ],
     [ "PopVehicle", "classCaptain_1_1Node_1_1MesoUnit.html#a5c6e0a074a9d2e1eb5b5d0ccb22af0c6", null ],
     [ "PushVehicle", "classCaptain_1_1Node_1_1MesoUnit.html#a942d8030b0dd71d82f7e769c51715be1", null ],

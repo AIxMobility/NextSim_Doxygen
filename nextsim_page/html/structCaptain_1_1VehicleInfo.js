@@ -1,14 +1,7 @@
 var structCaptain_1_1VehicleInfo =
 [
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#aad84deb35b80e7f783d3274a36a55d78", null ],
-    [ "~VehicleInfo", "structCaptain_1_1VehicleInfo.html#aa913eca93e772fa911ae4e9f3fe902b9", null ],
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a0b222f9195e88ce133a0326354cfec55", null ],
-    [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a6bcd18b6caabb763c51bec7341e2c1b6", null ],
-    [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html#a39bffe0a6cf76a97e47d60c773b2e4f1", null ],
-    [ "operator!=", "structCaptain_1_1VehicleInfo.html#a4ee9c3da280d928e22dfb91b52f2574e", null ],
-    [ "operator=", "structCaptain_1_1VehicleInfo.html#a6176f6ae00b315df7a5bd0f270e33c8a", null ],
-    [ "operator=", "structCaptain_1_1VehicleInfo.html#a47aa6967081570911c0eea87082835e7", null ],
-    [ "operator==", "structCaptain_1_1VehicleInfo.html#a30edf4f46478cfea8b313d2b1c07ea3c", null ],
     [ "Acceleration", "structCaptain_1_1VehicleInfo.html#ad9af994362a0786bc6975be196511dbe", null ],
     [ "Deceleration", "structCaptain_1_1VehicleInfo.html#a44481dd41a4ede8440d3b7a8e614b5cd", null ],
     [ "JamGap", "structCaptain_1_1VehicleInfo.html#ac310de4a0b6234bac67537ad096c487b", null ],

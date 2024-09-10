@@ -1,14 +1,9 @@
 var classCaptain_1_1DriveModeDescriptor =
 [
     [ "DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html#a1b869e2b99a0bf19966fc6147e4e504d", null ],
-    [ "~DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html#a6aefd6467d1b1a46c39d36ba67f0522e", null ],
-    [ "DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html#aa47d1da3f359e9629b687ce8cb91cc44", null ],
-    [ "DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html#afcf7da1357541f8d5fb55b6f17f0278b", null ],
     [ "ComputePosition", "classCaptain_1_1DriveModeDescriptor.html#a88fc2bc346771611b078fb611a7eef64", null ],
     [ "GetActivatedDriveModes", "classCaptain_1_1DriveModeDescriptor.html#af3491c2332a4fd909bebdb026a6559bd", null ],
     [ "IsInLCState", "classCaptain_1_1DriveModeDescriptor.html#a3d7f6586729040e0639e54bb2dd62c73", null ],
-    [ "operator=", "classCaptain_1_1DriveModeDescriptor.html#ad6f091ebebee609fddc6468bbc8ce0c7", null ],
-    [ "operator=", "classCaptain_1_1DriveModeDescriptor.html#a058731d3651da011c0b7997510889f42", null ],
     [ "AdjSpeedMode", "classCaptain_1_1DriveModeDescriptor.html#a9bf14e277101f2ee8d4e0fcc42a74a16", null ],
     [ "AlcMode", "classCaptain_1_1DriveModeDescriptor.html#afe9f68ce12b72428ab97cde44cd4903a", null ],
     [ "ApproachStationMode", "classCaptain_1_1DriveModeDescriptor.html#af9a4b99a9db589c7225461bd5b3721f8", null ],

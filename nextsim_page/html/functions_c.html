@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 , <a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html#a47afe186e18e15052f774138f4ed6d11">Captain::Util::VehicleQueue</a>
 </li>
 <li>compareByDistance()
-: <a class="el" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#af8727cebca57314ffd068d36c89bdecb">Captain::Node::EnhancedMicroLink</a>
+: <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#a799322d14ef907c4646e3350f01a7427">Captain::Node::MicroLink</a>
 </li>
 <li>CompareStationInfo()
 : <a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html#ab1babb30e4254cb8c91aa2dbffbe43bd">Captain::Util::EventRecorder</a>
@@ -163,18 +163,15 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>ComputeICF()
 : <a class="el" href="structCaptain_1_1BasicMesoModel.html#a8cc73e947f61b7cf908f9271224086a4">Captain::BasicMesoModel</a>
 , <a class="el" href="structCaptain_1_1MesoComputationModel.html#a561169d2bb66370ae74d1362e0a23e28">Captain::MesoComputationModel</a>
-, <a class="el" href="classCaptain_1_1Node_1_1EnhancedMicroLink.html#ac1a713c7025b7d64f5c7746c3dc37553">Captain::Node::EnhancedMicroLink</a>
 , <a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#aa1837c30e1ba5cb855b9a7d8f72c6e03">Captain::Node::MesoLink</a>
 , <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#a727dd4df6ffb108367ea87f0bec86943">Captain::Node::MesoUnit</a>
 , <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#a12e9a63850a185690fd720cf83a3fe74">Captain::Node::MicroLane</a>
+, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#a70396697381f9c4507b3a2fcbd7a340e">Captain::Node::MicroLink</a>
 </li>
 <li>ComputeLaneChange()
 : <a class="el" href="structCaptain_1_1BasicMesoModel.html#a509fc1b41787ce400c0ade99d215b979">Captain::BasicMesoModel</a>
 , <a class="el" href="structCaptain_1_1MesoComputationModel.html#a29e96d556ec6a01b5000ab7c7f261613">Captain::MesoComputationModel</a>
 , <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#acfa1357db8ad5ee278cf611241b80b49">Captain::Node::MesoUnit</a>
-</li>
-<li>ComputeNewVehicleState()
-: <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#a7f2d686261069a2e8b531117dd8ec909">Captain::Node::MicroLink</a>
 </li>
 <li>ComputePosition()
 : <a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a88fc2bc346771611b078fb611a7eef64">Captain::DriveModeDescriptor</a>
@@ -202,7 +199,22 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classNextSimIO_1_1InputNode.html#afbdeb40cf19e93dc55be5a0438d3e24b">NextSimIO::InputNode</a>
 </li>
 <li>ContainsUnitIdentifier()
-: <a class="el" href="structCaptain_1_1PathIdentifier.html#ac637cd75014e617fba3926f9d53adffd">Captain::PathIdentifier</a>
+: <a class="el" href="structCaptain_1_1RouteIdentifier.html#ae97255119dec0d84ee65e8e6609c2691">Captain::RouteIdentifier</a>
+</li>
+<li>ConvertSimMode()
+: <a class="el" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294">Captain::Engine</a>
+</li>
+<li>ConvertSimModeToMeso()
+: <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a9951c3cd0885d34b7c2f58166ea4ba76">Captain::Node::UniformLink</a>
+</li>
+<li>ConvertSimModeToMicro()
+: <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#ac057c57b41193559793887c558464511">Captain::Node::UniformLink</a>
+</li>
+<li>ConvertUnitIDtoPTRouteID()
+: <a class="el" href="classCaptain_1_1Engine.html#a4e835dc0edc651c913b86f022238f090">Captain::Engine</a>
+</li>
+<li>ConvertUnitIDtoRouteID()
+: <a class="el" href="classCaptain_1_1Engine.html#aae2863109b8e45cfc0d42d8ad26d510d">Captain::Engine</a>
 </li>
 <li>countLaneChange
 : <a class="el" href="structCaptain_1_1VehicleRecordInfo.html#a3197446fb14ef7a44d1d36fb1aca5740">Captain::VehicleRecordInfo</a>
@@ -222,14 +234,14 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>CurrentLinkType
 : <a class="el" href="structCaptain_1_1VehicleState.html#a5dc5c0fbc7e4205c0da47fa6c35d2fcb">Captain::VehicleState</a>
 </li>
-<li>CurrentPathIdentifier
-: <a class="el" href="structCaptain_1_1VehicleState.html#a17b5264f4158659e41a555918b135af1">Captain::VehicleState</a>
-</li>
-<li>CurrentPathIndex
-: <a class="el" href="structCaptain_1_1VehiclePath.html#ab47e1c5f18e82bd19338cdaa1b57eddc">Captain::VehiclePath</a>
-</li>
 <li>currentPTlineIndex
 : <a class="el" href="classCaptain_1_1Passenger.html#ae4fd3230799e0c2603b5da479582ddcf">Captain::Passenger</a>
+</li>
+<li>CurrentRouteIdentifier
+: <a class="el" href="structCaptain_1_1VehicleState.html#a3ac8466be57c2429a28b739395d5e329">Captain::VehicleState</a>
+</li>
+<li>CurrentRouteIndex
+: <a class="el" href="structCaptain_1_1VehicleRoute.html#a1b97ad2e5218cd28ffa3c68fe32740b0">Captain::VehicleRoute</a>
 </li>
 <li>currentStationIndex
 : <a class="el" href="classCaptain_1_1Passenger.html#a64bf7ae85c6feeabda1a2ab9dd438563">Captain::Passenger</a>
@@ -240,9 +252,6 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>CurrentUnit
 : <a class="el" href="structCaptain_1_1CellRecordInfo.html#a7a92439853bd7654ebae2a2521028ad7">Captain::CellRecordInfo</a>
 , <a class="el" href="structCaptain_1_1VehicleRecordInfo.html#a4bfa6d78a81b72f2dfb05db6130fabd3">Captain::VehicleRecordInfo</a>
-</li>
-<li>CV()
-: <a class="el" href="classCaptain_1_1DMode_1_1CV.html#a1a8d956a423e30e4d01f46176ceee682">Captain::DMode::CV</a>
 </li>
 <li>CvMode
 : <a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a3212f4e339891e46a225fdf3417c8993">Captain::DriveModeDescriptor</a>

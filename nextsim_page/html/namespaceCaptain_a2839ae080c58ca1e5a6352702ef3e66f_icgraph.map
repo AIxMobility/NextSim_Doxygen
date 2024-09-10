@@ -1,7 +1,7 @@
 <map id="Captain::stringToUnitType" name="Captain::stringToUnitType">
-<area shape="rect" id="node1" title=" " alt="" coords="548,35,736,61"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a1d24c67492ad8ce4ae4ba01e216dd90a" title=" " alt="" coords="257,5,500,32"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#ad81e51c73e2b257fe0df2aedf1d6a424" title=" " alt="" coords="271,57,486,98"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a6cd29623750e0874cb7b4b6080570035" title=" " alt="" coords="6,5,209,32"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,60,209,87"/>
+<area shape="rect" id="node1" title=" " alt="" coords="520,46,708,73"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#abbea8c36241733fa1d0deb99ed1b7d86" title=" " alt="" coords="257,5,472,47"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#ad81e51c73e2b257fe0df2aedf1d6a424" title=" " alt="" coords="257,71,472,112"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a6cd29623750e0874cb7b4b6080570035" title=" " alt="" coords="6,13,209,39"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,70,209,97"/>
 </map>

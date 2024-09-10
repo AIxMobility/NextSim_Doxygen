@@ -1,4 +1,4 @@
 <map id="Captain::Engine::FindRouteFromIntersection" name="Captain::Engine::FindRouteFromIntersection">
-<area shape="rect" id="node1" title="Finds shortest UnitRoute from current intersection to destination." alt="" coords="245,5,443,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a647b50d68f8ab0e5a8626c43030c8bba" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="245,5,443,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a3ccd2aecde35b0d7c3e40dec8db4fbf1" title=" " alt="" coords="5,5,197,47"/>
 </map>

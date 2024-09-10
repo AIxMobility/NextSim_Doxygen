@@ -1,6 +1,6 @@
 <map id="Captain::DMode::IAutomaticallyDeactivated" name="Captain::DMode::IAutomaticallyDeactivated">
-<area shape="rect" id="node1" title=" " alt="" coords="224,5,456,185"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1AdjSpeed.html" title=" " alt="" coords="5,255,211,450"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1ApproachStation.html" title=" " alt="" coords="235,233,445,472"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1Stay.html" title=" " alt="" coords="469,270,643,435"/>
+<area shape="rect" id="node1" title=" " alt="" coords="207,5,436,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1AdjSpeed.html" title=" " alt="" coords="5,102,200,129"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1ApproachStation.html" title=" " alt="" coords="224,95,419,136"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1Stay.html" title=" " alt="" coords="443,102,605,129"/>
 </map>

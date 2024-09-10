@@ -1,6 +1,6 @@
 <map id="Captain::IEventRecordable" name="Captain::IEventRecordable">
-<area shape="rect" id="node1" title="Interface for units that can record events." alt="" coords="305,5,499,171"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html" title=" " alt="" coords="5,277,257,707"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html" title=" " alt="" coords="281,219,523,765"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1Station.html" title=" " alt="" coords="547,314,742,670"/>
+<area shape="rect" id="node1" title="Interface for units that can record events." alt="" coords="211,5,405,32"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html" title=" " alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html" title=" " alt="" coords="213,80,403,107"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1Station.html" title=" " alt="" coords="427,80,595,107"/>
 </map>

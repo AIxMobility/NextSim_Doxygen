@@ -1,5 +1,5 @@
 <map id="Captain::Node::UniformLink::SetLeaderLaneConnectionInfo" name="Captain::Node::UniformLink::SetLeaderLaneConnectionInfo">
 <area shape="rect" id="node1" title=" " alt="" coords="5,39,229,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html#a464f151e9df16b91e2ac994685a4bd61" title="Meso specific methods." alt="" coords="311,5,495,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html#a68172dc96cb831399b18cec8843d8ef3" title=" " alt="" coords="277,71,528,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html#a464f151e9df16b91e2ac994685a4bd61" title="Meso specific methods." alt="" coords="297,5,481,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html#ac69639df3b0fc725a4f6841c0a067ae6" title=" " alt="" coords="277,71,501,112"/>
 </map>

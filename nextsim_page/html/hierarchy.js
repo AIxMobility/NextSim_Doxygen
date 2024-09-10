@@ -35,11 +35,10 @@ var hierarchy =
       [ "Captain::Node::Station", "classCaptain_1_1Node_1_1Station.html", null ]
     ] ],
     [ "Captain::Node::ILinkable", "structCaptain_1_1Node_1_1ILinkable.html", [
-      [ "Captain::Node::EnhancedMicroLink", "classCaptain_1_1Node_1_1EnhancedMicroLink.html", [
+      [ "Captain::Node::MesoLink", "classCaptain_1_1Node_1_1MesoLink.html", null ],
+      [ "Captain::Node::MicroLink", "classCaptain_1_1Node_1_1MicroLink.html", [
         [ "Captain::Node::IntersectionMicroLink", "classCaptain_1_1Node_1_1IntersectionMicroLink.html", null ]
       ] ],
-      [ "Captain::Node::MesoLink", "classCaptain_1_1Node_1_1MesoLink.html", null ],
-      [ "Captain::Node::MicroLink", "classCaptain_1_1Node_1_1MicroLink.html", null ],
       [ "Captain::Node::UniformLink", "classCaptain_1_1Node_1_1UniformLink.html", [
         [ "Captain::Node::UniformIntersectionLink", "classCaptain_1_1Node_1_1UniformIntersectionLink.html", null ]
       ] ]
@@ -108,7 +107,6 @@ var hierarchy =
     [ "NextSimIO::ParamArr", "classNextSimIO_1_1ParamArr.html", null ],
     [ "Captain::Passenger", "classCaptain_1_1Passenger.html", null ],
     [ "Captain::PassengerReservationInfo", "classCaptain_1_1PassengerReservationInfo.html", null ],
-    [ "Captain::PathIdentifier", "structCaptain_1_1PathIdentifier.html", null ],
     [ "NextSimIO::PaxArr", "classNextSimIO_1_1PaxArr.html", null ],
     [ "Captain::PaxRoute", "structCaptain_1_1PaxRoute.html", null ],
     [ "NextSimIO::port", "classNextSimIO_1_1port.html", null ],
@@ -124,7 +122,7 @@ var hierarchy =
     ] ],
     [ "Captain::RandomEngine", "classCaptain_1_1RandomEngine.html", null ],
     [ "Captain::Route", "structCaptain_1_1Route.html", null ],
-    [ "Captain::Engine::RouteUnitPtrPair", "structCaptain_1_1Engine_1_1RouteUnitPtrPair.html", null ],
+    [ "Captain::RouteIdentifier", "structCaptain_1_1RouteIdentifier.html", null ],
     [ "NextSimIO::ScenarioArr", "classNextSimIO_1_1ScenarioArr.html", null ],
     [ "Captain::SegmentInfo", "structCaptain_1_1SegmentInfo.html", null ],
     [ "Captain::SharedObjectInfo", "structCaptain_1_1SharedObjectInfo.html", null ],
@@ -148,9 +146,9 @@ var hierarchy =
     [ "Captain::Vehicle", "classCaptain_1_1Vehicle.html", null ],
     [ "Captain::VehicleDescriptor", "structCaptain_1_1VehicleDescriptor.html", null ],
     [ "Captain::VehicleInfo", "structCaptain_1_1VehicleInfo.html", null ],
-    [ "Captain::VehiclePath", "structCaptain_1_1VehiclePath.html", null ],
     [ "Captain::VehicleRecordInfo", "structCaptain_1_1VehicleRecordInfo.html", null ],
     [ "Captain::VehicleReservationInfo", "classCaptain_1_1VehicleReservationInfo.html", null ],
+    [ "Captain::VehicleRoute", "structCaptain_1_1VehicleRoute.html", null ],
     [ "Captain::VehicleState", "structCaptain_1_1VehicleState.html", null ],
     [ "NextSimIO::VehicleTypesArr", "classNextSimIO_1_1VehicleTypesArr.html", null ],
     [ "Captain::WeakPtr< T >", "classCaptain_1_1WeakPtr.html", null ],

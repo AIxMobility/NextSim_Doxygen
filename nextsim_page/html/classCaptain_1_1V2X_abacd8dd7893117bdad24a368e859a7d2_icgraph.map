@@ -1,5 +1,5 @@
 <map id="Captain::V2X::setIsActive" name="Captain::V2X::setIsActive">
-<area shape="rect" id="node1" title=" " alt="" coords="525,13,712,39"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html#ab25604fced6d61b0fd654ddf6b1ba556" title=" " alt="" coords="256,5,477,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="489,13,676,39"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MicroLink.html#afae41b2cb41b142a1ea3c3164bbd6649" title=" " alt="" coords="256,5,441,47"/>
 <area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1UniformLink.html#aa0f30d3fbb8b51d02c7e15f4da1a969f" title=" " alt="" coords="5,5,208,47"/>
 </map>

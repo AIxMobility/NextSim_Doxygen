@@ -1,0 +1,5 @@
+<map id="Captain::Node::MicroLink::SetStopVehicleMap" name="Captain::Node::MicroLink::SetStopVehicleMap">
+<area shape="rect" id="node1" title=" " alt="" coords="305,39,491,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1UniformLink.html#ab8d688a9ac09f640086134be0a10fd21" title=" " alt="" coords="30,5,233,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html#a3cb990fa4be3d3ab28355cac0946082d" title=" " alt="" coords="5,71,257,112"/>
+</map>

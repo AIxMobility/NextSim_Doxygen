@@ -1,4 +1,5 @@
 <map id="Captain::Node::MicroLink" name="Captain::Node::MicroLink">
-<area shape="rect" id="node1" title=" " alt="" coords="5,321,235,575"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="27,5,213,273"/>
+<area shape="rect" id="node1" title=" " alt="" coords="12,80,197,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title=" " alt="" coords="5,155,204,196"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Node_1_1ILinkable.html" title=" " alt="" coords="15,5,195,32"/>
 </map>

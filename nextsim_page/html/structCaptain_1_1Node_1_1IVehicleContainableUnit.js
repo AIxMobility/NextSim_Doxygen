@@ -1,9 +1,6 @@
 var structCaptain_1_1Node_1_1IVehicleContainableUnit =
 [
     [ "IVehicleContainableUnit", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a3db1dd4b55b697a798f64e8f5900b02c", null ],
-    [ "~IVehicleContainableUnit", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#abfb684c58bb0826a607b417773ce8863", null ],
-    [ "IVehicleContainableUnit", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#aa56da4b677191490dc5209e59083bd6f", null ],
-    [ "IVehicleContainableUnit", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a592d1e3a3110a78d054ddf08019d605d", null ],
     [ "FindFollowerVehicleByPosition", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a58584bc09c7cf66692458e299a39ee3d", null ],
     [ "FindLeaderVehicleByPosition", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a06deec8bf4aaaaf943268d32b726cd8d", null ],
     [ "GetCurrentNumVehicles", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a5f5ff81d850ec7aad0e1db06d4360a2b", null ],
@@ -19,8 +16,6 @@ var structCaptain_1_1Node_1_1IVehicleContainableUnit =
     [ "GetWidth", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a064eeaeccd3c012721ddfaeeca64ee63", null ],
     [ "Identifier", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a200a71997b29c63d95109fd3c821909c", null ],
     [ "InitializeSignal", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a1e88a800cb808f28b715444d5999eb02", null ],
-    [ "operator=", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#aa24d512e8f21d404ac9fb63b99513a9c", null ],
-    [ "operator=", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a17f7f786e0e34326e9868eef50fd6702", null ],
     [ "PeekVehicle", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a83bfb9e78a56f3b6fcff924adcd3e4eb", null ],
     [ "PopVehicle", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a81efdf8f2f2ee025ab61d29ed5f12d9b", null ],
     [ "PushVehicle", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html#ae3fb8f20863fb4aeb1e569152763d3b4", null ],

@@ -1,6 +1,6 @@
 <map id="Captain::Node::MesoUnit::m_moveFromMesoOrSourceUnit" name="Captain::Node::MesoUnit::m_moveFromMesoOrSourceUnit">
 <area shape="rect" id="node1" title=" " alt="" coords="5,71,247,112"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1PathIdentifier.html#ac637cd75014e617fba3926f9d53adffd" title=" " alt="" coords="309,5,481,47"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1RouteIdentifier.html#ae97255119dec0d84ee65e8e6609c2691" title=" " alt="" coords="307,5,483,47"/>
 <area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3b1d50e6a57ecce1358f76b874906805" title=" " alt="" coords="295,71,495,112"/>
 <area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="295,136,495,177"/>
 </map>

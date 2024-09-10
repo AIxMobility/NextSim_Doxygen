@@ -1,10 +1,10 @@
 <map id="Captain::Node::Station" name="Captain::Node::Station">
-<area shape="rect" id="node1" title=" " alt="" coords="365,799,560,1111"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="5,490,200,655"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="225,417,434,729"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="32,27,216,266"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="241,27,418,266"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="443,5,629,288"/>
-<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="459,409,624,736"/>
-<area shape="rect" id="node8" href="$structCaptain_1_1StationRecordInfo.html" title=" " alt="" coords="649,468,845,677"/>
+<area shape="rect" id="node1" title=" " alt="" coords="751,175,919,201"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="382,99,577,125"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="376,149,583,176"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,45,189,72"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,149,186,176"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,224,187,251"/>
+<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="397,200,562,227"/>
+<area shape="rect" id="node8" href="$structCaptain_1_1StationRecordInfo.html" title=" " alt="" coords="381,251,577,277"/>
 </map>

@@ -1,9 +1,6 @@
 var classCaptain_1_1Node_1_1MicroLane =
 [
     [ "MicroLane", "classCaptain_1_1Node_1_1MicroLane.html#a1cb38925486ca6999245084d589d90ea", null ],
-    [ "~MicroLane", "classCaptain_1_1Node_1_1MicroLane.html#a7b4f4aaa60c1e94b224b4d243633e999", null ],
-    [ "MicroLane", "classCaptain_1_1Node_1_1MicroLane.html#ab46fecff9554542942af88f563b42fad", null ],
-    [ "MicroLane", "classCaptain_1_1Node_1_1MicroLane.html#a696ed6ca3652715702d4f0b1167ef37b", null ],
     [ "AddVehicle", "classCaptain_1_1Node_1_1MicroLane.html#a5b02e0582aa2f9544619f8b33e593657", null ],
     [ "ApplyV2XMessageToVehicles", "classCaptain_1_1Node_1_1MicroLane.html#ae4c0989c207f2e85d4eff39b9f42e198", null ],
     [ "ComputeICF", "classCaptain_1_1Node_1_1MicroLane.html#a12e9a63850a185690fd720cf83a3fe74", null ],
@@ -52,8 +49,6 @@ var classCaptain_1_1Node_1_1MicroLane =
     [ "MoveFromNearbyLane", "classCaptain_1_1Node_1_1MicroLane.html#a4515ab6a7052d663e549249d5af7b3e2", null ],
     [ "MoveFromPreviousUnit", "classCaptain_1_1Node_1_1MicroLane.html#af76a177c26d2913f37b977f9a9b0a6f9", null ],
     [ "MoveFromPreviousUnitToVirtualMicro", "classCaptain_1_1Node_1_1MicroLane.html#a1b7a35256242768fde5f54fb27145804", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1MicroLane.html#a457e6a0713ff484197d5f379d4083f1a", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1MicroLane.html#a04a24b471194156ed1f9cad1be1d1b74", null ],
     [ "PeekVehicle", "classCaptain_1_1Node_1_1MicroLane.html#a4b7102e1805113a99fd626bbc022e361", null ],
     [ "PopVehicle", "classCaptain_1_1Node_1_1MicroLane.html#a44ef1d91152f4c065a0f10ea7cdc680f", null ],
     [ "PushVehicle", "classCaptain_1_1Node_1_1MicroLane.html#a1268626fcdf20aef960d86d49efa668e", null ],

@@ -1,9 +1,6 @@
 var classCaptain_1_1Passenger =
 [
     [ "Passenger", "classCaptain_1_1Passenger.html#a54ffa6019069b60ae567484e0a579549", null ],
-    [ "~Passenger", "classCaptain_1_1Passenger.html#ad8a5c540fc2dc69b22d3194ccfba1acb", null ],
-    [ "Passenger", "classCaptain_1_1Passenger.html#aaf53d17c3c5cc163472449f3d8e41f30", null ],
-    [ "Passenger", "classCaptain_1_1Passenger.html#a2c8f2a98311908d73eedb864f24b7a53", null ],
     [ "GetCurrentPTLine", "classCaptain_1_1Passenger.html#a501fc96ba79ca3650dac09c5847fc9ad", null ],
     [ "GetCurrentStation", "classCaptain_1_1Passenger.html#a51d4bf100b7cfa06fe35db0e4064912b", null ],
     [ "GetDestStation", "classCaptain_1_1Passenger.html#a4ff5cd50cc3017a9f129acfcd5cffa43", null ],
@@ -15,10 +12,6 @@ var classCaptain_1_1Passenger =
     [ "GetPaxID", "classCaptain_1_1Passenger.html#acdb6af9c5008ef55daeacd8bf8de839d", null ],
     [ "GetPTLineVector", "classCaptain_1_1Passenger.html#a3d5b6055c51fe504329964816046abcc", null ],
     [ "GetStationVector", "classCaptain_1_1Passenger.html#a959779fa5a4375ffdc1a088ecdfb0801", null ],
-    [ "operator!=", "classCaptain_1_1Passenger.html#ab557faa6aa0cdb5ebd4e44c3ed5f3131", null ],
-    [ "operator=", "classCaptain_1_1Passenger.html#a602124de5d6fc53cdd11e47d0657baca", null ],
-    [ "operator=", "classCaptain_1_1Passenger.html#aafa7cf075810787d54f7e4e2e0d034a2", null ],
-    [ "operator==", "classCaptain_1_1Passenger.html#a25f38204bfbbb229127f41ed186b3015", null ],
     [ "SetDptTime", "classCaptain_1_1Passenger.html#a9eb5ac6c130d50fae96dc10c090d441c", null ],
     [ "SetDwellTime", "classCaptain_1_1Passenger.html#a1cabc1ce53d1f636323de1aeb1e47b72", null ],
     [ "SetHandicapped", "classCaptain_1_1Passenger.html#ab9b1934c92a1ebcbc0848fbefb352b1e", null ],

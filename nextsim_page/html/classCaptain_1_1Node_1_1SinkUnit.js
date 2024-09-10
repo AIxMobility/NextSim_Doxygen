@@ -1,9 +1,6 @@
 var classCaptain_1_1Node_1_1SinkUnit =
 [
     [ "SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a9def3971001c4ee5e817b0cd03b7ecd3", null ],
-    [ "~SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a87d1016a929749f09ed4e976940960a4", null ],
-    [ "SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a2cb36564941153bad98f8e62ce34e1cd", null ],
-    [ "SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a4072b162415cd1974f01f907f100c176", null ],
     [ "FlushRecordings", "classCaptain_1_1Node_1_1SinkUnit.html#a7592e44fa999f673bcb9ad9d82284e36", null ],
     [ "GetCurrentNumVehicles", "classCaptain_1_1Node_1_1SinkUnit.html#ae7014def6b6592103c99f61b8e64fa76", null ],
     [ "GetFollowerConnectionInfo", "classCaptain_1_1Node_1_1SinkUnit.html#a3828188a94581e4aa5bc56d663d0e46e", null ],
@@ -18,8 +15,6 @@ var classCaptain_1_1Node_1_1SinkUnit =
     [ "GetVehicleQueue", "classCaptain_1_1Node_1_1SinkUnit.html#ab827c4c4bef6012274ff44da1dda40b7", null ],
     [ "GetWidth", "classCaptain_1_1Node_1_1SinkUnit.html#a11503ffacc04459d24ea2d6c6656b542", null ],
     [ "MoveVehiclesFromPreviousUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a56ed609eeebbdbbb785650664c2a5945", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1SinkUnit.html#a18c82966d58de07d9d867ac9d69b0969", null ],
-    [ "operator=", "classCaptain_1_1Node_1_1SinkUnit.html#af9763dca949005082723902dbc4aae98", null ],
     [ "PeekVehicle", "classCaptain_1_1Node_1_1SinkUnit.html#aec9b2bb233d82155e06419d26fe9576f", null ],
     [ "PopVehicle", "classCaptain_1_1Node_1_1SinkUnit.html#aedbdf85eabfc5f9f9ccf9ed57b6e5423", null ],
     [ "PushVehicle", "classCaptain_1_1Node_1_1SinkUnit.html#aea5b2945e46b9e08182cf383b3acad5a", null ],

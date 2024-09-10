@@ -1,5 +1,5 @@
 <map id="Captain::Node::UniformLink::GetRecordings" name="Captain::Node::UniformLink::GetRecordings">
 <area shape="rect" id="node1" title=" " alt="" coords="5,39,208,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html#ac41d8631ba051f8d7755d9e99c7846eb" title=" " alt="" coords="256,5,477,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MesoLink.html#ab6240573faed6fbd70a7c1a6d6afe4e9" title="Stores the recordings in the designated container." alt="" coords="275,71,459,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html#ab6240573faed6fbd70a7c1a6d6afe4e9" title="Stores the recordings in the designated container." alt="" coords="257,5,441,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html#a8fc4dd64c31ec2539a350015b6bcb3a8" title=" " alt="" coords="256,71,441,112"/>
 </map>

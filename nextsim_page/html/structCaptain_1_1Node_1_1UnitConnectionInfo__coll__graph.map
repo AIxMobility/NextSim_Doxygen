@@ -1,5 +1,5 @@
 <map id="Captain::Node::UnitConnectionInfo" name="Captain::Node::UnitConnectionInfo">
-<area shape="rect" id="node1" title="Used to store connections in perspective of lane." alt="" coords="5,535,252,715"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html" title=" " alt="" coords="35,233,222,472"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="59,5,198,156"/>
+<area shape="rect" id="node1" title="Used to store connections in perspective of lane." alt="" coords="5,199,252,225"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html" title=" " alt="" coords="75,109,182,136"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="59,5,198,32"/>
 </map>

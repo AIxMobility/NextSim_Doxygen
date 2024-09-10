@@ -1,7 +1,7 @@
 <map id="Captain::Engine::m_findRoute" name="Captain::Engine::m_findRoute">
 <area shape="rect" id="node1" title=" " alt="" coords="491,39,636,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title="Finds shortest UnitRoute from source to destination." alt="" coords="245,15,443,42"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#aa956fe0cc5d2d9fc0fadcf6642affca5" title="Finds shortest UnitRoute from current intersection to destination." alt="" coords="245,68,443,109"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title="Finds shortest paths in the networks." alt="" coords="5,5,197,47"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#a647b50d68f8ab0e5a8626c43030c8bba" title=" " alt="" coords="5,71,197,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title=" " alt="" coords="245,15,443,42"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#aa956fe0cc5d2d9fc0fadcf6642affca5" title=" " alt="" coords="245,68,443,109"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#a3ccd2aecde35b0d7c3e40dec8db4fbf1" title=" " alt="" coords="5,71,197,112"/>
 </map>

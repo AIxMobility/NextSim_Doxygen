@@ -1,11 +1,7 @@
 var structCaptain_1_1PublicTransitInfo =
 [
-    [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#af4123707f7604d3acf2d2f3abad6dd84", null ],
     [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#a74582d86dc9de1c9620654c96086a311", null ],
     [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#a98d55c99b154583cfb0c8e051c7f51c3", null ],
-    [ "~PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#ad0c0275749337db670a2e301ae88aabd", null ],
-    [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#a086cfa8d3dd6ce25f09eb7978cc3a683", null ],
-    [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html#aee98dede1b6df37b5294e123f44e5785", null ],
     [ "AddPassenger", "structCaptain_1_1PublicTransitInfo.html#a690ee7a7fc4930984d90ff61cdcf5c51", null ],
     [ "CheckRemainStation", "structCaptain_1_1PublicTransitInfo.html#a8357c7e36bf21a730ccd3f9fbf2ee227", null ],
     [ "GetCurrentStation", "structCaptain_1_1PublicTransitInfo.html#a1d3c9633b516e90286121e95e18cf660", null ],
@@ -17,10 +13,6 @@ var structCaptain_1_1PublicTransitInfo =
     [ "GetPassengerList", "structCaptain_1_1PublicTransitInfo.html#a16f51b5e77a7e1a94d24eadc483f6f4d", null ],
     [ "GetStationDistanceVector", "structCaptain_1_1PublicTransitInfo.html#ab703c2336dadcdfca9da12adfc4cab67", null ],
     [ "GetStationVector", "structCaptain_1_1PublicTransitInfo.html#a9505a084ff1f7d8f2adbd71dccc9fe7b", null ],
-    [ "operator!=", "structCaptain_1_1PublicTransitInfo.html#ae6c25d1479520abd4654bb15730c0757", null ],
-    [ "operator=", "structCaptain_1_1PublicTransitInfo.html#a9a0950a0b25b4656d8bc1ca7879218e1", null ],
-    [ "operator=", "structCaptain_1_1PublicTransitInfo.html#a8ffc93693c3435b28f1fa45901fd415d", null ],
-    [ "operator==", "structCaptain_1_1PublicTransitInfo.html#a52d3c917078e8e1fd30d3c0f8023670e", null ],
     [ "RemovePassenger", "structCaptain_1_1PublicTransitInfo.html#a49d8f9db063dbb04ac8505571f3c951f", null ],
     [ "Capacity", "structCaptain_1_1PublicTransitInfo.html#a6bdb681c4bdf0cc3b0e54bc2b735d6f1", null ],
     [ "CurrentStationIndex", "structCaptain_1_1PublicTransitInfo.html#aadc91c612694721b4cad4552d1725849", null ],

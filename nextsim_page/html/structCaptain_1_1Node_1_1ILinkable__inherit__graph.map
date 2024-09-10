@@ -1,9 +1,8 @@
 <map id="Captain::Node::ILinkable" name="Captain::Node::ILinkable">
-<area shape="rect" id="node1" title=" " alt="" coords="415,5,601,273"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1EnhancedMicroLink.html" title=" " alt="" coords="5,321,253,897"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="278,409,493,809"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MicroLink.html" title=" " alt="" coords="517,483,747,736"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1UniformLink.html" title=" " alt="" coords="771,439,1007,780"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title=" " alt="" coords="30,989,229,1140"/>
-<area shape="rect" id="node7" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="750,945,1029,1184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="217,5,397,32"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html" title=" " alt="" coords="214,80,399,107"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1UniformLink.html" title=" " alt="" coords="445,80,648,107"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title=" " alt="" coords="195,155,394,196"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="418,162,697,189"/>
 </map>

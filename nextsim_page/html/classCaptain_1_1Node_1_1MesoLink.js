@@ -1,7 +1,6 @@
 var classCaptain_1_1Node_1_1MesoLink =
 [
     [ "MesoLink", "classCaptain_1_1Node_1_1MesoLink.html#a28184416d3e703dc18ab79503be979f8", null ],
-    [ "~MesoLink", "classCaptain_1_1Node_1_1MesoLink.html#a19150fec3c7aa34ec9161e30eebc215d", null ],
     [ "AddVehicle", "classCaptain_1_1Node_1_1MesoLink.html#a602902cd110e358c5c956cea6b9366e7", null ],
     [ "ComputeICF", "classCaptain_1_1Node_1_1MesoLink.html#aa1837c30e1ba5cb855b9a7d8f72c6e03", null ],
     [ "ExtractVehicle", "classCaptain_1_1Node_1_1MesoLink.html#a9a735fbe1ea7e641df98aa06e40a6dd9", null ],

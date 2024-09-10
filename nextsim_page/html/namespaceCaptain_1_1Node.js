@@ -1,6 +1,5 @@
 var namespaceCaptain_1_1Node =
 [
-    [ "EnhancedMicroLink", "classCaptain_1_1Node_1_1EnhancedMicroLink.html", "classCaptain_1_1Node_1_1EnhancedMicroLink" ],
     [ "GarageUnit", "classCaptain_1_1Node_1_1GarageUnit.html", "classCaptain_1_1Node_1_1GarageUnit" ],
     [ "ILinkable", "structCaptain_1_1Node_1_1ILinkable.html", "structCaptain_1_1Node_1_1ILinkable" ],
     [ "IVehicleContainableUnit", "structCaptain_1_1Node_1_1IVehicleContainableUnit.html", "structCaptain_1_1Node_1_1IVehicleContainableUnit" ],

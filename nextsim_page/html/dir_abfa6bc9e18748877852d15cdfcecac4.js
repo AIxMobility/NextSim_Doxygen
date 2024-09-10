@@ -1,8 +1,5 @@
 var dir_abfa6bc9e18748877852d15cdfcecac4 =
 [
-    [ "EnhancedMicroLink.hpp", "EnhancedMicroLink_8hpp.html", [
-      [ "EnhancedMicroLink", "classCaptain_1_1Node_1_1EnhancedMicroLink.html", "classCaptain_1_1Node_1_1EnhancedMicroLink" ]
-    ] ],
     [ "GarageUnit.hpp", "GarageUnit_8hpp.html", [
       [ "GarageUnit", "classCaptain_1_1Node_1_1GarageUnit.html", "classCaptain_1_1Node_1_1GarageUnit" ]
     ] ],

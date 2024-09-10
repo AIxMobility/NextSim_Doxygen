@@ -1,4 +1,4 @@
 <map id="NextSimIO::InputCell" name="NextSimIO::InputCell">
-<area shape="rect" id="node1" title="Class for each cell information." alt="" coords="8,321,167,428"/>
-<area shape="rect" id="node2" href="$classNextSimIO_1_1MetaData.html" title="Class for metadata of network units." alt="" coords="5,5,169,273"/>
+<area shape="rect" id="node1" title="Class for each cell information." alt="" coords="8,80,167,107"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1MetaData.html" title="Class for metadata of network units." alt="" coords="5,5,169,32"/>
 </map>

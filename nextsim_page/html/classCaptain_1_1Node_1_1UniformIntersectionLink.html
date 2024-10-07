@@ -146,12 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1b30ac97e0fa23c3a112b4c9c8d7476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8941dd258525dc16d77c7e864c00dab3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8941dd258525dc16d77c7e864c00dab3">UpdateStationState</a> (std::size_t cycle, std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt; paxRouteMap) override</td></tr>
 <tr class="separator:a8941dd258525dc16d77c7e864c00dab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a570944962d2d3f8aeaefced2c0299e2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#a570944962d2d3f8aeaefced2c0299e2b">UpdateV2XMessage</a> (std::size_t cycle, std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a> * &gt; &amp;m_microLinkMap)</td></tr>
-<tr class="separator:a570944962d2d3f8aeaefced2c0299e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2a311361a12553d1490417f73b37d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#aed2a311361a12553d1490417f73b37d3">UpdateV2XMessage</a> (std::size_t cycle, <a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a> &gt; &amp;m_unitMap)</td></tr>
+<tr class="separator:aed2a311361a12553d1490417f73b37d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42d24835f56717e18830e1fc0dae6f00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#a42d24835f56717e18830e1fc0dae6f00">AppendStation</a> (<a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1Station.html">Station</a> &gt; stationPtr) override</td></tr>
 <tr class="separator:a42d24835f56717e18830e1fc0dae6f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f9e47fd99e1f41a385e43122909ef74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">MicroLink</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8f9e47fd99e1f41a385e43122909ef74">GetMicroLinkPtr</a> () override</td></tr>
-<tr class="separator:a8f9e47fd99e1f41a385e43122909ef74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa339fbb9b511d57e9c8b5016fd8b200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">MicroLink</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#aaa339fbb9b511d57e9c8b5016fd8b200">GetMicroLink</a> () override</td></tr>
+<tr class="separator:aaa339fbb9b511d57e9c8b5016fd8b200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9d10618e66dbf0c30ea4c19781d3c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#ada9d10618e66dbf0c30ea4c19781d3c2">SetFollowerLaneConnectionInfo</a> (std::size_t targetLaneID, std::vector&lt; <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> &gt; unitConnectionPtrInfo) override</td></tr>
 <tr class="separator:ada9d10618e66dbf0c30ea4c19781d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b88a7c34208c0433bd1bdcda197ad27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#a6b88a7c34208c0433bd1bdcda197ad27">SetLeaderLaneConnectionInfo</a> (std::size_t targetLaneID, const <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> &amp;unitConnectionInfo) override</td></tr>
@@ -244,8 +244,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:af03fcf2baa2ac05fe14bc5c609e54922 inherit pro_attribs_classCaptain_1_1Node_1_1UniformLink"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade4f76570e6a89a118fd722266f2c2c5 inherit pro_attribs_classCaptain_1_1Node_1_1UniformLink"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::pair&lt; int, double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#ade4f76570e6a89a118fd722266f2c2c5">m_icfVector</a></td></tr>
 <tr class="separator:ade4f76570e6a89a118fd722266f2c2c5 inherit pro_attribs_classCaptain_1_1Node_1_1UniformLink"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99fa81ad460f0f5f30bdf75b6188c9dc inherit pro_attribs_classCaptain_1_1Node_1_1UniformLink"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1Node_1_1MesoLink.html">MesoLink</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a99fa81ad460f0f5f30bdf75b6188c9dc">m_mesoLink</a></td></tr>
-<tr class="separator:a99fa81ad460f0f5f30bdf75b6188c9dc inherit pro_attribs_classCaptain_1_1Node_1_1UniformLink"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5cc96caa6848f3a5f12d5eead048afa5"></a>
@@ -518,8 +516,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8f9e47fd99e1f41a385e43122909ef74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f9e47fd99e1f41a385e43122909ef74">&#9670;&nbsp;</a></span>GetMicroLinkPtr()</h2>
+<a id="aaa339fbb9b511d57e9c8b5016fd8b200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa339fbb9b511d57e9c8b5016fd8b200">&#9670;&nbsp;</a></span>GetMicroLink()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,7 +526,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">MicroLink</a>* Captain::Node::UniformIntersectionLink::GetMicroLinkPtr </td>
+          <td class="memname"><a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">MicroLink</a>&amp; Captain::Node::UniformIntersectionLink::GetMicroLink </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -541,7 +539,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a6a31cd78194930b344be3fda4bc4b714">Captain::Node::UniformLink</a>.</p>
+<p>Reimplemented from <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a3644352745b6be13f71380a3e29bf663">Captain::Node::UniformLink</a>.</p>
 
 </div>
 </div>
@@ -982,8 +980,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a570944962d2d3f8aeaefced2c0299e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a570944962d2d3f8aeaefced2c0299e2b">&#9670;&nbsp;</a></span>UpdateV2XMessage()</h2>
+<a id="aed2a311361a12553d1490417f73b37d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2a311361a12553d1490417f73b37d3">&#9670;&nbsp;</a></span>UpdateV2XMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1000,8 +998,8 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>m_microLinkMap</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m_unitMap</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1016,14 +1014,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a85fd55cd993cfd4830deedb1fc0701db">Captain::Node::UniformLink</a>.</p>
+<p>Reimplemented from <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#adeaa564e18ba049036ac53c093049f95">Captain::Node::UniformLink</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Node_1_1UniformIntersectionLink_a570944962d2d3f8aeaefced2c0299e2b_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1UniformIntersectionLink_a570944962d2d3f8aeaefced2c0299e2b_cgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Node_1_1UniformIntersectionLink_a570944962d2d3f8aeaefced2c0299e2b_cgraph" id="aclassCaptain_1_1Node_1_1UniformIntersectionLink_a570944962d2d3f8aeaefced2c0299e2b_cgraph">
+<div class="center"><img src="classCaptain_1_1Node_1_1UniformIntersectionLink_aed2a311361a12553d1490417f73b37d3_cgraph.png" border="0" usemap="#aclassCaptain_1_1Node_1_1UniformIntersectionLink_aed2a311361a12553d1490417f73b37d3_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Node_1_1UniformIntersectionLink_aed2a311361a12553d1490417f73b37d3_cgraph" id="aclassCaptain_1_1Node_1_1UniformIntersectionLink_aed2a311361a12553d1490417f73b37d3_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,257,47"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1IntersectionMicroLink.html#a9cd3bd86ae8e8fcf826b9afbf1a9eeab" title=" " alt="" coords="305,5,529,47"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1IntersectionMicroLink.html#a56e2f3fed66d0ed1205cdd9d4f9afbf2" title=" " alt="" coords="305,5,529,47"/>
 </map>
 </div>
 

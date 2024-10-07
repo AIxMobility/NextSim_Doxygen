@@ -62,6 +62,7 @@ var annotated_dup =
       [ "pair_hash", "structCaptain_1_1pair__hash.html", "structCaptain_1_1pair__hash" ],
       [ "tuple_hash", "structCaptain_1_1tuple__hash.html", "structCaptain_1_1tuple__hash" ],
       [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ],
+      [ "UnitIdentifierMap", "structCaptain_1_1UnitIdentifierMap.html", "structCaptain_1_1UnitIdentifierMap" ],
       [ "Passenger", "classCaptain_1_1Passenger.html", "classCaptain_1_1Passenger" ],
       [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html", "structCaptain_1_1PublicTransitInfo" ],
       [ "VehicleReservationInfo", "classCaptain_1_1VehicleReservationInfo.html", "classCaptain_1_1VehicleReservationInfo" ],

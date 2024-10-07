@@ -1,4 +1,4 @@
 <map id="Captain::DMode::MCF::operator()" name="Captain::DMode::MCF::operator()">
-<area shape="rect" id="node1" title="Executes this functor." alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#acce22beaebd091ee45adc2a1d741c0a1" title=" " alt="" coords="216,5,425,47"/>
+<area shape="rect" id="node1" title="Operator." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#acce22beaebd091ee45adc2a1d741c0a1" title="Get the information of the vehicle in the ARM model." alt="" coords="216,5,425,47"/>
 </map>

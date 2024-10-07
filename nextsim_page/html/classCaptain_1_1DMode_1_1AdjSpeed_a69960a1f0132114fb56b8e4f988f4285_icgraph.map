@@ -1,4 +1,4 @@
 <map id="Captain::DMode::AdjSpeed::m_deactivateIfDone" name="Captain::DMode::AdjSpeed::m_deactivateIfDone">
-<area shape="rect" id="node1" title=" " alt="" coords="248,5,443,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1AdjSpeed.html#a367c75c6754eb67efec745d778eb736c" title="Executes this functor." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node1" title="Deactivate the mode if the driving is done." alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1AdjSpeed.html#a367c75c6754eb67efec745d778eb736c" title="Operator." alt="" coords="5,5,200,47"/>
 </map>

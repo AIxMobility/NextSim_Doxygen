@@ -1,7 +1,7 @@
 <map id="Captain::DMode::Stop::operator()" name="Captain::DMode::Stop::operator()">
-<area shape="rect" id="node1" title="Executes this functor." alt="" coords="5,71,168,112"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a1dfca0340ae7196d7e8c4d188688b159" title="Executes this functor." alt="" coords="216,71,425,112"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#a896081f395ce695c541ec2a37f9c15cf" title=" " alt="" coords="473,5,683,47"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1DriveModel.html#a4df536e382ae94d88e2c9b03b0458bf9" title=" " alt="" coords="473,71,683,112"/>
+<area shape="rect" id="node1" title="Operator." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a1dfca0340ae7196d7e8c4d188688b159" title=" " alt="" coords="216,71,425,112"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#a896081f395ce695c541ec2a37f9c15cf" title="Get the maximum x position of the subject vehicle." alt="" coords="473,5,683,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1DriveModel.html#a4df536e382ae94d88e2c9b03b0458bf9" title="Get the minimum x position of the subject vehicle." alt="" coords="473,71,683,112"/>
 <area shape="rect" id="node5" href="$classCaptain_1_1DMode_1_1DriveModel.html#ab88fad977d72141ebc04bb569e721ed0" title=" " alt="" coords="473,136,683,177"/>
 </map>

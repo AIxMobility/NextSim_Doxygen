@@ -4,5 +4,5 @@ var classCaptain_1_1Node_1_1IntersectionMicroLink =
     [ "m_updateLaneChange", "classCaptain_1_1Node_1_1IntersectionMicroLink.html#af2ce0a210fb053beee171022afeacba7", null ],
     [ "MoveFromNearbyLane", "classCaptain_1_1Node_1_1IntersectionMicroLink.html#aaec577567709aca75ac238ef7c845b16", null ],
     [ "SetConId", "classCaptain_1_1Node_1_1IntersectionMicroLink.html#aa0e0a4f5e07946f88ae3e312b23d8513", null ],
-    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1IntersectionMicroLink.html#a9cd3bd86ae8e8fcf826b9afbf1a9eeab", null ]
+    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1IntersectionMicroLink.html#a56e2f3fed66d0ed1205cdd9d4f9afbf2", null ]
 ];

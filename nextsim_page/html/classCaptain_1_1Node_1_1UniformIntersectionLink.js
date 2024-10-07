@@ -7,7 +7,7 @@ var classCaptain_1_1Node_1_1UniformIntersectionLink =
     [ "GetAllFollowerLaneConnectionInfo", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a03f1ffd44e1376a53697cb2881260c5c", null ],
     [ "GetFollowerLaneConnectionInfo", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a277d30aff41ecef9df07e56e4439a091", null ],
     [ "GetLeaderLaneConnectionInfo", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a94a10015b2af36991c2ebef98d6c3549", null ],
-    [ "GetMicroLinkPtr", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8f9e47fd99e1f41a385e43122909ef74", null ],
+    [ "GetMicroLink", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#aaa339fbb9b511d57e9c8b5016fd8b200", null ],
     [ "GetRecordings", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8f2f7fc4cf52399fa65df856c98d66b0", null ],
     [ "Initialize", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#acf29dec344b5b4845b0a5464d6b44a06", null ],
     [ "MoveFromPreviousUnit", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a0e716bda1c0ccff4cd2e71fd200ef445", null ],
@@ -19,7 +19,7 @@ var classCaptain_1_1Node_1_1UniformIntersectionLink =
     [ "SortVehicles", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ab1b30ac97e0fa23c3a112b4c9c8d7476", null ],
     [ "UpdatePhaseInfo", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#ad03a7869e2eee65a439fc9a05809d29f", null ],
     [ "UpdateStationState", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a8941dd258525dc16d77c7e864c00dab3", null ],
-    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a570944962d2d3f8aeaefced2c0299e2b", null ],
+    [ "UpdateV2XMessage", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#aed2a311361a12553d1490417f73b37d3", null ],
     [ "m_conIDvector", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#aa664af0a3240e16f92d13d82ba4bb92e", null ],
     [ "m_intersectionMicroLink", "classCaptain_1_1Node_1_1UniformIntersectionLink.html#a9ffac6d4b2f7c0d0b4bacf3cc56623fa", null ]
 ];

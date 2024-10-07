@@ -1,9 +1,12 @@
 <map id="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/UnitIdentifier.hpp" name="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/UnitIdentifier.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="209,5,395,61"/>
+<area shape="rect" id="node1" title=" " alt="" coords="350,5,537,61"/>
 <area shape="rect" id="node2" href="$Enumerations_8hpp.html" title=" " alt="" coords="5,109,247,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="271,109,333,136"/>
-<area shape="rect" id="node7" title=" " alt="" coords="358,109,449,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="17,184,73,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="97,184,155,211"/>
-<area shape="rect" id="node5" title=" " alt="" coords="180,184,272,211"/>
+<area shape="rect" id="node6" href="$SharedPtr_8hpp.html" title=" " alt="" coords="273,109,464,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="488,109,551,136"/>
+<area shape="rect" id="node10" title=" " alt="" coords="575,109,666,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="11,191,67,218"/>
+<area shape="rect" id="node4" title=" " alt="" coords="91,191,150,218"/>
+<area shape="rect" id="node5" title=" " alt="" coords="175,191,267,218"/>
+<area shape="rect" id="node7" href="$SharedPtr-Decl_8hpp.html" title=" " alt="" coords="291,184,455,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="339,273,406,300"/>
 </map>

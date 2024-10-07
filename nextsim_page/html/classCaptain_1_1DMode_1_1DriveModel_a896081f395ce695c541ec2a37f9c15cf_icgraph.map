@@ -1,7 +1,7 @@
 <map id="Captain::DMode::DriveModel::m_getMaximumConstraint" name="Captain::DMode::DriveModel::m_getMaximumConstraint">
-<area shape="rect" id="node1" title=" " alt="" coords="473,39,683,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a100c01891bbd75aa0e936159461b5a2e" title=" " alt="" coords="216,5,425,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#a1dfca0340ae7196d7e8c4d188688b159" title="Executes this functor." alt="" coords="216,71,425,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1CV.html#a9bca05bf68046132ad554739e6552488" title="Executes this functor." alt="" coords="11,37,163,79"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1DMode_1_1Stop.html#a42caef08d70cc2e5aed1a3508ed8c7c3" title="Executes this functor." alt="" coords="5,103,168,144"/>
+<area shape="rect" id="node1" title="Get the maximum x position of the subject vehicle." alt="" coords="473,39,683,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a100c01891bbd75aa0e936159461b5a2e" title="Get the information of the vehicle in the OFFA model." alt="" coords="216,5,425,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#a1dfca0340ae7196d7e8c4d188688b159" title=" " alt="" coords="216,71,425,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1CV.html#a9bca05bf68046132ad554739e6552488" title="Operator." alt="" coords="11,37,163,79"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1DMode_1_1Stop.html#a42caef08d70cc2e5aed1a3508ed8c7c3" title="Operator." alt="" coords="5,103,168,144"/>
 </map>

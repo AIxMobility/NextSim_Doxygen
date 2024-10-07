@@ -1,5 +1,5 @@
 <map id="Captain::DMode::LaneKeeping" name="Captain::DMode::LaneKeeping">
-<area shape="rect" id="node1" title=" " alt="" coords="113,95,331,121"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,13,215,39"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1IMultipleVehicleTrackable.html" title=" " alt="" coords="239,5,429,47"/>
+<area shape="rect" id="node1" title="Class for Lane Keeping." alt="" coords="113,95,331,121"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title="Base class for Drive Model of vehicles." alt="" coords="5,13,215,39"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1IMultipleVehicleTrackable.html" title="Class for multiple tracking vehicles." alt="" coords="239,5,429,47"/>
 </map>

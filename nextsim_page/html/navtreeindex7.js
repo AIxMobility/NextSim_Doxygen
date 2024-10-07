@@ -1,8 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classNextSimIO_1_1InputStation.html#aed044e0162a349502dd9511941692d1c":[3,0,1,16,10],
-"classNextSimIO_1_1InputStation.html#af3fc963b0a64d3205622e32bd242ec06":[3,0,1,16,13],
-"classNextSimIO_1_1InputVehicleTypes.html":[3,0,1,18],
 "classNextSimIO_1_1InputVehicleTypes.html#a07b808025f3b430faef0b0c83855a64a":[3,0,1,18,17],
 "classNextSimIO_1_1InputVehicleTypes.html#a07ffdb8094119992b057f625049c5123":[3,0,1,18,23],
 "classNextSimIO_1_1InputVehicleTypes.html#a0ad9595ee382817d58ef93700fd08c8c":[3,0,1,18,13],
@@ -242,12 +239,15 @@ var NAVTREEINDEX7 =
 "functions_p.html":[3,3,0,14],
 "functions_q.html":[3,3,0,15],
 "functions_r.html":[3,3,0,16],
-"functions_rela.html":[3,3,3],
+"functions_rela.html":[3,3,4],
 "functions_s.html":[3,3,0,17],
 "functions_t.html":[3,3,0,18],
+"functions_type.html":[3,3,3],
 "functions_u.html":[3,3,0,19],
 "functions_v.html":[3,3,0,20],
 "functions_vars.html":[3,3,2,0],
 "functions_vars.html":[3,3,2],
-"functions_vars_b.html":[3,3,2,1]
+"functions_vars_b.html":[3,3,2,1],
+"functions_vars_c.html":[3,3,2,2],
+"functions_vars_d.html":[3,3,2,3]
 };

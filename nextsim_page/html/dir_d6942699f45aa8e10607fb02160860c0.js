@@ -20,7 +20,8 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
       [ "SimulationRecordInfo", "structCaptain_1_1SimulationRecordInfo.html", "structCaptain_1_1SimulationRecordInfo" ],
       [ "pair_hash", "structCaptain_1_1pair__hash.html", "structCaptain_1_1pair__hash" ],
       [ "tuple_hash", "structCaptain_1_1tuple__hash.html", "structCaptain_1_1tuple__hash" ],
-      [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ]
+      [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ],
+      [ "UnitIdentifierMap", "structCaptain_1_1UnitIdentifierMap.html", "structCaptain_1_1UnitIdentifierMap" ]
     ] ],
     [ "Passenger.hpp", "Passenger_8hpp.html", "Passenger_8hpp" ],
     [ "PublicTransitInfo.hpp", "PublicTransitInfo_8hpp.html", [

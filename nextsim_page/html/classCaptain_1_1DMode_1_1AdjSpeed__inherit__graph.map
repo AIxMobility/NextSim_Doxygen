@@ -1,5 +1,5 @@
 <map id="Captain::DMode::AdjSpeed" name="Captain::DMode::AdjSpeed">
-<area shape="rect" id="node1" title=" " alt="" coords="134,95,329,121"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,13,215,39"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html" title=" " alt="" coords="239,5,469,47"/>
+<area shape="rect" id="node1" title="Class for Adjusting Speed Mode //??? adjusting이 맞나..? adjacent 이려나" alt="" coords="134,95,329,121"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title="Base class for Drive Model of vehicles." alt="" coords="5,13,215,39"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html" title="Class for deactivating mode automatically." alt="" coords="239,5,469,47"/>
 </map>

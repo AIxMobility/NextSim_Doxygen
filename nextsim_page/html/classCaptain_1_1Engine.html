@@ -96,6 +96,22 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Engine.html',''); init
 <div class="title">Captain::Engine Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="classCaptain_1_1Engine.html" title="Engine class for managing the simulation process.">Engine</a> class for managing the simulation process.  
+ <a href="classCaptain_1_1Engine.html#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for Captain::Engine:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine__coll__graph.png" border="0" usemap="#aCaptain_1_1Engine_coll__map" alt="Collaboration graph"/></div>
+<map name="aCaptain_1_1Engine_coll__map" id="aCaptain_1_1Engine_coll__map">
+<area shape="rect" title="Engine class for managing the simulation process." alt="" coords="411,143,535,170"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="8,5,235,47"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="22,71,221,112"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="5,136,237,177"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="10,201,233,243"/>
+<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="18,267,225,308"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -155,10 +171,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3df71347e216ad9eaf62cbbc12323f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e8507734ff9120e35cff8f87dab2708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708">ResetConnectionInfo</a> (std::vector&lt; int &gt; microLinkArr, std::vector&lt; int &gt; mesoLinkArr)</td></tr>
 <tr class="separator:a4e8507734ff9120e35cff8f87dab2708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c3acfc13f33e013ea740ba3d2864f97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a6c3acfc13f33e013ea740ba3d2864f97">SetMicroLinkMap</a> ()</td></tr>
-<tr class="separator:a6c3acfc13f33e013ea740ba3d2864f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae893c85b61c1f249ee217e41fc65e6ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ae893c85b61c1f249ee217e41fc65e6ac">InitializeSignal</a> ()</td></tr>
-<tr class="separator:ae893c85b61c1f249ee217e41fc65e6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e18d79381d5bf9b9b6a7f1c9f89fbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af2e18d79381d5bf9b9b6a7f1c9f89fbb">SetFollowerConnectionMap</a> (std::tuple&lt; int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> &gt; unit, std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt; followers)</td></tr>
 <tr class="separator:af2e18d79381d5bf9b9b6a7f1c9f89fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6620266005121be3ccc236de6806e746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a6620266005121be3ccc236de6806e746">SetLeaderConnectionMap</a> (std::tuple&lt; int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> &gt; unit, std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt; leaders)</td></tr>
@@ -252,18 +264,16 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4dfcd8f884c6e5bb6e48cfdb766b99b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structCaptain_1_1MesoComputationModel.html">MesoComputationModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4dfcd8f884c6e5bb6e48cfdb766b99b5">m_mesoComputationModel</a></td></tr>
 <tr class="separator:a4dfcd8f884c6e5bb6e48cfdb766b99b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68b005b394d9b30b73c859731e78fdf7"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a68b005b394d9b30b73c859731e78fdf7">m_unitMap</a></td></tr>
-<tr class="separator:a68b005b394d9b30b73c859731e78fdf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2c9fd1497c07eb9a5d05531f45660bf"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ae2c9fd1497c07eb9a5d05531f45660bf">m_microLinkMap</a></td></tr>
-<tr class="separator:ae2c9fd1497c07eb9a5d05531f45660bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e1f92c81a15701af405a306d892ea0"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aa7e1f92c81a15701af405a306d892ea0">m_sinkUnitMap</a></td></tr>
-<tr class="separator:aa7e1f92c81a15701af405a306d892ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace8b6ffb9ae739dd73990033bef11c02"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ace8b6ffb9ae739dd73990033bef11c02">m_sourceUnitMap</a></td></tr>
-<tr class="separator:ace8b6ffb9ae739dd73990033bef11c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56f86d0db0c58951edfdeea41a237ff6"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a56f86d0db0c58951edfdeea41a237ff6">m_garageUnitMap</a></td></tr>
-<tr class="separator:a56f86d0db0c58951edfdeea41a237ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb4de1bed72ed1812f321bb01424e40e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aeb4de1bed72ed1812f321bb01424e40e">m_stationMap</a></td></tr>
-<tr class="separator:aeb4de1bed72ed1812f321bb01424e40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a453df75fbef29077409e10e22476bdbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a453df75fbef29077409e10e22476bdbc">m_unitMap</a></td></tr>
+<tr class="separator:a453df75fbef29077409e10e22476bdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfacc3fe137680354dd54fd828b0ffea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#adfacc3fe137680354dd54fd828b0ffea">m_sinkUnitMap</a></td></tr>
+<tr class="separator:adfacc3fe137680354dd54fd828b0ffea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af12522d1b065162d5619fccb388747a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af12522d1b065162d5619fccb388747a2">m_sourceUnitMap</a></td></tr>
+<tr class="separator:af12522d1b065162d5619fccb388747a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af62b92b11d9481038bdcc6bb909c38b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af62b92b11d9481038bdcc6bb909c38b1">m_garageUnitMap</a></td></tr>
+<tr class="separator:af62b92b11d9481038bdcc6bb909c38b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6889c0860bf0a254c1e9f16e14309c4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a6889c0860bf0a254c1e9f16e14309c4a">m_stationMap</a></td></tr>
+<tr class="separator:a6889c0860bf0a254c1e9f16e14309c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1548ae42e756618815fc2af5f2043e80"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a1548ae42e756618815fc2af5f2043e80">m_sourceSinkVehicleRouteMap</a></td></tr>
 <tr class="separator:a1548ae42e756618815fc2af5f2043e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39060888775125f50a40c3faa932dd89"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a39060888775125f50a40c3faa932dd89">m_intersectionSinkVehicleRouteMap</a></td></tr>
@@ -273,7 +283,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aefc08fd1ad3ec6842c110b7d76e8ccdb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::tuple&lt; int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> &gt;, std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt; &gt;, <a class="el" href="structCaptain_1_1tuple__hash.html">tuple_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aefc08fd1ad3ec6842c110b7d76e8ccdb">m_connectionMap</a></td></tr>
 <tr class="separator:aefc08fd1ad3ec6842c110b7d76e8ccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="classCaptain_1_1Engine.html" title="Engine class for managing the simulation process.">Engine</a> class for managing the simulation process. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac3145375a7873613bade539f8b6d8d4a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3145375a7873613bade539f8b6d8d4a">&#9670;&nbsp;</a></span>Engine()</h2>
 
@@ -1727,24 +1739,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae893c85b61c1f249ee217e41fc65e6ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae893c85b61c1f249ee217e41fc65e6ac">&#9670;&nbsp;</a></span>InitializeSignal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::InitializeSignal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Initialize signal of the all intersection links in the engine </p>
-
-</div>
-</div>
 <a id="a44b84a354048f63db47d90aa2d7bf289"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44b84a354048f63db47d90aa2d7bf289">&#9670;&nbsp;</a></span>m_constructUnitConnectionInfoFollower()</h2>
 
@@ -1778,7 +1772,14 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct </p>
+<p>Construct connection information for the follower connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descriptor</td><td>Follower connection descriptor </td></tr>
+    <tr><td class="paramname">GetMicro</td><td>True if the target is micro link </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1828,6 +1829,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Construct connection information for the leader connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descriptor</td><td>Leader connection descriptor </td></tr>
+    <tr><td class="paramname">FromMicro</td><td>True if the connection is from micro link </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2557,6 +2566,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set micro link map of the engine by referencing unitMap</p>
 <p>Set follower connection map of the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">unit</td><td>Tuple of unit information (UnitID, SubID, UnitType) </td></tr>
@@ -2814,24 +2824,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a6c3acfc13f33e013ea740ba3d2864f97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c3acfc13f33e013ea740ba3d2864f97">&#9670;&nbsp;</a></span>SetMicroLinkMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::SetMicroLinkMap </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Set micro link map of the engine by referencing unitMap </p>
 
 </div>
 </div>
@@ -3197,8 +3189,8 @@ Value: Pair of vector of follower connection information and vector of leader co
 
 </div>
 </div>
-<a id="a56f86d0db0c58951edfdeea41a237ff6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56f86d0db0c58951edfdeea41a237ff6">&#9670;&nbsp;</a></span>m_garageUnitMap</h2>
+<a id="af62b92b11d9481038bdcc6bb909c38b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af62b92b11d9481038bdcc6bb909c38b1">&#9670;&nbsp;</a></span>m_garageUnitMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3207,7 +3199,7 @@ Value: Pair of vector of follower connection information and vector of leader co
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a>&gt; &gt; Captain::Engine::m_garageUnitMap</td>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a>&gt; Captain::Engine::m_garageUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3216,7 +3208,7 @@ Value: Pair of vector of follower connection information and vector of leader co
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Map of the garage units <br  />
+<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the garage units <br  />
 Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
 Value: Shared pointer to GarageUnit </p>
 
@@ -3270,31 +3262,6 @@ Value: Shared pointer to UniformIntersectionLink </p>
 
 </div>
 </div>
-<a id="ae2c9fd1497c07eb9a5d05531f45660bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2c9fd1497c07eb9a5d05531f45660bf">&#9670;&nbsp;</a></span>m_microLinkMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html">Node::MicroLink</a>*&gt; Captain::Engine::m_microLinkMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Map of the micro links <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
-Value: Pointer to MicroLink </p>
-
-</div>
-</div>
 <a id="a2eab7c615715dac29f17b711d6233150"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2eab7c615715dac29f17b711d6233150">&#9670;&nbsp;</a></span>m_paxRouteMap</h2>
 
@@ -3320,8 +3287,8 @@ Value: Shared pointer to UniformIntersectionLink </p>
 
 </div>
 </div>
-<a id="aa7e1f92c81a15701af405a306d892ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e1f92c81a15701af405a306d892ea0">&#9670;&nbsp;</a></span>m_sinkUnitMap</h2>
+<a id="adfacc3fe137680354dd54fd828b0ffea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfacc3fe137680354dd54fd828b0ffea">&#9670;&nbsp;</a></span>m_sinkUnitMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3330,7 +3297,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a>&gt; &gt; Captain::Engine::m_sinkUnitMap</td>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a>&gt; Captain::Engine::m_sinkUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3339,7 +3306,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Map of the sink units <br  />
+<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the sink units <br  />
 Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
 Value: Shared pointer to SinkUnit </p>
 
@@ -3370,8 +3337,8 @@ Value: Shared pointer to UniformIntersectionLink </p>
 
 </div>
 </div>
-<a id="ace8b6ffb9ae739dd73990033bef11c02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace8b6ffb9ae739dd73990033bef11c02">&#9670;&nbsp;</a></span>m_sourceUnitMap</h2>
+<a id="af12522d1b065162d5619fccb388747a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af12522d1b065162d5619fccb388747a2">&#9670;&nbsp;</a></span>m_sourceUnitMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3380,7 +3347,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a>&gt; &gt; Captain::Engine::m_sourceUnitMap</td>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a>&gt; Captain::Engine::m_sourceUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3389,14 +3356,14 @@ Value: Shared pointer to UniformIntersectionLink </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Map of the source units <br  />
+<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the source units <br  />
 Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
 Value: Shared pointer to SourceUnit </p>
 
 </div>
 </div>
-<a id="aeb4de1bed72ed1812f321bb01424e40e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb4de1bed72ed1812f321bb01424e40e">&#9670;&nbsp;</a></span>m_stationMap</h2>
+<a id="a6889c0860bf0a254c1e9f16e14309c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6889c0860bf0a254c1e9f16e14309c4a">&#9670;&nbsp;</a></span>m_stationMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3405,7 +3372,7 @@ Value: Shared pointer to SourceUnit </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a>&gt; &gt; Captain::Engine::m_stationMap</td>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a>&gt; Captain::Engine::m_stationMap</td>
         </tr>
       </table>
   </td>
@@ -3414,14 +3381,14 @@ Value: Shared pointer to SourceUnit </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Map of the station <br  />
+<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the station <br  />
 Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
 Value: Shared pointer to Station </p>
 
 </div>
 </div>
-<a id="a68b005b394d9b30b73c859731e78fdf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68b005b394d9b30b73c859731e78fdf7">&#9670;&nbsp;</a></span>m_unitMap</h2>
+<a id="a453df75fbef29077409e10e22476bdbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a453df75fbef29077409e10e22476bdbc">&#9670;&nbsp;</a></span>m_unitMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3430,7 +3397,7 @@ Value: Shared pointer to Station </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="classCaptain_1_1SharedPtr.html">SharedPtr</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a>&gt; &gt; Captain::Engine::m_unitMap</td>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a>&gt; Captain::Engine::m_unitMap</td>
         </tr>
       </table>
   </td>
@@ -3439,7 +3406,7 @@ Value: Shared pointer to Station </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Map of the uniform links <br  />
+<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the uniform links <br  />
 Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
 Value: Shared pointer to UniformLink </p>
 

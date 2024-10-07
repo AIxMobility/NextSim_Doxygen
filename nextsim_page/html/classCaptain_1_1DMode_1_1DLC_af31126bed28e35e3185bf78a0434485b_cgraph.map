@@ -1,6 +1,6 @@
 <map id="Captain::DMode::DLC::operator()" name="Captain::DMode::DLC::operator()">
-<area shape="rect" id="node1" title="Executes this functor." alt="" coords="5,71,165,112"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a58f33baaeeb0ba0127351bc2570753c4" title=" " alt="" coords="213,5,423,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#acce22beaebd091ee45adc2a1d741c0a1" title=" " alt="" coords="213,71,423,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1DriveModel.html#a2f0a36d8921ea713d6c17326c4e65981" title=" " alt="" coords="213,136,423,177"/>
+<area shape="rect" id="node1" title="Operator." alt="" coords="5,71,165,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html#a58f33baaeeb0ba0127351bc2570753c4" title="Get the y position of the subject vehicle for lane change." alt="" coords="213,5,423,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#acce22beaebd091ee45adc2a1d741c0a1" title="Get the information of the vehicle in the ARM model." alt="" coords="213,71,423,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1DriveModel.html#a2f0a36d8921ea713d6c17326c4e65981" title="Get the information of the vehicle in short gap mode of the ARM model." alt="" coords="213,136,423,177"/>
 </map>

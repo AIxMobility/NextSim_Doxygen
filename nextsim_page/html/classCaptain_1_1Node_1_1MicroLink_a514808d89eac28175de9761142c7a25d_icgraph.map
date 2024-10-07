@@ -1,6 +1,4 @@
 <map id="Captain::Node::MicroLink::GetLane" name="Captain::Node::MicroLink::GetLane">
-<area shape="rect" id="node1" title=" " alt="" coords="507,39,692,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1UniformLink.html#ab26aab863610b180f1214fe6d3795dd8" title=" " alt="" coords="256,5,459,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html#add77d421f9f0c62667d773b6a96c19c3" title=" " alt="" coords="265,71,450,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1UniformLink.html#a85fd55cd993cfd4830deedb1fc0701db" title=" " alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="256,5,441,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1UniformLink.html#ab26aab863610b180f1214fe6d3795dd8" title=" " alt="" coords="5,5,208,47"/>
 </map>

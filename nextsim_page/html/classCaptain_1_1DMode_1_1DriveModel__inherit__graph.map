@@ -1,16 +1,16 @@
 <map id="Captain::DMode::DriveModel" name="Captain::DMode::DriveModel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,325,215,352"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ALC.html" title=" " alt="" coords="292,5,451,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1AdjSpeed.html" title=" " alt="" coords="274,56,469,83"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1ApproachStation.html" title=" " alt="" coords="274,107,469,149"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1DMode_1_1BLC.html" title=" " alt="" coords="292,173,451,200"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1DMode_1_1CCF.html" title=" " alt="" coords="291,224,451,251"/>
-<area shape="rect" id="node7" href="$classCaptain_1_1DMode_1_1CF.html" title=" " alt="" coords="296,275,447,301"/>
-<area shape="rect" id="node8" href="$classCaptain_1_1DMode_1_1CV.html" title=" " alt="" coords="295,325,447,352"/>
-<area shape="rect" id="node9" href="$classCaptain_1_1DMode_1_1DLC.html" title=" " alt="" coords="291,376,451,403"/>
-<area shape="rect" id="node10" href="$classCaptain_1_1DMode_1_1ELC.html" title=" " alt="" coords="292,427,451,453"/>
-<area shape="rect" id="node11" href="$classCaptain_1_1DMode_1_1LaneKeeping.html" title=" " alt="" coords="263,477,480,504"/>
-<area shape="rect" id="node12" href="$classCaptain_1_1DMode_1_1MCF.html" title=" " alt="" coords="290,528,453,555"/>
-<area shape="rect" id="node13" href="$classCaptain_1_1DMode_1_1Stay.html" title=" " alt="" coords="290,579,453,605"/>
-<area shape="rect" id="node14" href="$classCaptain_1_1DMode_1_1Stop.html" title=" " alt="" coords="290,629,453,656"/>
+<area shape="rect" id="node1" title="Base class for Drive Model of vehicles." alt="" coords="5,325,215,352"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ALC.html" title="Class for After Lane Change Mode." alt="" coords="292,5,451,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1AdjSpeed.html" title="Class for Adjusting Speed Mode //??? adjusting이 맞나..? adjacent 이려나" alt="" coords="274,56,469,83"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1DMode_1_1ApproachStation.html" title="Class for Approaching to Station Mode." alt="" coords="274,107,469,149"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1DMode_1_1BLC.html" title="Class for Before Lange Change Mode." alt="" coords="292,173,451,200"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1DMode_1_1CCF.html" title="Class for Cooperative Car Following." alt="" coords="291,224,451,251"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1DMode_1_1CF.html" title="Class for Car Following." alt="" coords="296,275,447,301"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1DMode_1_1CV.html" title="Class for Constant Velocity // ??? Connected Vehicle인건가" alt="" coords="295,325,447,352"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1DMode_1_1DLC.html" title="Class for During Lane Change Mode." alt="" coords="291,376,451,403"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1DMode_1_1ELC.html" title="Class for Emergency Lane Change Mode." alt="" coords="292,427,451,453"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1DMode_1_1LaneKeeping.html" title="Class for Lane Keeping." alt="" coords="263,477,480,504"/>
+<area shape="rect" id="node12" href="$classCaptain_1_1DMode_1_1MCF.html" title="Class for Mandatory Car Following // ??? LC에만 mandatory인가" alt="" coords="290,528,453,555"/>
+<area shape="rect" id="node13" href="$classCaptain_1_1DMode_1_1Stay.html" title="Class for Stay Mode." alt="" coords="290,579,453,605"/>
+<area shape="rect" id="node14" href="$classCaptain_1_1DMode_1_1Stop.html" title="Class for Stop Mode." alt="" coords="290,629,453,656"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Captain::DMode::CV" name="Captain::DMode::CV">
-<area shape="rect" id="node1" title=" " alt="" coords="34,80,186,107"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title=" " alt="" coords="5,5,215,32"/>
+<area shape="rect" id="node1" title="Class for Constant Velocity // ??? Connected Vehicle인건가" alt="" coords="34,80,186,107"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DriveModel.html" title="Base class for Drive Model of vehicles." alt="" coords="5,5,215,32"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Captain::DMode::ApproachStation::operator()" name="Captain::DMode::ApproachStation::operator()">
-<area shape="rect" id="node1" title="Executes this functor." alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ApproachStation.html#afc1ad10380e4a8b8e6c8c89271e95ff3" title=" " alt="" coords="248,5,456,47"/>
+<area shape="rect" id="node1" title="Operator." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ApproachStation.html#afc1ad10380e4a8b8e6c8c89271e95ff3" title="Deactivate the mode if the driving is done." alt="" coords="248,5,456,47"/>
 </map>

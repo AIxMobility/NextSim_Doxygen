@@ -13,9 +13,9 @@ var classCaptain_1_1DMode_1_1DriveModel =
     [ "m_getOFFA", "classCaptain_1_1DMode_1_1DriveModel.html#a100c01891bbd75aa0e936159461b5a2e", null ],
     [ "m_getSafetyDistance", "classCaptain_1_1DMode_1_1DriveModel.html#ab88fad977d72141ebc04bb569e721ed0", null ],
     [ "operator()", "classCaptain_1_1DMode_1_1DriveModel.html#a1dfca0340ae7196d7e8c4d188688b159", null ],
-    [ "SetActive", "classCaptain_1_1DMode_1_1DriveModel.html#a06a9448a81b4cf278746a9e5718d00a6", null ],
-    [ "SetElapsedCycle", "classCaptain_1_1DMode_1_1DriveModel.html#ab5559542f447d534e166e7f9509a16a7", null ],
-    [ "SetLeaderVehicle", "classCaptain_1_1DMode_1_1DriveModel.html#ab1a2d3e8decab33c29fe422e48ad86e0", null ],
+    [ "SetActive", "classCaptain_1_1DMode_1_1DriveModel.html#ac3f74439902b723e771c47e75c5ff648", null ],
+    [ "SetElapsedCycle", "classCaptain_1_1DMode_1_1DriveModel.html#ada7e272246c1d06e9e21663d48c8cb5a", null ],
+    [ "SetLeaderVehicle", "classCaptain_1_1DMode_1_1DriveModel.html#a71985a37a12d74fc63aec76a2f9a6a7e", null ],
     [ "m_active", "classCaptain_1_1DMode_1_1DriveModel.html#a5721ba57698ee09e761f18255386347f", null ],
     [ "m_elapsedCycle", "classCaptain_1_1DMode_1_1DriveModel.html#afa95fecbe985c70a4c8b5ed3c408a496", null ],
     [ "m_leaderVehicle", "classCaptain_1_1DMode_1_1DriveModel.html#aaf1d69fa6dc0c69e86e4e8442f706073", null ]

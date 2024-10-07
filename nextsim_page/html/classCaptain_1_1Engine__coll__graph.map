@@ -1,3 +1,8 @@
 <map id="Captain::Engine" name="Captain::Engine">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,231,552"/>
+<area shape="rect" id="node1" title="Engine class for managing the simulation process." alt="" coords="411,143,535,170"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="8,5,235,47"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="22,71,221,112"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="5,136,237,177"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="10,201,233,243"/>
+<area shape="rect" id="node6" href="$structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="18,267,225,308"/>
 </map>

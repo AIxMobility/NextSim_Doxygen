@@ -1,4 +1,4 @@
 <map id="Captain::DMode::DriveModel::m_evaluateYPosition" name="Captain::DMode::DriveModel::m_evaluateYPosition">
-<area shape="rect" id="node1" title=" " alt="" coords="213,5,423,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DLC.html#af31126bed28e35e3185bf78a0434485b" title="Executes this functor." alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node1" title="Get the y position of the subject vehicle for lane change." alt="" coords="213,5,423,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1DLC.html#af31126bed28e35e3185bf78a0434485b" title="Operator." alt="" coords="5,5,165,47"/>
 </map>

@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('structCaptain_1_1UnitConnectionDescrip
 </div><!--header-->
 <div class="contents">
 
-<p>: This struct describes how units are connected together  
+<p>Struct of describing how units are connected together.  
  <a href="structCaptain_1_1UnitConnectionDescriptor.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -124,7 +124,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9ba5512a5e5b7ae325f9d294469e1a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>: This struct describes how units are connected together </p>
+<div class="textblock"><p>Struct of describing how units are connected together. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ace6225776859fe85ce2c9f1c55783c17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace6225776859fe85ce2c9f1c55783c17">&#9670;&nbsp;</a></span>UnitConnectionDescriptor() <span class="overload">[1/5]</span></h2>
@@ -149,6 +149,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <code><a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html" title="Struct of describing how units are connected together.">UnitConnectionDescriptor</a></code> with a specified time period </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timePeriod</td><td>Micro time step for this signal to continue </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -185,6 +191,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <code><a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html" title="Struct of describing how units are connected together.">UnitConnectionDescriptor</a></code> with a specified time period and offset </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timePeriod</td><td>Micro time step for this signal to continue </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset time before the connection becomes active </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -227,6 +240,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <code><a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html" title="Struct of describing how units are connected together.">UnitConnectionDescriptor</a></code> with a unit identifier, time period, and offset </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifier</td><td>The identifier of the unit involved in the connection </td></tr>
+    <tr><td class="paramname">timePeriod</td><td>Micro time step for this signal to continue </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset time before the connection becomes active </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -269,6 +290,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <code><a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html" title="Struct of describing how units are connected together.">UnitConnectionDescriptor</a></code> with a vector of unit identifiers, time period, and offset </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identifierVector</td><td>Vector of UnitIdentifiers. Their type must be one of Meso, Micro, Source, Sink </td></tr>
+    <tr><td class="paramname">timePeriod</td><td>Micro time step for this signal to continue </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset time before the connection becomes active </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -317,11 +346,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs a <code><a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html" title="Struct of describing how units are connected together.">UnitConnectionDescriptor</a></code> with identifiers, priorities, time period, and offset </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">identifierVector</td><td>: vector of UnitIdentifiers. Their type must be one of Meso, Micro, Source, Sink </td></tr>
-    <tr><td class="paramname">priorityVector</td><td>: priority of each unit </td></tr>
-    <tr><td class="paramname">timePeriod</td><td>: micro time step for this signal to continue </td></tr>
+    <tr><td class="paramname">identifierVector</td><td>Vector of UnitIdentifiers. Their type must be one of Meso, Micro, Source, Sink </td></tr>
+    <tr><td class="paramname">priorityVector</td><td>Priority of each unit </td></tr>
+    <tr><td class="paramname">timePeriod</td><td>Micro time step for this signal to continue </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset time before the connection becomes active </td></tr>
   </table>
   </dd>
 </dl>
@@ -340,6 +370,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Vector of UnitIdentifiers. Their type must be one of Meso, Micro, Source, Sink </p>
 
 </div>
 </div>
@@ -354,6 +385,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The offset time before the connection becomes active </p>
 
 </div>
 </div>
@@ -368,6 +400,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Priority of each unit </p>
 
 </div>
 </div>
@@ -382,6 +415,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Micro time step for this signal to continue </p>
 
 </div>
 </div>

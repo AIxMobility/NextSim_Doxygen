@@ -103,9 +103,9 @@ Inheritance diagram for Captain::IEventRecordable:</div>
 <div class="center"><img src="structCaptain_1_1IEventRecordable__inherit__graph.png" border="0" usemap="#aCaptain_1_1IEventRecordable_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1IEventRecordable_inherit__map" id="aCaptain_1_1IEventRecordable_inherit__map">
 <area shape="rect" title="Interface for units that can record events." alt="" coords="211,5,405,32"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html" title=" " alt="" coords="5,80,189,107"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html" title=" " alt="" coords="213,80,403,107"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1Station.html" title=" " alt="" coords="427,80,595,107"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html" title="Represents a mesoscopic cell unit used in meso&#45;level traffic flow algorithms." alt="" coords="5,80,189,107"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="213,80,403,107"/>
+<area shape="rect" href="classCaptain_1_1Node_1_1Station.html" title="Represents a station where vehicles can park and passengers can board or alight." alt="" coords="427,80,595,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -113,16 +113,16 @@ Inheritance diagram for Captain::IEventRecordable:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7056daa9c8bb0712b5086f695481d232"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#a7056daa9c8bb0712b5086f695481d232">Record</a> (size_t cycle)=0</td></tr>
 <tr class="separator:a7056daa9c8bb0712b5086f695481d232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fc2cbece40bb830c49854ecc2211fc3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#a3fc2cbece40bb830c49854ecc2211fc3">FlushRecordings</a> ()=0</td></tr>
-<tr class="separator:a3fc2cbece40bb830c49854ecc2211fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2eaf40e08403136410233b363909285"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#ab2eaf40e08403136410233b363909285">FlushRecordings</a> (std::vector&lt; std::pair&lt; std::string, bool &gt;&gt; recordMode)=0</td></tr>
+<tr class="separator:ab2eaf40e08403136410233b363909285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa84d827817e17a117fb9db090efd1605"><td class="memItemLeft" align="right" valign="top">virtual std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#aa84d827817e17a117fb9db090efd1605">GetFilePath</a> ()=0</td></tr>
 <tr class="separator:aa84d827817e17a117fb9db090efd1605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for units that can record events. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3fc2cbece40bb830c49854ecc2211fc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fc2cbece40bb830c49854ecc2211fc3">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
+<a id="ab2eaf40e08403136410233b363909285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2eaf40e08403136410233b363909285">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +133,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void Captain::IEventRecordable::FlushRecordings </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; std::string, bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>recordMode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -145,7 +146,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Writes all recordings in the temporary buffer to file and flushes the buffer Creates file if file does not exist by calling RemoveExistingFile() It will append recordings to file if file already exists </p>
 
-<p>Implemented in <a class="el" href="classCaptain_1_1Node_1_1Station.html#aa471124406839eab16ef0e33699a5b1b">Captain::Node::Station</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#a8de5be99a9e0f6642c51c6d9c06143c9">Captain::Node::MicroLane</a>, and <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#ac18ca35e3842d9fbe87037a6273013b2">Captain::Node::MesoUnit</a>.</p>
+<p>Implemented in <a class="el" href="classCaptain_1_1Node_1_1Station.html#aa7df675c7e628da0f2891757e1277f2b">Captain::Node::Station</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#a8a4cf7b2332d6146cefe0c6265c602b9">Captain::Node::MicroLane</a>, and <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#aea41e9725a7553a5aaf18d92c0a6f653">Captain::Node::MesoUnit</a>.</p>
 
 </div>
 </div>

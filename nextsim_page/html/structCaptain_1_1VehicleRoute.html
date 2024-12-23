@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('structCaptain_1_1VehicleRoute.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Describes route of the vehicle.  
+<p>Stuck of route of the vehicle.  
  <a href="structCaptain_1_1VehicleRoute.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -130,7 +130,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a06ac2e33761298d2ed8d2afbdf8686af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Describes route of the vehicle. </p>
+<div class="textblock"><p>Stuck of route of the vehicle. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab07e5f0aa5e8c0eb6b8170d6ed320cbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab07e5f0aa5e8c0eb6b8170d6ed320cbd">&#9670;&nbsp;</a></span>VehicleRoute() <span class="overload">[1/3]</span></h2>
@@ -154,7 +154,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Vector of <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> representing the route Only Source , Meso, Micro, Source is allowed </p>
+<p>Default constructor </p>
 
 </div>
 </div>
@@ -191,6 +191,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor which initializes the VehiclePath with a route vector and lane priority vector </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">routeVector</td><td>Vector of <a class="el" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs.">RouteIdentifier</a> objects representing the path </td></tr>
+    <tr><td class="paramname">lanePriorityVecotr</td><td>Vector of lane priorities corresponding to each path segment </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -233,6 +240,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor which initializes the VehiclePath with a route vector, lane priority vector, and the distance of the route </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">routeVector</td><td>Vector of <a class="el" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs.">RouteIdentifier</a> objects representing the path </td></tr>
+    <tr><td class="paramname">lanePriorityVecotr</td><td>Vector of lane priorities corresponding to each path segment </td></tr>
+    <tr><td class="paramname">distance</td><td>The distance of the route </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -259,6 +274,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the lane priority vector for the current path segment </p><dl class="section return"><dt>Returns</dt><dd>A reference to the vector of lane priorities for the current path segment. </dd></dl>
 
 </div>
 </div>
@@ -285,6 +301,19 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the maximum lane priority and its index within the current route </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitIdentifier</td><td>The unit identifier to match in the route vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pair containing the maximum priority value and its index. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the specified <code>unitIdentifier</code> is not found in the route </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -319,6 +348,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the current route identifier based on the current path index </p><dl class="section return"><dt>Returns</dt><dd>An optional containing the current path identifier </dd></dl>
 
 </div>
 </div>
@@ -345,6 +375,13 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the index of the current path segment based on the provided unit identifier </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitIdentifier</td><td>The unit identifier to match in the path vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the index of the current path segment, or an empty optional if not found </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -379,6 +416,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the next path identifier based on the current path index </p><dl class="section return"><dt>Returns</dt><dd>An optional containing the next path identifier </dd></dl>
 
 </div>
 </div>
@@ -394,6 +432,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The current index in the route </p>
 
 </div>
 </div>
@@ -408,6 +447,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A vector of lane priority vectors for each route segment. </p>
 
 </div>
 </div>
@@ -422,6 +462,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The total distance of the vehicle's route </p>
 
 </div>
 </div>
@@ -436,6 +477,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A vector of route identifiers representing the vehicle's complete route </p>
 
 </div>
 </div>

@@ -103,7 +103,7 @@ Inheritance diagram for Captain::DMode::IAutomaticallyDeactivated:</div>
 <div class="center"><img src="classCaptain_1_1DMode_1_1IAutomaticallyDeactivated__inherit__graph.png" border="0" usemap="#aCaptain_1_1DMode_1_1IAutomaticallyDeactivated_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1DMode_1_1IAutomaticallyDeactivated_inherit__map" id="aCaptain_1_1DMode_1_1IAutomaticallyDeactivated_inherit__map">
 <area shape="rect" title="Class for deactivating mode automatically." alt="" coords="207,5,436,47"/>
-<area shape="rect" href="classCaptain_1_1DMode_1_1AdjSpeed.html" title="Class for Adjusting Speed Mode //??? adjusting이 맞나..? adjacent 이려나" alt="" coords="5,102,200,129"/>
+<area shape="rect" href="classCaptain_1_1DMode_1_1AdjSpeed.html" title="Class for Adjust Speed Mode." alt="" coords="5,102,200,129"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1ApproachStation.html" title="Class for Approaching to Station Mode." alt="" coords="224,95,419,136"/>
 <area shape="rect" href="classCaptain_1_1DMode_1_1Stay.html" title="Class for Stay Mode." alt="" coords="443,102,605,129"/>
 </map>
@@ -111,15 +111,14 @@ Inheritance diagram for Captain::DMode::IAutomaticallyDeactivated:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:acd3491c09bd2ec710e7788b7fea73d8a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html#acd3491c09bd2ec710e7788b7fea73d8a">m_deactivateIfDone</a> (<a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">VehicleInfoStatePair</a> subject)=0</td></tr>
-<tr class="memdesc:acd3491c09bd2ec710e7788b7fea73d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivate the mode if the driving is done.  <a href="classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html#acd3491c09bd2ec710e7788b7fea73d8a">More...</a><br /></td></tr>
-<tr class="separator:acd3491c09bd2ec710e7788b7fea73d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139669b4e60d8ec0ba2af59ae190166a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html#a139669b4e60d8ec0ba2af59ae190166a">deactivateIfDone</a> (<a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">VehicleInfoStatePair</a> subject)=0</td></tr>
+<tr class="separator:a139669b4e60d8ec0ba2af59ae190166a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for deactivating mode automatically. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="acd3491c09bd2ec710e7788b7fea73d8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd3491c09bd2ec710e7788b7fea73d8a">&#9670;&nbsp;</a></span>m_deactivateIfDone()</h2>
+<a id="a139669b4e60d8ec0ba2af59ae190166a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139669b4e60d8ec0ba2af59ae190166a">&#9670;&nbsp;</a></span>deactivateIfDone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -128,7 +127,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Captain::DMode::IAutomaticallyDeactivated::m_deactivateIfDone </td>
+          <td class="memname">virtual void Captain::DMode::IAutomaticallyDeactivated::deactivateIfDone </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">VehicleInfoStatePair</a>&#160;</td>
           <td class="paramname"><em>subject</em></td><td>)</td>
@@ -141,16 +140,14 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Deactivate the mode if the driving is done. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Deactivate the mode if the driving is done </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">subject</td><td>Pair of vehicle info and vehicle state of the subject vehicle </td></tr>
+    <tr><td class="paramname">subject</td><td>Pair of info and state of the subject vehicle </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classCaptain_1_1DMode_1_1ApproachStation.html#afc1ad10380e4a8b8e6c8c89271e95ff3">Captain::DMode::ApproachStation</a>, <a class="el" href="classCaptain_1_1DMode_1_1Stay.html#a18f0ff54c4560af04c39bce630e21e05">Captain::DMode::Stay</a>, and <a class="el" href="classCaptain_1_1DMode_1_1AdjSpeed.html#a69960a1f0132114fb56b8e4f988f4285">Captain::DMode::AdjSpeed</a>.</p>
+<p>Implemented in <a class="el" href="classCaptain_1_1DMode_1_1ApproachStation.html#a4a71da56a5d3f556d5cd321b661784f1">Captain::DMode::ApproachStation</a>, <a class="el" href="classCaptain_1_1DMode_1_1Stay.html#a77d867096511fa27103a6c52e8c1e38e">Captain::DMode::Stay</a>, and <a class="el" href="classCaptain_1_1DMode_1_1AdjSpeed.html#a36bc1474a36411742f5b92db0b38358c">Captain::DMode::AdjSpeed</a>.</p>
 
 </div>
 </div>

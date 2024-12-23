@@ -48,7 +48,6 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -65,16 +64,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AgentsArr_8cpp.html",
-"PaxArr_8cpp.html",
-"classCaptain_1_1Engine.html#ae4ffa9c1bafae6d9b49a2dfbf5836548",
-"classCaptain_1_1Node_1_1MicroLane.html#a394b13f0c3e40eb0a3de3b341afce2b9",
-"classCaptain_1_1Node_1_1Station.html#a26b8a8f531f3ee4415a109b794b22fd8",
-"classCaptain_1_1Util_1_1EventRecorder.html#a18c842e106dea45487b674fb2e71f2b4",
-"classNextSimIO_1_1InputDRTStation.html",
-"classNextSimIO_1_1InputVehicleTypes.html#a07b808025f3b430faef0b0c83855a64a",
-"functions_vars_e.html",
-"structCaptain_1_1MesoComputationModel.html#aff490e66b7b6b8d4648fc354916a3dd9",
-"structCaptain_1_1VehicleRecordInfo.html#a2138d532a15bb33546766a1057750b05"
+"Passenger_8cpp.html",
+"classCaptain_1_1Engine.html#ac6d69a2cb8dd2929a442d84aa986b9e7",
+"classCaptain_1_1Node_1_1MicroLane.html#a383383a2eceb90bfed6265a97ec27ae3",
+"classCaptain_1_1Node_1_1Station.html#a267fef943068874159e4a169afe0c9f8",
+"classCaptain_1_1Util_1_1EventRecorder.html#a1f03baed07b5ea7fb3d7ea70e6e34d71",
+"classNextSimIO_1_1InputAgents.html#aec31a851353719356e0eb116ac6150c3",
+"classNextSimIO_1_1InputStation.html#a9f76439c8fa84e6246053e0d79df1126",
+"functions_i.html",
+"structCaptain_1_1MesoComputationModel.html#ae75faa52ee8c9b40b2fcbc33b58be003",
+"structCaptain_1_1VehicleLinkRecordInfo.html#aa7b0c60e60a16227fb1e4d8ac939e48d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

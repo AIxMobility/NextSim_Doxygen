@@ -96,13 +96,16 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Passenger.html',''); i
 <div class="title">Captain::Passenger Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class of information about a passenger, including their ID, activity status, and path.  
+ <a href="classCaptain_1_1Passenger.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for Captain::Passenger:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Passenger__coll__graph.png" border="0" usemap="#aCaptain_1_1Passenger_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Passenger_coll__map" id="aCaptain_1_1Passenger_coll__map">
-<area shape="rect" title=" " alt="" coords="5,95,152,121"/>
-<area shape="rect" href="structCaptain_1_1PaxRoute.html" title=" " alt="" coords="8,5,149,32"/>
+<area shape="rect" title="Class of information about a passenger, including their ID, activity status, and path." alt="" coords="5,95,152,121"/>
+<area shape="rect" href="structCaptain_1_1PaxRoute.html" title="Struct of information about a passenger&#39;s route, including origin, destination, &#160;&#160;intermediate statio..." alt="" coords="8,5,149,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -169,7 +172,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af456377120c691714adc3e0742f1747d"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Passenger.html#af456377120c691714adc3e0742f1747d">m_dptTime</a> = 0</td></tr>
 <tr class="separator:af456377120c691714adc3e0742f1747d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class of information about a passenger, including their ID, activity status, and path. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a54ffa6019069b60ae567484e0a579549"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54ffa6019069b60ae567484e0a579549">&#9670;&nbsp;</a></span>Passenger()</h2>
 
@@ -195,6 +200,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Constructs a new <a class="el" href="classCaptain_1_1Passenger.html" title="Class of information about a passenger, including their ID, activity status, and path.">Passenger</a> object. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">paxId</td><td>The unique ID of the passenger. </td></tr>
+    <tr><td class="paramname">dptTime</td><td>The departure time of the passenger. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -221,6 +233,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the current public transport line in the route based on the index. </p><dl class="section return"><dt>Returns</dt><dd>The current public transport line ID. </dd></dl>
 
 </div>
 </div>
@@ -246,6 +259,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the current station in the route based on the index. </p><dl class="section return"><dt>Returns</dt><dd>The current station ID. </dd></dl>
 
 </div>
 </div>
@@ -271,6 +285,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the destination station ID. </p><dl class="section return"><dt>Returns</dt><dd>The destination station ID. </dd></dl>
 
 </div>
 </div>
@@ -296,6 +311,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the departure time of the passenger. </p><dl class="section return"><dt>Returns</dt><dd>The departure time. </dd></dl>
 
 </div>
 </div>
@@ -321,6 +337,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the normal dwell time of the passenger. </p><dl class="section return"><dt>Returns</dt><dd>The dwell time. </dd></dl>
 
 </div>
 </div>
@@ -346,6 +363,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Checks if the passenger is handicapped. </p><dl class="section return"><dt>Returns</dt><dd>True if the passenger is handicapped, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -371,6 +389,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the passenger's vehicle boarding status. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onVehicle</td><td>True if the passenger is on a vehicle, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -396,6 +420,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the origin station ID. </p><dl class="section return"><dt>Returns</dt><dd>The origin station ID. </dd></dl>
 
 </div>
 </div>
@@ -421,6 +446,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the unique ID of the passenger. </p><dl class="section return"><dt>Returns</dt><dd>The unique ID of the passenger. </dd></dl>
 
 </div>
 </div>
@@ -446,6 +472,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the public transport line sequence. </p><dl class="section return"><dt>Returns</dt><dd>The list of public transport lines in the route. </dd></dl>
 
 </div>
 </div>
@@ -471,6 +498,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Gets the route's station sequence. </p><dl class="section return"><dt>Returns</dt><dd>The list of stations in the route. </dd></dl>
 
 </div>
 </div>
@@ -497,6 +525,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the departure time of the passenger. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dptTime</td><td>The departure time to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -523,6 +557,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the normal dwell time of the passenger. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dwellTime</td><td>The dwell time to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -549,6 +589,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets whether the passenger is handicapped. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">handicapped</td><td>True if the passenger is handicapped, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -575,6 +621,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the passenger's vehicle boarding status. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onVehicle</td><td>True if the passenger is on a vehicle, false otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -601,6 +653,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the unique ID of the passenger. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>The unique ID to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -627,6 +685,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the public transport line sequence in the passenger's route. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptlineVector</td><td>The line sequence to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -653,6 +717,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Sets the station sequence in the passenger's route. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">paxStationVector</td><td>The station sequence to set. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -668,6 +738,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Index of the current public transport line in the route </p>
 
 </div>
 </div>
@@ -682,6 +753,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Index of the current station in the route </p>
 
 </div>
 </div>
@@ -704,6 +776,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Departure time </p>
 
 </div>
 </div>
@@ -726,6 +799,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Normal dwell time (default: 2) </p>
 
 </div>
 </div>
@@ -748,6 +822,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Wheter passenger is handicapped (default: false) </p>
 
 </div>
 </div>
@@ -770,6 +845,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Unique ID of the passenger </p>
 
 </div>
 </div>
@@ -792,6 +868,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Wheter passenger is on vehicle (default: false) </p>
 
 </div>
 </div>
@@ -806,6 +883,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structCaptain_1_1Route.html" title="Struct of route with associated distance, weight, and a list of unit identifiers.">Route</a> information for the passenger </p>
 
 </div>
 </div>

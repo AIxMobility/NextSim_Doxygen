@@ -6,7 +6,7 @@ var namespaceCaptain =
     ] ],
     [ "DMode", "namespaceCaptain_1_1DMode.html", "namespaceCaptain_1_1DMode" ],
     [ "ExceptionParams", "namespaceCaptain_1_1ExceptionParams.html", [
-      [ "IDcountConst", "namespaceCaptain_1_1ExceptionParams.html#a92c459e83d6021636188b7c0cb0dbc01", null ],
+      [ "IDcountMax", "namespaceCaptain_1_1ExceptionParams.html#a5c1171520fd3c163643b126cdd9a994c", null ],
       [ "InfLength", "namespaceCaptain_1_1ExceptionParams.html#afa4eaee7f4cda6ab62815587e7920a43", null ],
       [ "LeaderSearchLimit", "namespaceCaptain_1_1ExceptionParams.html#acaad8ce81ed7a91d5e8f453cb7d49555", null ],
       [ "MaxTrackbleCCF", "namespaceCaptain_1_1ExceptionParams.html#a843ac88d41b7c4fab41ca321a46854b0", null ],
@@ -21,32 +21,14 @@ var namespaceCaptain =
     [ "MicroDriveModeParams", "namespaceCaptain_1_1MicroDriveModeParams.html", [
       [ "ACFKeepTime", "namespaceCaptain_1_1MicroDriveModeParams.html#afc1ebf915a69c95ca256237d6427dfe4", null ],
       [ "CCFKeepTime", "namespaceCaptain_1_1MicroDriveModeParams.html#a6b99ea3fe33e48efbdd30753c8b35289", null ],
-      [ "CCFSignalProbability", "namespaceCaptain_1_1MicroDriveModeParams.html#aec73e76e9c67dad909212436cc4ef83c", null ],
       [ "DCFKeepTime", "namespaceCaptain_1_1MicroDriveModeParams.html#a31d0342884fbeeee629140059a4ea1db", null ],
       [ "DefaultLCDistance", "namespaceCaptain_1_1MicroDriveModeParams.html#aa9ef8b3299ec116520cb6d82869796fa", null ],
       [ "DefaultWidth", "namespaceCaptain_1_1MicroDriveModeParams.html#a4f2d2a7d486c887e6484626ae1d84067", null ],
       [ "ELCThreshold", "namespaceCaptain_1_1MicroDriveModeParams.html#a78a077ef541ad0988f0d18a6d3de1a9a", null ],
       [ "LCSpeed", "namespaceCaptain_1_1MicroDriveModeParams.html#ae65fe2b59869d8c48147a80dbfd4d311", null ],
-      [ "LCThreshold", "namespaceCaptain_1_1MicroDriveModeParams.html#ae165b3038e63ad40a11c935bde95d9b1", null ],
       [ "OccupancyLength", "namespaceCaptain_1_1MicroDriveModeParams.html#a955eb901dabb05a4fbfb3d9f6ab8e1b1", null ]
     ] ],
     [ "Node", "namespaceCaptain_1_1Node.html", "namespaceCaptain_1_1Node" ],
-    [ "RecorderParams", "namespaceCaptain_1_1RecorderParams.html", [
-      [ "currentDirectory", "namespaceCaptain_1_1RecorderParams.html#aea3f8977f95f9d5976148075958bc533", null ],
-      [ "MesoUnitSavePath", "namespaceCaptain_1_1RecorderParams.html#a1ab3cb127173dbc70927699de528a29d", null ],
-      [ "MicroLaneSavePath", "namespaceCaptain_1_1RecorderParams.html#ab7a38ba8187151973b9dc0f2b9073b6a", null ],
-      [ "NextSimDirectory", "namespaceCaptain_1_1RecorderParams.html#ad11a77d9aa32771361f529e6208e5ec2", null ],
-      [ "OutputDirectory", "namespaceCaptain_1_1RecorderParams.html#a6b1e4cafa727e88517981cd850a998dd", null ],
-      [ "PrintProgramLog", "namespaceCaptain_1_1RecorderParams.html#a5e1135ec9b7b77997ca643ca522a038a", null ],
-      [ "RecordQueueCapacity", "namespaceCaptain_1_1RecorderParams.html#a4b8931ff0fe0148e5529719974b6eed0", null ],
-      [ "SimulationSavePath", "namespaceCaptain_1_1RecorderParams.html#acb89315c486b24e278d3aee4fc7531ad", null ],
-      [ "SinkUnitSavePath", "namespaceCaptain_1_1RecorderParams.html#a4c11c771e84987c28f11eb079d193bae", null ],
-      [ "SourceUnitSavePath", "namespaceCaptain_1_1RecorderParams.html#aaf2623cb1ea50cb4ed270e84498ec3f3", null ],
-      [ "StationSavePath", "namespaceCaptain_1_1RecorderParams.html#afc264037abc6f21014130e7bc9365883", null ],
-      [ "UniformSavePath", "namespaceCaptain_1_1RecorderParams.html#a46a9c2963bb4cb0603923365b64cc02e", null ],
-      [ "VehicleRecordSavePath", "namespaceCaptain_1_1RecorderParams.html#ae6f49ed4c11a087735913647a53ef717", null ],
-      [ "VehicleSavePath", "namespaceCaptain_1_1RecorderParams.html#a74a251e91eef074e882e9392c534a7b9", null ]
-    ] ],
     [ "StationParams", "namespaceCaptain_1_1StationParams.html", [
       [ "ParkingLotLength", "namespaceCaptain_1_1StationParams.html#ac2c4885803e21fcfc87f103819703d8a", null ],
       [ "SpeedTolerance", "namespaceCaptain_1_1StationParams.html#a74a15a166b43c8da99b83951a0de9ace", null ],
@@ -60,7 +42,6 @@ var namespaceCaptain =
       [ "Micro", "namespaceCaptain_1_1TimeStepParams.html#a0c55f0ec18c6f5dd6d63a738485ed69a", null ],
       [ "MicroIntegerInterval", "namespaceCaptain_1_1TimeStepParams.html#a5ce0c5ca261d0834c3519ee331d36850", null ],
       [ "PaxGenerateInterval", "namespaceCaptain_1_1TimeStepParams.html#a68da0546b186b96f9fdc7d24449cae93", null ],
-      [ "PVDwellTime", "namespaceCaptain_1_1TimeStepParams.html#adb33cdbcad0d79a47fc99f9e0d251e22", null ],
       [ "YellowSignalCycles", "namespaceCaptain_1_1TimeStepParams.html#a9e31cd62e47f6e4f822ee239a9e013b4", null ]
     ] ],
     [ "Util", "namespaceCaptain_1_1Util.html", "namespaceCaptain_1_1Util" ],
@@ -85,15 +66,13 @@ var namespaceCaptain =
     [ "SegmentInfo", "structCaptain_1_1SegmentInfo.html", "structCaptain_1_1SegmentInfo" ],
     [ "MicroLinkInfo", "structCaptain_1_1MicroLinkInfo.html", "structCaptain_1_1MicroLinkInfo" ],
     [ "MesoLinkInfo", "structCaptain_1_1MesoLinkInfo.html", "structCaptain_1_1MesoLinkInfo" ],
+    [ "VehicleLinkRecordInfo", "structCaptain_1_1VehicleLinkRecordInfo.html", "structCaptain_1_1VehicleLinkRecordInfo" ],
     [ "VehicleRecordInfo", "structCaptain_1_1VehicleRecordInfo.html", "structCaptain_1_1VehicleRecordInfo" ],
     [ "CellRecordInfo", "structCaptain_1_1CellRecordInfo.html", "structCaptain_1_1CellRecordInfo" ],
     [ "StationRecordInfo", "structCaptain_1_1StationRecordInfo.html", "structCaptain_1_1StationRecordInfo" ],
     [ "SinkRecordInfo", "structCaptain_1_1SinkRecordInfo.html", "structCaptain_1_1SinkRecordInfo" ],
+    [ "PassengerRecordInfo", "structCaptain_1_1PassengerRecordInfo.html", "structCaptain_1_1PassengerRecordInfo" ],
     [ "SimulationRecordInfo", "structCaptain_1_1SimulationRecordInfo.html", "structCaptain_1_1SimulationRecordInfo" ],
-    [ "pair_hash", "structCaptain_1_1pair__hash.html", "structCaptain_1_1pair__hash" ],
-    [ "tuple_hash", "structCaptain_1_1tuple__hash.html", "structCaptain_1_1tuple__hash" ],
-    [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ],
-    [ "UnitIdentifierMap", "structCaptain_1_1UnitIdentifierMap.html", "structCaptain_1_1UnitIdentifierMap" ],
     [ "Passenger", "classCaptain_1_1Passenger.html", "classCaptain_1_1Passenger" ],
     [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html", "structCaptain_1_1PublicTransitInfo" ],
     [ "VehicleReservationInfo", "classCaptain_1_1VehicleReservationInfo.html", "classCaptain_1_1VehicleReservationInfo" ],
@@ -185,7 +164,7 @@ var namespaceCaptain =
       [ "Green", "namespaceCaptain.html#abc914229623e9ca890ab012482a5e89cad382816a3cbeed082c9e216e7392eed1", null ]
     ] ],
     [ "TurnDirection", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1", [
-      [ "LeftTrun", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1a4cecb1a13b3eb3a6af5f4e0aab115738", null ],
+      [ "LeftTurn", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1ab1c6e5076cf20c389cdb5cca0e92650d", null ],
       [ "Straight", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1ab6bd418b8879851e86bcaccd553b74db", null ],
       [ "RightTurn", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1a57475f3e2fb784e9e212be1d32b28b7d", null ]
     ] ],

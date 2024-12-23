@@ -1,8 +1,8 @@
 <map id="Captain::Node::IVehicleContainableUnit" name="Captain::Node::IVehicleContainableUnit">
 <area shape="rect" id="node1" title=" " alt="" coords="5,107,284,133"/>
 <area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1GarageUnit.html" title=" " alt="" coords="332,5,528,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MesoUnit.html" title=" " alt="" coords="338,56,522,83"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MicroLane.html" title=" " alt="" coords="335,107,525,133"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1SinkUnit.html" title=" " alt="" coords="341,157,519,184"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1SourceUnit.html" title=" " alt="" coords="333,208,527,235"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MesoUnit.html" title="Represents a mesoscopic cell unit used in meso&#45;level traffic flow algorithms." alt="" coords="338,56,522,83"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MicroLane.html" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="335,107,525,133"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1SinkUnit.html" title="Represents a sink unit where vehicles are removed from the network." alt="" coords="341,157,519,184"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1SourceUnit.html" title="Represents a source unit where vehicles are generated and introduced into the network." alt="" coords="333,208,527,235"/>
 </map>

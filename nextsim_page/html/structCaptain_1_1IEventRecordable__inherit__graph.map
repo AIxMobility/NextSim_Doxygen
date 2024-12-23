@@ -1,6 +1,6 @@
 <map id="Captain::IEventRecordable" name="Captain::IEventRecordable">
 <area shape="rect" id="node1" title="Interface for units that can record events." alt="" coords="211,5,405,32"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html" title=" " alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html" title=" " alt="" coords="213,80,403,107"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1Station.html" title=" " alt="" coords="427,80,595,107"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html" title="Represents a mesoscopic cell unit used in meso&#45;level traffic flow algorithms." alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="213,80,403,107"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1Station.html" title="Represents a station where vehicles can park and passengers can board or alight." alt="" coords="427,80,595,107"/>
 </map>

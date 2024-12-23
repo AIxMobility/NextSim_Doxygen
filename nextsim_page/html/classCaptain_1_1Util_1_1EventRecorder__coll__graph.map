@@ -1,5 +1,5 @@
 <map id="Captain::Util::EventRecorder" name="Captain::Util::EventRecorder">
-<area shape="rect" id="node1" title=" " alt="" coords="199,153,406,180"/>
+<area shape="rect" id="node1" title="Class for recording events in the simulation." alt="" coords="199,183,406,209"/>
 <area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,5,189,32"/>
 <area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,5,391,32"/>
 <area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,595,32"/>

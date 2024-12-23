@@ -13,15 +13,13 @@ var dir_d6942699f45aa8e10607fb02160860c0 =
       [ "SegmentInfo", "structCaptain_1_1SegmentInfo.html", "structCaptain_1_1SegmentInfo" ],
       [ "MicroLinkInfo", "structCaptain_1_1MicroLinkInfo.html", "structCaptain_1_1MicroLinkInfo" ],
       [ "MesoLinkInfo", "structCaptain_1_1MesoLinkInfo.html", "structCaptain_1_1MesoLinkInfo" ],
+      [ "VehicleLinkRecordInfo", "structCaptain_1_1VehicleLinkRecordInfo.html", "structCaptain_1_1VehicleLinkRecordInfo" ],
       [ "VehicleRecordInfo", "structCaptain_1_1VehicleRecordInfo.html", "structCaptain_1_1VehicleRecordInfo" ],
       [ "CellRecordInfo", "structCaptain_1_1CellRecordInfo.html", "structCaptain_1_1CellRecordInfo" ],
       [ "StationRecordInfo", "structCaptain_1_1StationRecordInfo.html", "structCaptain_1_1StationRecordInfo" ],
       [ "SinkRecordInfo", "structCaptain_1_1SinkRecordInfo.html", "structCaptain_1_1SinkRecordInfo" ],
-      [ "SimulationRecordInfo", "structCaptain_1_1SimulationRecordInfo.html", "structCaptain_1_1SimulationRecordInfo" ],
-      [ "pair_hash", "structCaptain_1_1pair__hash.html", "structCaptain_1_1pair__hash" ],
-      [ "tuple_hash", "structCaptain_1_1tuple__hash.html", "structCaptain_1_1tuple__hash" ],
-      [ "microLinkEventInfoCompare", "structCaptain_1_1microLinkEventInfoCompare.html", "structCaptain_1_1microLinkEventInfoCompare" ],
-      [ "UnitIdentifierMap", "structCaptain_1_1UnitIdentifierMap.html", "structCaptain_1_1UnitIdentifierMap" ]
+      [ "PassengerRecordInfo", "structCaptain_1_1PassengerRecordInfo.html", "structCaptain_1_1PassengerRecordInfo" ],
+      [ "SimulationRecordInfo", "structCaptain_1_1SimulationRecordInfo.html", "structCaptain_1_1SimulationRecordInfo" ]
     ] ],
     [ "Passenger.hpp", "Passenger_8hpp.html", "Passenger_8hpp" ],
     [ "PublicTransitInfo.hpp", "PublicTransitInfo_8hpp.html", [

@@ -1,44 +1,18 @@
 var dir_abfa6bc9e18748877852d15cdfcecac4 =
 [
-    [ "GarageUnit.hpp", "GarageUnit_8hpp.html", [
-      [ "GarageUnit", "classCaptain_1_1Node_1_1GarageUnit.html", "classCaptain_1_1Node_1_1GarageUnit" ]
-    ] ],
-    [ "IEventRecordable.hpp", "IEventRecordable_8hpp.html", [
-      [ "IEventRecordable", "structCaptain_1_1IEventRecordable.html", "structCaptain_1_1IEventRecordable" ]
-    ] ],
-    [ "ILinkable.hpp", "ILinkable_8hpp.html", [
-      [ "ILinkable", "structCaptain_1_1Node_1_1ILinkable.html", "structCaptain_1_1Node_1_1ILinkable" ]
-    ] ],
+    [ "GarageUnit.hpp", "GarageUnit_8hpp.html", "GarageUnit_8hpp" ],
+    [ "IEventRecordable.hpp", "IEventRecordable_8hpp.html", "IEventRecordable_8hpp" ],
+    [ "ILinkable.hpp", "ILinkable_8hpp.html", "ILinkable_8hpp" ],
     [ "Interfaces.hpp", "Interfaces_8hpp.html", "Interfaces_8hpp" ],
-    [ "IntersectionMicroLink.hpp", "IntersectionMicroLink_8hpp.html", [
-      [ "IntersectionMicroLink", "classCaptain_1_1Node_1_1IntersectionMicroLink.html", "classCaptain_1_1Node_1_1IntersectionMicroLink" ]
-    ] ],
-    [ "MesoLink.hpp", "MesoLink_8hpp.html", [
-      [ "MesoLink", "classCaptain_1_1Node_1_1MesoLink.html", "classCaptain_1_1Node_1_1MesoLink" ]
-    ] ],
+    [ "IntersectionMicroLink.hpp", "IntersectionMicroLink_8hpp.html", "IntersectionMicroLink_8hpp" ],
+    [ "MesoLink.hpp", "MesoLink_8hpp.html", "MesoLink_8hpp" ],
     [ "MesoUnit.hpp", "MesoUnit_8hpp.html", "MesoUnit_8hpp" ],
-    [ "MicroLane.hpp", "MicroLane_8hpp.html", [
-      [ "MicroLane", "classCaptain_1_1Node_1_1MicroLane.html", "classCaptain_1_1Node_1_1MicroLane" ]
-    ] ],
-    [ "MicroLink.hpp", "MicroLink_8hpp.html", [
-      [ "MicroLink", "classCaptain_1_1Node_1_1MicroLink.html", "classCaptain_1_1Node_1_1MicroLink" ]
-    ] ],
-    [ "SinkUnit.hpp", "SinkUnit_8hpp.html", [
-      [ "SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html", "classCaptain_1_1Node_1_1SinkUnit" ]
-    ] ],
-    [ "SourceUnit.hpp", "SourceUnit_8hpp.html", [
-      [ "SourceUnit", "classCaptain_1_1Node_1_1SourceUnit.html", "classCaptain_1_1Node_1_1SourceUnit" ]
-    ] ],
-    [ "Station.hpp", "Station_8hpp.html", [
-      [ "Station", "classCaptain_1_1Node_1_1Station.html", "classCaptain_1_1Node_1_1Station" ]
-    ] ],
-    [ "UniformIntersectionLink.hpp", "UniformIntersectionLink_8hpp.html", [
-      [ "UniformIntersectionLink", "classCaptain_1_1Node_1_1UniformIntersectionLink.html", "classCaptain_1_1Node_1_1UniformIntersectionLink" ]
-    ] ],
-    [ "UniformLink.hpp", "UniformLink_8hpp.html", [
-      [ "UniformLink", "classCaptain_1_1Node_1_1UniformLink.html", "classCaptain_1_1Node_1_1UniformLink" ]
-    ] ],
-    [ "UnitConnectionInfo.hpp", "UnitConnectionInfo_8hpp.html", [
-      [ "UnitConnectionInfo", "structCaptain_1_1Node_1_1UnitConnectionInfo.html", "structCaptain_1_1Node_1_1UnitConnectionInfo" ]
-    ] ]
+    [ "MicroLane.hpp", "MicroLane_8hpp.html", "MicroLane_8hpp" ],
+    [ "MicroLink.hpp", "MicroLink_8hpp.html", "MicroLink_8hpp" ],
+    [ "SinkUnit.hpp", "SinkUnit_8hpp.html", "SinkUnit_8hpp" ],
+    [ "SourceUnit.hpp", "SourceUnit_8hpp.html", "SourceUnit_8hpp" ],
+    [ "Station.hpp", "Station_8hpp.html", "Station_8hpp" ],
+    [ "UniformIntersectionLink.hpp", "UniformIntersectionLink_8hpp.html", "UniformIntersectionLink_8hpp" ],
+    [ "UniformLink.hpp", "UniformLink_8hpp.html", "UniformLink_8hpp" ],
+    [ "UnitConnectionInfo.hpp", "UnitConnectionInfo_8hpp.html", "UnitConnectionInfo_8hpp" ]
 ];

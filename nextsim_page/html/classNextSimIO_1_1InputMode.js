@@ -1,14 +1,14 @@
 var classNextSimIO_1_1InputMode =
 [
     [ "InputMode", "classNextSimIO_1_1InputMode.html#ae97e4be0019467b37b4c2dd5f3c5b6fb", null ],
-    [ "getId", "classNextSimIO_1_1InputMode.html#aef7c2fc1dade92542b035e2a60e953d1", null ],
-    [ "getMesoLinkArr", "classNextSimIO_1_1InputMode.html#a56d7ca71765aae01d9fabef4b3e627ce", null ],
-    [ "getMicroLinkArr", "classNextSimIO_1_1InputMode.html#a33ba71be2f860faa1829fd374dfb6d51", null ],
-    [ "getScycle", "classNextSimIO_1_1InputMode.html#a3f857d929834930757c8534e27fd3d12", null ],
-    [ "setMesoLinkArr", "classNextSimIO_1_1InputMode.html#a10fab2d3e3effdb8d3c24c5a0ffa667a", null ],
-    [ "setMicroLinkArr", "classNextSimIO_1_1InputMode.html#a6800570c852ba81e78c1521959b105a2", null ],
-    [ "id", "classNextSimIO_1_1InputMode.html#a0a92ed44726cad24ac6c84242cdf657c", null ],
-    [ "mesoLinkArr", "classNextSimIO_1_1InputMode.html#add25c5e045280b5a7028de3f15e5281f", null ],
-    [ "microLinkArr", "classNextSimIO_1_1InputMode.html#a9430a54305b1c9d71e22286ee78d2bbc", null ],
-    [ "scycle", "classNextSimIO_1_1InputMode.html#a2fcbb670d4668a5be81963af37626070", null ]
+    [ "GetId", "classNextSimIO_1_1InputMode.html#afe17f7d415fb7582cb69e49b921709fa", null ],
+    [ "GetMesoLinkVector", "classNextSimIO_1_1InputMode.html#a68456145ccaa03d2e47810739a9c2b08", null ],
+    [ "GetMicroLinkVector", "classNextSimIO_1_1InputMode.html#a3ecc2fc27b2903f23ae40998b180b1d1", null ],
+    [ "GetScycle", "classNextSimIO_1_1InputMode.html#af954fb51d6a52a3ab64f6448efa3dcd1", null ],
+    [ "SetMesoLinkVector", "classNextSimIO_1_1InputMode.html#a9e4bc725b81231ee6a797011a1c7aa4d", null ],
+    [ "SetMicroLinkVector", "classNextSimIO_1_1InputMode.html#a14911470295968e71c6787188c25b0fa", null ],
+    [ "m_id", "classNextSimIO_1_1InputMode.html#ae54d998322dfb3ffac04fd39ae6a8c9d", null ],
+    [ "m_mesoLinkVector", "classNextSimIO_1_1InputMode.html#af1a92479cf11fa372d9cf0136a4c6426", null ],
+    [ "m_microLinkVector", "classNextSimIO_1_1InputMode.html#a71395d9c2b5ad620f13e74cdc621abf7", null ],
+    [ "m_sCycle", "classNextSimIO_1_1InputMode.html#ad29cec53a6ee2234f6dc70ddcd9a6d78", null ]
 ];

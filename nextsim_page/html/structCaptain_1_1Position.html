@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('structCaptain_1_1Position.html',''); i
 </div><!--header-->
 <div class="contents">
 
-<p>Wrapper for representing positions of units.  
+<p>Struct of a 2D position in a coordinate system.  
  <a href="structCaptain_1_1Position.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -120,7 +120,7 @@ Friends</h2></td></tr>
 <tr class="separator:a43b37cd759c5fb664cec04e6ca4c31ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Wrapper for representing positions of units. </p>
+<div class="textblock"><p>Struct of a 2D position in a coordinate system. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a663476dc717284136065d6c917b03d0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a663476dc717284136065d6c917b03d0c">&#9670;&nbsp;</a></span>Position() <span class="overload">[1/2]</span></h2>
@@ -144,6 +144,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <code><a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a></code> object with the specified x and y coordinates </p>
 
 </div>
 </div>
@@ -180,6 +181,13 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>X coordinate of 2D position </td></tr>
+    <tr><td class="paramname">y</td><td>Y coordinate of 2D position </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -217,6 +225,14 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Compares two <a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> instances to determine if they are equal </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>The left-hand side <a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> instance to compare </td></tr>
+    <tr><td class="paramname">rhs</td><td>The right-hand side <a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> instance to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool : True if both X and Y coordinates are equal for lhs and rhs, otherwise false </dd></dl>
 
 </div>
 </div>
@@ -232,6 +248,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>X coordinate of the position, Default value is 0 </p>
 
 </div>
 </div>
@@ -246,6 +263,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Y coordinate of the position, Default value is 0 </p>
 
 </div>
 </div>

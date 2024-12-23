@@ -99,19 +99,6 @@ $(document).ready(function(){initNavTree('classCaptain_1_1Engine.html',''); init
 
 <p><a class="el" href="classCaptain_1_1Engine.html" title="Engine class for managing the simulation process.">Engine</a> class for managing the simulation process.  
  <a href="classCaptain_1_1Engine.html#details">More...</a></p>
-<div class="dynheader">
-Collaboration diagram for Captain::Engine:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine__coll__graph.png" border="0" usemap="#aCaptain_1_1Engine_coll__map" alt="Collaboration graph"/></div>
-<map name="aCaptain_1_1Engine_coll__map" id="aCaptain_1_1Engine_coll__map">
-<area shape="rect" title="Engine class for managing the simulation process." alt="" coords="411,143,535,170"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="8,5,235,47"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="22,71,221,112"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="5,136,237,177"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="10,201,233,243"/>
-<area shape="rect" href="structCaptain_1_1UnitIdentifierMap.html" title=" " alt="" coords="18,267,225,308"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,10 +122,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a97ec5a07a77581457334adc0dfb9ee01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5623f9c29ff4b37fe6894345d10eeb8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a5623f9c29ff4b37fe6894345d10eeb8a">SetAdjacentStation</a> (const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;prevStationId, const int nextStationID, const int lineID)</td></tr>
 <tr class="separator:a5623f9c29ff4b37fe6894345d10eeb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fbea5df62a7e07293abc15bf821404a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a2fbea5df62a7e07293abc15bf821404a">SetV2X</a> (const int node_id, bool v2xActive)</td></tr>
-<tr class="separator:a2fbea5df62a7e07293abc15bf821404a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4ffa9c1bafae6d9b49a2dfbf5836548"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ae4ffa9c1bafae6d9b49a2dfbf5836548">AddNodeMessage</a> (const int node_id, <a class="el" href="structCaptain_1_1Message.html">Message</a> message)</td></tr>
-<tr class="separator:ae4ffa9c1bafae6d9b49a2dfbf5836548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a2e7c68a3718c8b683b5545fe78363b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a0a2e7c68a3718c8b683b5545fe78363b">SetV2X</a> (const int nodeID, bool v2xActive)</td></tr>
+<tr class="separator:a0a2e7c68a3718c8b683b5545fe78363b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bff3f601f84b2b9d43762bbc3a4c147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a5bff3f601f84b2b9d43762bbc3a4c147">AddNodeMessage</a> (const int nodeID, <a class="el" href="structCaptain_1_1Message.html">Message</a> message)</td></tr>
+<tr class="separator:a5bff3f601f84b2b9d43762bbc3a4c147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa618a24b4be7c19eaac60feb4bfda040"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aa618a24b4be7c19eaac60feb4bfda040">AddEvent</a> (const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;targetIdentifier, int type, double eventPosition, double sTime, double eTime, int sern)</td></tr>
 <tr class="separator:aa618a24b4be7c19eaac60feb4bfda040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7238e3ea05216aaf08cfbfee93e13021"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a7238e3ea05216aaf08cfbfee93e13021">ReserveAgentVehicle</a> (const std::vector&lt; <a class="el" href="classCaptain_1_1VehicleReservationInfo.html">VehicleReservationInfo</a> &gt; &amp;reservedVehicleInfo, const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;sourceIdentifier)</td></tr>
@@ -191,10 +178,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa956fe0cc5d2d9fc0fadcf6642affca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab13dccb2f0be715dbee06470d064378b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b">FindPaxRoute</a> (const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;origin, const <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &amp;destination)</td></tr>
 <tr class="separator:ab13dccb2f0be715dbee06470d064378b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2863109b8e45cfc0d42d8ad26d510d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aae2863109b8e45cfc0d42d8ad26d510d">ConvertUnitIDtoRouteID</a> (std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; UnitVector)</td></tr>
-<tr class="separator:aae2863109b8e45cfc0d42d8ad26d510d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e835dc0edc651c913b86f022238f090"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4e835dc0edc651c913b86f022238f090">ConvertUnitIDtoPTRouteID</a> (std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; UnitVector, std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; StationVector)</td></tr>
-<tr class="separator:a4e835dc0edc651c913b86f022238f090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9b0a204412c58cca442f4b0511a6df"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a2c9b0a204412c58cca442f4b0511a6df">ConvertUnitIDtoRouteID</a> (std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; unitVector)</td></tr>
+<tr class="separator:a2c9b0a204412c58cca442f4b0511a6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9888796230bfc7aec8b571af4a06f01"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aa9888796230bfc7aec8b571af4a06f01">ConvertUnitIDtoPTRouteID</a> (std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; unitVector, std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt; stationVector)</td></tr>
+<tr class="separator:aa9888796230bfc7aec8b571af4a06f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac20557465d96e77b1801d9d4c0a82fad"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ac20557465d96e77b1801d9d4c0a82fad">CalculateLanePreference</a> (<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> prevLinkId, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> currLinkId)</td></tr>
 <tr class="separator:ac20557465d96e77b1801d9d4c0a82fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a1bf851c4ef47c7b121bba4652d5837"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4a1bf851c4ef47c7b121bba4652d5837">FindClosestStation</a> (int linkID, double position)</td></tr>
@@ -223,64 +210,62 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a921cc1015bd55ffc7c1674d8b74f02b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af256ec7a83b9a7d1cf794aac0c978dd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9">AddVehicle</a> ()</td></tr>
 <tr class="separator:af256ec7a83b9a7d1cf794aac0c978dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091ea8ee77c06526b313f805cba70fad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a091ea8ee77c06526b313f805cba70fad">RecordSimulationInfo</a> (int simulationId, size_t mesoEpochs, int duration, std::vector&lt; int &gt; runTimeVector, int odScenarioId, <a class="el" href="classNextSimIO_1_1InputMode.html">InputMode</a> modeInfo, bool start)</td></tr>
-<tr class="separator:a091ea8ee77c06526b313f805cba70fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa855c79d2d2ad9b28fbf9a66786c575b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aa855c79d2d2ad9b28fbf9a66786c575b">RecordSimulationInfo</a> (int simulationId, size_t mesoEpochs, int duration, std::vector&lt; int &gt; runtimeVector, int odScenarioId, <a class="el" href="classNextSimIO_1_1InputMode.html">InputMode</a> modeInfo, bool start)</td></tr>
+<tr class="separator:aa855c79d2d2ad9b28fbf9a66786c575b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87ec6953828768111701ca4b62dc3503"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a87ec6953828768111701ca4b62dc3503">GetSimulationInfo</a> ()</td></tr>
 <tr class="separator:a87ec6953828768111701ca4b62dc3503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01097f7707ee04416185d214ff6c5d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a01097f7707ee04416185d214ff6c5d90">FlushRecordings</a> (bool laststep)</td></tr>
-<tr class="separator:a01097f7707ee04416185d214ff6c5d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a336c7ce29a2b0e841e4be079e054dfc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a336c7ce29a2b0e841e4be079e054dfc9">FlushSortedRecordings</a> ()</td></tr>
-<tr class="separator:a336c7ce29a2b0e841e4be079e054dfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add44af1d28e97436abce858920705033"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#add44af1d28e97436abce858920705033">FlushRecordings</a> (bool lastStep, std::vector&lt; std::pair&lt; std::string, bool &gt;&gt; recordMode)</td></tr>
+<tr class="separator:add44af1d28e97436abce858920705033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d69a2cb8dd2929a442d84aa986b9e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ac6d69a2cb8dd2929a442d84aa986b9e7">InitializeRecordings</a> ()</td></tr>
 <tr class="separator:ac6d69a2cb8dd2929a442d84aa986b9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49522fc7a56073ed57824d98b357c164"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a49522fc7a56073ed57824d98b357c164">TerminateRecordings</a> ()</td></tr>
 <tr class="separator:a49522fc7a56073ed57824d98b357c164"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bf7b146a05d4eb94733cbcee3b2f096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4bf7b146a05d4eb94733cbcee3b2f096">parseVehicleInfo</a> (const rapidjson::Value &amp;vehicleInfoObject)</td></tr>
-<tr class="separator:a4bf7b146a05d4eb94733cbcee3b2f096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad81e51c73e2b257fe0df2aedf1d6a424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ad81e51c73e2b257fe0df2aedf1d6a424">parseVehicleState</a> (const rapidjson::Value &amp;vehicleStateObject)</td></tr>
-<tr class="separator:ad81e51c73e2b257fe0df2aedf1d6a424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbea8c36241733fa1d0deb99ed1b7d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#abbea8c36241733fa1d0deb99ed1b7d86">parseVehicleRoute</a> (const rapidjson::Value &amp;vehicleRouteObject)</td></tr>
-<tr class="separator:abbea8c36241733fa1d0deb99ed1b7d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb05670af8cead5600b78a1de66f28d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#afcb05670af8cead5600b78a1de66f28d">parsePaxRoute</a> (const rapidjson::Value &amp;paxRouteObject)</td></tr>
-<tr class="separator:afcb05670af8cead5600b78a1de66f28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e828632f758fd439f0cdc15e3b0d7f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a1e828632f758fd439f0cdc15e3b0d7f6">ParseVehicleInfo</a> (const rapidjson::Value &amp;vehicleInfoObject)</td></tr>
+<tr class="separator:a1e828632f758fd439f0cdc15e3b0d7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb38364cc648e650ffddbdaf643aece6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aeb38364cc648e650ffddbdaf643aece6">ParseVehicleState</a> (const rapidjson::Value &amp;vehicleStateObject)</td></tr>
+<tr class="separator:aeb38364cc648e650ffddbdaf643aece6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fee0cfc4a9fbf438b8561628684979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a89fee0cfc4a9fbf438b8561628684979">ParseVehicleRoute</a> (const rapidjson::Value &amp;vehicleRouteObject)</td></tr>
+<tr class="separator:a89fee0cfc4a9fbf438b8561628684979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a4d0952db8adf42b57b501f04b8939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a57a4d0952db8adf42b57b501f04b8939">ParsePaxRoute</a> (const rapidjson::Value &amp;paxRouteObject)</td></tr>
+<tr class="separator:a57a4d0952db8adf42b57b501f04b8939"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a44b84a354048f63db47d90aa2d7bf289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289">m_constructUnitConnectionInfoFollower</a> (const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;descriptor, bool GetMicro=false)</td></tr>
-<tr class="separator:a44b84a354048f63db47d90aa2d7bf289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0810ac6852fdf34b189862574f10328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328">m_constructUnitConnectionInfoLeader</a> (const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;descriptor, bool FromMicro)</td></tr>
-<tr class="separator:ab0810ac6852fdf34b189862574f10328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa515c21ae8da4e8f4c445a7f1d01da4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aa515c21ae8da4e8f4c445a7f1d01da4c">m_findUnit</a> (int unitID, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> type)</td></tr>
-<tr class="separator:aa515c21ae8da4e8f4c445a7f1d01da4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad981f5926a70213661952c99bb9e017d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:ad981f5926a70213661952c99bb9e017d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ad981f5926a70213661952c99bb9e017d">m_findRoute</a> (<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> destination, T &amp;queue, U &amp;unitRouteMap, std::size_t cycle)</td></tr>
-<tr class="separator:ad981f5926a70213661952c99bb9e017d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d4c5e5f91faa107361d60af2872555e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a1d4c5e5f91faa107361d60af2872555e">m_findPaxRoute</a> (<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> origin, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> destination, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> subject, <a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &amp;paxRoute, std::unordered_map&lt; int, bool &gt; &amp;check)</td></tr>
-<tr class="separator:a1d4c5e5f91faa107361d60af2872555e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2413296cd3c30b541a04be41e42843a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ab2413296cd3c30b541a04be41e42843a">m_findLineSequence</a> (std::pair&lt; int, int &gt; origin_dest)</td></tr>
-<tr class="separator:ab2413296cd3c30b541a04be41e42843a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde946e6ef2cd389fddb9b2db5652236"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236">constructUnitConnectionInfoFollower</a> (const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;descriptor, bool getMicro=false)</td></tr>
+<tr class="separator:afde946e6ef2cd389fddb9b2db5652236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a807b5e1f767aa8499ba6a667a14cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb">constructUnitConnectionInfoLeader</a> (const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;descriptor, bool fromMicro)</td></tr>
+<tr class="separator:ac0a807b5e1f767aa8499ba6a667a14cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bdf68dd0e84d35d00d37c63dd70538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#ae5bdf68dd0e84d35d00d37c63dd70538">findUnit</a> (int unitID, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> type)</td></tr>
+<tr class="separator:ae5bdf68dd0e84d35d00d37c63dd70538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c4eb372960788bcccc70e65e690b980"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:a9c4eb372960788bcccc70e65e690b980"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a9c4eb372960788bcccc70e65e690b980">findRoute</a> (<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> destination, T &amp;queue, U &amp;unitRouteMap, std::size_t cycle)</td></tr>
+<tr class="separator:a9c4eb372960788bcccc70e65e690b980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab504471d08f0fdfa9e1a667f6ac4a52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aab504471d08f0fdfa9e1a667f6ac4a52">findPaxRoute</a> (<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> origin, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> destination, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> subject, <a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &amp;paxRoute, std::unordered_map&lt; int, bool &gt; &amp;check)</td></tr>
+<tr class="separator:aab504471d08f0fdfa9e1a667f6ac4a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238b6333409c6e0aa1e6c3e520e0d855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a238b6333409c6e0aa1e6c3e520e0d855">findLineSequence</a> (std::pair&lt; int, int &gt; origin_dest)</td></tr>
+<tr class="separator:a238b6333409c6e0aa1e6c3e520e0d855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4dfcd8f884c6e5bb6e48cfdb766b99b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structCaptain_1_1MesoComputationModel.html">MesoComputationModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a4dfcd8f884c6e5bb6e48cfdb766b99b5">m_mesoComputationModel</a></td></tr>
 <tr class="separator:a4dfcd8f884c6e5bb6e48cfdb766b99b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453df75fbef29077409e10e22476bdbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a453df75fbef29077409e10e22476bdbc">m_unitMap</a></td></tr>
+<tr class="memitem:a453df75fbef29077409e10e22476bdbc"><td class="memItemLeft" align="right" valign="top">UnitIdentifierMap&lt; <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a453df75fbef29077409e10e22476bdbc">m_unitMap</a></td></tr>
 <tr class="separator:a453df75fbef29077409e10e22476bdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfacc3fe137680354dd54fd828b0ffea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#adfacc3fe137680354dd54fd828b0ffea">m_sinkUnitMap</a></td></tr>
+<tr class="memitem:adfacc3fe137680354dd54fd828b0ffea"><td class="memItemLeft" align="right" valign="top">UnitIdentifierMap&lt; <a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#adfacc3fe137680354dd54fd828b0ffea">m_sinkUnitMap</a></td></tr>
 <tr class="separator:adfacc3fe137680354dd54fd828b0ffea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12522d1b065162d5619fccb388747a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af12522d1b065162d5619fccb388747a2">m_sourceUnitMap</a></td></tr>
+<tr class="memitem:af12522d1b065162d5619fccb388747a2"><td class="memItemLeft" align="right" valign="top">UnitIdentifierMap&lt; <a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af12522d1b065162d5619fccb388747a2">m_sourceUnitMap</a></td></tr>
 <tr class="separator:af12522d1b065162d5619fccb388747a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af62b92b11d9481038bdcc6bb909c38b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af62b92b11d9481038bdcc6bb909c38b1">m_garageUnitMap</a></td></tr>
+<tr class="memitem:af62b92b11d9481038bdcc6bb909c38b1"><td class="memItemLeft" align="right" valign="top">UnitIdentifierMap&lt; <a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#af62b92b11d9481038bdcc6bb909c38b1">m_garageUnitMap</a></td></tr>
 <tr class="separator:af62b92b11d9481038bdcc6bb909c38b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6889c0860bf0a254c1e9f16e14309c4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt; <a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a6889c0860bf0a254c1e9f16e14309c4a">m_stationMap</a></td></tr>
+<tr class="memitem:a6889c0860bf0a254c1e9f16e14309c4a"><td class="memItemLeft" align="right" valign="top">UnitIdentifierMap&lt; <a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a6889c0860bf0a254c1e9f16e14309c4a">m_stationMap</a></td></tr>
 <tr class="separator:a6889c0860bf0a254c1e9f16e14309c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1548ae42e756618815fc2af5f2043e80"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a1548ae42e756618815fc2af5f2043e80">m_sourceSinkVehicleRouteMap</a></td></tr>
+<tr class="memitem:a1548ae42e756618815fc2af5f2043e80"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, pair_hash &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a1548ae42e756618815fc2af5f2043e80">m_sourceSinkVehicleRouteMap</a></td></tr>
 <tr class="separator:a1548ae42e756618815fc2af5f2043e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39060888775125f50a40c3faa932dd89"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a39060888775125f50a40c3faa932dd89">m_intersectionSinkVehicleRouteMap</a></td></tr>
+<tr class="memitem:a39060888775125f50a40c3faa932dd89"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> &gt;, pair_hash &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a39060888775125f50a40c3faa932dd89">m_intersectionSinkVehicleRouteMap</a></td></tr>
 <tr class="separator:a39060888775125f50a40c3faa932dd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eab7c615715dac29f17b711d6233150"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a2eab7c615715dac29f17b711d6233150">m_paxRouteMap</a></td></tr>
+<tr class="memitem:a2eab7c615715dac29f17b711d6233150"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::pair&lt; int, int &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &gt;, pair_hash &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#a2eab7c615715dac29f17b711d6233150">m_paxRouteMap</a></td></tr>
 <tr class="separator:a2eab7c615715dac29f17b711d6233150"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefc08fd1ad3ec6842c110b7d76e8ccdb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::tuple&lt; int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> &gt;, std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt; &gt;, <a class="el" href="structCaptain_1_1tuple__hash.html">tuple_hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aefc08fd1ad3ec6842c110b7d76e8ccdb">m_connectionMap</a></td></tr>
+<tr class="memitem:aefc08fd1ad3ec6842c110b7d76e8ccdb"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::tuple&lt; int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a> &gt;, std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt;, std::vector&lt; <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &gt; &gt;, tuple_hash &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Engine.html#aefc08fd1ad3ec6842c110b7d76e8ccdb">m_connectionMap</a></td></tr>
 <tr class="separator:aefc08fd1ad3ec6842c110b7d76e8ccdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -303,7 +288,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">computationModel</td><td>Unique pointer to <a class="el" href="structCaptain_1_1MesoComputationModel.html">MesoComputationModel</a> </td></tr>
+    <tr><td class="paramname">computationModel</td><td>Unique pointer to <a class="el" href="structCaptain_1_1MesoComputationModel.html" title="Struct for intercell flow computation model for mesoscopis process.">MesoComputationModel</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -362,9 +347,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Add Event to the the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the unit to locate the event </td></tr>
+    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the unit to locate the event </td></tr>
     <tr><td class="paramname">type</td><td>Event type </td></tr>
-    <tr><td class="paramname">eventPosition</td><td><a class="el" href="structCaptain_1_1Position.html" title="Wrapper for representing positions of units.">Position</a> where the event occurs </td></tr>
+    <tr><td class="paramname">eventPosition</td><td><a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> where the event occurs </td></tr>
     <tr><td class="paramname">sTime</td><td>Starting time </td></tr>
     <tr><td class="paramname">eTime</td><td>End time </td></tr>
     <tr><td class="paramname">sern</td><td>Severity of the event </td></tr>
@@ -410,7 +395,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add GarageUnit to the engine's garageUnitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for identifying this particular unit </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for identifying this particular unit </td></tr>
     <tr><td class="paramname">capacity</td><td>Maximum capacity of the garage </td></tr>
   </table>
   </dd>
@@ -460,7 +445,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add GarageUnit to the engine's garageUnitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for identifying this particular unit </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for identifying this particular unit </td></tr>
     <tr><td class="paramname">capacity</td><td>Maximum capacity of the garage </td></tr>
     <tr><td class="paramname">vehicleTypesArr</td><td>Vector of vehicle types </td></tr>
   </table>
@@ -523,9 +508,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add IntersectionLink to the engine's unitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for identifying this particular unit </td></tr>
-    <tr><td class="paramname">mesoLinkInfo</td><td><a class="el" href="structCaptain_1_1MesoLinkInfo.html">MesoLinkInfo</a> for meso link information </td></tr>
-    <tr><td class="paramname">microLinkInfo</td><td><a class="el" href="structCaptain_1_1MicroLinkInfo.html">MicroLinkInfo</a> for micro link information </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for identifying this particular unit </td></tr>
+    <tr><td class="paramname">mesoLinkInfo</td><td><a class="el" href="structCaptain_1_1MesoLinkInfo.html" title="Struct of information about a mesoscopic-level road link, including lane and section data,...">MesoLinkInfo</a> for meso link information </td></tr>
+    <tr><td class="paramname">microLinkInfo</td><td><a class="el" href="structCaptain_1_1MicroLinkInfo.html" title="Struct of information about a micro-level road link, including details   such as lane and section num...">MicroLinkInfo</a> for micro link information </td></tr>
     <tr><td class="paramname">mode</td><td>True if micro, False if meso </td></tr>
     <tr><td class="paramname">conIDvector</td><td>Vector of connection IDs for the intersection </td></tr>
   </table>
@@ -543,8 +528,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae4ffa9c1bafae6d9b49a2dfbf5836548"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4ffa9c1bafae6d9b49a2dfbf5836548">&#9670;&nbsp;</a></span>AddNodeMessage()</h2>
+<a id="a5bff3f601f84b2b9d43762bbc3a4c147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bff3f601f84b2b9d43762bbc3a4c147">&#9670;&nbsp;</a></span>AddNodeMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +538,7 @@ Here is the call graph for this function:</div>
           <td class="memname">void Captain::Engine::AddNodeMessage </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>node_id</em>, </td>
+          <td class="paramname"><em>nodeID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -568,10 +553,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Add <a class="el" href="namespaceCaptain_1_1Node.html">Node</a> <a class="el" href="structCaptain_1_1Message.html" title="Message for v2x.">Message</a> to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Add <a class="el" href="namespaceCaptain_1_1Node.html">Node</a> <a class="el" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle-to-Everything) message containing metadata   such as ID, timing,...">Message</a> to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">node_id</td><td>ID of the target node </td></tr>
-    <tr><td class="paramname">message</td><td><a class="el" href="structCaptain_1_1Message.html" title="Message for v2x.">Message</a> to be located to <a class="el" href="classCaptain_1_1V2X.html">V2X</a> </td></tr>
+    <tr><td class="paramname">nodeID</td><td>ID of the target node </td></tr>
+    <tr><td class="paramname">message</td><td><a class="el" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle-to-Everything) message containing metadata   such as ID, timing,...">Message</a> to be located to <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -599,7 +584,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_aad528c4527283d5f7e3913080231f84b_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aad528c4527283d5f7e3913080231f84b_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_aad528c4527283d5f7e3913080231f84b_cgraph" id="aclassCaptain_1_1Engine_aad528c4527283d5f7e3913080231f84b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,13,231,39"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#afcb05670af8cead5600b78a1de66f28d" title=" " alt="" coords="279,5,469,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a57a4d0952db8adf42b57b501f04b8939" title=" " alt="" coords="279,5,469,47"/>
 </map>
 </div>
 
@@ -626,7 +611,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_a6cd29623750e0874cb7b4b6080570035_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a6cd29623750e0874cb7b4b6080570035_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a6cd29623750e0874cb7b4b6080570035_cgraph" id="aclassCaptain_1_1Engine_a6cd29623750e0874cb7b4b6080570035_cgraph">
 <area shape="rect" title=" " alt="" coords="5,13,208,39"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#abbea8c36241733fa1d0deb99ed1b7d86" title=" " alt="" coords="256,5,471,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a89fee0cfc4a9fbf438b8561628684979" title=" " alt="" coords="256,5,471,47"/>
 <area shape="rect" href="namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f" title=" " alt="" coords="519,13,707,39"/>
 </map>
 </div>
@@ -660,7 +645,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add SinkUnit to the engine's sinkUnitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for identifying this particular unit </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for identifying this particular unit </td></tr>
     <tr><td class="paramname">capacity</td><td>Maximum capacity of the sink </td></tr>
   </table>
   </dd>
@@ -704,7 +689,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add SourceUnit to the engine's sourceUnitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for this source </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for this source </td></tr>
     <tr><td class="paramname">capacity</td><td>Maximum capacity of the source </td></tr>
   </table>
   </dd>
@@ -754,7 +739,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add SourceUnit to the engine's sourceUnitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for this source </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for this source </td></tr>
     <tr><td class="paramname">capacity</td><td>Maximum capacity of the source </td></tr>
     <tr><td class="paramname">vehTypesArr</td><td>Vector of vehicle types </td></tr>
   </table>
@@ -811,8 +796,8 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add Station to the engine's stationMap and the specific unit </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for this station </td></tr>
-    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the unit to locate the station </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for this station </td></tr>
+    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the unit to locate the station </td></tr>
     <tr><td class="paramname">parkPositionVector</td><td>Vector of parking slots </td></tr>
     <tr><td class="paramname">ptLineVector</td><td>Vector of public transit line IDs </td></tr>
   </table>
@@ -870,9 +855,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Add UniformLink to the engine's unitMap </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> for identifying this particular unit </td></tr>
-    <tr><td class="paramname">mesoLinkInfo</td><td><a class="el" href="structCaptain_1_1MesoLinkInfo.html">MesoLinkInfo</a> for meso link information </td></tr>
-    <tr><td class="paramname">microLinkInfo</td><td><a class="el" href="structCaptain_1_1MicroLinkInfo.html">MicroLinkInfo</a> for micro link information </td></tr>
+    <tr><td class="paramname">unitIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> for identifying this particular unit </td></tr>
+    <tr><td class="paramname">mesoLinkInfo</td><td><a class="el" href="structCaptain_1_1MesoLinkInfo.html" title="Struct of information about a mesoscopic-level road link, including lane and section data,...">MesoLinkInfo</a> for meso link information </td></tr>
+    <tr><td class="paramname">microLinkInfo</td><td><a class="el" href="structCaptain_1_1MicroLinkInfo.html" title="Struct of information about a micro-level road link, including details   such as lane and section num...">MicroLinkInfo</a> for micro link information </td></tr>
     <tr><td class="paramname">mode</td><td>True if micro, False if meso </td></tr>
   </table>
   </dd>
@@ -910,12 +895,12 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_af256ec7a83b9a7d1cf794aac0c978dd9_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_af256ec7a83b9a7d1cf794aac0c978dd9_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_af256ec7a83b9a7d1cf794aac0c978dd9_cgraph" id="aclassCaptain_1_1Engine_af256ec7a83b9a7d1cf794aac0c978dd9_cgraph">
 <area shape="rect" title=" " alt="" coords="5,101,209,127"/>
-<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="306,5,449,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a4bf7b146a05d4eb94733cbcee3b2f096" title=" " alt="" coords="257,71,497,98"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#abbea8c36241733fa1d0deb99ed1b7d86" title=" " alt="" coords="270,123,485,164"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ad81e51c73e2b257fe0df2aedf1d6a424" title=" " alt="" coords="270,188,485,229"/>
-<area shape="rect" href="namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f" title=" " alt="" coords="555,138,743,165"/>
-<area shape="rect" href="namespaceCaptain.html#ae878d781e24eaa4c9fe1b3832bfb217d" title=" " alt="" coords="545,195,752,222"/>
+<area shape="rect" href="classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="305,5,448,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a1e828632f758fd439f0cdc15e3b0d7f6" title=" " alt="" coords="257,71,496,98"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a89fee0cfc4a9fbf438b8561628684979" title=" " alt="" coords="269,123,484,164"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#aeb38364cc648e650ffddbdaf643aece6" title=" " alt="" coords="269,188,484,229"/>
+<area shape="rect" href="namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f" title=" " alt="" coords="553,138,741,165"/>
+<area shape="rect" href="namespaceCaptain.html#ae878d781e24eaa4c9fe1b3832bfb217d" title=" " alt="" coords="544,195,751,222"/>
 </map>
 </div>
 
@@ -948,12 +933,126 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Calculate lane preference by checking the connection between the previous and current link </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prevLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the previous link </td></tr>
-    <tr><td class="paramname">currLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the current link </td></tr>
+    <tr><td class="paramname">prevLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the previous link </td></tr>
+    <tr><td class="paramname">currLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the current link </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of lane preferences </dd></dl>
+
+</div>
+</div>
+<a id="afde946e6ef2cd389fddb9b2db5652236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde946e6ef2cd389fddb9b2db5652236">&#9670;&nbsp;</a></span>constructUnitConnectionInfoFollower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a> Captain::Engine::constructUnitConnectionInfoFollower </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>descriptor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>getMicro</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Construct connection information for the follower connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descriptor</td><td>Follower connection descriptor </td></tr>
+    <tr><td class="paramname">getMicro</td><td>True if the target is micro link </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_afde946e6ef2cd389fddb9b2db5652236_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_afde946e6ef2cd389fddb9b2db5652236_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_afde946e6ef2cd389fddb9b2db5652236_icgraph" id="aclassCaptain_1_1Engine_afde946e6ef2cd389fddb9b2db5652236_icgraph">
+<area shape="rect" title=" " alt="" coords="781,71,984,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="552,5,732,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="551,71,733,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a16df9c4d85958a3bf3298afe112ec99d" title=" " alt="" coords="551,136,733,177"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,46,503,73"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,39,188,80"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac0a807b5e1f767aa8499ba6a667a14cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0a807b5e1f767aa8499ba6a667a14cb">&#9670;&nbsp;</a></span>constructUnitConnectionInfoLeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a> Captain::Engine::constructUnitConnectionInfoLeader </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>descriptor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fromMicro</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Construct connection information for the leader connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descriptor</td><td>Leader connection descriptor </td></tr>
+    <tr><td class="paramname">fromMicro</td><td>True if the connection is from micro link </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_ac0a807b5e1f767aa8499ba6a667a14cb_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ac0a807b5e1f767aa8499ba6a667a14cb_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_ac0a807b5e1f767aa8499ba6a667a14cb_icgraph" id="aclassCaptain_1_1Engine_ac0a807b5e1f767aa8499ba6a667a14cb_icgraph">
+<area shape="rect" title=" " alt="" coords="799,71,991,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="551,5,751,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="561,71,741,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="552,136,749,177"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,78,503,105"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,71,188,112"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -995,25 +1094,25 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_ae7b5aef261beb32e0f0ab2028953f294_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ae7b5aef261beb32e0f0ab2028953f294_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_ae7b5aef261beb32e0f0ab2028953f294_cgraph" id="aclassCaptain_1_1Engine_ae7b5aef261beb32e0f0ab2028953f294_cgraph">
-<area shape="rect" title=" " alt="" coords="5,111,188,152"/>
-<area shape="rect" href="classNextSimIO_1_1InputMode.html#a56d7ca71765aae01d9fabef4b3e627ce" title="Get vector of meso link IDs." alt="" coords="285,45,454,87"/>
-<area shape="rect" href="classNextSimIO_1_1InputMode.html#a33ba71be2f860faa1829fd374dfb6d51" title="Get vector of micro link IDs." alt="" coords="285,111,454,152"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,177,503,203"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#aa515c21ae8da4e8f4c445a7f1d01da4c" title=" " alt="" coords="578,5,723,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="551,71,751,112"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="561,267,741,308"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="561,136,741,177"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="560,332,741,373"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="552,201,749,243"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328" title=" " alt="" coords="799,129,1013,185"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289" title=" " alt="" coords="799,291,1013,347"/>
+<area shape="rect" title=" " alt="" coords="5,97,188,138"/>
+<area shape="rect" href="classNextSimIO_1_1InputMode.html#a68456145ccaa03d2e47810739a9c2b08" title="Get vector of meso link IDs." alt="" coords="285,31,454,73"/>
+<area shape="rect" href="classNextSimIO_1_1InputMode.html#a3ecc2fc27b2903f23ae40998b180b1d1" title="Get vector of micro link IDs." alt="" coords="285,97,454,138"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,163,503,189"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ae5bdf68dd0e84d35d00d37c63dd70538" title=" " alt="" coords="559,5,742,32"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="551,57,751,98"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="561,253,741,294"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="561,122,741,163"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="560,318,741,359"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="552,187,749,229"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb" title=" " alt="" coords="804,122,996,163"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236" title=" " alt="" coords="799,285,1001,326"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a4e835dc0edc651c913b86f022238f090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e835dc0edc651c913b86f022238f090">&#9670;&nbsp;</a></span>ConvertUnitIDtoPTRouteID()</h2>
+<a id="aa9888796230bfc7aec8b571af4a06f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9888796230bfc7aec8b571af4a06f01">&#9670;&nbsp;</a></span>ConvertUnitIDtoPTRouteID()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1022,13 +1121,13 @@ Here is the call graph for this function:</div>
           <td class="memname">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt; Captain::Engine::ConvertUnitIDtoPTRouteID </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;&#160;</td>
-          <td class="paramname"><em>UnitVector</em>, </td>
+          <td class="paramname"><em>unitVector</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;&#160;</td>
-          <td class="paramname"><em>StationVector</em>&#160;</td>
+          <td class="paramname"><em>stationVector</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1037,10 +1136,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Convert <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> vector to <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> vector </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Convert <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> vector to <a class="el" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs.">RouteIdentifier</a> vector </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">UnitVector</td><td>Vector of UnitIdentifiers to convert </td></tr>
-    <tr><td class="paramname">StationVector</td><td>Vector of UnitIdentifiers of the stations to refer </td></tr>
+    <tr><td class="paramname">unitVector</td><td>Vector of UnitIdentifiers to convert </td></tr>
+    <tr><td class="paramname">stationVector</td><td>Vector of UnitIdentifiers of the stations to refer </td></tr>
   </table>
   </dd>
 </dl>
@@ -1048,8 +1147,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aae2863109b8e45cfc0d42d8ad26d510d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae2863109b8e45cfc0d42d8ad26d510d">&#9670;&nbsp;</a></span>ConvertUnitIDtoRouteID()</h2>
+<a id="a2c9b0a204412c58cca442f4b0511a6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9b0a204412c58cca442f4b0511a6df">&#9670;&nbsp;</a></span>ConvertUnitIDtoRouteID()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1058,14 +1157,14 @@ Here is the call graph for this function:</div>
           <td class="memname">std::pair&lt; std::vector&lt; <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> &gt;, std::vector&lt; std::vector&lt; double &gt; &gt; &gt; Captain::Engine::ConvertUnitIDtoRouteID </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> &gt;&#160;</td>
-          <td class="paramname"><em>UnitVector</em></td><td>)</td>
+          <td class="paramname"><em>unitVector</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Convert <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> vector to <a class="el" href="structCaptain_1_1RouteIdentifier.html">RouteIdentifier</a> vector </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Convert <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> vector to <a class="el" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs.">RouteIdentifier</a> vector </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">UnitVector</td><td>Vector of UnitIdentifiers to convert </td></tr>
+    <tr><td class="paramname">unitVector</td><td>Vector of UnitIdentifiers to convert </td></tr>
   </table>
   </dd>
 </dl>
@@ -1073,8 +1172,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_aae2863109b8e45cfc0d42d8ad26d510d_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aae2863109b8e45cfc0d42d8ad26d510d_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_aae2863109b8e45cfc0d42d8ad26d510d_icgraph" id="aclassCaptain_1_1Engine_aae2863109b8e45cfc0d42d8ad26d510d_icgraph">
+<div class="center"><img src="classCaptain_1_1Engine_a2c9b0a204412c58cca442f4b0511a6df_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a2c9b0a204412c58cca442f4b0511a6df_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a2c9b0a204412c58cca442f4b0511a6df_icgraph" id="aclassCaptain_1_1Engine_a2c9b0a204412c58cca442f4b0511a6df_icgraph">
 <area shape="rect" title=" " alt="" coords="245,39,428,80"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title=" " alt="" coords="5,5,197,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a3ccd2aecde35b0d7c3e40dec8db4fbf1" title=" " alt="" coords="5,71,197,112"/>
@@ -1201,7 +1300,7 @@ Here is the call graph for this function:</div>
 <map name="aclassCaptain_1_1Engine_a42d8e56f8ab2c074ec7d051b6b8ae3bc_cgraph" id="aclassCaptain_1_1Engine_a42d8e56f8ab2c074ec7d051b6b8ae3bc_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,184,47"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a977051d1fcc825c3580586224fc95c94" title=" " alt="" coords="232,5,411,47"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a6764e00ac76bfb5305b64ff558666fff" title=" " alt="" coords="459,5,637,47"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a0057a316369ad95c7fc7e2ea123bb344" title=" " alt="" coords="459,5,637,47"/>
 </map>
 </div>
 
@@ -1229,7 +1328,7 @@ Here is the call graph for this function:</div>
 <map name="aclassCaptain_1_1Engine_ad37d2ef3bc43787bc2cfb5c8c02f0c8e_cgraph" id="aclassCaptain_1_1Engine_ad37d2ef3bc43787bc2cfb5c8c02f0c8e_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,184,47"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#afc6ab615751bf89132969803248d45a4" title=" " alt="" coords="232,5,411,47"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a847e87f471863061de42c06303cb707a" title=" " alt="" coords="459,5,637,47"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a577e733d4d5da67b3e460a299589be7c" title=" " alt="" coords="459,5,637,47"/>
 </map>
 </div>
 
@@ -1257,7 +1356,7 @@ Here is the call graph for this function:</div>
 <map name="aclassCaptain_1_1Engine_af6e2e2a56ac83036265f092bb735e481_cgraph" id="aclassCaptain_1_1Engine_af6e2e2a56ac83036265f092bb735e481_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,184,47"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#ac20ca916f2f0f0e354a18076ff8906b0" title=" " alt="" coords="232,5,445,47"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a847e87f471863061de42c06303cb707a" title=" " alt="" coords="493,5,672,47"/>
+<area shape="rect" href="classCaptain_1_1Util_1_1JsonWriter.html#a577e733d4d5da67b3e460a299589be7c" title=" " alt="" coords="493,5,672,47"/>
 </map>
 </div>
 
@@ -1320,11 +1419,53 @@ Here is the call graph for this function:</div>
 <p>Find closest station from the given position </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">linkID</td><td>ID of the link to find the station </td></tr>
-    <tr><td class="paramname">position</td><td><a class="el" href="structCaptain_1_1Position.html" title="Wrapper for representing positions of units.">Position</a> to find the closest station </td></tr>
+    <tr><td class="paramname">position</td><td><a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> to find the closest station </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ID of the closest station </dd></dl>
+
+</div>
+</div>
+<a id="a238b6333409c6e0aa1e6c3e520e0d855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a238b6333409c6e0aa1e6c3e520e0d855">&#9670;&nbsp;</a></span>findLineSequence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::Engine::findLineSequence </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
+          <td class="paramname"><em>origin_dest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Find the line sequence from the origin to the destination </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin_dest</td><td>Pair of origin and destination IDs </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_a238b6333409c6e0aa1e6c3e520e0d855_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a238b6333409c6e0aa1e6c3e520e0d855_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a238b6333409c6e0aa1e6c3e520e0d855_icgraph" id="aclassCaptain_1_1Engine_a238b6333409c6e0aa1e6c3e520e0d855_icgraph">
+<area shape="rect" title=" " alt="" coords="476,5,659,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b" title=" " alt="" coords="245,5,428,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a64950a3805906c10f99d48cc84ee19cf" title=" " alt="" coords="5,5,197,47"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1355,8 +1496,8 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Find shortest passenger route from origin to destination </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">origin</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the origin </td></tr>
-    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the destination </td></tr>
+    <tr><td class="paramname">origin</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the origin </td></tr>
+    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the destination </td></tr>
   </table>
   </dd>
 </dl>
@@ -1366,8 +1507,8 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_cgraph" id="aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,39,188,80"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab2413296cd3c30b541a04be41e42843a" title=" " alt="" coords="236,5,381,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a1d4c5e5f91faa107361d60af2872555e" title=" " alt="" coords="236,71,381,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a238b6333409c6e0aa1e6c3e520e0d855" title=" " alt="" coords="236,5,419,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#aab504471d08f0fdfa9e1a667f6ac4a52" title=" " alt="" coords="238,71,417,112"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1376,6 +1517,80 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_icgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_icgraph" id="aclassCaptain_1_1Engine_ab13dccb2f0be715dbee06470d064378b_icgraph">
 <area shape="rect" title=" " alt="" coords="245,5,428,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a64950a3805906c10f99d48cc84ee19cf" title=" " alt="" coords="5,5,197,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aab504471d08f0fdfa9e1a667f6ac4a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab504471d08f0fdfa9e1a667f6ac4a52">&#9670;&nbsp;</a></span>findPaxRoute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::Engine::findPaxRoute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
+          <td class="paramname"><em>origin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
+          <td class="paramname"><em>subject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &amp;&#160;</td>
+          <td class="paramname"><em>paxRoute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unordered_map&lt; int, bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>check</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Find the route from the all intersection to the destination </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the origin </td></tr>
+    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the destination </td></tr>
+    <tr><td class="paramname">subject</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the subject to find the route </td></tr>
+    <tr><td class="paramname">paxRoute</td><td><a class="el" href="structCaptain_1_1PaxRoute.html" title="Struct of information about a passenger&#39;s route, including origin, destination,   intermediate statio...">PaxRoute</a> object to store the route </td></tr>
+    <tr><td class="paramname">check</td><td>Map of the station check that the subject has visited or not </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_aab504471d08f0fdfa9e1a667f6ac4a52_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aab504471d08f0fdfa9e1a667f6ac4a52_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_aab504471d08f0fdfa9e1a667f6ac4a52_icgraph" id="aclassCaptain_1_1Engine_aab504471d08f0fdfa9e1a667f6ac4a52_icgraph">
+<area shape="rect" title=" " alt="" coords="476,5,655,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b" title=" " alt="" coords="245,5,428,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a64950a3805906c10f99d48cc84ee19cf" title=" " alt="" coords="5,5,197,47"/>
 </map>
 </div>
@@ -1415,8 +1630,8 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Find shortest vehicle route from source to destination </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">source</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the source (origin) </td></tr>
-    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the destination </td></tr>
+    <tr><td class="paramname">source</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the source (origin) </td></tr>
+    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the destination </td></tr>
     <tr><td class="paramname">cycle</td><td>Time step cycle </td></tr>
   </table>
   </dd>
@@ -1426,8 +1641,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_cgraph" id="aclassCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,203,39"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ad981f5926a70213661952c99bb9e017d" title=" " alt="" coords="251,5,396,47"/>
+<area shape="rect" title=" " alt="" coords="5,5,203,32"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a9c4eb372960788bcccc70e65e690b980" title=" " alt="" coords="251,5,445,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1437,6 +1652,77 @@ Here is the caller graph for this function:</div>
 <map name="aclassCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_icgraph" id="aclassCaptain_1_1Engine_a731f77785fe80d16d7ecbaabbaa60db8_icgraph">
 <area shape="rect" title=" " alt="" coords="245,13,443,39"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title=" " alt="" coords="5,5,197,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9c4eb372960788bcccc70e65e690b980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c4eb372960788bcccc70e65e690b980">&#9670;&nbsp;</a></span>findRoute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::Engine::findRoute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U &amp;&#160;</td>
+          <td class="paramname"><em>unitRouteMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>cycle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Find the route from the all source to the destination </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the destination </td></tr>
+    <tr><td class="paramname">queue</td><td>Queue to store the route </td></tr>
+    <tr><td class="paramname">unitRouteMap</td><td>Map of the unit route </td></tr>
+    <tr><td class="paramname">cycle</td><td>Time step cycle </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_a9c4eb372960788bcccc70e65e690b980_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a9c4eb372960788bcccc70e65e690b980_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a9c4eb372960788bcccc70e65e690b980_icgraph" id="aclassCaptain_1_1Engine_a9c4eb372960788bcccc70e65e690b980_icgraph">
+<area shape="rect" title=" " alt="" coords="491,46,685,73"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title=" " alt="" coords="245,15,443,42"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#aa956fe0cc5d2d9fc0fadcf6642affca5" title=" " alt="" coords="245,68,443,109"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title=" " alt="" coords="5,5,197,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a3ccd2aecde35b0d7c3e40dec8db4fbf1" title=" " alt="" coords="5,71,197,112"/>
 </map>
 </div>
 
@@ -1475,20 +1761,20 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Find shortest vehicle route from current intersection to destination </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">interection</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the current intersection (origin) </td></tr>
-    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the destination </td></tr>
+    <tr><td class="paramname">interection</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the current intersection (origin) </td></tr>
+    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the destination </td></tr>
     <tr><td class="paramname">cycle</td><td>Time step cycle </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1Route.html">Route</a> object containing the shortest route </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1Route.html" title="Struct of route with associated distance, weight, and a list of unit identifiers.">Route</a> object containing the shortest route </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_aa956fe0cc5d2d9fc0fadcf6642affca5_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aa956fe0cc5d2d9fc0fadcf6642affca5_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_aa956fe0cc5d2d9fc0fadcf6642affca5_cgraph" id="aclassCaptain_1_1Engine_aa956fe0cc5d2d9fc0fadcf6642affca5_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,203,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ad981f5926a70213661952c99bb9e017d" title=" " alt="" coords="251,5,396,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a9c4eb372960788bcccc70e65e690b980" title=" " alt="" coords="251,13,445,39"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1503,8 +1789,62 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a01097f7707ee04416185d214ff6c5d90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01097f7707ee04416185d214ff6c5d90">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
+<a id="ae5bdf68dd0e84d35d00d37c63dd70538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bdf68dd0e84d35d00d37c63dd70538">&#9670;&nbsp;</a></span>findUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> Captain::Engine::findUnit </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>unitID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a>&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Find the unit from the unitMap </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitID</td><td>ID of the unit to find </td></tr>
+    <tr><td class="paramname">type</td><td>Type of the unit to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the found unit </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classCaptain_1_1Engine_ae5bdf68dd0e84d35d00d37c63dd70538_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ae5bdf68dd0e84d35d00d37c63dd70538_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_ae5bdf68dd0e84d35d00d37c63dd70538_icgraph" id="aclassCaptain_1_1Engine_ae5bdf68dd0e84d35d00d37c63dd70538_icgraph">
+<area shape="rect" title=" " alt="" coords="551,13,733,39"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,13,503,39"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,5,188,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="add44af1d28e97436abce858920705033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add44af1d28e97436abce858920705033">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1513,45 +1853,28 @@ Here is the caller graph for this function:</div>
           <td class="memname">void Captain::Engine::FlushRecordings </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>laststep</em></td><td>)</td>
+          <td class="paramname"><em>lastStep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; std::string, bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>recordMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Flush the recorded simulation results on the several levels (link level / sink level / garage level / station level / vehicle level) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">laststep</td><td>True if the last step of the simulation </td></tr>
+    <tr><td class="paramname">lastStep</td><td>True if the last step of the simulation </td></tr>
+    <tr><td class="paramname">recordMode</td><td>Vector of record mode </td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a336c7ce29a2b0e841e4be079e054dfc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a336c7ce29a2b0e841e4be079e054dfc9">&#9670;&nbsp;</a></span>FlushSortedRecordings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::FlushSortedRecordings </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Flush the sorted simulation results </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_a336c7ce29a2b0e841e4be079e054dfc9_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a336c7ce29a2b0e841e4be079e054dfc9_cgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_a336c7ce29a2b0e841e4be079e054dfc9_cgraph" id="aclassCaptain_1_1Engine_a336c7ce29a2b0e841e4be079e054dfc9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,215,80"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html#ac7b4a1dffbeabb30e914090f2388641e" title=" " alt="" coords="263,5,440,47"/>
-<area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html#a61b4faed38be2e378f294c058bb49543" title=" " alt="" coords="263,71,440,112"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -1583,8 +1906,8 @@ Here is the call graph for this function:</div>
 <map name="aclassCaptain_1_1Engine_a64950a3805906c10f99d48cc84ee19cf_cgraph" id="aclassCaptain_1_1Engine_a64950a3805906c10f99d48cc84ee19cf_cgraph">
 <area shape="rect" title=" " alt="" coords="5,39,197,80"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b" title=" " alt="" coords="245,39,428,80"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab2413296cd3c30b541a04be41e42843a" title=" " alt="" coords="476,5,621,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a1d4c5e5f91faa107361d60af2872555e" title=" " alt="" coords="476,71,621,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a238b6333409c6e0aa1e6c3e520e0d855" title=" " alt="" coords="476,5,659,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#aab504471d08f0fdfa9e1a667f6ac4a52" title=" " alt="" coords="478,71,657,112"/>
 </map>
 </div>
 
@@ -1611,9 +1934,9 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_a7736c382a399803aa7e1dca27d1b3112_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a7736c382a399803aa7e1dca27d1b3112_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a7736c382a399803aa7e1dca27d1b3112_cgraph" id="aclassCaptain_1_1Engine_a7736c382a399803aa7e1dca27d1b3112_cgraph">
 <area shape="rect" title=" " alt="" coords="5,35,197,76"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#aae2863109b8e45cfc0d42d8ad26d510d" title=" " alt="" coords="253,5,435,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a2c9b0a204412c58cca442f4b0511a6df" title=" " alt="" coords="253,5,435,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title=" " alt="" coords="245,71,443,98"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ad981f5926a70213661952c99bb9e017d" title=" " alt="" coords="491,64,636,105"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a9c4eb372960788bcccc70e65e690b980" title=" " alt="" coords="491,71,685,98"/>
 </map>
 </div>
 
@@ -1640,9 +1963,9 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classCaptain_1_1Engine_a3ccd2aecde35b0d7c3e40dec8db4fbf1_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a3ccd2aecde35b0d7c3e40dec8db4fbf1_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a3ccd2aecde35b0d7c3e40dec8db4fbf1_cgraph" id="aclassCaptain_1_1Engine_a3ccd2aecde35b0d7c3e40dec8db4fbf1_cgraph">
 <area shape="rect" title=" " alt="" coords="5,39,197,80"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#aae2863109b8e45cfc0d42d8ad26d510d" title=" " alt="" coords="253,5,435,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a2c9b0a204412c58cca442f4b0511a6df" title=" " alt="" coords="253,5,435,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#aa956fe0cc5d2d9fc0fadcf6642affca5" title=" " alt="" coords="245,71,443,112"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ad981f5926a70213661952c99bb9e017d" title=" " alt="" coords="491,71,636,112"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a9c4eb372960788bcccc70e65e690b980" title=" " alt="" coords="491,78,685,105"/>
 </map>
 </div>
 
@@ -1739,369 +2062,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a44b84a354048f63db47d90aa2d7bf289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44b84a354048f63db47d90aa2d7bf289">&#9670;&nbsp;</a></span>m_constructUnitConnectionInfoFollower()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a> Captain::Engine::m_constructUnitConnectionInfoFollower </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;&#160;</td>
-          <td class="paramname"><em>descriptor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>GetMicro</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Construct connection information for the follower connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">descriptor</td><td>Follower connection descriptor </td></tr>
-    <tr><td class="paramname">GetMicro</td><td>True if the target is micro link </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_a44b84a354048f63db47d90aa2d7bf289_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a44b84a354048f63db47d90aa2d7bf289_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_a44b84a354048f63db47d90aa2d7bf289_icgraph" id="aclassCaptain_1_1Engine_a44b84a354048f63db47d90aa2d7bf289_icgraph">
-<area shape="rect" title=" " alt="" coords="781,63,996,119"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="552,5,732,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="551,71,733,112"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a16df9c4d85958a3bf3298afe112ec99d" title=" " alt="" coords="551,136,733,177"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,46,503,73"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,39,188,80"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab0810ac6852fdf34b189862574f10328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0810ac6852fdf34b189862574f10328">&#9670;&nbsp;</a></span>m_constructUnitConnectionInfoLeader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">Node::UnitConnectionInfo</a> Captain::Engine::m_constructUnitConnectionInfoLeader </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a> &amp;&#160;</td>
-          <td class="paramname"><em>descriptor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>FromMicro</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Construct connection information for the leader connection descriptor </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">descriptor</td><td>Leader connection descriptor </td></tr>
-    <tr><td class="paramname">FromMicro</td><td>True if the connection is from micro link </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>UnitConnectionInfo object containing the connection information </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_ab0810ac6852fdf34b189862574f10328_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ab0810ac6852fdf34b189862574f10328_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_ab0810ac6852fdf34b189862574f10328_icgraph" id="aclassCaptain_1_1Engine_ab0810ac6852fdf34b189862574f10328_icgraph">
-<area shape="rect" title=" " alt="" coords="799,63,1013,119"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="551,5,751,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="561,71,741,112"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="552,136,749,177"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,78,503,105"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,71,188,112"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab2413296cd3c30b541a04be41e42843a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2413296cd3c30b541a04be41e42843a">&#9670;&nbsp;</a></span>m_findLineSequence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::m_findLineSequence </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; int, int &gt;&#160;</td>
-          <td class="paramname"><em>origin_dest</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Find the line sequence from the origin to the destination </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">origin_dest</td><td>Pair of origin and destination IDs </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_ab2413296cd3c30b541a04be41e42843a_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ab2413296cd3c30b541a04be41e42843a_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_ab2413296cd3c30b541a04be41e42843a_icgraph" id="aclassCaptain_1_1Engine_ab2413296cd3c30b541a04be41e42843a_icgraph">
-<area shape="rect" title=" " alt="" coords="476,5,621,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b" title=" " alt="" coords="245,5,428,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a64950a3805906c10f99d48cc84ee19cf" title=" " alt="" coords="5,5,197,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a1d4c5e5f91faa107361d60af2872555e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d4c5e5f91faa107361d60af2872555e">&#9670;&nbsp;</a></span>m_findPaxRoute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::m_findPaxRoute </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
-          <td class="paramname"><em>origin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
-          <td class="paramname"><em>destination</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
-          <td class="paramname"><em>subject</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> &amp;&#160;</td>
-          <td class="paramname"><em>paxRoute</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::unordered_map&lt; int, bool &gt; &amp;&#160;</td>
-          <td class="paramname"><em>check</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Find the route from the all intersection to the destination </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">origin</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the origin </td></tr>
-    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the destination </td></tr>
-    <tr><td class="paramname">subject</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the subject to find the route </td></tr>
-    <tr><td class="paramname">paxRoute</td><td><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> object to store the route </td></tr>
-    <tr><td class="paramname">check</td><td>Map of the station check that the subject has visited or not </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_a1d4c5e5f91faa107361d60af2872555e_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a1d4c5e5f91faa107361d60af2872555e_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_a1d4c5e5f91faa107361d60af2872555e_icgraph" id="aclassCaptain_1_1Engine_a1d4c5e5f91faa107361d60af2872555e_icgraph">
-<area shape="rect" title=" " alt="" coords="476,5,621,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab13dccb2f0be715dbee06470d064378b" title=" " alt="" coords="245,5,428,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a64950a3805906c10f99d48cc84ee19cf" title=" " alt="" coords="5,5,197,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad981f5926a70213661952c99bb9e017d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad981f5926a70213661952c99bb9e017d">&#9670;&nbsp;</a></span>m_findRoute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Captain::Engine::m_findRoute </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&#160;</td>
-          <td class="paramname"><em>destination</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>queue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">U &amp;&#160;</td>
-          <td class="paramname"><em>unitRouteMap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>cycle</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Find the route from the all source to the destination </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">destination</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the destination </td></tr>
-    <tr><td class="paramname">queue</td><td>Queue to store the route </td></tr>
-    <tr><td class="paramname">unitRouteMap</td><td>Map of the unit route </td></tr>
-    <tr><td class="paramname">cycle</td><td>Time step cycle </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_ad981f5926a70213661952c99bb9e017d_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ad981f5926a70213661952c99bb9e017d_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_ad981f5926a70213661952c99bb9e017d_icgraph" id="aclassCaptain_1_1Engine_ad981f5926a70213661952c99bb9e017d_icgraph">
-<area shape="rect" title=" " alt="" coords="491,39,636,80"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a731f77785fe80d16d7ecbaabbaa60db8" title=" " alt="" coords="245,15,443,42"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#aa956fe0cc5d2d9fc0fadcf6642affca5" title=" " alt="" coords="245,68,443,109"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a7736c382a399803aa7e1dca27d1b3112" title=" " alt="" coords="5,5,197,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a3ccd2aecde35b0d7c3e40dec8db4fbf1" title=" " alt="" coords="5,71,197,112"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="aa515c21ae8da4e8f4c445a7f1d01da4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa515c21ae8da4e8f4c445a7f1d01da4c">&#9670;&nbsp;</a></span>m_findUnit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> Captain::Engine::m_findUnit </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>unitID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Find the unit from the unitMap </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">unitID</td><td>ID of the unit to find </td></tr>
-    <tr><td class="paramname">type</td><td>Type of the unit to find </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the found unit </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_aa515c21ae8da4e8f4c445a7f1d01da4c_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aa515c21ae8da4e8f4c445a7f1d01da4c_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_aa515c21ae8da4e8f4c445a7f1d01da4c_icgraph" id="aclassCaptain_1_1Engine_aa515c21ae8da4e8f4c445a7f1d01da4c_icgraph">
-<area shape="rect" title=" " alt="" coords="551,5,696,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,13,503,39"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,5,188,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="afcb05670af8cead5600b78a1de66f28d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb05670af8cead5600b78a1de66f28d">&#9670;&nbsp;</a></span>parsePaxRoute()</h2>
+<a id="a57a4d0952db8adf42b57b501f04b8939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a4d0952db8adf42b57b501f04b8939">&#9670;&nbsp;</a></span>ParsePaxRoute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> Captain::Engine::parsePaxRoute </td>
+          <td class="memname"><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> Captain::Engine::ParsePaxRoute </td>
           <td>(</td>
           <td class="paramtype">const rapidjson::Value &amp;&#160;</td>
           <td class="paramname"><em>paxRouteObject</em></td><td>)</td>
@@ -2115,12 +2083,12 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a> object containing the parsed information </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1PaxRoute.html" title="Struct of information about a passenger&#39;s route, including origin, destination,   intermediate statio...">PaxRoute</a> object containing the parsed information </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_afcb05670af8cead5600b78a1de66f28d_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_afcb05670af8cead5600b78a1de66f28d_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_afcb05670af8cead5600b78a1de66f28d_icgraph" id="aclassCaptain_1_1Engine_afcb05670af8cead5600b78a1de66f28d_icgraph">
+<div class="center"><img src="classCaptain_1_1Engine_a57a4d0952db8adf42b57b501f04b8939_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a57a4d0952db8adf42b57b501f04b8939_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a57a4d0952db8adf42b57b501f04b8939_icgraph" id="aclassCaptain_1_1Engine_a57a4d0952db8adf42b57b501f04b8939_icgraph">
 <area shape="rect" title=" " alt="" coords="279,5,469,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#aad528c4527283d5f7e3913080231f84b" title=" " alt="" coords="5,13,231,39"/>
 </map>
@@ -2128,14 +2096,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4bf7b146a05d4eb94733cbcee3b2f096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bf7b146a05d4eb94733cbcee3b2f096">&#9670;&nbsp;</a></span>parseVehicleInfo()</h2>
+<a id="a1e828632f758fd439f0cdc15e3b0d7f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e828632f758fd439f0cdc15e3b0d7f6">&#9670;&nbsp;</a></span>ParseVehicleInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> Captain::Engine::parseVehicleInfo </td>
+          <td class="memname"><a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> Captain::Engine::ParseVehicleInfo </td>
           <td>(</td>
           <td class="paramtype">const rapidjson::Value &amp;&#160;</td>
           <td class="paramname"><em>vehicleInfoObject</em></td><td>)</td>
@@ -2149,27 +2117,27 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleInfo.html">VehicleInfo</a> object containing the parsed information </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleInfo.html" title="Struck of information about a vehicle.">VehicleInfo</a> object containing the parsed information </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_a4bf7b146a05d4eb94733cbcee3b2f096_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a4bf7b146a05d4eb94733cbcee3b2f096_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_a4bf7b146a05d4eb94733cbcee3b2f096_icgraph" id="aclassCaptain_1_1Engine_a4bf7b146a05d4eb94733cbcee3b2f096_icgraph">
-<area shape="rect" title=" " alt="" coords="257,5,497,32"/>
+<div class="center"><img src="classCaptain_1_1Engine_a1e828632f758fd439f0cdc15e3b0d7f6_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a1e828632f758fd439f0cdc15e3b0d7f6_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a1e828632f758fd439f0cdc15e3b0d7f6_icgraph" id="aclassCaptain_1_1Engine_a1e828632f758fd439f0cdc15e3b0d7f6_icgraph">
+<area shape="rect" title=" " alt="" coords="257,5,496,32"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,5,209,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="abbea8c36241733fa1d0deb99ed1b7d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbea8c36241733fa1d0deb99ed1b7d86">&#9670;&nbsp;</a></span>parseVehicleRoute()</h2>
+<a id="a89fee0cfc4a9fbf438b8561628684979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89fee0cfc4a9fbf438b8561628684979">&#9670;&nbsp;</a></span>ParseVehicleRoute()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> Captain::Engine::parseVehicleRoute </td>
+          <td class="memname"><a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a> Captain::Engine::ParseVehicleRoute </td>
           <td>(</td>
           <td class="paramtype">const rapidjson::Value &amp;&#160;</td>
           <td class="paramname"><em>vehicleRouteObject</em></td><td>)</td>
@@ -2183,12 +2151,12 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle.">VehicleRoute</a> object containing the parsed information </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> object containing the parsed information </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_cgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_cgraph" id="aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_cgraph">
+<div class="center"><img src="classCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_cgraph" id="aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,220,47"/>
 <area shape="rect" href="namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f" title=" " alt="" coords="268,13,456,39"/>
 </map>
@@ -2196,8 +2164,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_icgraph" id="aclassCaptain_1_1Engine_abbea8c36241733fa1d0deb99ed1b7d86_icgraph">
+<div class="center"><img src="classCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_icgraph" id="aclassCaptain_1_1Engine_a89fee0cfc4a9fbf438b8561628684979_icgraph">
 <area shape="rect" title=" " alt="" coords="257,23,472,65"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#a6cd29623750e0874cb7b4b6080570035" title=" " alt="" coords="6,5,209,32"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,56,209,83"/>
@@ -2206,14 +2174,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad81e51c73e2b257fe0df2aedf1d6a424"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad81e51c73e2b257fe0df2aedf1d6a424">&#9670;&nbsp;</a></span>parseVehicleState()</h2>
+<a id="aeb38364cc648e650ffddbdaf643aece6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb38364cc648e650ffddbdaf643aece6">&#9670;&nbsp;</a></span>ParseVehicleState()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> Captain::Engine::parseVehicleState </td>
+          <td class="memname"><a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a> Captain::Engine::ParseVehicleState </td>
           <td>(</td>
           <td class="paramtype">const rapidjson::Value &amp;&#160;</td>
           <td class="paramname"><em>vehicleStateObject</em></td><td>)</td>
@@ -2227,12 +2195,12 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleState.html" title="This Expresses specific state of the vehicle.">VehicleState</a> object containing the parsed information </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structCaptain_1_1VehicleState.html" title="Struck of current state and trajectory information for a vehicle.">VehicleState</a> object containing the parsed information </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_cgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_cgraph" id="aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_cgraph">
+<div class="center"><img src="classCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_cgraph" id="aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_cgraph">
 <area shape="rect" title=" " alt="" coords="5,23,220,65"/>
 <area shape="rect" href="namespaceCaptain.html#ae878d781e24eaa4c9fe1b3832bfb217d" title=" " alt="" coords="268,5,475,32"/>
 <area shape="rect" href="namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f" title=" " alt="" coords="277,56,465,83"/>
@@ -2241,8 +2209,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_icgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_icgraph" id="aclassCaptain_1_1Engine_ad81e51c73e2b257fe0df2aedf1d6a424_icgraph">
+<div class="center"><img src="classCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_icgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_icgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_icgraph" id="aclassCaptain_1_1Engine_aeb38364cc648e650ffddbdaf643aece6_icgraph">
 <area shape="rect" title=" " alt="" coords="257,5,472,47"/>
 <area shape="rect" href="classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,13,209,39"/>
 </map>
@@ -2250,8 +2218,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a091ea8ee77c06526b313f805cba70fad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a091ea8ee77c06526b313f805cba70fad">&#9670;&nbsp;</a></span>RecordSimulationInfo()</h2>
+<a id="aa855c79d2d2ad9b28fbf9a66786c575b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa855c79d2d2ad9b28fbf9a66786c575b">&#9670;&nbsp;</a></span>RecordSimulationInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2278,7 +2246,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; int &gt;&#160;</td>
-          <td class="paramname"><em>runTimeVector</em>, </td>
+          <td class="paramname"><em>runtimeVector</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2310,7 +2278,7 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">simulationId</td><td>ID of the simulation episode </td></tr>
     <tr><td class="paramname">mesoEpochs</td><td>Number of meso epochs </td></tr>
     <tr><td class="paramname">duration</td><td>Runtime of the simulation </td></tr>
-    <tr><td class="paramname">runTimeVector</td><td>Vector of run times per 1000 simlation cycles </td></tr>
+    <tr><td class="paramname">runtimeVector</td><td>Vector of runtimes per 1000 simlation cycles </td></tr>
     <tr><td class="paramname">odScenarioId</td><td>ID of the OD scenario used </td></tr>
     <tr><td class="paramname">modeInfo</td><td>Mode information of the simulation </td></tr>
     <tr><td class="paramname">start</td><td>True if rewritting the file </td></tr>
@@ -2320,11 +2288,11 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classCaptain_1_1Engine_a091ea8ee77c06526b313f805cba70fad_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a091ea8ee77c06526b313f805cba70fad_cgraph" alt=""/></div>
-<map name="aclassCaptain_1_1Engine_a091ea8ee77c06526b313f805cba70fad_cgraph" id="aclassCaptain_1_1Engine_a091ea8ee77c06526b313f805cba70fad_cgraph">
+<div class="center"><img src="classCaptain_1_1Engine_aa855c79d2d2ad9b28fbf9a66786c575b_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_aa855c79d2d2ad9b28fbf9a66786c575b_cgraph" alt=""/></div>
+<map name="aclassCaptain_1_1Engine_aa855c79d2d2ad9b28fbf9a66786c575b_cgraph" id="aclassCaptain_1_1Engine_aa855c79d2d2ad9b28fbf9a66786c575b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,177,277,203"/>
-<area shape="rect" href="classNextSimIO_1_1InputMode.html#a56d7ca71765aae01d9fabef4b3e627ce" title="Get vector of meso link IDs." alt="" coords="359,5,528,47"/>
-<area shape="rect" href="classNextSimIO_1_1InputMode.html#a33ba71be2f860faa1829fd374dfb6d51" title="Get vector of micro link IDs." alt="" coords="359,71,528,112"/>
+<area shape="rect" href="classNextSimIO_1_1InputMode.html#a68456145ccaa03d2e47810739a9c2b08" title="Get vector of meso link IDs." alt="" coords="359,5,528,47"/>
+<area shape="rect" href="classNextSimIO_1_1InputMode.html#a3ecc2fc27b2903f23ae40998b180b1d1" title="Get vector of micro link IDs." alt="" coords="359,71,528,112"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html#adf7b2502cbde141e5410d69cfbd8ae81" title=" " alt="" coords="355,136,532,177"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html#a489c9c0a2a2db58966a4601383b5c35b" title=" " alt="" coords="325,201,561,243"/>
 <area shape="rect" href="classCaptain_1_1Util_1_1XmlWriter.html#a158ce87e5a79fba6bb179dc77f58814b" title=" " alt="" coords="355,267,532,308"/>
@@ -2362,7 +2330,7 @@ Here is the call graph for this function:</div>
 <p>Reserve agent passengers at the target unit (link) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">reservedPaxInfo</td><td>Vector of information about the reserved passengers </td></tr>
-    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the target unit to create reserved pax </td></tr>
+    <tr><td class="paramname">targetIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the target unit to create reserved pax </td></tr>
   </table>
   </dd>
 </dl>
@@ -2397,7 +2365,7 @@ Here is the call graph for this function:</div>
 <p>Reserve agent vehicles at the source or garage unit </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">reservedVehicleInfo</td><td>Vector of information about the reserved vehicles </td></tr>
-    <tr><td class="paramname">sourceIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the source (or garage) unit to create reserved vehicle </td></tr>
+    <tr><td class="paramname">sourceIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the source (or garage) unit to create reserved vehicle </td></tr>
   </table>
   </dd>
 </dl>
@@ -2431,7 +2399,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Reserve vehicles by OD matrix at source unit </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the source to set </td></tr>
+    <tr><td class="paramname">sourceId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the source to set </td></tr>
     <tr><td class="paramname">reservationVector</td><td>Vector of vehicle reservation info </td></tr>
   </table>
   </dd>
@@ -2476,15 +2444,15 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a4e8507734ff9120e35cff8f87dab2708_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a4e8507734ff9120e35cff8f87dab2708_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a4e8507734ff9120e35cff8f87dab2708_cgraph" id="aclassCaptain_1_1Engine_a4e8507734ff9120e35cff8f87dab2708_cgraph">
-<area shape="rect" title=" " alt="" coords="5,177,272,203"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#aa515c21ae8da4e8f4c445a7f1d01da4c" title=" " alt="" coords="347,5,493,47"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="320,71,520,112"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="330,267,510,308"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="330,136,510,177"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="329,332,511,373"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="321,201,519,243"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328" title=" " alt="" coords="568,129,783,185"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289" title=" " alt="" coords="568,291,783,347"/>
+<area shape="rect" title=" " alt="" coords="5,163,272,189"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ae5bdf68dd0e84d35d00d37c63dd70538" title=" " alt="" coords="329,5,511,32"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ab7f80ae3d1c7f4dd06e0aaab1311e9b7" title=" " alt="" coords="320,57,520,98"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a03ca98f9f8443de3b9ee0a159dba1600" title=" " alt="" coords="330,253,510,294"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a0491f35277ddadda1e3bc645740bdf60" title=" " alt="" coords="330,122,510,163"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#af24be9c94f0f16572554bd07eeb2fd81" title=" " alt="" coords="329,318,511,359"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#a5dac41f7bf360062bb6193f8684a2994" title=" " alt="" coords="321,187,519,229"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb" title=" " alt="" coords="573,122,765,163"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236" title=" " alt="" coords="568,285,771,326"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2532,7 +2500,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set adjacent station to the station </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">prevStationId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the previous station </td></tr>
+    <tr><td class="paramname">prevStationId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the previous station </td></tr>
     <tr><td class="paramname">nextStationID</td><td>ID of the next station </td></tr>
     <tr><td class="paramname">lineID</td><td>ID of the transit line </td></tr>
   </table>
@@ -2566,10 +2534,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set micro link map of the engine by referencing unitMap</p>
 <p>Set follower connection map of the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unit</td><td>Tuple of unit information (UnitID, SubID, UnitType) </td></tr>
+    <tr><td class="paramname">unit</td><td>Tuple of unit information (UnitID, SubID, <a class="el" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,...">UnitType</a>) </td></tr>
     <tr><td class="paramname">followers</td><td>Vector of follower connection information </td></tr>
   </table>
   </dd>
@@ -2610,7 +2577,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set l/f connection information to the garage unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">garageIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the garage unit to set connection </td></tr>
+    <tr><td class="paramname">garageIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the garage unit to set connection </td></tr>
     <tr><td class="paramname">connectionInfo</td><td>Connection information about the garage (leader or follower) </td></tr>
     <tr><td class="paramname">isFollower</td><td>True if the connection is follower </td></tr>
   </table>
@@ -2621,8 +2588,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_ab7f80ae3d1c7f4dd06e0aaab1311e9b7_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_ab7f80ae3d1c7f4dd06e0aaab1311e9b7_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_ab7f80ae3d1c7f4dd06e0aaab1311e9b7_cgraph" id="aclassCaptain_1_1Engine_ab7f80ae3d1c7f4dd06e0aaab1311e9b7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,205,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328" title=" " alt="" coords="253,5,468,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,205,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb" title=" " alt="" coords="253,5,445,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2665,7 +2632,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set leader connection map of the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unit</td><td>Tuple of unit information (UnitID, SubID, UnitType) </td></tr>
+    <tr><td class="paramname">unit</td><td>Tuple of unit information (UnitID, SubID, <a class="el" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,...">UnitType</a>) </td></tr>
     <tr><td class="paramname">leaders</td><td>Vector of leader connection information </td></tr>
   </table>
   </dd>
@@ -2706,7 +2673,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set follower connection information to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the target unit to set follower connection </td></tr>
+    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the target unit to set follower connection </td></tr>
     <tr><td class="paramname">followerConnectionInfo</td><td>Vector of connection information about the followers </td></tr>
     <tr><td class="paramname">laneID</td><td>ID of the lane to set </td></tr>
   </table>
@@ -2717,8 +2684,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a03ca98f9f8443de3b9ee0a159dba1600_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a03ca98f9f8443de3b9ee0a159dba1600_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a03ca98f9f8443de3b9ee0a159dba1600_cgraph" id="aclassCaptain_1_1Engine_a03ca98f9f8443de3b9ee0a159dba1600_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,185,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289" title=" " alt="" coords="233,5,448,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,185,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236" title=" " alt="" coords="233,5,436,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2767,7 +2734,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set leader connection information to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the target unit to set leader connection </td></tr>
+    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the target unit to set leader connection </td></tr>
     <tr><td class="paramname">leaderConnectionInfo</td><td>Connection information about the leader </td></tr>
     <tr><td class="paramname">laneID</td><td>ID of the lane to set </td></tr>
   </table>
@@ -2778,8 +2745,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a0491f35277ddadda1e3bc645740bdf60_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a0491f35277ddadda1e3bc645740bdf60_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a0491f35277ddadda1e3bc645740bdf60_cgraph" id="aclassCaptain_1_1Engine_a0491f35277ddadda1e3bc645740bdf60_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,185,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328" title=" " alt="" coords="233,5,448,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,185,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb" title=" " alt="" coords="233,5,425,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2820,7 +2787,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set meso computation model of the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mesoModel</td><td>Unique pointer to <a class="el" href="structCaptain_1_1MesoComputationModel.html">MesoComputationModel</a> </td></tr>
+    <tr><td class="paramname">mesoModel</td><td>Unique pointer to <a class="el" href="structCaptain_1_1MesoComputationModel.html" title="Struct for intercell flow computation model for mesoscopis process.">MesoComputationModel</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -2854,7 +2821,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set passenger demand map to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">originLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the origin unit to set paxDemandMap </td></tr>
+    <tr><td class="paramname">originLinkId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the origin unit to set paxDemandMap </td></tr>
     <tr><td class="paramname">paxDemandMap</td><td>Map of passenger demand </td></tr>
   </table>
   </dd>
@@ -2889,7 +2856,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set public transit line information to the source or garage unit </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the source (or garage) to set </td></tr>
+    <tr><td class="paramname">sourceId</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the source (or garage) to set </td></tr>
     <tr><td class="paramname">ptLineInfoVector</td><td>Vector of the information about the public transit line </td></tr>
   </table>
   </dd>
@@ -2924,7 +2891,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set follower connection information to the sink unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sinkIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the sink unit to set follower connection </td></tr>
+    <tr><td class="paramname">sinkIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the sink unit to set follower connection </td></tr>
     <tr><td class="paramname">followerConnectionInfo</td><td>Connection information about the followers </td></tr>
   </table>
   </dd>
@@ -2934,8 +2901,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_af24be9c94f0f16572554bd07eeb2fd81_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_af24be9c94f0f16572554bd07eeb2fd81_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_af24be9c94f0f16572554bd07eeb2fd81_cgraph" id="aclassCaptain_1_1Engine_af24be9c94f0f16572554bd07eeb2fd81_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,187,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289" title=" " alt="" coords="235,5,449,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236" title=" " alt="" coords="235,5,437,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2978,7 +2945,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set leader connection information to the source unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sourceIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the source unit to set leader connection </td></tr>
+    <tr><td class="paramname">sourceIdentifier</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the source unit to set leader connection </td></tr>
     <tr><td class="paramname">leaderConnectionInfo</td><td>Connection information about the leader </td></tr>
   </table>
   </dd>
@@ -2988,8 +2955,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a5dac41f7bf360062bb6193f8684a2994_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a5dac41f7bf360062bb6193f8684a2994_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a5dac41f7bf360062bb6193f8684a2994_cgraph" id="aclassCaptain_1_1Engine_a5dac41f7bf360062bb6193f8684a2994_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,203,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#ab0810ac6852fdf34b189862574f10328" title=" " alt="" coords="251,5,465,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,203,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#ac0a807b5e1f767aa8499ba6a667a14cb" title=" " alt="" coords="251,5,443,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -3038,7 +3005,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Set stop vehicle map to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> of the target unit to set stop vehicle map </td></tr>
+    <tr><td class="paramname">targetUnit</td><td><a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> of the target unit to set stop vehicle map </td></tr>
     <tr><td class="paramname">followerConnectionInfo</td><td>Vector of connection information for the followers </td></tr>
     <tr><td class="paramname">laneID</td><td>ID of the lane to set </td></tr>
   </table>
@@ -3049,8 +3016,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1Engine_a16df9c4d85958a3bf3298afe112ec99d_cgraph.png" border="0" usemap="#aclassCaptain_1_1Engine_a16df9c4d85958a3bf3298afe112ec99d_cgraph" alt=""/></div>
 <map name="aclassCaptain_1_1Engine_a16df9c4d85958a3bf3298afe112ec99d_cgraph" id="aclassCaptain_1_1Engine_a16df9c4d85958a3bf3298afe112ec99d_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,188,54"/>
-<area shape="rect" href="classCaptain_1_1Engine.html#a44b84a354048f63db47d90aa2d7bf289" title=" " alt="" coords="236,5,451,61"/>
+<area shape="rect" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" href="classCaptain_1_1Engine.html#afde946e6ef2cd389fddb9b2db5652236" title=" " alt="" coords="236,5,439,47"/>
 </map>
 </div>
 
@@ -3074,8 +3041,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2fbea5df62a7e07293abc15bf821404a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fbea5df62a7e07293abc15bf821404a">&#9670;&nbsp;</a></span>SetV2X()</h2>
+<a id="a0a2e7c68a3718c8b683b5545fe78363b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a2e7c68a3718c8b683b5545fe78363b">&#9670;&nbsp;</a></span>SetV2X()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3084,7 +3051,7 @@ Here is the call graph for this function:</div>
           <td class="memname">void Captain::Engine::SetV2X </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>node_id</em>, </td>
+          <td class="paramname"><em>nodeID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3099,10 +3066,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set <a class="el" href="classCaptain_1_1V2X.html">V2X</a> to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> to the specific unit in the engine </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">node_id</td><td>ID of the target node </td></tr>
-    <tr><td class="paramname">v2xActive</td><td>True if <a class="el" href="classCaptain_1_1V2X.html">V2X</a> is active </td></tr>
+    <tr><td class="paramname">nodeID</td><td>ID of the target node </td></tr>
+    <tr><td class="paramname">v2xActive</td><td>True if <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> is active </td></tr>
   </table>
   </dd>
 </dl>
@@ -3174,7 +3141,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::tuple&lt;int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a>&gt;, std::pair&lt;std::vector&lt;<a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a>&gt; &gt;, <a class="el" href="structCaptain_1_1tuple__hash.html">tuple_hash</a>&gt; Captain::Engine::m_connectionMap</td>
+          <td class="memname">std::unordered_map&lt;std::tuple&lt;int, int, <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a>&gt;, std::pair&lt;std::vector&lt;<a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1UnitConnectionDescriptor.html">UnitConnectionDescriptor</a>&gt; &gt;, tuple_hash&gt; Captain::Engine::m_connectionMap</td>
         </tr>
       </table>
   </td>
@@ -3199,7 +3166,7 @@ Value: Pair of vector of follower connection information and vector of leader co
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a>&gt; Captain::Engine::m_garageUnitMap</td>
+          <td class="memname">UnitIdentifierMap&lt;<a class="el" href="classCaptain_1_1Node_1_1GarageUnit.html">Node::GarageUnit</a>&gt; Captain::Engine::m_garageUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3208,8 +3175,8 @@ Value: Pair of vector of follower connection information and vector of leader co
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the garage units <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+<p>UnitIdentifierMap of the garage units <br  />
+Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to GarageUnit </p>
 
 </div>
@@ -3224,7 +3191,7 @@ Value: Shared pointer to GarageUnit </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::pair&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a>&gt; Captain::Engine::m_intersectionSinkVehicleRouteMap</td>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&gt;, pair_hash&gt; Captain::Engine::m_intersectionSinkVehicleRouteMap</td>
         </tr>
       </table>
   </td>
@@ -3234,7 +3201,7 @@ Value: Shared pointer to GarageUnit </p>
 </table>
 </div><div class="memdoc">
 <p>Map of the vehicle route from intersection to sink <br  />
-Key: Pair of Intersection and Sink <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+Key: Pair of Intersection and Sink <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to UniformIntersectionLink </p>
 
 </div>
@@ -3272,7 +3239,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::pair&lt;int, int&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a>&gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a>&gt; Captain::Engine::m_paxRouteMap</td>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;int, int&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1PaxRoute.html">PaxRoute</a>&gt;, pair_hash&gt; Captain::Engine::m_paxRouteMap</td>
         </tr>
       </table>
   </td>
@@ -3297,7 +3264,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a>&gt; Captain::Engine::m_sinkUnitMap</td>
+          <td class="memname">UnitIdentifierMap&lt;<a class="el" href="classCaptain_1_1Node_1_1SinkUnit.html">Node::SinkUnit</a>&gt; Captain::Engine::m_sinkUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3306,8 +3273,8 @@ Value: Shared pointer to UniformIntersectionLink </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the sink units <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+<p>UnitIdentifierMap of the sink units <br  />
+Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to SinkUnit </p>
 
 </div>
@@ -3322,7 +3289,7 @@ Value: Shared pointer to SinkUnit </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;std::pair&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&gt;, <a class="el" href="structCaptain_1_1pair__hash.html">pair_hash</a>&gt; Captain::Engine::m_sourceSinkVehicleRouteMap</td>
+          <td class="memname">std::unordered_map&lt;std::pair&lt;<a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>, <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a>&gt;, std::vector&lt;<a class="el" href="structCaptain_1_1VehicleRoute.html">VehicleRoute</a>&gt;, pair_hash&gt; Captain::Engine::m_sourceSinkVehicleRouteMap</td>
         </tr>
       </table>
   </td>
@@ -3332,7 +3299,7 @@ Value: Shared pointer to SinkUnit </p>
 </table>
 </div><div class="memdoc">
 <p>Map of the vehicle route from source to sink <br  />
-Key: Pair of Source and Sink <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+Key: Pair of Source and Sink <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to UniformIntersectionLink </p>
 
 </div>
@@ -3347,7 +3314,7 @@ Value: Shared pointer to UniformIntersectionLink </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a>&gt; Captain::Engine::m_sourceUnitMap</td>
+          <td class="memname">UnitIdentifierMap&lt;<a class="el" href="classCaptain_1_1Node_1_1SourceUnit.html">Node::SourceUnit</a>&gt; Captain::Engine::m_sourceUnitMap</td>
         </tr>
       </table>
   </td>
@@ -3356,8 +3323,8 @@ Value: Shared pointer to UniformIntersectionLink </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the source units <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+<p>UnitIdentifierMap of the source units <br  />
+Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to SourceUnit </p>
 
 </div>
@@ -3372,7 +3339,7 @@ Value: Shared pointer to SourceUnit </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a>&gt; Captain::Engine::m_stationMap</td>
+          <td class="memname">UnitIdentifierMap&lt;<a class="el" href="classCaptain_1_1Node_1_1Station.html">Node::Station</a>&gt; Captain::Engine::m_stationMap</td>
         </tr>
       </table>
   </td>
@@ -3381,8 +3348,8 @@ Value: Shared pointer to SourceUnit </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the station <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+<p>UnitIdentifierMap of the station <br  />
+Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to Station </p>
 
 </div>
@@ -3397,7 +3364,7 @@ Value: Shared pointer to Station </p>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a>&lt;<a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a>&gt; Captain::Engine::m_unitMap</td>
+          <td class="memname">UnitIdentifierMap&lt;<a class="el" href="classCaptain_1_1Node_1_1UniformLink.html">Node::UniformLink</a>&gt; Captain::Engine::m_unitMap</td>
         </tr>
       </table>
   </td>
@@ -3406,8 +3373,8 @@ Value: Shared pointer to Station </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1UnitIdentifierMap.html">UnitIdentifierMap</a> of the uniform links <br  />
-Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> <br  />
+<p>UnitIdentifierMap of the uniform links <br  />
+Key: <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> <br  />
 Value: Shared pointer to UniformLink </p>
 
 </div>

@@ -55,7 +55,7 @@ var Enumerations_8hpp =
       [ "Green", "Enumerations_8hpp.html#abc914229623e9ca890ab012482a5e89cad382816a3cbeed082c9e216e7392eed1", null ]
     ] ],
     [ "TurnDirection", "Enumerations_8hpp.html#a57c53407dc91f0be843e431471a9a5d1", [
-      [ "LeftTrun", "Enumerations_8hpp.html#a57c53407dc91f0be843e431471a9a5d1a4cecb1a13b3eb3a6af5f4e0aab115738", null ],
+      [ "LeftTurn", "Enumerations_8hpp.html#a57c53407dc91f0be843e431471a9a5d1ab1c6e5076cf20c389cdb5cca0e92650d", null ],
       [ "Straight", "Enumerations_8hpp.html#a57c53407dc91f0be843e431471a9a5d1ab6bd418b8879851e86bcaccd553b74db", null ],
       [ "RightTurn", "Enumerations_8hpp.html#a57c53407dc91f0be843e431471a9a5d1a57475f3e2fb784e9e212be1d32b28b7d", null ]
     ] ],

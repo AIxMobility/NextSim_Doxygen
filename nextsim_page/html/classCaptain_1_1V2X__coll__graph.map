@@ -1,4 +1,4 @@
 <map id="Captain::V2X" name="Captain::V2X">
-<area shape="rect" id="node1" title=" " alt="" coords="21,109,128,136"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node1" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="21,109,128,136"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle&#45;to&#45;Everything) message containing metadata &#160;&#160;such as ID, timing,..." alt="" coords="5,5,144,32"/>
 </map>

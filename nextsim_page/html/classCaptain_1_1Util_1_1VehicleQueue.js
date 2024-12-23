@@ -1,9 +1,6 @@
 var classCaptain_1_1Util_1_1VehicleQueue =
 [
     [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a9ac3ae3152e5ddebd797e3a7543434f9", null ],
-    [ "~VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#aa7d3b74f955138b97a92df7f906fdc7b", null ],
-    [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a8f5a1350be29e6767c3698b053c32c93", null ],
-    [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html#a0f6706242356f5899848aed5d484d3a3", null ],
     [ "At", "classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b", null ],
     [ "CompareAndInsertByPosition", "classCaptain_1_1Util_1_1VehicleQueue.html#a47afe186e18e15052f774138f4ed6d11", null ],
     [ "Dequeue", "classCaptain_1_1Util_1_1VehicleQueue.html#a615e903a007fbedb5111262c2867b269", null ],
@@ -17,8 +14,6 @@ var classCaptain_1_1Util_1_1VehicleQueue =
     [ "GetMaxCapacity", "classCaptain_1_1Util_1_1VehicleQueue.html#a50528de7c054eccf6014a0ef9cba9d6a", null ],
     [ "GetVehicleList", "classCaptain_1_1Util_1_1VehicleQueue.html#afa42d83d3b2796577b83ce980b8dcb79", null ],
     [ "Insert", "classCaptain_1_1Util_1_1VehicleQueue.html#a1c4f0d6747fd7ab18a55b3de33ec74cf", null ],
-    [ "operator=", "classCaptain_1_1Util_1_1VehicleQueue.html#af6b60c0ffe21b765368ec190321b24c5", null ],
-    [ "operator=", "classCaptain_1_1Util_1_1VehicleQueue.html#a5a540ab9a23fe0a6cad589ab99081080", null ],
     [ "Peek", "classCaptain_1_1Util_1_1VehicleQueue.html#ae9b0282bd6a1ce223d2d8d4e2d4f8ea8", null ],
     [ "Size", "classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23", null ],
     [ "Sort", "classCaptain_1_1Util_1_1VehicleQueue.html#ab10028bf98dc7b0b252ac4685af3c06e", null ],

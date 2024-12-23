@@ -95,16 +95,21 @@ $(document).ready(function(){initNavTree('structCaptain_1_1VehicleDescriptor.htm
 <div class="title">Captain::VehicleDescriptor Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struck of a vehicle by storing both its information and its current state.  
+ <a href="structCaptain_1_1VehicleDescriptor.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for Captain::VehicleDescriptor:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1VehicleDescriptor__coll__graph.png" border="0" usemap="#aCaptain_1_1VehicleDescriptor_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1VehicleDescriptor_coll__map" id="aCaptain_1_1VehicleDescriptor_coll__map">
-<area shape="rect" title=" " alt="" coords="13,199,208,225"/>
-<area shape="rect" href="structCaptain_1_1VehicleInfo.html" title=" " alt="" coords="5,109,157,136"/>
-<area shape="rect" href="structCaptain_1_1VehicleState.html" title="This Expresses specific state of the vehicle." alt="" coords="182,109,343,136"/>
-<area shape="rect" href="structCaptain_1_1Position.html" title="Wrapper for representing positions of units." alt="" coords="107,5,239,32"/>
-<area shape="rect" href="structCaptain_1_1RouteIdentifier.html" title=" " alt="" coords="264,5,440,32"/>
+<area shape="rect" title="Struck of a vehicle by storing both its information and its current state." alt="" coords="13,288,208,315"/>
+<area shape="rect" href="structCaptain_1_1VehicleInfo.html" title="Struck of information about a vehicle." alt="" coords="5,199,157,225"/>
+<area shape="rect" href="structCaptain_1_1VehicleState.html" title="Struck of current state and trajectory information for a vehicle." alt="" coords="182,199,343,225"/>
+<area shape="rect" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system." alt="" coords="11,95,143,121"/>
+<area shape="rect" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="183,5,262,32"/>
+<area shape="rect" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="335,95,511,121"/>
+<area shape="rect" href="classLCDirection.html" title="Class of direction of lane changing direction : straight(0), left(&#45;1), right(1)" alt="" coords="535,95,633,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -120,7 +125,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8845c18b54f5f6e2562073d7cfbae978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1VehicleState.html">VehicleState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleDescriptor.html#a8845c18b54f5f6e2562073d7cfbae978">State</a></td></tr>
 <tr class="separator:a8845c18b54f5f6e2562073d7cfbae978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struck of a vehicle by storing both its information and its current state. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a46018fc37317de808ce585847d8704ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46018fc37317de808ce585847d8704ac">&#9670;&nbsp;</a></span>VehicleDescriptor()</h2>
 
@@ -154,6 +161,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor to initialize a <a class="el" href="structCaptain_1_1VehicleDescriptor.html" title="Struck of a vehicle by storing both its information and its current state.">VehicleDescriptor</a> with vehicle information and state </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vehicleInfo</td><td>The detailed information about the vehicle </td></tr>
+    <tr><td class="paramname">vehicleState</td><td>The current state of the vehicle </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -169,6 +183,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Information about the vehicle, including type, speed, length, etc </p>
 
 </div>
 </div>
@@ -183,6 +198,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Current state of the vehicle, including position, speed, and lane details </p>
 
 </div>
 </div>

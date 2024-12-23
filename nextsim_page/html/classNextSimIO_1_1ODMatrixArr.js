@@ -1,6 +1,6 @@
 var classNextSimIO_1_1ODMatrixArr =
 [
     [ "ODMatrixArr", "classNextSimIO_1_1ODMatrixArr.html#a393fcb44720690ae5a74d498f28b7a75", null ],
-    [ "getODmatrix", "classNextSimIO_1_1ODMatrixArr.html#a717d31a7932ecf2410d73f3e463c3891", null ],
-    [ "ODmatrix", "classNextSimIO_1_1ODMatrixArr.html#af9f275d98341c6892dacd54be4bad7ce", null ]
+    [ "GetODMatrix", "classNextSimIO_1_1ODMatrixArr.html#a47891c4da8a7e6175df0deb0cfcc96cf", null ],
+    [ "m_odMatrix", "classNextSimIO_1_1ODMatrixArr.html#a3e1b0c11cf2f6a0bbc9b3b035627973d", null ]
 ];

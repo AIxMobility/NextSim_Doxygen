@@ -4,7 +4,7 @@ var classCaptain_1_1Node_1_1Station =
     [ "AddAdjacentStation", "classCaptain_1_1Node_1_1Station.html#a15caa6d06be8b0b7051ff9fdbda67d74", null ],
     [ "AddPassenger", "classCaptain_1_1Node_1_1Station.html#a000bca97ed11e2bd9c681d5a819a8660", null ],
     [ "EjectPassengers", "classCaptain_1_1Node_1_1Station.html#ac64cf39d44bb567bac5413d4debe8529", null ],
-    [ "FlushRecordings", "classCaptain_1_1Node_1_1Station.html#aa471124406839eab16ef0e33699a5b1b", null ],
+    [ "FlushRecordings", "classCaptain_1_1Node_1_1Station.html#aa7df675c7e628da0f2891757e1277f2b", null ],
     [ "FreeParkingPosition", "classCaptain_1_1Node_1_1Station.html#a924abb76ffa6e246b056634532c9c215", null ],
     [ "GetAdjacentStationVector", "classCaptain_1_1Node_1_1Station.html#a267fef943068874159e4a169afe0c9f8", null ],
     [ "GetFilePath", "classCaptain_1_1Node_1_1Station.html#a6c4ad417b2a1884cdeb1b89c90f5f614", null ],

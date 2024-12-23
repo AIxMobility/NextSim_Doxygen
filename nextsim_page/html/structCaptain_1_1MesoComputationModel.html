@@ -94,12 +94,15 @@ $(document).ready(function(){initNavTree('structCaptain_1_1MesoComputationModel.
 <div class="title">Captain::MesoComputationModel Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struct for intercell flow computation model for mesoscopis process.  
+ <a href="structCaptain_1_1MesoComputationModel.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Captain::MesoComputationModel:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1MesoComputationModel__inherit__graph.png" border="0" usemap="#aCaptain_1_1MesoComputationModel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1MesoComputationModel_inherit__map" id="aCaptain_1_1MesoComputationModel_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,5,204,47"/>
+<area shape="rect" title="Struct for intercell flow computation model for mesoscopis process." alt="" coords="5,5,204,47"/>
 <area shape="rect" href="structCaptain_1_1BasicMesoModel.html" title=" " alt="" coords="9,95,200,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -118,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae75faa52ee8c9b40b2fcbc33b58be003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Interface for computing interCellFlow </p>
+<div class="textblock"><p>Struct for intercell flow computation model for mesoscopis process. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae75faa52ee8c9b40b2fcbc33b58be003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae75faa52ee8c9b40b2fcbc33b58be003">&#9670;&nbsp;</a></span>~MesoComputationModel()</h2>
@@ -203,6 +206,17 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Compute intercell flow for mesoscopic process </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destRemainVehicles</td><td>Number of remaining vehicles in the destination cell </td></tr>
+    <tr><td class="paramname">originNumVehicles</td><td>Number of vehicles in the origin cell </td></tr>
+    <tr><td class="paramname">destQmax</td><td>Maximum flow rate of the destination cell </td></tr>
+    <tr><td class="paramname">destWaveSpeed</td><td>Wave speed of the destination cell </td></tr>
+    <tr><td class="paramname">destFreeFlowSpeed</td><td>Free flow speed of the destination cell </td></tr>
+    <tr><td class="paramname">destCellLength</td><td>Length of the destination cell </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="structCaptain_1_1BasicMesoModel.html#a8cc73e947f61b7cf908f9271224086a4">Captain::BasicMesoModel</a>.</p>
 
@@ -247,6 +261,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Compute lane change probability for mesoscopic process </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">targetCellSpeed</td><td>Speed of the target cell </td></tr>
+    <tr><td class="paramname">freeFlowSpeed</td><td>Free flow speed of the target cell </td></tr>
+    <tr><td class="paramname">targetCellDensity</td><td>Density of the target cell </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implemented in <a class="el" href="structCaptain_1_1BasicMesoModel.html#a509fc1b41787ce400c0ade99d215b979">Captain::BasicMesoModel</a>.</p>
 

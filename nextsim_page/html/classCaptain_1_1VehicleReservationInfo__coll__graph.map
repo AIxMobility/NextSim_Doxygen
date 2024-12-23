@@ -1,7 +1,7 @@
 <map id="Captain::VehicleReservationInfo" name="Captain::VehicleReservationInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="336,81,567,108"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="29,5,168,32"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1VehicleInfo.html" title=" " alt="" coords="23,56,175,83"/>
-<area shape="rect" id="node4" href="$structCaptain_1_1PublicTransitInfo.html" title=" " alt="" coords="5,107,192,133"/>
-<area shape="rect" id="node5" href="$structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle." alt="" coords="16,157,181,184"/>
+<area shape="rect" id="node1" title="Class of reservation information for a vehicle, including details on route, cycle,..." alt="" coords="336,81,567,108"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle&#45;to&#45;Everything) message containing metadata &#160;&#160;such as ID, timing,..." alt="" coords="29,5,168,32"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1VehicleInfo.html" title="Struck of information about a vehicle." alt="" coords="23,56,175,83"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1PublicTransitInfo.html" title="Struct of information about a public transit line, including stations, distances, and passengers." alt="" coords="5,107,192,133"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle." alt="" coords="16,157,181,184"/>
 </map>

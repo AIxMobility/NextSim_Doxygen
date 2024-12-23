@@ -21,6 +21,9 @@ var dir_fc2f88bda901cb7dd2f393b81d25c060 =
     [ "ODMatrixArr.hpp", "ODMatrixArr_8hpp.html", [
       [ "ODMatrixArr", "classNextSimIO_1_1ODMatrixArr.html", "classNextSimIO_1_1ODMatrixArr" ]
     ] ],
+    [ "OutputMetricsArr.hpp", "OutputMetricsArr_8hpp.html", [
+      [ "OutputMetricsArr", "classNextSimIO_1_1OutputMetricsArr.html", "classNextSimIO_1_1OutputMetricsArr" ]
+    ] ],
     [ "ParamArr.hpp", "ParamArr_8hpp.html", [
       [ "ParamArr", "classNextSimIO_1_1ParamArr.html", "classNextSimIO_1_1ParamArr" ]
     ] ],

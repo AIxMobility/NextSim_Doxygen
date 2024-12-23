@@ -2,7 +2,7 @@ var classNextSimIO_1_1ParamArr =
 [
     [ "ParamArr", "classNextSimIO_1_1ParamArr.html#a54fb3e1ab65c591355a88392aa4bbf88", null ],
     [ "GetFFSpeed", "classNextSimIO_1_1ParamArr.html#ad433ff980f4ea61ce0aca5c285791cd8", null ],
-    [ "GetJamGap", "classNextSimIO_1_1ParamArr.html#aadac9d59eaf000000e994947eee4666d", null ],
+    [ "GetJamgap", "classNextSimIO_1_1ParamArr.html#abcf4977b79b60ea1290a3539f2a4558d", null ],
     [ "GetMaxAcc", "classNextSimIO_1_1ParamArr.html#adb539e73043501290ba2e73eecaff55f", null ],
     [ "GetMaxDec", "classNextSimIO_1_1ParamArr.html#a14f959629f7ff5db00dab8bf3937026f", null ],
     [ "GetMaxFlow", "classNextSimIO_1_1ParamArr.html#a69a8d6f62be2a075a57f312fce9f556d", null ],
@@ -16,13 +16,13 @@ var classNextSimIO_1_1ParamArr =
     [ "SetModel", "classNextSimIO_1_1ParamArr.html#adeb4ffa73fda123a51826f2a4ddf1cf4", null ],
     [ "SetSd", "classNextSimIO_1_1ParamArr.html#ae24683cb320c1e751eeb204f0968854f", null ],
     [ "SetWaveSpeed", "classNextSimIO_1_1ParamArr.html#aeac22e100b9046c7f978cf4729f5a92a", null ],
-    [ "ff_speed", "classNextSimIO_1_1ParamArr.html#a0fa3d02b50d4f37d1f33173be776dd5f", null ],
-    [ "jam_gap", "classNextSimIO_1_1ParamArr.html#a9b35c00711ee07b04c4d1e75f213f34f", null ],
-    [ "max_acc", "classNextSimIO_1_1ParamArr.html#aaba2959c6647808b3871cd17ac5b03ae", null ],
-    [ "max_dec", "classNextSimIO_1_1ParamArr.html#a7adf5d619189230ef0aa4defb2333e65", null ],
-    [ "max_flow", "classNextSimIO_1_1ParamArr.html#abe1ee19e1d44f3a207532811efd6dcae", null ],
-    [ "meso_veh_len", "classNextSimIO_1_1ParamArr.html#a57240d3b10de3cb5e788fee3ca5445cf", null ],
-    [ "micro_veh_len", "classNextSimIO_1_1ParamArr.html#aa7170f7f0561562e2edc2e54e9f9b806", null ],
-    [ "reaction_time", "classNextSimIO_1_1ParamArr.html#a7fa3f8e6abdb06d4bd94c375f1d934b4", null ],
-    [ "wave_speed", "classNextSimIO_1_1ParamArr.html#a80e1e0400137c21fb2e119b41fa20e99", null ]
+    [ "m_ffSpeed", "classNextSimIO_1_1ParamArr.html#a478adb66abc7a2dad9bcd415d0a0b2cd", null ],
+    [ "m_jamgap", "classNextSimIO_1_1ParamArr.html#aad9c8cd6609f8b2ac0b44e65b800911c", null ],
+    [ "m_maxAcc", "classNextSimIO_1_1ParamArr.html#ae253c3b97c9e8db9ccc57f20c58b0f7b", null ],
+    [ "m_maxDec", "classNextSimIO_1_1ParamArr.html#ad3ea9dfaa3687b02035a25bb47a2528d", null ],
+    [ "m_maxFlow", "classNextSimIO_1_1ParamArr.html#af2c9ca3dca8823f9d6a4330af5daf799", null ],
+    [ "m_mesoVehLen", "classNextSimIO_1_1ParamArr.html#a18860185d8e394219a5068daa12308e6", null ],
+    [ "m_microVehLen", "classNextSimIO_1_1ParamArr.html#ab993a0057fcbb64a8bd03cdb8ce10baa", null ],
+    [ "m_reactionTime", "classNextSimIO_1_1ParamArr.html#a34699482341b270ca907726036da13cd", null ],
+    [ "m_waveSpeed", "classNextSimIO_1_1ParamArr.html#a086fc78410272702527458949fd07f93", null ]
 ];

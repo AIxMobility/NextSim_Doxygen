@@ -1,0 +1,9 @@
+<map id="Captain::Engine::RecordSimulationInfo" name="Captain::Engine::RecordSimulationInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="5,177,277,203"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1InputMode.html#a68456145ccaa03d2e47810739a9c2b08" title="Get vector of meso link IDs." alt="" coords="359,5,528,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputMode.html#a3ecc2fc27b2903f23ae40998b180b1d1" title="Get vector of micro link IDs." alt="" coords="359,71,528,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1XmlWriter.html#adf7b2502cbde141e5410d69cfbd8ae81" title=" " alt="" coords="355,136,532,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html#a489c9c0a2a2db58966a4601383b5c35b" title=" " alt="" coords="325,201,561,243"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1XmlWriter.html#a158ce87e5a79fba6bb179dc77f58814b" title=" " alt="" coords="355,267,532,308"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1XmlWriter.html#a77b3f451c6f1ee8572586ff670b27ce3" title=" " alt="" coords="355,332,532,373"/>
+</map>

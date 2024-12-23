@@ -1,11 +1,11 @@
 var structCaptain_1_1SimulationRecordInfo =
 [
-    [ "mesoLinkIDs", "structCaptain_1_1SimulationRecordInfo.html#a207a4d160812633b1efb02e4978a9a19", null ],
-    [ "microLinkIDs", "structCaptain_1_1SimulationRecordInfo.html#afd70b8234a3d666d5d0f9ffb8f59a914", null ],
-    [ "odScenario", "structCaptain_1_1SimulationRecordInfo.html#a027ef5dbf575d639e1dc1e7c50ff7af2", null ],
-    [ "runTimes", "structCaptain_1_1SimulationRecordInfo.html#a867909ae25d5937e318703700f861a5b", null ],
+    [ "MesoLinkIDs", "structCaptain_1_1SimulationRecordInfo.html#af8a68cafc162a4b5e7d01f6b6658e975", null ],
+    [ "MicroLinkIDs", "structCaptain_1_1SimulationRecordInfo.html#a68bd4c2f5df6f8da047dc482f572f871", null ],
+    [ "ODScenario", "structCaptain_1_1SimulationRecordInfo.html#a66e5cfc751af4fcfc2c1fb1834e2bbb4", null ],
+    [ "Runtimes", "structCaptain_1_1SimulationRecordInfo.html#a6c4d216277cc19ba3f870ae274e0fd00", null ],
     [ "SimulationID", "structCaptain_1_1SimulationRecordInfo.html#ad3e7b24088e71fa01e94488665d929c6", null ],
-    [ "time_per_cycle", "structCaptain_1_1SimulationRecordInfo.html#a1811160e8baed722b6615a31339ac7d9", null ],
-    [ "total_cycle", "structCaptain_1_1SimulationRecordInfo.html#a1416324aa953d7b5011394dd80c6d28d", null ],
-    [ "total_time", "structCaptain_1_1SimulationRecordInfo.html#aa620cbbed767dc718d2e963852b97616", null ]
+    [ "TimePerCycle", "structCaptain_1_1SimulationRecordInfo.html#a791e16dc6d802c3c07484c7ebfe57f4b", null ],
+    [ "TotalCycle", "structCaptain_1_1SimulationRecordInfo.html#a9c96eff42228b1b0b406421908546797", null ],
+    [ "TotalTime", "structCaptain_1_1SimulationRecordInfo.html#a78c4bd793a9184752c8274c1b13fde9b", null ]
 ];

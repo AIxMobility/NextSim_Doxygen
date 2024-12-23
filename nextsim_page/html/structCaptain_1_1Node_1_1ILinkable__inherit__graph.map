@@ -1,8 +1,8 @@
 <map id="Captain::Node::ILinkable" name="Captain::Node::ILinkable">
 <area shape="rect" id="node1" title=" " alt="" coords="217,5,397,32"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html" title=" " alt="" coords="5,80,189,107"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html" title=" " alt="" coords="214,80,399,107"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1UniformLink.html" title=" " alt="" coords="445,80,648,107"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title=" " alt="" coords="195,155,394,196"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html" title=" " alt="" coords="418,162,697,189"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html" title="Represents a directional road connecting two intersections." alt="" coords="5,80,189,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="214,80,399,107"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1UniformLink.html" title="Represents a link that can operate at both micro and meso scales, supporting uniform operations for b..." alt="" coords="445,80,648,107"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1IntersectionMicroLink.html" title="Repesents a specialized micro link for intersections." alt="" coords="195,155,394,196"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1UniformIntersectionLink.html" title="Represents a link at an intersection with uniform behavior for both meso and micro scale." alt="" coords="418,162,697,189"/>
 </map>

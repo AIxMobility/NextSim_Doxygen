@@ -1,6 +1,6 @@
 var classNextSimIO_1_1PTlineArr =
 [
     [ "PTlineArr", "classNextSimIO_1_1PTlineArr.html#a03c455049a434fbbd4487dd22187d779", null ],
-    [ "getPTlines", "classNextSimIO_1_1PTlineArr.html#a4e97b84edc60874f1f4708c11346348f", null ],
-    [ "ptlineArr", "classNextSimIO_1_1PTlineArr.html#a3935acb1d1d1ddd7acc2aba95b72bba3", null ]
+    [ "GetPTLines", "classNextSimIO_1_1PTlineArr.html#a7281b53dd32f07b3cf64283368f3d798", null ],
+    [ "m_ptLines", "classNextSimIO_1_1PTlineArr.html#a52aa9a9842bc954af69c665daee50254", null ]
 ];

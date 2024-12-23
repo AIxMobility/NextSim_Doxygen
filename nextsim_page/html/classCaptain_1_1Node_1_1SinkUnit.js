@@ -1,7 +1,7 @@
 var classCaptain_1_1Node_1_1SinkUnit =
 [
     [ "SinkUnit", "classCaptain_1_1Node_1_1SinkUnit.html#a9def3971001c4ee5e817b0cd03b7ecd3", null ],
-    [ "FlushRecordings", "classCaptain_1_1Node_1_1SinkUnit.html#a7592e44fa999f673bcb9ad9d82284e36", null ],
+    [ "FlushRecordings", "classCaptain_1_1Node_1_1SinkUnit.html#a82bb056e96cbf734a45ab9fb959371cf", null ],
     [ "GetCurrentNumVehicles", "classCaptain_1_1Node_1_1SinkUnit.html#ae7014def6b6592103c99f61b8e64fa76", null ],
     [ "GetFollowerConnectionInfo", "classCaptain_1_1Node_1_1SinkUnit.html#a3828188a94581e4aa5bc56d663d0e46e", null ],
     [ "GetFollowingVehiclePtr", "classCaptain_1_1Node_1_1SinkUnit.html#a5aac80f3be71ca21268fa27c3d5f1ac2", null ],

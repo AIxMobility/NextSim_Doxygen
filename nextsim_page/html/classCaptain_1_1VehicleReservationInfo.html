@@ -95,16 +95,19 @@ $(document).ready(function(){initNavTree('classCaptain_1_1VehicleReservationInfo
 <div class="title">Captain::VehicleReservationInfo Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class of reservation information for a vehicle, including details on route, cycle, and additional configurations.  
+ <a href="classCaptain_1_1VehicleReservationInfo.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for Captain::VehicleReservationInfo:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCaptain_1_1VehicleReservationInfo__coll__graph.png" border="0" usemap="#aCaptain_1_1VehicleReservationInfo_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1VehicleReservationInfo_coll__map" id="aCaptain_1_1VehicleReservationInfo_coll__map">
-<area shape="rect" title=" " alt="" coords="336,81,567,108"/>
-<area shape="rect" href="structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="29,5,168,32"/>
-<area shape="rect" href="structCaptain_1_1VehicleInfo.html" title=" " alt="" coords="23,56,175,83"/>
-<area shape="rect" href="structCaptain_1_1PublicTransitInfo.html" title=" " alt="" coords="5,107,192,133"/>
-<area shape="rect" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle." alt="" coords="16,157,181,184"/>
+<area shape="rect" title="Class of reservation information for a vehicle, including details on route, cycle,..." alt="" coords="336,81,567,108"/>
+<area shape="rect" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle&#45;to&#45;Everything) message containing metadata &#160;&#160;such as ID, timing,..." alt="" coords="29,5,168,32"/>
+<area shape="rect" href="structCaptain_1_1VehicleInfo.html" title="Struck of information about a vehicle." alt="" coords="23,56,175,83"/>
+<area shape="rect" href="structCaptain_1_1PublicTransitInfo.html" title="Struct of information about a public transit line, including stations, distances, and passengers." alt="" coords="5,107,192,133"/>
+<area shape="rect" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle." alt="" coords="16,157,181,184"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -136,7 +139,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a42616b47a7829165700009bce7345969"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1VehicleReservationInfo.html#a42616b47a7829165700009bce7345969">VehicleNum</a></td></tr>
 <tr class="separator:a42616b47a7829165700009bce7345969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class of reservation information for a vehicle, including details on route, cycle, and additional configurations. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="accc49070c28e5f7928aa7a3594c48014"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#accc49070c28e5f7928aa7a3594c48014">&#9670;&nbsp;</a></span>VehicleReservationInfo() <span class="overload">[1/4]</span></h2>
 
@@ -182,12 +187,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs a new <a class="el" href="classCaptain_1_1VehicleReservationInfo.html" title="Class of reservation information for a vehicle, including details on route, cycle,...">VehicleReservationInfo</a> object with basic reservation details. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vehicleInfo</td><td>: information of the vehicle to reserve </td></tr>
-    <tr><td class="paramname">vehicleRoute</td><td>: <a class="el" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
-    <tr><td class="paramname">outputCycle</td><td>: desired cycle that this vehicle is going to be generated </td></tr>
-    <tr><td class="paramname">vehicleNum</td><td>: number of vehicles to generate with given configurations in desired cycle </td></tr>
+    <tr><td class="paramname">vehicleInfo</td><td>Information of the vehicle to reserve </td></tr>
+    <tr><td class="paramname">vehicleRoute</td><td><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
+    <tr><td class="paramname">outputCycle</td><td>desired cycle that this vehicle is going to be generated </td></tr>
+    <tr><td class="paramname">vehicleNum</td><td>number of vehicles to generate with given configurations in desired cycle </td></tr>
   </table>
   </dd>
 </dl>
@@ -245,13 +250,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs a new <a class="el" href="classCaptain_1_1VehicleReservationInfo.html" title="Class of reservation information for a vehicle, including details on route, cycle,...">VehicleReservationInfo</a> object with public transit information. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vehicleInfo</td><td>: information of the vehicle to reserve </td></tr>
-    <tr><td class="paramname">vehicleRoute</td><td>: <a class="el" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
-    <tr><td class="paramname">ptInfo</td><td>: <a class="el" href="structCaptain_1_1PublicTransitInfo.html">PublicTransitInfo</a> of reserved vehicle </td></tr>
-    <tr><td class="paramname">outputCycle</td><td>: desired cycle that this vehicle is going to be generated </td></tr>
-    <tr><td class="paramname">vehicleNum</td><td>: number of vehicles to generate with given configurations in desired cycle </td></tr>
+    <tr><td class="paramname">vehicleInfo</td><td>Information of the vehicle to reserve </td></tr>
+    <tr><td class="paramname">vehicleRoute</td><td><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
+    <tr><td class="paramname">ptInfo</td><td><a class="el" href="structCaptain_1_1PublicTransitInfo.html" title="Struct of information about a public transit line, including stations, distances, and passengers.">PublicTransitInfo</a> of reserved vehicle </td></tr>
+    <tr><td class="paramname">outputCycle</td><td>desired cycle that this vehicle is going to be generated </td></tr>
+    <tr><td class="paramname">vehicleNum</td><td>number of vehicles to generate with given configurations in desired cycle </td></tr>
   </table>
   </dd>
 </dl>
@@ -309,13 +314,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs a new <a class="el" href="classCaptain_1_1VehicleReservationInfo.html" title="Class of reservation information for a vehicle, including details on route, cycle,...">VehicleReservationInfo</a> object with <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> activation </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vehicleInfo</td><td>: information of the vehicle to reserve </td></tr>
-    <tr><td class="paramname">vehicleRoute</td><td>: <a class="el" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
-    <tr><td class="paramname">v2xActive</td><td>: Active of v2x module in vehicle </td></tr>
-    <tr><td class="paramname">outputCycle</td><td>: desired cycle that this vehicle is going to be generated </td></tr>
-    <tr><td class="paramname">vehicleNum</td><td>: number of vehicles to generate with given configurations in desired cycle </td></tr>
+    <tr><td class="paramname">vehicleInfo</td><td>Information of the vehicle to reserve </td></tr>
+    <tr><td class="paramname">vehicleRoute</td><td><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
+    <tr><td class="paramname">v2xActive</td><td>Active of v2x module in vehicle </td></tr>
+    <tr><td class="paramname">outputCycle</td><td>desired cycle that this vehicle is going to be generated </td></tr>
+    <tr><td class="paramname">vehicleNum</td><td>number of vehicles to generate with given configurations in desired cycle </td></tr>
   </table>
   </dd>
 </dl>
@@ -379,14 +384,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs a new <a class="el" href="classCaptain_1_1VehicleReservationInfo.html" title="Class of reservation information for a vehicle, including details on route, cycle,...">VehicleReservationInfo</a> object with <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> activation and message sending. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vehicleInfo</td><td>: information of the vehicle to reserve </td></tr>
-    <tr><td class="paramname">vehicleRoute</td><td>: <a class="el" href="structCaptain_1_1VehicleRoute.html" title="Describes route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
-    <tr><td class="paramname">v2xActive</td><td>: Active of v2x module in vehicle </td></tr>
-    <tr><td class="paramname">messageSend</td><td>: <a class="el" href="structCaptain_1_1Message.html" title="Message for v2x.">Message</a> to send </td></tr>
-    <tr><td class="paramname">outputCycle</td><td>: desired cycle that this vehicle is going to be generated </td></tr>
-    <tr><td class="paramname">vehicleNum</td><td>: number of vehicles to generate with given configurations in desired cycle </td></tr>
+    <tr><td class="paramname">vehicleInfo</td><td>Information of the vehicle to reserve </td></tr>
+    <tr><td class="paramname">vehicleRoute</td><td><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> of reserved vehicle </td></tr>
+    <tr><td class="paramname">v2xActive</td><td>Active of v2x module in vehicle </td></tr>
+    <tr><td class="paramname">messageSend</td><td><a class="el" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle-to-Everything) message containing metadata   such as ID, timing,...">Message</a> to send </td></tr>
+    <tr><td class="paramname">outputCycle</td><td>desired cycle that this vehicle is going to be generated </td></tr>
+    <tr><td class="paramname">vehicleNum</td><td>number of vehicles to generate with given configurations in desired cycle </td></tr>
   </table>
   </dd>
 </dl>
@@ -405,6 +410,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>information of the vehicle to reserve </p>
 
 </div>
 </div>
@@ -419,6 +425,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle-to-Everything) message containing metadata   such as ID, timing,...">Message</a> to send </p>
 
 </div>
 </div>
@@ -433,6 +440,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>desired cycle that this vehicle is going to be generated </p>
 
 </div>
 </div>
@@ -447,6 +455,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structCaptain_1_1PublicTransitInfo.html" title="Struct of information about a public transit line, including stations, distances, and passengers.">PublicTransitInfo</a> of reserved vehicle </p>
 
 </div>
 </div>
@@ -461,6 +470,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="structCaptain_1_1VehicleRoute.html" title="Stuck of route of the vehicle.">VehicleRoute</a> of reserved vehicle </p>
 
 </div>
 </div>
@@ -475,6 +485,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Active of v2x module in vehicle (default:false) </p>
 
 </div>
 </div>
@@ -489,6 +500,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>number of vehicles to generate with given configurations in desired cycle </p>
 
 </div>
 </div>

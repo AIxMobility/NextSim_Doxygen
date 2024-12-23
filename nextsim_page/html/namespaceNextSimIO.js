@@ -29,6 +29,7 @@ var namespaceNextSimIO =
     [ "ModeArr", "classNextSimIO_1_1ModeArr.html", "classNextSimIO_1_1ModeArr" ],
     [ "NodeArr", "classNextSimIO_1_1NodeArr.html", "classNextSimIO_1_1NodeArr" ],
     [ "ODMatrixArr", "classNextSimIO_1_1ODMatrixArr.html", "classNextSimIO_1_1ODMatrixArr" ],
+    [ "OutputMetricsArr", "classNextSimIO_1_1OutputMetricsArr.html", "classNextSimIO_1_1OutputMetricsArr" ],
     [ "ParamArr", "classNextSimIO_1_1ParamArr.html", "classNextSimIO_1_1ParamArr" ],
     [ "PaxArr", "classNextSimIO_1_1PaxArr.html", "classNextSimIO_1_1PaxArr" ],
     [ "PTlineArr", "classNextSimIO_1_1PTlineArr.html", "classNextSimIO_1_1PTlineArr" ],

@@ -1,0 +1,5 @@
+<map id="Captain::Node::GarageUnit::generateVehicle" name="Captain::Node::GarageUnit::generateVehicle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1VehicleTypesArr.html#a5ac7a147b4c784c2bcb5cee661e98a16" title=" " alt="" coords="249,5,452,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="279,71,422,112"/>
+</map>

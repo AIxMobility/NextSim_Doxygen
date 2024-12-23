@@ -1,10 +1,11 @@
 <map id="Captain::Node::Station" name="Captain::Node::Station">
-<area shape="rect" id="node1" title=" " alt="" coords="751,175,919,201"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="382,99,577,125"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="376,149,583,176"/>
+<area shape="rect" id="node1" title="Represents a station where vehicles can park and passengers can board or alight." alt="" coords="757,243,925,269"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="389,165,583,192"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="383,216,589,243"/>
 <area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,45,189,72"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,149,186,176"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,224,187,251"/>
-<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="397,200,562,227"/>
-<area shape="rect" id="node8" href="$structCaptain_1_1StationRecordInfo.html" title=" " alt="" coords="381,251,577,277"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,179,186,205"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,253,187,280"/>
+<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="403,267,569,293"/>
+<area shape="rect" id="node8" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="58,304,137,331"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1StationRecordInfo.html" title="Struct of information related to a station&#39;s interaction with vehicles, including &#160;&#160;timestamp,..." alt="" coords="388,317,584,344"/>
 </map>

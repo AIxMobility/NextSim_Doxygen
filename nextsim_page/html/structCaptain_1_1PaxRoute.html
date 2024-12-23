@@ -95,6 +95,10 @@ $(document).ready(function(){initNavTree('structCaptain_1_1PaxRoute.html',''); i
 <div class="title">Captain::PaxRoute Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struct of information about a passenger's route, including origin, destination, <br  />
+ intermediate stations, transfer points, time, and distance.  
+ <a href="structCaptain_1_1PaxRoute.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,8 +123,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a0350c1bf063667a2cb30f0d456dd4cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d132116da2d785517bc3c95111a77b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1PaxRoute.html#aa8d132116da2d785517bc3c95111a77b">TransferCount</a> = 0</td></tr>
 <tr class="separator:aa8d132116da2d785517bc3c95111a77b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd4b7af63e02dd41448041c14c57b33a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structCaptain_1_1PassengerRecordInfo.html">PassengerRecordInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1PaxRoute.html#acd4b7af63e02dd41448041c14c57b33a">passengerRecords</a></td></tr>
+<tr class="separator:acd4b7af63e02dd41448041c14c57b33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struct of information about a passenger's route, including origin, destination, <br  />
+ intermediate stations, transfer points, time, and distance. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a127ded7e16eb980739a53c12680757dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a127ded7e16eb980739a53c12680757dc">&#9670;&nbsp;</a></span>PaxRoute()</h2>
 
@@ -154,6 +163,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructs a <a class="el" href="structCaptain_1_1PaxRoute.html" title="Struct of information about a passenger&#39;s route, including origin, destination,   intermediate statio...">PaxRoute</a> object with specified origin and destination stations. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">origin</td><td>The ID of the origin station. </td></tr>
+    <tr><td class="paramname">dest</td><td>The ID of the destination station. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -169,6 +185,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The ID of the destination station. </p>
 
 </div>
 </div>
@@ -183,6 +200,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Total distance for the route </p>
 
 </div>
 </div>
@@ -194,6 +212,21 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int Captain::PaxRoute::originStation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The ID of the origin station. </p>
+
+</div>
+</div>
+<a id="acd4b7af63e02dd41448041c14c57b33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd4b7af63e02dd41448041c14c57b33a">&#9670;&nbsp;</a></span>passengerRecords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structCaptain_1_1PassengerRecordInfo.html">PassengerRecordInfo</a>&gt; Captain::PaxRoute::passengerRecords</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -211,6 +244,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Vector of public transport line IDs along the route. </p>
 
 </div>
 </div>
@@ -225,6 +259,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Vector of station IDs along the route. </p>
 
 </div>
 </div>
@@ -239,6 +274,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Total time for the route </p>
 
 </div>
 </div>
@@ -253,6 +289,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Number of transfers required along the route </p>
 
 </div>
 </div>
@@ -267,6 +304,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Vector of transfer station IDs along the route. </p>
 
 </div>
 </div>

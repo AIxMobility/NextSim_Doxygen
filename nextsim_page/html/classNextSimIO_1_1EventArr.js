@@ -1,6 +1,6 @@
 var classNextSimIO_1_1EventArr =
 [
     [ "EventArr", "classNextSimIO_1_1EventArr.html#aef9d1d8387413b398f3efa1b1f756e8f", null ],
-    [ "getEvents", "classNextSimIO_1_1EventArr.html#ae0a8943e25c2ffc0dd751ecc107d1304", null ],
-    [ "Events", "classNextSimIO_1_1EventArr.html#a6adaa03500d42a59e99a4772d269f0fc", null ]
+    [ "GetEvents", "classNextSimIO_1_1EventArr.html#a5c355ad148fa43df110b7f2ea7e0f563", null ],
+    [ "m_events", "classNextSimIO_1_1EventArr.html#a8913a50280c02e13afa16a233b1f6731", null ]
 ];

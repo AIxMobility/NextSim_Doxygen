@@ -1,8 +1,8 @@
 var classNextSimIO_1_1PaxArr =
 [
     [ "PaxArr", "classNextSimIO_1_1PaxArr.html#ab655842f1e3db163ed4854e77d58a34a", null ],
-    [ "getAgentPax", "classNextSimIO_1_1PaxArr.html#ab174221f52d4607c0fb04dce311502d7", null ],
-    [ "getODPax", "classNextSimIO_1_1PaxArr.html#a0625346b65e94e78c7a0215c2bb27858", null ],
-    [ "AgentPaxVec", "classNextSimIO_1_1PaxArr.html#a4b343689a15f5c3af26e9c7a8540b44d", null ],
-    [ "ODPaxVec", "classNextSimIO_1_1PaxArr.html#a695dccbd55b1b0da323aa2bdb031956e", null ]
+    [ "GetAgentPax", "classNextSimIO_1_1PaxArr.html#a85485cadbbaccc5e68f4fab6c08ef551", null ],
+    [ "GetODPax", "classNextSimIO_1_1PaxArr.html#a436f3e0733030656af9cc72069791b28", null ],
+    [ "m_agentPax", "classNextSimIO_1_1PaxArr.html#aa05efcf8c0945d995596ef275870c78e", null ],
+    [ "m_odPax", "classNextSimIO_1_1PaxArr.html#a32813a94fb9abad664125a7b772abcaa", null ]
 ];

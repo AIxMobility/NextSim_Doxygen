@@ -96,6 +96,18 @@ $(document).ready(function(){initNavTree('structCaptain_1_1UnitIdentifier.html',
 <div class="title">Captain::UnitIdentifier Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.  
+ <a href="structCaptain_1_1UnitIdentifier.html#details">More...</a></p>
+<div class="dynheader">
+Collaboration diagram for Captain::UnitIdentifier:</div>
+<div class="dyncontent">
+<div class="center"><img src="structCaptain_1_1UnitIdentifier__coll__graph.png" border="0" usemap="#aCaptain_1_1UnitIdentifier_coll__map" alt="Collaboration graph"/></div>
+<map name="aCaptain_1_1UnitIdentifier_coll__map" id="aCaptain_1_1UnitIdentifier_coll__map">
+<area shape="rect" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="5,95,171,121"/>
+<area shape="rect" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="49,5,127,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -128,7 +140,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5cef26d17bfca4fb161499502045b84f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1UnitIdentifier.html#a5cef26d17bfca4fb161499502045b84f">m_prefix</a></td></tr>
 <tr class="separator:a5cef26d17bfca4fb161499502045b84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af2a6440c56fda27b55d93f45b421423d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2a6440c56fda27b55d93f45b421423d">&#9670;&nbsp;</a></span>UnitIdentifier() <span class="overload">[1/3]</span></h2>
 
@@ -162,9 +176,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor for cell Units </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">primaryID</td><td>: ID of the link </td></tr>
-    <tr><td class="paramname">subID</td><td>: ID of the lane </td></tr>
-    <tr><td class="paramname">unitType</td><td>: type of the unit </td></tr>
+    <tr><td class="paramname">primaryID</td><td>ID of the link </td></tr>
+    <tr><td class="paramname">subID</td><td>ID of the lane </td></tr>
+    <tr><td class="paramname">unitType</td><td>Type of the unit </td></tr>
   </table>
   </dd>
 </dl>
@@ -206,8 +220,8 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor for link Units </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">primaryID</td><td>: ID of the link </td></tr>
-    <tr><td class="paramname">unitType</td><td>: type of the unit </td></tr>
+    <tr><td class="paramname">primaryID</td><td>ID of the link </td></tr>
+    <tr><td class="paramname">unitType</td><td>Type of the unit </td></tr>
   </table>
   </dd>
 </dl>
@@ -247,9 +261,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructor for link Units with subType </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">primaryID</td><td>: ID of the link </td></tr>
-    <tr><td class="paramname">unitType</td><td>: type of the unit </td></tr>
-    <tr><td class="paramname">subType</td><td>: subType of the unit </td></tr>
+    <tr><td class="paramname">primaryID</td><td>ID of the link </td></tr>
+    <tr><td class="paramname">unitType</td><td>Type of the unit </td></tr>
+    <tr><td class="paramname">subType</td><td>Sub-type of the unit </td></tr>
   </table>
   </dd>
 </dl>
@@ -272,6 +286,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Generates a file path based on the unit's type, prefix, and optional cell ID </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cellId</td><td>An optional cell ID used when the unit type is <code>Meso</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The generated file path for this unit </dd></dl>
 
 </div>
 </div>
@@ -289,6 +310,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets a formatted prefix string for this unit identifier </p><dl class="section return"><dt>Returns</dt><dd>A formatted string in the format "Type_ID_PrimaryID" or "Type_ID_PrimaryID Lane_SubID" </dd></dl>
 
 </div>
 </div>
@@ -307,13 +329,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds laneID to current copy of <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Adds laneID to current copy of <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">laneID</td><td>: ID of the lane to add </td></tr>
+    <tr><td class="paramname">laneID</td><td>ID of the lane to add </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>: copy of this <a class="el" href="structCaptain_1_1UnitIdentifier.html">UnitIdentifier</a> with given laneID </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Copy of this <a class="el" href="structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype.">UnitIdentifier</a> with given laneID </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -347,6 +369,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Internal prefix for the unit </p>
 
 </div>
 </div>
@@ -361,6 +384,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the link </p>
 
 </div>
 </div>
@@ -375,6 +399,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the lane </p>
 
 </div>
 </div>
@@ -389,6 +414,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>SubType of the unit </p>
 
 </div>
 </div>
@@ -403,6 +429,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>type of the unit </p>
 
 </div>
 </div>

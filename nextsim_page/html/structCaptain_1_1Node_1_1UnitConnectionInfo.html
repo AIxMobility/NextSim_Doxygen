@@ -96,53 +96,53 @@ $(document).ready(function(){initNavTree('structCaptain_1_1Node_1_1UnitConnectio
 </div><!--header-->
 <div class="contents">
 
-<p>Used to store connections in perspective of lane.  
+<p>Stores connection information for lanes, including previous units, priorities, and cycle lengths.  
  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for Captain::Node::UnitConnectionInfo:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1Node_1_1UnitConnectionInfo__coll__graph.png" border="0" usemap="#aCaptain_1_1Node_1_1UnitConnectionInfo_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1Node_1_1UnitConnectionInfo_coll__map" id="aCaptain_1_1Node_1_1UnitConnectionInfo_coll__map">
-<area shape="rect" title="Used to store connections in perspective of lane." alt="" coords="5,199,252,225"/>
-<area shape="rect" href="classCaptain_1_1V2X.html" title=" " alt="" coords="75,109,182,136"/>
-<area shape="rect" href="structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="59,5,198,32"/>
+<area shape="rect" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths." alt="" coords="5,199,252,225"/>
+<area shape="rect" href="classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="75,109,182,136"/>
+<area shape="rect" href="structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle&#45;to&#45;Everything) message containing metadata &#160;&#160;such as ID, timing,..." alt="" coords="59,5,198,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adf3a4b9e2138a7193c9c4f59fd36c45b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#adf3a4b9e2138a7193c9c4f59fd36c45b">UnitConnectionInfo</a> ()=default</td></tr>
+<tr class="memdesc:adf3a4b9e2138a7193c9c4f59fd36c45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a>.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#adf3a4b9e2138a7193c9c4f59fd36c45b">More...</a><br /></td></tr>
 <tr class="separator:adf3a4b9e2138a7193c9c4f59fd36c45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43c51b913de1783301797118e9e8c43e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a43c51b913de1783301797118e9e8c43e">UnitConnectionInfo</a> (<a class="el" href="classCaptain_1_1WeakPtr.html">WeakPtr</a>&lt; <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html">IVehicleContainableUnit</a> &gt; previousUnitVector)</td></tr>
+<tr class="memdesc:a43c51b913de1783301797118e9e8c43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> with a single previous unit.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a43c51b913de1783301797118e9e8c43e">More...</a><br /></td></tr>
 <tr class="separator:a43c51b913de1783301797118e9e8c43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51599b08717a088e4f4f33aacde75d5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a51599b08717a088e4f4f33aacde75d5b">operator==</a> (const <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> &amp;unitConnectionInfo) const</td></tr>
+<tr class="memdesc:a51599b08717a088e4f4f33aacde75d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator to compare two <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> objects.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a51599b08717a088e4f4f33aacde75d5b">More...</a><br /></td></tr>
 <tr class="separator:a51599b08717a088e4f4f33aacde75d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ff448b94e3930f72941d18f1c8830a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#ab0ff448b94e3930f72941d18f1c8830a">operator!=</a> (const <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html">UnitConnectionInfo</a> &amp;unitConnectionInfo) const</td></tr>
+<tr class="memdesc:ab0ff448b94e3930f72941d18f1c8830a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator to compare two <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> objects.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#ab0ff448b94e3930f72941d18f1c8830a">More...</a><br /></td></tr>
 <tr class="separator:ab0ff448b94e3930f72941d18f1c8830a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdd3764766cfd8211ae23cbe96631b2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#abdd3764766cfd8211ae23cbe96631b2a">UnitConnectionInfo</a> (std::vector&lt; <a class="el" href="classCaptain_1_1WeakPtr.html">WeakPtr</a>&lt; <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html">IVehicleContainableUnit</a> &gt;&gt; unitVector, std::vector&lt; double &gt; unitPriority, std::size_t timePeriod=0)</td></tr>
-<tr class="separator:abdd3764766cfd8211ae23cbe96631b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae658d7c785483f58643d797942f3db8c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classCaptain_1_1WeakPtr.html">WeakPtr</a>&lt; <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html">IVehicleContainableUnit</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#ae658d7c785483f58643d797942f3db8c">UnitPtrVector</a></td></tr>
+<tr class="memdesc:ae658d7c785483f58643d797942f3db8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> with multiple previous units and priorities.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#ae658d7c785483f58643d797942f3db8c">More...</a><br /></td></tr>
 <tr class="separator:ae658d7c785483f58643d797942f3db8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a721d6f65cafcee1dc300c1b910749e4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a721d6f65cafcee1dc300c1b910749e4d">UnitPriorityVector</a></td></tr>
-<tr class="memdesc:a721d6f65cafcee1dc300c1b910749e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of ptr to previous Cells.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a721d6f65cafcee1dc300c1b910749e4d">More...</a><br /></td></tr>
 <tr class="separator:a721d6f65cafcee1dc300c1b910749e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a388cadc3f4d5bb75f1b6ce064f07af97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCaptain_1_1V2X.html">V2X</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a388cadc3f4d5bb75f1b6ce064f07af97">UnitV2X</a></td></tr>
-<tr class="memdesc:a388cadc3f4d5bb75f1b6ce064f07af97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of priority of previous Cells.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#a388cadc3f4d5bb75f1b6ce064f07af97">More...</a><br /></td></tr>
 <tr class="separator:a388cadc3f4d5bb75f1b6ce064f07af97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f0ee7c669771875d37f1ad62796782"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#af0f0ee7c669771875d37f1ad62796782">cycleLength</a> = 0</td></tr>
-<tr class="memdesc:af0f0ee7c669771875d37f1ad62796782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of v2x of previous Cells.  <a href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#af0f0ee7c669771875d37f1ad62796782">More...</a><br /></td></tr>
 <tr class="separator:af0f0ee7c669771875d37f1ad62796782"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6ed26d102951738aa9b915db942db21"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html#ac6ed26d102951738aa9b915db942db21">offset</a> = 0</td></tr>
 <tr class="separator:ac6ed26d102951738aa9b915db942db21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Used to store connections in perspective of lane. </p>
+<div class="textblock"><p>Stores connection information for lanes, including previous units, priorities, and cycle lengths. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adf3a4b9e2138a7193c9c4f59fd36c45b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf3a4b9e2138a7193c9c4f59fd36c45b">&#9670;&nbsp;</a></span>UnitConnectionInfo() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3a4b9e2138a7193c9c4f59fd36c45b">&#9670;&nbsp;</a></span>UnitConnectionInfo() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,10 +164,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Default constructor for <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a>. </p>
+
 </div>
 </div>
 <a id="a43c51b913de1783301797118e9e8c43e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c51b913de1783301797118e9e8c43e">&#9670;&nbsp;</a></span>UnitConnectionInfo() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c51b913de1783301797118e9e8c43e">&#9670;&nbsp;</a></span>UnitConnectionInfo() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,52 +192,10 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="abdd3764766cfd8211ae23cbe96631b2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdd3764766cfd8211ae23cbe96631b2a">&#9670;&nbsp;</a></span>UnitConnectionInfo() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Captain::Node::UnitConnectionInfo::UnitConnectionInfo </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classCaptain_1_1WeakPtr.html">WeakPtr</a>&lt; <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html">IVehicleContainableUnit</a> &gt;&gt;&#160;</td>
-          <td class="paramname"><em>unitVector</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>unitPriority</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>timePeriod</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Used to store connections in perspective of lane.">UnitConnectionInfo</a> </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructs <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> with a single previous unit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">unitVector</td><td>: vector of previous Unit that this lane is connected </td></tr>
-    <tr><td class="paramname">unitPriority</td><td>: unit priority for previous units to get vehicles from </td></tr>
-    <tr><td class="paramname">timePeriod</td><td>: time interval of this unit being connected if 0, it indicates that this connection is set forever (used for </td></tr>
+    <tr><td class="paramname">previousUnitVector</td><td>Weak pointer to the previous unit connected to this lane. </td></tr>
   </table>
   </dd>
 </dl>
@@ -267,6 +227,15 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Inequality operator to compare two <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> objects. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitConnectionInfo</td><td>The <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> object to compare with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if any field differs, otherwise false. </dd></dl>
+
 </div>
 </div>
 <a id="a51599b08717a088e4f4f33aacde75d5b"></a>
@@ -292,12 +261,21 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Equality operator to compare two <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> objects. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitConnectionInfo</td><td>The <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> object to compare with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if all fields are equal, otherwise false. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1Node_1_1UnitConnectionInfo_a51599b08717a088e4f4f33aacde75d5b_cgraph.png" border="0" usemap="#astructCaptain_1_1Node_1_1UnitConnectionInfo_a51599b08717a088e4f4f33aacde75d5b_cgraph" alt=""/></div>
 <map name="astructCaptain_1_1Node_1_1UnitConnectionInfo_a51599b08717a088e4f4f33aacde75d5b_cgraph" id="astructCaptain_1_1Node_1_1UnitConnectionInfo_a51599b08717a088e4f4f33aacde75d5b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,228,47"/>
+<area shape="rect" title="Equality operator to compare two UnitConnectionInfo objects." alt="" coords="5,5,228,47"/>
 <area shape="rect" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a1aedde0c7a1f383f31fbff1f2e8f1b63" title=" " alt="" coords="276,5,527,47"/>
 </map>
 </div>
@@ -316,8 +294,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Vector of v2x of previous Cells. </p>
+<p>Duration (in cycles) for which this connection is active. A value of 0 indicates a permanent connection. </p>
 
 </div>
 </div>
@@ -332,6 +309,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Offset value for the connection cycle, used to synchronize with other units. </p>
 
 </div>
 </div>
@@ -346,8 +324,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Vector of ptr to previous Cells. </p>
+<p>Vector of priority values assigned to each previous unit in the connection. </p>
 
 </div>
 </div>
@@ -363,6 +340,25 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> with multiple previous units and priorities. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitVector</td><td>Vector of weak pointers to previous units connected to this lane. </td></tr>
+    <tr><td class="paramname">unitPriority</td><td>Vector of priority values for each previous unit. </td></tr>
+    <tr><td class="paramname">timePeriod</td><td>Duration for which this connection is active (cycles). If 0, the connection is permanent.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Constructs a <a class="el" href="structCaptain_1_1Node_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths.">UnitConnectionInfo</a> object with the given parameters. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">unitVector</td><td>Vector of weak pointers to previous units. </td></tr>
+    <tr><td class="paramname">unitPriority</td><td>Vector of priority values for each previous unit. </td></tr>
+    <tr><td class="paramname">timePeriod</td><td>Duration (in cycles) for which this connection is active; defaults to 0 for permanent.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Vector of weak pointers to previous units in the connection. </p>
+
 </div>
 </div>
 <a id="a388cadc3f4d5bb75f1b6ce064f07af97"></a>
@@ -376,8 +372,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Vector of priority of previous Cells. </p>
+<p><a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> data for each previous unit, representing vehicle-to-everything communication. </p>
 
 </div>
 </div>

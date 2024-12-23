@@ -1,5 +1,7 @@
 <map id="Captain::VehicleRecordInfo" name="Captain::VehicleRecordInfo">
-<area shape="rect" id="node1" title="Struct that stores information to record for micro operations." alt="" coords="59,95,257,121"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Position.html" title="Wrapper for representing positions of units." alt="" coords="5,5,137,32"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="162,5,327,32"/>
+<area shape="rect" id="node1" title="Struct of vehicle state information for micro simulations, including position, speed,..." alt="" coords="110,184,307,211"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system." alt="" coords="5,95,137,121"/>
+<area shape="rect" id="node3" href="$classDriveMode.html" title="Class of Drive mode." alt="" coords="162,95,255,121"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="279,95,445,121"/>
+<area shape="rect" id="node5" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="323,5,401,32"/>
 </map>

@@ -94,6 +94,10 @@ $(document).ready(function(){initNavTree('structCaptain_1_1StationRecordInfo.htm
 <div class="title">Captain::StationRecordInfo Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struct of information related to a station's interaction with vehicles, including <br  />
+ timestamp, vehicle IDs, station IDs, and passenger movement data (inflow, outflow, and total).  
+ <a href="structCaptain_1_1StationRecordInfo.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -109,16 +113,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aeadbc767e487469db95bbd5af2a2650b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81eb35698e762c1d05e257497d2ded48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#a81eb35698e762c1d05e257497d2ded48">LineID</a></td></tr>
 <tr class="separator:a81eb35698e762c1d05e257497d2ded48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eee718c3aed1765c0ac57903d3b0920"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#a0eee718c3aed1765c0ac57903d3b0920">paxin</a></td></tr>
-<tr class="separator:a0eee718c3aed1765c0ac57903d3b0920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af46478adbb6d845ae7a58e3f74dfb3d6"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#af46478adbb6d845ae7a58e3f74dfb3d6">paxout</a></td></tr>
-<tr class="separator:af46478adbb6d845ae7a58e3f74dfb3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae79149e0b0c62ed7ff3f939f384278f"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#aae79149e0b0c62ed7ff3f939f384278f">pax</a></td></tr>
-<tr class="separator:aae79149e0b0c62ed7ff3f939f384278f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff69d980433560a23236ef036c9cce0"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#a4ff69d980433560a23236ef036c9cce0">PaxIn</a></td></tr>
+<tr class="separator:a4ff69d980433560a23236ef036c9cce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b1437dc860f9b54a1d014e2c227e3a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#a68b1437dc860f9b54a1d014e2c227e3a">PaxOut</a></td></tr>
+<tr class="separator:a68b1437dc860f9b54a1d014e2c227e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bfb7d3cd9897f7ecf8527327de8c8d"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#ad8bfb7d3cd9897f7ecf8527327de8c8d">Pax</a></td></tr>
+<tr class="separator:ad8bfb7d3cd9897f7ecf8527327de8c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7c6b5468fe8cfe7414cbe61d5f723a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1StationRecordInfo.html#aac7c6b5468fe8cfe7414cbe61d5f723a">Location</a></td></tr>
 <tr class="separator:aac7c6b5468fe8cfe7414cbe61d5f723a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struct of information related to a station's interaction with vehicles, including <br  />
+ timestamp, vehicle IDs, station IDs, and passenger movement data (inflow, outflow, and total). </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a81eb35698e762c1d05e257497d2ded48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81eb35698e762c1d05e257497d2ded48">&#9670;&nbsp;</a></span>LineID</h2>
 
@@ -130,6 +137,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the Public transit line </p>
 
 </div>
 </div>
@@ -144,20 +152,22 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Location </p>
 
 </div>
 </div>
-<a id="aae79149e0b0c62ed7ff3f939f384278f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae79149e0b0c62ed7ff3f939f384278f">&#9670;&nbsp;</a></span>pax</h2>
+<a id="ad8bfb7d3cd9897f7ecf8527327de8c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bfb7d3cd9897f7ecf8527327de8c8d">&#9670;&nbsp;</a></span>Pax</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t Captain::StationRecordInfo::pax</td>
+          <td class="memname">std::size_t Captain::StationRecordInfo::Pax</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Total number of passengers currently at the station </p>
 
 </div>
 </div>
@@ -172,34 +182,37 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the <a class="el" href="classCaptain_1_1Passenger.html" title="Class of information about a passenger, including their ID, activity status, and path.">Passenger</a> </p>
 
 </div>
 </div>
-<a id="a0eee718c3aed1765c0ac57903d3b0920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eee718c3aed1765c0ac57903d3b0920">&#9670;&nbsp;</a></span>paxin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t Captain::StationRecordInfo::paxin</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af46478adbb6d845ae7a58e3f74dfb3d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af46478adbb6d845ae7a58e3f74dfb3d6">&#9670;&nbsp;</a></span>paxout</h2>
+<a id="a4ff69d980433560a23236ef036c9cce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff69d980433560a23236ef036c9cce0">&#9670;&nbsp;</a></span>PaxIn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t Captain::StationRecordInfo::paxout</td>
+          <td class="memname">std::size_t Captain::StationRecordInfo::PaxIn</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Number of passengers boarding the vehicle at the station </p>
+
+</div>
+</div>
+<a id="a68b1437dc860f9b54a1d014e2c227e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68b1437dc860f9b54a1d014e2c227e3a">&#9670;&nbsp;</a></span>PaxOut</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t Captain::StationRecordInfo::PaxOut</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of passengers alighting from the vehicle at the station </p>
 
 </div>
 </div>
@@ -214,6 +227,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the station </p>
 
 </div>
 </div>
@@ -228,6 +242,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Time stamp </p>
 
 </div>
 </div>
@@ -242,6 +257,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Type of station or event, represented as a string </p>
 
 </div>
 </div>
@@ -256,6 +272,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>ID of the vehicle interacting with the station </p>
 
 </div>
 </div>

@@ -1,8 +1,9 @@
 <map id="Captain::Node::IVehicleContainableUnit" name="Captain::Node::IVehicleContainableUnit">
-<area shape="rect" id="node1" title=" " alt="" coords="269,243,547,269"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1EventRecorder.html" title=" " alt="" coords="199,153,406,180"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,5,189,32"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="214,5,391,32"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="416,5,595,32"/>
-<area shape="rect" id="node6" href="$structCaptain_1_1UnitIdentifier.html" title=" " alt="" coords="431,153,596,180"/>
+<area shape="rect" id="node1" title=" " alt="" coords="107,272,386,299"/>
+<area shape="rect" id="node2" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="14,5,93,32"/>
+<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="164,183,329,209"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="354,183,561,209"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="160,5,344,32"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="369,5,546,32"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="571,5,749,32"/>
 </map>

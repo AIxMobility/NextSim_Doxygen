@@ -1,5 +1,5 @@
 <map id="Captain::Node::UnitConnectionInfo" name="Captain::Node::UnitConnectionInfo">
-<area shape="rect" id="node1" title="Used to store connections in perspective of lane." alt="" coords="5,199,252,225"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html" title=" " alt="" coords="75,109,182,136"/>
-<area shape="rect" id="node3" href="$structCaptain_1_1Message.html" title="Message for v2x." alt="" coords="59,5,198,32"/>
+<area shape="rect" id="node1" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths." alt="" coords="5,199,252,225"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="75,109,182,136"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1Message.html" title="Struct of a V2X (Vehicle&#45;to&#45;Everything) message containing metadata &#160;&#160;such as ID, timing,..." alt="" coords="59,5,198,32"/>
 </map>

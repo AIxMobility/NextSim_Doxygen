@@ -90,8 +90,7 @@ $(document).ready(function(){initNavTree('EventRecorder_8hpp.html',''); initResi
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">EventRecorder.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -183,9 +182,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1Util_1_1EventRecorder.html">Captain::Util::EventRecorder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for recording events in the simulation.  <a href="classCaptain_1_1Util_1_1EventRecorder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1Util_1_1EventRecorderContainer.html">Captain::Util::EventRecorderContainer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure used to store EventRecorders for further record flushing  <a href="structCaptain_1_1Util_1_1EventRecorderContainer.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to store EventRecorders for further record flushing.  <a href="structCaptain_1_1Util_1_1EventRecorderContainer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -197,33 +197,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a53b4cb54f3218c67643407a602174f41"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#a53b4cb54f3218c67643407a602174f41">Captain::Util::EventType</a> { <a class="el" href="namespaceCaptain_1_1Util.html#a53b4cb54f3218c67643407a602174f41a902b0d55fddef6f8d651fe1035b7d4bd">Captain::Util::Error</a>
-, <a class="el" href="namespaceCaptain_1_1Util.html#a53b4cb54f3218c67643407a602174f41a0eaadb4fcb48a0a0ed7bc9868be9fbaa">Captain::Util::Warning</a>
-, <a class="el" href="namespaceCaptain_1_1Util.html#a53b4cb54f3218c67643407a602174f41a29c2c02a361c9d7028472e5d92cd4a54">Captain::Util::Output</a>
- }</td></tr>
-<tr class="separator:a53b4cb54f3218c67643407a602174f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed47eb0380f54b9ff76d8a40e794832"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832">Captain::Util::EventRecordingType</a> { <a class="el" href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832adeaa44e5e872be992b4109cf1fbfe41e">Captain::Util::CELL</a>
 , <a class="el" href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832ae9fa318f4d73c31493e98096efa497e2">Captain::Util::VEHICLE</a>
 , <a class="el" href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832aa0b67bb0a7cfbb35a3b71363059d5d80">Captain::Util::STATION</a>
 , <a class="el" href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832acb226b99e7aeebd6f05f2314b416f7a7">Captain::Util::MESO</a>
  }</td></tr>
+<tr class="memdesc:a0ed47eb0380f54b9ff76d8a40e794832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerator class for event recording type.  <a href="namespaceCaptain_1_1Util.html#a0ed47eb0380f54b9ff76d8a40e794832">More...</a><br /></td></tr>
 <tr class="separator:a0ed47eb0380f54b9ff76d8a40e794832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abdabc05bebfc76ae7dbc60972a59e8a7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:abdabc05bebfc76ae7dbc60972a59e8a7"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#abdabc05bebfc76ae7dbc60972a59e8a7">Captain::Util::compareTimestamp</a> (const T &amp;lhs, const T &amp;rhs)</td></tr>
-<tr class="separator:abdabc05bebfc76ae7dbc60972a59e8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a406f52b24b1579f739557ba46c796be2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a406f52b24b1579f739557ba46c796be2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#a406f52b24b1579f739557ba46c796be2">Captain::Util::compareVehicleID</a> (const T &amp;lhs, const T &amp;rhs)</td></tr>
-<tr class="separator:a406f52b24b1579f739557ba46c796be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20cff8df4af2360050a8ccd6eb788223"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a20cff8df4af2360050a8ccd6eb788223"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#a20cff8df4af2360050a8ccd6eb788223">Captain::Util::comparePaxID</a> (const T &amp;lhs, const T &amp;rhs)</td></tr>
-<tr class="separator:a20cff8df4af2360050a8ccd6eb788223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f131a909132d19ba648351b29b2529"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#ae3f131a909132d19ba648351b29b2529">Captain::Util::VehicleRecordInfoToText</a> (const VehicleRecordInfo &amp;vehicleRecordInfo)</td></tr>
-<tr class="separator:ae3f131a909132d19ba648351b29b2529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d5203fddd0ec6942d0a30e3164202d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCaptain_1_1Util.html#a11d5203fddd0ec6942d0a30e3164202d">Captain::Util::CellRecordInfoToText</a> (const CellRecordInfo &amp;mesoRecordInfo)</td></tr>
-<tr class="separator:a11d5203fddd0ec6942d0a30e3164202d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>NextSim <a class="el" href="namespaceCaptain.html">Captain</a> Copyright (c) 2019 Justin Kim, KAIST Copying, reproducing and commercial use is not allowed. We are not conveying any rights to any intellectual property of any third parties</p>

@@ -1,13 +1,13 @@
 var classNextSimIO_1_1InputDRTStation =
 [
-    [ "InputDRTStation", "classNextSimIO_1_1InputDRTStation.html#aa129aad628bd4a2bfeece2b98b2c2875", null ],
-    [ "getId", "classNextSimIO_1_1InputDRTStation.html#a6042bfa7b9eb916b90777c2e18c37a8c", null ],
-    [ "getLaneRef", "classNextSimIO_1_1InputDRTStation.html#a3b86d8b13444db1480b798fea70da974", null ],
-    [ "getLinkRef", "classNextSimIO_1_1InputDRTStation.html#a63a891339eb1f0720f1569ce14c8ffa2", null ],
-    [ "getPosRange", "classNextSimIO_1_1InputDRTStation.html#a9c94d697f7468f1e02820e801306329c", null ],
-    [ "setPosRange", "classNextSimIO_1_1InputDRTStation.html#acb9a1c72c3a1eae7bee69e65a685e042", null ],
-    [ "id", "classNextSimIO_1_1InputDRTStation.html#a7bc3d1524dafa91751a61d9151a84b6c", null ],
-    [ "lane_ref", "classNextSimIO_1_1InputDRTStation.html#a9b5668959a1c9a7e6407e51bdb9f52ad", null ],
-    [ "link_ref", "classNextSimIO_1_1InputDRTStation.html#aca3d84430e3e9e6ce0ea2173de45ecfb", null ],
-    [ "pos_range", "classNextSimIO_1_1InputDRTStation.html#a9a1dae7fc50238f042e34d18e0c40ccf", null ]
+    [ "InputDRTStation", "classNextSimIO_1_1InputDRTStation.html#ab4741f5e5d04bad74675afe2a1358596", null ],
+    [ "GetId", "classNextSimIO_1_1InputDRTStation.html#a971c60115ee438d4697349a505c222ba", null ],
+    [ "GetLane", "classNextSimIO_1_1InputDRTStation.html#aa09b61b9796a5c83f7193e600b6fc1e4", null ],
+    [ "GetLink", "classNextSimIO_1_1InputDRTStation.html#aa4659937bc1f509c96c03eb74af89d2b", null ],
+    [ "GetPosRange", "classNextSimIO_1_1InputDRTStation.html#aea49a1ae4a8ad4fd664fdfbd926bff05", null ],
+    [ "SetPosRange", "classNextSimIO_1_1InputDRTStation.html#aa4e0a2075a6374072c109fc5e3e8dcbc", null ],
+    [ "m_id", "classNextSimIO_1_1InputDRTStation.html#a48a97afa6deb2f8f2c7d172fbbaeebaf", null ],
+    [ "m_lane", "classNextSimIO_1_1InputDRTStation.html#aefaa378975382594dcc777efa1f9c013", null ],
+    [ "m_link", "classNextSimIO_1_1InputDRTStation.html#ad241b1912cf8036a9cb4a6c20deb839a", null ],
+    [ "m_posRange", "classNextSimIO_1_1InputDRTStation.html#a08a84098b10c1278233568f6c955325f", null ]
 ];

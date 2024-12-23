@@ -1,7 +1,7 @@
 <map id="Captain::Node::UniformLink::Initialize" name="Captain::Node::UniformLink::Initialize">
-<area shape="rect" id="node1" title="Initializes Linkable unit and ready to be executed." alt="" coords="5,104,208,145"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html#a0942f8c3c10a975234e453d0dcc66f13" title=" " alt="" coords="257,5,441,47"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MicroLink.html#a22413ef0efda5709f522a72cca96bce7" title="Initializes Linkable unit and ready to be executed." alt="" coords="256,71,441,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,208,145"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoLink.html#a0942f8c3c10a975234e453d0dcc66f13" title="Initializes the link with lanes and cells based on provided information." alt="" coords="257,5,441,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1MicroLink.html#a22413ef0efda5709f522a72cca96bce7" title=" " alt="" coords="256,71,441,112"/>
 <area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1MesoLink.html#a883dc0fc5401233cf4369962e8f130a5" title=" " alt="" coords="257,136,441,177"/>
 <area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1MicroLink.html#a8e9788bd609a92feb5ce5ce3976f87b1" title=" " alt="" coords="256,201,441,243"/>
 <area shape="rect" id="node3" href="$classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="489,39,632,80"/>

@@ -1,3 +1,4 @@
 <map id="Captain::UnitPosition" name="Captain::UnitPosition">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,164,97"/>
+<area shape="rect" id="node1" title="Struct of UnitType and identifier." alt="" coords="5,95,164,121"/>
+<area shape="rect" id="node2" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="45,5,124,32"/>
 </map>

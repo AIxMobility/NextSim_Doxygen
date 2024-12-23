@@ -7,7 +7,7 @@ var classCaptain_1_1Node_1_1UniformLink =
     [ "ComputeUniformICF", "classCaptain_1_1Node_1_1UniformLink.html#a496eff394bcf124c38515579f4f860af", null ],
     [ "ConvertSimModeToMeso", "classCaptain_1_1Node_1_1UniformLink.html#a9951c3cd0885d34b7c2f58166ea4ba76", null ],
     [ "ConvertSimModeToMicro", "classCaptain_1_1Node_1_1UniformLink.html#ac057c57b41193559793887c558464511", null ],
-    [ "FlushRecordings", "classCaptain_1_1Node_1_1UniformLink.html#a79fba2f1df5ed0bfe973e15c3177dd3b", null ],
+    [ "FlushRecordings", "classCaptain_1_1Node_1_1UniformLink.html#a1b41e90eb0f49ac3ea3f6e674a80e566", null ],
     [ "GetAdjacentLeaderLinks", "classCaptain_1_1Node_1_1UniformLink.html#acaad6401e651ea9ee9f9f1d8c84593b5", null ],
     [ "GetAdjacentLinks", "classCaptain_1_1Node_1_1UniformLink.html#a0993d57ad17466a340fa5899533e13af", null ],
     [ "GetAllFollowerLaneConnectionInfo", "classCaptain_1_1Node_1_1UniformLink.html#a04c528466dff21f507b0cf6377c35b6e", null ],

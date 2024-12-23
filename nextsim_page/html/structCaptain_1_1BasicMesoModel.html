@@ -100,7 +100,7 @@ Inheritance diagram for Captain::BasicMesoModel:</div>
 <div class="center"><img src="structCaptain_1_1BasicMesoModel__inherit__graph.png" border="0" usemap="#aCaptain_1_1BasicMesoModel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1BasicMesoModel_inherit__map" id="aCaptain_1_1BasicMesoModel_inherit__map">
 <area shape="rect" title=" " alt="" coords="9,95,200,121"/>
-<area shape="rect" href="structCaptain_1_1MesoComputationModel.html" title=" " alt="" coords="5,5,204,47"/>
+<area shape="rect" href="structCaptain_1_1MesoComputationModel.html" title="Struct for intercell flow computation model for mesoscopis process." alt="" coords="5,5,204,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -109,7 +109,7 @@ Collaboration diagram for Captain::BasicMesoModel:</div>
 <div class="center"><img src="structCaptain_1_1BasicMesoModel__coll__graph.png" border="0" usemap="#aCaptain_1_1BasicMesoModel_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1BasicMesoModel_coll__map" id="aCaptain_1_1BasicMesoModel_coll__map">
 <area shape="rect" title=" " alt="" coords="9,95,200,121"/>
-<area shape="rect" href="structCaptain_1_1MesoComputationModel.html" title=" " alt="" coords="5,5,204,47"/>
+<area shape="rect" href="structCaptain_1_1MesoComputationModel.html" title="Struct for intercell flow computation model for mesoscopis process." alt="" coords="5,5,204,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -213,6 +213,17 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Compute intercell flow for mesoscopic process </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destRemainVehicles</td><td>Number of remaining vehicles in the destination cell </td></tr>
+    <tr><td class="paramname">originNumVehicles</td><td>Number of vehicles in the origin cell </td></tr>
+    <tr><td class="paramname">destQmax</td><td>Maximum flow rate of the destination cell </td></tr>
+    <tr><td class="paramname">destWaveSpeed</td><td>Wave speed of the destination cell </td></tr>
+    <tr><td class="paramname">destFreeFlowSpeed</td><td>Free flow speed of the destination cell </td></tr>
+    <tr><td class="paramname">destCellLength</td><td>Length of the destination cell </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="structCaptain_1_1MesoComputationModel.html#a561169d2bb66370ae74d1362e0a23e28">Captain::MesoComputationModel</a>.</p>
 
@@ -257,6 +268,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Compute lane change probability for mesoscopic process </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">targetCellSpeed</td><td>Speed of the target cell </td></tr>
+    <tr><td class="paramname">freeFlowSpeed</td><td>Free flow speed of the target cell </td></tr>
+    <tr><td class="paramname">targetCellDensity</td><td>Density of the target cell </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="structCaptain_1_1MesoComputationModel.html#a29e96d556ec6a01b5000ab7c7f261613">Captain::MesoComputationModel</a>.</p>
 

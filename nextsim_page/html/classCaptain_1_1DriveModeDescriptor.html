@@ -95,6 +95,9 @@ $(document).ready(function(){initNavTree('classCaptain_1_1DriveModeDescriptor.ht
 <div class="title">Captain::DriveModeDescriptor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class of functors of various drive modes that vehicle can have, and provides access, set operators for them.  
+ <a href="classCaptain_1_1DriveModeDescriptor.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,7 +138,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa2b410b5b05c1e57129f42a561a14bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for describing Drive Modes This class contains functors of various drive modes that vehicle can have, and provides access, set operators for them </p>
+<div class="textblock"><p>Class of functors of various drive modes that vehicle can have, and provides access, set operators for them. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b869e2b99a0bf19966fc6147e4e504d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b869e2b99a0bf19966fc6147e4e504d">&#9670;&nbsp;</a></span>DriveModeDescriptor()</h2>
@@ -159,6 +162,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p><a class="el" href="classCaptain_1_1DriveModeDescriptor.html" title="Class of functors of various drive modes that vehicle can have, and provides access,...">DriveModeDescriptor</a> constructor </p>
 
 </div>
 </div>
@@ -178,12 +182,13 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Computes <a class="el" href="structCaptain_1_1Position.html" title="Wrapper for representing positions of units.">Position</a> of the vehicle with integrated driveModes Finds functor that updates the position for the least amount </p><dl class="params"><dt>Parameters</dt><dd>
+<p>ComputePosition: Computes <a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> of the vehicle with integrated driveModes, Finds functor that updates the position for the least amount </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">subject</td><td>: information and state pair of subject vehicle \returs : tuple of position, valid drive mode, leader vehicle ID, distance tp Leader </td></tr>
+    <tr><td class="paramname">subject</td><td>information and state pair of subject vehicle </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>tuple of position, valid drive mode, leader vehicle ID, distance tp Leader </dd></dl>
 
 </div>
 </div>
@@ -201,6 +206,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>GetActiveDriveModes: checks which drive modes are active and collects them into a vector. </p><dl class="section return"><dt>Returns</dt><dd>dMode, (data type: vector), description: Contain all the driving mode which are active </dd></dl>
 
 </div>
 </div>
@@ -218,6 +224,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>IsInLCState: Determine whether drive mode is in LC state </p><dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
 
 </div>
 </div>
@@ -233,6 +240,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Adj Speed Mode </p>
 
 </div>
 </div>
@@ -247,6 +255,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Alc Mode </p>
 
 </div>
 </div>
@@ -261,6 +270,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Approach Station Mode </p>
 
 </div>
 </div>
@@ -275,6 +285,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Blc Mode </p>
 
 </div>
 </div>
@@ -289,6 +300,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Ccf Mode </p>
 
 </div>
 </div>
@@ -303,6 +315,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Cf Mode </p>
 
 </div>
 </div>
@@ -317,6 +330,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Cv Mode </p>
 
 </div>
 </div>
@@ -331,6 +345,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Dlc Mode </p>
 
 </div>
 </div>
@@ -345,6 +360,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Elc Mode </p>
 
 </div>
 </div>
@@ -359,6 +375,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Lane keeping Mode </p>
 
 </div>
 </div>
@@ -373,6 +390,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Stay Mode </p>
 
 </div>
 </div>
@@ -387,6 +405,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="classDriveMode.html" title="Class of Drive mode.">DriveMode</a> : Stop Mode </p>
 
 </div>
 </div>

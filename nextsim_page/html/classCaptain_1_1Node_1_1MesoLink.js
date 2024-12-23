@@ -4,7 +4,7 @@ var classCaptain_1_1Node_1_1MesoLink =
     [ "AddVehicle", "classCaptain_1_1Node_1_1MesoLink.html#a602902cd110e358c5c956cea6b9366e7", null ],
     [ "ComputeICF", "classCaptain_1_1Node_1_1MesoLink.html#aa1837c30e1ba5cb855b9a7d8f72c6e03", null ],
     [ "ExtractVehicle", "classCaptain_1_1Node_1_1MesoLink.html#a9a735fbe1ea7e641df98aa06e40a6dd9", null ],
-    [ "FlushRecordings", "classCaptain_1_1Node_1_1MesoLink.html#a02f7b1843d52d6784c555ed6102f09f8", null ],
+    [ "FlushRecordings", "classCaptain_1_1Node_1_1MesoLink.html#a3e11cebafbd98adfac5752561479d2f3", null ],
     [ "GetAllFollowerLaneConnectionInfo", "classCaptain_1_1Node_1_1MesoLink.html#ab494325e1e3d51a7c8823a3f251060c2", null ],
     [ "GetCellAvgSpeed", "classCaptain_1_1Node_1_1MesoLink.html#a9c70dd892330658628c1424c8c32d2e2", null ],
     [ "GetCellNumVehicles", "classCaptain_1_1Node_1_1MesoLink.html#acd9f8079340f420f67a360b6bd398d7a", null ],

@@ -30,7 +30,6 @@ var hierarchy =
     [ "NextSimIO::EventArr", "classNextSimIO_1_1EventArr.html", null ],
     [ "Captain::Util::EventRecorder", "classCaptain_1_1Util_1_1EventRecorder.html", null ],
     [ "Captain::Util::EventRecorderContainer", "structCaptain_1_1Util_1_1EventRecorderContainer.html", null ],
-    [ "Example", "classExample.html", null ],
     [ "NextSimIO::exit", "classNextSimIO_1_1exit.html", null ],
     [ "NextSimIO::Graph", "classNextSimIO_1_1Graph.html", null ],
     [ "Captain::DMode::IAutomaticallyDeactivated", "classCaptain_1_1DMode_1_1IAutomaticallyDeactivated.html", [

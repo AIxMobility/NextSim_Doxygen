@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classNextSimIO_1_1MessageArr.html" title="Class for whole message information from v2xdata.xml." alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node1" href="$classNextSimIO_1_1MetaData.html" title="Class for metadata of network units." alt="" coords="5,31,169,57"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1InputCell.html" title="Class for each cell information." alt="" coords="218,5,377,32"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputLink.html" title="Class for each link information." alt="" coords="217,56,377,83"/>
 </map>

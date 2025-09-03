@@ -1075,6 +1075,7 @@ EXCLUDE                = ../NextSim/Captain/CMakeFiles \
                          ../NextSim/Captain/Libraries/NextSim_io/includes/NextSim_io/FilePath.hpp \
                          ../NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/tinyapi \
                          ../NextSim/Captain/Libraries/NextSim_io/sources/NextSim_io/CMakeFiles \
+                         ../NextSim/Captain/Libraries/SQLiteCpp \
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

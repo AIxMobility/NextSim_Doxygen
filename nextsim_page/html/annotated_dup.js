@@ -176,7 +176,6 @@ var annotated_dup =
     [ "Communication", "classCommunication.html", null ],
     [ "DriveMode", "classDriveMode.html", null ],
     [ "EventActionType", "classEventActionType.html", null ],
-    [ "Example", "classExample.html", "classExample" ],
     [ "InputrailLine", "classInputrailLine.html", null ],
     [ "InputrailStaion", "classInputrailStaion.html", null ],
     [ "LaneAccessType", "classLaneAccessType.html", null ],

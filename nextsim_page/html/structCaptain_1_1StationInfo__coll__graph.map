@@ -1,0 +1,5 @@
+<map id="Captain::StationInfo" name="Captain::StationInfo">
+<area shape="rect" id="node1" title="Struct of information about a station." alt="" coords="20,95,171,121"/>
+<area shape="rect" id="node2" href="$classPTType.html" title="Class of Public Transit Type : Bus, Subway, Tram, TRT, BRT." alt="" coords="5,5,73,32"/>
+<area shape="rect" id="node3" href="$classNetworkType.html" title="Class of Public Transit Network : Road, Rail." alt="" coords="98,5,205,32"/>
+</map>

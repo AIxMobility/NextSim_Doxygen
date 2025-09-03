@@ -1,0 +1,4 @@
+<map id="Captain::Network::MicroLane::GetNumVehicleInCell" name="Captain::Network::MicroLane::GetNumVehicleInCell">
+<area shape="rect" id="node1" title=" " alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLane.html#a66ebd948a5ad1f2afb57275110c9d872" title="Computes the inter&#45;cell flow for the lane." alt="" coords="5,5,216,47"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/SignalController.hpp" name="/home/wjstnwp/NextSim/Captain/Includes/captain/Structs/SignalController.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="2863,5,3070,61"/>
+<area shape="rect" id="node2" href="$ScenarioInfo_8hpp.html" title=" " alt="" coords="2973,661,3203,688"/>
+<area shape="rect" id="node4" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="2427,833,2674,859"/>
+<area shape="rect" id="node22" href="$Interfaces_8hpp.html" title=" " alt="" coords="2525,109,2752,136"/>
+<area shape="rect" id="node50" href="$Signal_8hpp.html" title=" " alt="" coords="3378,743,3569,770"/>
+<area shape="rect" id="node3" title=" " alt="" coords="2447,1004,2510,1031"/>
+<area shape="rect" id="node19" href="$ModeSequence_8hpp.html" title=" " alt="" coords="3052,743,3303,770"/>
+<area shape="rect" id="node5" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="1197,922,1432,949"/>
+<area shape="rect" id="node10" title=" " alt="" coords="2378,922,2441,949"/>
+<area shape="rect" id="node11" title=" " alt="" coords="679,922,753,949"/>
+<area shape="rect" id="node12" title=" " alt="" coords="2084,922,2164,949"/>
+<area shape="rect" id="node13" title=" " alt="" coords="2516,922,2567,949"/>
+<area shape="rect" id="node14" title=" " alt="" coords="2975,922,3099,949"/>
+<area shape="rect" id="node15" title=" " alt="" coords="2591,922,2646,949"/>
+<area shape="rect" id="node16" title=" " alt="" coords="2671,922,2745,949"/>
+<area shape="rect" id="node17" title=" " alt="" coords="2769,922,2812,949"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2836,922,2951,949"/>
+<area shape="rect" id="node6" href="$Enumerations_8hpp.html" title=" " alt="" coords="1241,1004,1482,1031"/>
+<area shape="rect" id="node8" href="$SharedPtr_8hpp.html" title=" " alt="" coords="1021,1004,1211,1031"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1576,1004,1667,1031"/>
+<area shape="rect" id="node7" title=" " alt="" coords="2115,1079,2173,1105"/>
+<area shape="rect" id="node20" href="$GlobalHyperParameters_8hpp.html" title=" " alt="" coords="1710,825,1893,867"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1772,922,1831,949"/>
+<area shape="rect" id="node23" href="$Vehicle_8hpp.html" title=" " alt="" coords="2041,348,2239,375"/>
+<area shape="rect" id="node48" href="$VehicleQueue_8hpp.html" title=" " alt="" coords="2031,184,2249,211"/>
+<area shape="rect" id="node24" href="$VehicleInfo_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="1759,743,1982,770"/>
+<area shape="rect" id="node28" href="$DriveModeDescriptor_8hpp.html" title=" " alt="" coords="2833,736,3028,777"/>
+<area shape="rect" id="node31" href="$V2X_8hpp.html" title=" " alt="" coords="2625,512,2802,539"/>
+<area shape="rect" id="node32" href="$VehicleRoute_8hpp.html" title=" " alt="" coords="1045,743,1281,770"/>
+<area shape="rect" id="node34" href="$PublicTransitInfo_8hpp.html" title=" " alt="" coords="408,736,613,777"/>
+<area shape="rect" id="node36" href="$WeakPtr_8hpp.html" title=" " alt="" coords="229,922,411,949"/>
+<area shape="rect" id="node37" href="$PassengerList_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="2111,423,2300,464"/>
+<area shape="rect" id="node39" href="$Statistics_8hpp.html" title=": This file contains declarations about Meso, which is used in computing meso algorithms" alt="" coords="760,661,971,688"/>
+<area shape="rect" id="node42" href="$EventRecorder_8hpp.html" title=" " alt="" coords="1759,587,1982,613"/>
+<area shape="rect" id="node46" title=" " alt="" coords="2325,430,2387,457"/>
+<area shape="rect" id="node47" title=" " alt="" coords="2411,430,2498,457"/>
+<area shape="rect" id="node25" href="$RouteIdentifier_8hpp.html" title=" " alt="" coords="1085,833,1331,859"/>
+<area shape="rect" id="node27" href="$InputVehicleTypes_8hpp.html" title=" " alt="" coords="1889,915,2060,956"/>
+<area shape="rect" id="node26" title=" " alt="" coords="35,922,77,949"/>
+<area shape="rect" id="node29" href="$GeneralLC_8hpp.html" title=" " alt="" coords="2957,825,3115,867"/>
+<area shape="rect" id="node30" title=" " alt="" coords="2856,833,2933,859"/>
+<area shape="rect" id="node33" title=" " alt="" coords="813,833,899,859"/>
+<area shape="rect" id="node35" href="$PassengerOld_8hpp.html" title=" " alt="" coords="93,825,283,867"/>
+<area shape="rect" id="node38" href="$User_8hpp.html" title=" " alt="" coords="1278,512,1458,539"/>
+<area shape="rect" id="node40" href="$PassengerRoute_8hpp.html" title=" " alt="" coords="688,736,877,777"/>
+<area shape="rect" id="node41" title=" " alt="" coords="902,743,970,770"/>
+<area shape="rect" id="node43" title=" " alt="" coords="2087,661,2151,688"/>
+<area shape="rect" id="node44" href="$XmlParser_8hpp.html" title=" " alt="" coords="2007,743,2201,770"/>
+<area shape="rect" id="node45" href="$JsonParser_8hpp.html" title=" " alt="" coords="1456,661,1651,688"/>
+<area shape="rect" id="node49" href="$VehicleQueueInterface_8hpp.html" title=" " alt="" coords="1978,259,2169,300"/>
+</map>

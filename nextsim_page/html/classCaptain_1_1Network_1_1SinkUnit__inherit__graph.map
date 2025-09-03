@@ -1,0 +1,4 @@
+<map id="Captain::Network::SinkUnit" name="Captain::Network::SinkUnit">
+<area shape="rect" id="node1" title="Represents a sink unit where vehicles are removed from the network." alt="" coords="5,95,204,121"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Network_1_1IVehicleContainableUnit.html" title=" " alt="" coords="7,5,202,47"/>
+</map>

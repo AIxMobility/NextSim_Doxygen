@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['yellow_3317',['Yellow',['../namespaceCaptain.html#abc914229623e9ca890ab012482a5e89ca51e6cd92b6c45f9affdc158ecca2b8b8',1,'Captain']]]
+  ['undefined_4297',['Undefined',['../namespaceCaptain.html#ae535089df766798dbf4979da318c16d1aec0fc0100c4fc1ce4eea230c3dc10360',1,'Captain::Undefined()'],['../namespaceCaptain.html#ade388de51b0809004c81f7a00893db87aec0fc0100c4fc1ce4eea230c3dc10360',1,'Captain::Undefined()'],['../namespaceCaptain.html#a07e2d9e8b5f6d11b528084bb71dcc763aec0fc0100c4fc1ce4eea230c3dc10360',1,'Captain::Undefined()'],['../namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aeaec0fc0100c4fc1ce4eea230c3dc10360',1,'Captain::Undefined()'],['../namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaec0fc0100c4fc1ce4eea230c3dc10360',1,'Captain::Undefined()']]],
+  ['uniform_4298',['Uniform',['../namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaf19516d11f2946f894070e92fcb56b6d',1,'Captain']]],
+  ['user_4299',['User',['../namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda8f9bfe9d1345237cb3b2b205864da075',1,'Captain']]]
 ];

@@ -104,11 +104,10 @@ Collaboration diagram for Captain::VehicleState:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1VehicleState__coll__graph.png" border="0" usemap="#aCaptain_1_1VehicleState_coll__map" alt="Collaboration graph"/></div>
 <map name="aCaptain_1_1VehicleState_coll__map" id="aCaptain_1_1VehicleState_coll__map">
-<area shape="rect" title="Struck of current state and trajectory information for a vehicle." alt="" coords="176,199,337,225"/>
-<area shape="rect" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system." alt="" coords="5,95,137,121"/>
-<area shape="rect" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="177,5,256,32"/>
-<area shape="rect" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="329,95,505,121"/>
-<area shape="rect" href="classLCDirection.html" title="Class of direction of lane changing direction : straight(0), left(&#45;1), right(1)" alt="" coords="529,95,627,121"/>
+<area shape="rect" title="Struck of current state and trajectory information for a vehicle." alt="" coords="155,199,316,225"/>
+<area shape="rect" href="classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="5,5,84,32"/>
+<area shape="rect" href="structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="157,95,333,121"/>
+<area shape="rect" href="classLCDirection.html" title="Class of direction of lane changing direction : straight(0), left(&#45;1), right(1)" alt="" coords="367,95,464,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -142,11 +141,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a76859d4f204ea72e662177bf70fa1a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d8d9febbfed8f67cf3399d84d459160"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a4d8d9febbfed8f67cf3399d84d459160">OriginalTargetLaneIndex</a> = 0</td></tr>
 <tr class="separator:a4d8d9febbfed8f67cf3399d84d459160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b472baf2f7bab4b1939c1d5c18ad1c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a77b472baf2f7bab4b1939c1d5c18ad1c">TargetLaneVector</a></td></tr>
+<tr class="separator:a77b472baf2f7bab4b1939c1d5c18ad1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dc5c0fbc7e4205c0da47fa6c35d2fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed">UnitType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a5dc5c0fbc7e4205c0da47fa6c35d2fcb">CurrentLinkType</a> = <a class="el" href="namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaf19516d11f2946f894070e92fcb56b6d">UnitType::Uniform</a></td></tr>
 <tr class="separator:a5dc5c0fbc7e4205c0da47fa6c35d2fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45d1d67acb3f988b944ee3b299ac4804"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a45d1d67acb3f988b944ee3b299ac4804">CurrentLaneWidth</a> = 0</td></tr>
 <tr class="separator:a45d1d67acb3f988b944ee3b299ac4804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaadc072450914497234dae9376311107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCaptain_1_1Position.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#aaadc072450914497234dae9376311107">VehiclePosition</a> = <a class="el" href="structCaptain_1_1Position.html">Position</a>()</td></tr>
+<tr class="memitem:aaadc072450914497234dae9376311107"><td class="memItemLeft" align="right" valign="top">Position&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#aaadc072450914497234dae9376311107">VehiclePosition</a> = Position()</td></tr>
 <tr class="separator:aaadc072450914497234dae9376311107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec5dafe54bf3eb2a87d8c73e262298e9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#aec5dafe54bf3eb2a87d8c73e262298e9">RemainingDistance</a> = 0</td></tr>
 <tr class="separator:aec5dafe54bf3eb2a87d8c73e262298e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,36 +167,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a384a0d13762caabc017ff0ad32af8b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5f39e4e8e3e77ddf1093d17fa336c57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#ad5f39e4e8e3e77ddf1093d17fa336c57">NeedLC</a> = false</td></tr>
 <tr class="separator:ad5f39e4e8e3e77ddf1093d17fa336c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd93939247e523a94d80c50f02d86b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a4fd93939247e523a94d80c50f02d86b9">IsTailGating</a> = false</td></tr>
+<tr class="separator:a4fd93939247e523a94d80c50f02d86b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c2bbbc98e0c68062680ba52591cc0ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a5c2bbbc98e0c68062680ba52591cc0ff">CcfFollowerID</a> = 0</td></tr>
 <tr class="separator:a5c2bbbc98e0c68062680ba52591cc0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a785fcc6d13d3b59ce30b5b6e27ceac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a2a785fcc6d13d3b59ce30b5b6e27ceac">ElcCounter</a> = 0</td></tr>
 <tr class="separator:a2a785fcc6d13d3b59ce30b5b6e27ceac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1c02998bae8b017d1aab9107720a3a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1">LCDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#aa1c02998bae8b017d1aab9107720a3a3">lcDirection</a> = <a class="el" href="namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1ab6bd418b8879851e86bcaccd553b74db">LCDirection::Straight</a></td></tr>
 <tr class="separator:aa1c02998bae8b017d1aab9107720a3a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a442b0c90d7d88c1313a8b3231416d427"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a442b0c90d7d88c1313a8b3231416d427">LinkArrivalTime</a> = 0</td></tr>
-<tr class="separator:a442b0c90d7d88c1313a8b3231416d427"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1921bc47220c87348a96ef0ebaea5f5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#ae1921bc47220c87348a96ef0ebaea5f5">LinkDepartureTime</a> = 0</td></tr>
-<tr class="separator:ae1921bc47220c87348a96ef0ebaea5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82cb7d2c50a344363c7a9a90925b6079"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a82cb7d2c50a344363c7a9a90925b6079">AvgSpeed</a> = 0</td></tr>
-<tr class="separator:a82cb7d2c50a344363c7a9a90925b6079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81fc99a5b8e3a857c6a9f77f6bd20f1e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a81fc99a5b8e3a857c6a9f77f6bd20f1e">TravelTime</a> = 0</td></tr>
-<tr class="separator:a81fc99a5b8e3a857c6a9f77f6bd20f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8de5b0a605b32d76a9e814a1259d5d2d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a8de5b0a605b32d76a9e814a1259d5d2d">TravelDistance</a> = 0</td></tr>
-<tr class="separator:a8de5b0a605b32d76a9e814a1259d5d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18fc251785fec743c8525962f2c33dcf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a18fc251785fec743c8525962f2c33dcf">DelayTime</a> = 0</td></tr>
-<tr class="separator:a18fc251785fec743c8525962f2c33dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94cf921f8cbaf0ec8e0486ad95465f08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a94cf921f8cbaf0ec8e0486ad95465f08">TravelCost</a> = 0</td></tr>
-<tr class="separator:a94cf921f8cbaf0ec8e0486ad95465f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef3704e7dc8b2f61082006649b72e48d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#aef3704e7dc8b2f61082006649b72e48d">LinkAvgSpeed</a> = 0</td></tr>
-<tr class="separator:aef3704e7dc8b2f61082006649b72e48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a626f9ef6feff63fb4853121dd6eb88f6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a626f9ef6feff63fb4853121dd6eb88f6">LinkTravelTime</a> = 0</td></tr>
-<tr class="separator:a626f9ef6feff63fb4853121dd6eb88f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3838d77f69c1b52e91244e9471d45ae7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a3838d77f69c1b52e91244e9471d45ae7">LinkTravelDistance</a> = 0</td></tr>
-<tr class="separator:a3838d77f69c1b52e91244e9471d45ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f2de7835b7eb6537f273c7b9233e32"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a50f2de7835b7eb6537f273c7b9233e32">LinkDelayTime</a> = 0</td></tr>
-<tr class="separator:a50f2de7835b7eb6537f273c7b9233e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a55f20ad3dd3320122567ba6c18b243"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1VehicleState.html#a7a55f20ad3dd3320122567ba6c18b243">LinkFinancialCost</a> = 0</td></tr>
-<tr class="separator:a7a55f20ad3dd3320122567ba6c18b243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Struck of current state and trajectory information for a vehicle. </p>
@@ -291,20 +270,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>The acceleration of the vehicle (m/s^2) </p>
-
-</div>
-</div>
-<a id="a82cb7d2c50a344363c7a9a90925b6079"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82cb7d2c50a344363c7a9a90925b6079">&#9670;&nbsp;</a></span>AvgSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::AvgSpeed = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -428,20 +393,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a18fc251785fec743c8525962f2c33dcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18fc251785fec743c8525962f2c33dcf">&#9670;&nbsp;</a></span>DelayTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::DelayTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2a785fcc6d13d3b59ce30b5b6e27ceac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a785fcc6d13d3b59ce30b5b6e27ceac">&#9670;&nbsp;</a></span>ElcCounter</h2>
 
@@ -472,6 +423,21 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a4fd93939247e523a94d80c50f02d86b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd93939247e523a94d80c50f02d86b9">&#9670;&nbsp;</a></span>IsTailGating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Captain::VehicleState::IsTailGating = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Whether if the vehicle should stop to prevent a tailgating situation </p>
+
+</div>
+</div>
 <a id="aa1c02998bae8b017d1aab9107720a3a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1c02998bae8b017d1aab9107720a3a3">&#9670;&nbsp;</a></span>lcDirection</h2>
 
@@ -484,104 +450,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>Direction of the lane change </p>
-
-</div>
-</div>
-<a id="a442b0c90d7d88c1313a8b3231416d427"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a442b0c90d7d88c1313a8b3231416d427">&#9670;&nbsp;</a></span>LinkArrivalTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkArrivalTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aef3704e7dc8b2f61082006649b72e48d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3704e7dc8b2f61082006649b72e48d">&#9670;&nbsp;</a></span>LinkAvgSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkAvgSpeed = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50f2de7835b7eb6537f273c7b9233e32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50f2de7835b7eb6537f273c7b9233e32">&#9670;&nbsp;</a></span>LinkDelayTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkDelayTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1921bc47220c87348a96ef0ebaea5f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1921bc47220c87348a96ef0ebaea5f5">&#9670;&nbsp;</a></span>LinkDepartureTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkDepartureTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a55f20ad3dd3320122567ba6c18b243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a55f20ad3dd3320122567ba6c18b243">&#9670;&nbsp;</a></span>LinkFinancialCost</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Captain::VehicleState::LinkFinancialCost = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3838d77f69c1b52e91244e9471d45ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3838d77f69c1b52e91244e9471d45ae7">&#9670;&nbsp;</a></span>LinkTravelDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkTravelDistance = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a626f9ef6feff63fb4853121dd6eb88f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a626f9ef6feff63fb4853121dd6eb88f6">&#9670;&nbsp;</a></span>LinkTravelTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::LinkTravelTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -705,45 +573,18 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a94cf921f8cbaf0ec8e0486ad95465f08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94cf921f8cbaf0ec8e0486ad95465f08">&#9670;&nbsp;</a></span>TravelCost</h2>
+<a id="a77b472baf2f7bab4b1939c1d5c18ad1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b472baf2f7bab4b1939c1d5c18ad1c">&#9670;&nbsp;</a></span>TargetLaneVector</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Captain::VehicleState::TravelCost = 0</td>
+          <td class="memname">std::vector&lt;int&gt; Captain::VehicleState::TargetLaneVector</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8de5b0a605b32d76a9e814a1259d5d2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8de5b0a605b32d76a9e814a1259d5d2d">&#9670;&nbsp;</a></span>TravelDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::TravelDistance = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81fc99a5b8e3a857c6a9f77f6bd20f1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81fc99a5b8e3a857c6a9f77f6bd20f1e">&#9670;&nbsp;</a></span>TravelTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Captain::VehicleState::TravelTime = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Vector of target lane IDs in the current link </p>
 
 </div>
 </div>
@@ -758,6 +599,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Distance to the station in meters</p>
 <p>Length of <a class="el" href="classCaptain_1_1V2X.html" title="Class of a Vehicle-to-Everything (V2X) communication system,  managing messages sent and received alo...">V2X</a> </p>
 
 </div>
@@ -799,11 +641,11 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structCaptain_1_1Position.html">Position</a> Captain::VehicleState::VehiclePosition = <a class="el" href="structCaptain_1_1Position.html">Position</a>()</td>
+          <td class="memname">Position Captain::VehicleState::VehiclePosition = Position()</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> object representing the vehicle's current position </p>
+<p>Position object representing the vehicle's current position </p>
 
 </div>
 </div>

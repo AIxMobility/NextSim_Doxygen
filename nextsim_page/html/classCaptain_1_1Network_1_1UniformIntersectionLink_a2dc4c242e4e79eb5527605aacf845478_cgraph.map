@@ -1,0 +1,4 @@
+<map id="Captain::Network::UniformIntersectionLink::ComputeUniformICF" name="Captain::Network::UniformIntersectionLink::ComputeUniformICF">
+<area shape="rect" id="node1" title="Computes the Inter&#45;Cell Flow (ICF)" alt="" coords="5,5,272,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLink.html#a7e834a791d683c4a6c182482434e9eec" title="Computes the inter&#45;cell flow from the meso unit to the micro unit." alt="" coords="320,5,527,47"/>
+</map>

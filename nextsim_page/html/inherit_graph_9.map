@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structCaptain_1_1MesoLinkInfo.html" title="Struct of information about a mesoscopic&#45;level road link, including lane and section data,..." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node1" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="5,56,207,83"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MesoLink.html" title="Represents a directional road connecting two intersections." alt="" coords="263,5,469,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MicroLink.html" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="263,56,469,83"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1UniformLink.html" title="Represents a link that can operate at both micro and meso scales, supporting uniform operations for b..." alt="" coords="255,111,477,137"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1IntersectionMicroLink.html" title="Repesents a specialized micro link for intersections." alt="" coords="525,45,745,86"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1UniformIntersectionLink.html" title="Represents a link at an intersection with uniform behavior for both meso and micro scale." alt="" coords="537,110,733,151"/>
 </map>

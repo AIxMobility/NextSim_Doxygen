@@ -1,5 +1,6 @@
 <map id="Captain::Engine::SetSinkConnectionInfo" name="Captain::Engine::SetSinkConnectionInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="551,5,732,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,13,503,39"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#ae7b5aef261beb32e0f0ab2028953f294" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="551,35,732,76"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#ad31e6da0467dcaa7c867a78bb233a1ae" title="Initialize network." alt="" coords="287,5,451,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a4e8507734ff9120e35cff8f87dab2708" title=" " alt="" coords="236,71,503,98"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#a4a952aa14875de18d351509057bcb3fb" title=" " alt="" coords="5,64,188,105"/>
 </map>

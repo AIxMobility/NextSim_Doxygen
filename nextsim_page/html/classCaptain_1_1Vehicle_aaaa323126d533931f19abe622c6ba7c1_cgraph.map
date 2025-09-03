@@ -1,6 +1,5 @@
 <map id="Captain::Vehicle::Record" name="Captain::Vehicle::Record">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,185,91"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html#aa8718d96a1d4de06a0defa7a489337d8" title=" " alt="" coords="243,5,430,32"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html#a5f99396590cdc66047a755034bc9a544" title=" " alt="" coords="233,57,440,98"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html#a1f03baed07b5ea7fb3d7ea70e6e34d71" title=" " alt="" coords="233,122,440,163"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,185,61"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html#aa8718d96a1d4de06a0defa7a489337d8" title=" " alt="" coords="249,5,435,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html#a15c3d05c57ae499f80724d34de55dc3b" title=" " alt="" coords="233,57,451,98"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unittype_3251',['UnitType',['../namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed',1,'Captain']]]
+  ['routepreference_4218',['RoutePreference',['../namespaceCaptain.html#af8237de003e1c42407c67287d6b41ecd',1,'Captain']]]
 ];

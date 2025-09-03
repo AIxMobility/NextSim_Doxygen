@@ -1,0 +1,6 @@
+<map id="Captain::Train" name="Captain::Train">
+<area shape="rect" id="node1" title="Class of a train in the system, handling its state, position, route, and other functionalities." alt="" coords="128,184,239,211"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1RailPublicTransitInfo.html" title="Struct of information about a public transit line, including stations, distances, and passengers." alt="" coords="5,95,217,121"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="241,95,406,121"/>
+<area shape="rect" id="node4" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="284,5,363,32"/>
+</map>

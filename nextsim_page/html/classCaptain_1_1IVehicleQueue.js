@@ -14,5 +14,6 @@ var classCaptain_1_1IVehicleQueue =
     [ "operator=", "classCaptain_1_1IVehicleQueue.html#a85c9165b2cf52b2e16ce92c8b281a843", null ],
     [ "operator=", "classCaptain_1_1IVehicleQueue.html#a512896e5c4584a4d5b77b296c9c2247a", null ],
     [ "Peek", "classCaptain_1_1IVehicleQueue.html#aaf785af01d859c9e36c42c249d78a0b9", null ],
-    [ "Size", "classCaptain_1_1IVehicleQueue.html#aa9a6cb2f386f15ae4c11ff142e2f9849", null ]
+    [ "Size", "classCaptain_1_1IVehicleQueue.html#aa9a6cb2f386f15ae4c11ff142e2f9849", null ],
+    [ "Where", "classCaptain_1_1IVehicleQueue.html#a563f849184240d5f306dcc4db7c36e75", null ]
 ];

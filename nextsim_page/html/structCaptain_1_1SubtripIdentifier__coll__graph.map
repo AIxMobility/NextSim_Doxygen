@@ -1,0 +1,4 @@
+<map id="Captain::SubtripIdentifier" name="Captain::SubtripIdentifier">
+<area shape="rect" id="node1" title="Struct of a subtrip based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="5,95,189,121"/>
+<area shape="rect" id="node2" href="$classSubtripMode.html" title="Class of SubtripMode : Waiting, Walking, Riding." alt="" coords="45,5,149,32"/>
+</map>

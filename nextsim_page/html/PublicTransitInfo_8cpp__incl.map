@@ -1,24 +1,30 @@
 <map id="/home/wjstnwp/NextSim/Captain/Sources/captain/Structs/PublicTransitInfo.cpp" name="/home/wjstnwp/NextSim/Captain/Sources/captain/Structs/PublicTransitInfo.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="359,5,568,61"/>
-<area shape="rect" id="node2" href="$PublicTransitInfo_8hpp.html" title=" " alt="" coords="361,109,566,151"/>
-<area shape="rect" id="node3" title=" " alt="" coords="87,437,162,464"/>
-<area shape="rect" id="node4" title=" " alt="" coords="595,199,681,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="705,199,747,225"/>
-<area shape="rect" id="node6" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="186,437,421,464"/>
-<area shape="rect" id="node16" href="$Passenger_8hpp.html" title=" " alt="" coords="355,199,571,225"/>
-<area shape="rect" id="node7" href="$Enumerations_8hpp.html" title=" " alt="" coords="5,512,247,539"/>
-<area shape="rect" id="node11" href="$SharedPtr_8hpp.html" title=" " alt="" coords="649,512,840,539"/>
-<area shape="rect" id="node14" title=" " alt="" coords="400,512,463,539"/>
-<area shape="rect" id="node15" title=" " alt="" coords="271,512,362,539"/>
-<area shape="rect" id="node8" title=" " alt="" coords="17,594,73,621"/>
-<area shape="rect" id="node9" title=" " alt="" coords="97,594,155,621"/>
-<area shape="rect" id="node10" title=" " alt="" coords="180,594,272,621"/>
-<area shape="rect" id="node12" href="$SharedPtr-Decl_8hpp.html" title=" " alt="" coords="663,587,827,628"/>
-<area shape="rect" id="node13" title=" " alt="" coords="711,676,778,703"/>
-<area shape="rect" id="node17" href="$Route_8hpp.html" title=" " alt="" coords="369,273,558,300"/>
-<area shape="rect" id="node21" href="$WeakPtr_8hpp.html" title=" " alt="" coords="783,273,965,300"/>
-<area shape="rect" id="node18" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="340,355,587,382"/>
-<area shape="rect" id="node19" title=" " alt="" coords="496,437,559,464"/>
-<area shape="rect" id="node20" title=" " alt="" coords="583,437,707,464"/>
-<area shape="rect" id="node22" href="$WeakPtr-Decl_8hpp.html" title=" " alt="" coords="790,348,945,389"/>
+<area shape="rect" id="node1" title=" " alt="" coords="557,5,766,61"/>
+<area shape="rect" id="node2" href="$PublicTransitInfo_8hpp.html" title=" " alt="" coords="559,109,764,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="36,452,111,479"/>
+<area shape="rect" id="node4" title=" " alt="" coords="780,206,865,233"/>
+<area shape="rect" id="node5" title=" " alt="" coords="889,206,932,233"/>
+<area shape="rect" id="node6" href="$UnitIdentifier_8hpp.html" title=" " alt="" coords="135,452,369,479"/>
+<area shape="rect" id="node16" href="$PassengerOld_8hpp.html" title=" " alt="" coords="567,199,756,240"/>
+<area shape="rect" id="node7" href="$Enumerations_8hpp.html" title=" " alt="" coords="121,527,362,553"/>
+<area shape="rect" id="node11" href="$SharedPtr_8hpp.html" title=" " alt="" coords="1161,527,1351,553"/>
+<area shape="rect" id="node14" title=" " alt="" coords="386,527,449,553"/>
+<area shape="rect" id="node15" title=" " alt="" coords="5,527,96,553"/>
+<area shape="rect" id="node8" title=" " alt="" coords="132,609,188,635"/>
+<area shape="rect" id="node9" title=" " alt="" coords="212,609,271,635"/>
+<area shape="rect" id="node10" title=" " alt="" coords="295,609,387,635"/>
+<area shape="rect" id="node12" href="$SharedPtr-Decl_8hpp.html" title=" " alt="" coords="1174,601,1338,643"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1223,691,1289,717"/>
+<area shape="rect" id="node17" href="$Route_8hpp.html" title=" " alt="" coords="567,288,756,315"/>
+<area shape="rect" id="node27" href="$WeakPtr_8hpp.html" title=" " alt="" coords="934,288,1117,315"/>
+<area shape="rect" id="node18" href="$GeneralStructs_8hpp.html" title=" " alt="" coords="538,370,785,397"/>
+<area shape="rect" id="node19" title=" " alt="" coords="445,452,507,479"/>
+<area shape="rect" id="node20" title=" " alt="" coords="532,452,612,479"/>
+<area shape="rect" id="node21" title=" " alt="" coords="636,452,687,479"/>
+<area shape="rect" id="node22" title=" " alt="" coords="711,452,835,479"/>
+<area shape="rect" id="node23" title=" " alt="" coords="859,452,914,479"/>
+<area shape="rect" id="node24" title=" " alt="" coords="939,452,1013,479"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1037,452,1080,479"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1104,452,1219,479"/>
+<area shape="rect" id="node28" href="$WeakPtr-Decl_8hpp.html" title=" " alt="" coords="1032,363,1187,404"/>
 </map>

@@ -2,6 +2,7 @@ var namespaceCaptain_1_1Util =
 [
     [ "EventRecorder", "classCaptain_1_1Util_1_1EventRecorder.html", "classCaptain_1_1Util_1_1EventRecorder" ],
     [ "EventRecorderContainer", "structCaptain_1_1Util_1_1EventRecorderContainer.html", "structCaptain_1_1Util_1_1EventRecorderContainer" ],
+    [ "JsonRoute", "structCaptain_1_1Util_1_1JsonRoute.html", "structCaptain_1_1Util_1_1JsonRoute" ],
     [ "JsonReader", "classCaptain_1_1Util_1_1JsonReader.html", "classCaptain_1_1Util_1_1JsonReader" ],
     [ "JsonWriter", "classCaptain_1_1Util_1_1JsonWriter.html", "classCaptain_1_1Util_1_1JsonWriter" ],
     [ "VehicleQueue", "classCaptain_1_1Util_1_1VehicleQueue.html", "classCaptain_1_1Util_1_1VehicleQueue" ],

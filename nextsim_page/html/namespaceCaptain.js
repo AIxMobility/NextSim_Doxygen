@@ -28,7 +28,7 @@ var namespaceCaptain =
       [ "LCSpeed", "namespaceCaptain_1_1MicroDriveModeParams.html#ae65fe2b59869d8c48147a80dbfd4d311", null ],
       [ "OccupancyLength", "namespaceCaptain_1_1MicroDriveModeParams.html#a955eb901dabb05a4fbfb3d9f6ab8e1b1", null ]
     ] ],
-    [ "Node", "namespaceCaptain_1_1Node.html", "namespaceCaptain_1_1Node" ],
+    [ "Network", "namespaceCaptain_1_1Network.html", "namespaceCaptain_1_1Network" ],
     [ "StationParams", "namespaceCaptain_1_1StationParams.html", [
       [ "ParkingLotLength", "namespaceCaptain_1_1StationParams.html#ac2c4885803e21fcfc87f103819703d8a", null ],
       [ "SpeedTolerance", "namespaceCaptain_1_1StationParams.html#a74a15a166b43c8da99b83951a0de9ace", null ],
@@ -36,6 +36,8 @@ var namespaceCaptain =
       [ "StopTolerance", "namespaceCaptain_1_1StationParams.html#a72cbb53eb7a3bb00f265c1149a2cb142", null ]
     ] ],
     [ "TimeStepParams", "namespaceCaptain_1_1TimeStepParams.html", [
+      [ "DefaultIntegerInterval", "namespaceCaptain_1_1TimeStepParams.html#a04d3de7e8bdbe049826bbb7c0743bbc1", null ],
+      [ "DefaultTimestep", "namespaceCaptain_1_1TimeStepParams.html#a758395f7875bc01bf2a9eab2360e1f47", null ],
       [ "IntersectionMicro", "namespaceCaptain_1_1TimeStepParams.html#a03916f33cdb76807cbdafb276f02ce3c", null ],
       [ "Meso", "namespaceCaptain_1_1TimeStepParams.html#ace814df8f3d476c8c1ed99b3ba777347", null ],
       [ "MesoIntegerInterval", "namespaceCaptain_1_1TimeStepParams.html#ae211ad6b0bb3c35c8e0a826dc95ab7af", null ],
@@ -56,32 +58,43 @@ var namespaceCaptain =
       [ "DefaultVehicleLength", "namespaceCaptain_1_1VehicleGenerationParams.html#ae3ed77f52f99890798d0d96dca9fbfa4", null ]
     ] ],
     [ "Engine", "classCaptain_1_1Engine.html", "classCaptain_1_1Engine" ],
+    [ "ScenarioInfo", "structCaptain_1_1ScenarioInfo.html", "structCaptain_1_1ScenarioInfo" ],
+    [ "NetInitializer", "classCaptain_1_1NetInitializer.html", "classCaptain_1_1NetInitializer" ],
     [ "IEventRecordable", "structCaptain_1_1IEventRecordable.html", "structCaptain_1_1IEventRecordable" ],
     [ "DriveModeDescriptor", "classCaptain_1_1DriveModeDescriptor.html", "classCaptain_1_1DriveModeDescriptor" ],
-    [ "Position", "structCaptain_1_1Position.html", "structCaptain_1_1Position" ],
-    [ "Message", "structCaptain_1_1Message.html", "structCaptain_1_1Message" ],
-    [ "LinkLanePair", "structCaptain_1_1LinkLanePair.html", "structCaptain_1_1LinkLanePair" ],
-    [ "UnitPosition", "structCaptain_1_1UnitPosition.html", "structCaptain_1_1UnitPosition" ],
-    [ "MicroLinkEventInfo", "structCaptain_1_1MicroLinkEventInfo.html", "structCaptain_1_1MicroLinkEventInfo" ],
-    [ "SegmentInfo", "structCaptain_1_1SegmentInfo.html", "structCaptain_1_1SegmentInfo" ],
-    [ "MicroLinkInfo", "structCaptain_1_1MicroLinkInfo.html", "structCaptain_1_1MicroLinkInfo" ],
-    [ "MesoLinkInfo", "structCaptain_1_1MesoLinkInfo.html", "structCaptain_1_1MesoLinkInfo" ],
-    [ "VehicleLinkRecordInfo", "structCaptain_1_1VehicleLinkRecordInfo.html", "structCaptain_1_1VehicleLinkRecordInfo" ],
-    [ "VehicleRecordInfo", "structCaptain_1_1VehicleRecordInfo.html", "structCaptain_1_1VehicleRecordInfo" ],
-    [ "CellRecordInfo", "structCaptain_1_1CellRecordInfo.html", "structCaptain_1_1CellRecordInfo" ],
-    [ "StationRecordInfo", "structCaptain_1_1StationRecordInfo.html", "structCaptain_1_1StationRecordInfo" ],
-    [ "SinkRecordInfo", "structCaptain_1_1SinkRecordInfo.html", "structCaptain_1_1SinkRecordInfo" ],
-    [ "PassengerRecordInfo", "structCaptain_1_1PassengerRecordInfo.html", "structCaptain_1_1PassengerRecordInfo" ],
-    [ "SimulationRecordInfo", "structCaptain_1_1SimulationRecordInfo.html", "structCaptain_1_1SimulationRecordInfo" ],
-    [ "Passenger", "classCaptain_1_1Passenger.html", "classCaptain_1_1Passenger" ],
-    [ "PublicTransitInfo", "structCaptain_1_1PublicTransitInfo.html", "structCaptain_1_1PublicTransitInfo" ],
+    [ "ModeSequence", "classCaptain_1_1ModeSequence.html", "classCaptain_1_1ModeSequence" ],
+    [ "VehiclePassengerList", "structCaptain_1_1VehiclePassengerList.html", "structCaptain_1_1VehiclePassengerList" ],
+    [ "StationPassengerList", "structCaptain_1_1StationPassengerList.html", "structCaptain_1_1StationPassengerList" ],
+    [ "PassengerOld", "classCaptain_1_1PassengerOld.html", "classCaptain_1_1PassengerOld" ],
+    [ "PassengerRoute", "structCaptain_1_1PassengerRoute.html", "structCaptain_1_1PassengerRoute" ],
+    [ "RoadPublicTransitInfo", "structCaptain_1_1RoadPublicTransitInfo.html", "structCaptain_1_1RoadPublicTransitInfo" ],
+    [ "RailPublicTransitInfo", "structCaptain_1_1RailPublicTransitInfo.html", "structCaptain_1_1RailPublicTransitInfo" ],
     [ "VehicleReservationInfo", "classCaptain_1_1VehicleReservationInfo.html", "classCaptain_1_1VehicleReservationInfo" ],
     [ "PassengerReservationInfo", "classCaptain_1_1PassengerReservationInfo.html", "classCaptain_1_1PassengerReservationInfo" ],
-    [ "Route", "structCaptain_1_1Route.html", "structCaptain_1_1Route" ],
     [ "PaxRoute", "structCaptain_1_1PaxRoute.html", "structCaptain_1_1PaxRoute" ],
     [ "RouteIdentifier", "structCaptain_1_1RouteIdentifier.html", "structCaptain_1_1RouteIdentifier" ],
+    [ "SignalPhase", "structCaptain_1_1SignalPhase.html", "structCaptain_1_1SignalPhase" ],
+    [ "Signal", "structCaptain_1_1Signal.html", "structCaptain_1_1Signal" ],
+    [ "NodeTurn", "structCaptain_1_1NodeTurn.html", "structCaptain_1_1NodeTurn" ],
+    [ "SignalController", "classCaptain_1_1SignalController.html", "classCaptain_1_1SignalController" ],
+    [ "StationExit", "structCaptain_1_1StationExit.html", "structCaptain_1_1StationExit" ],
+    [ "StationInfo", "structCaptain_1_1StationInfo.html", "structCaptain_1_1StationInfo" ],
+    [ "RoadStationInfo", "structCaptain_1_1RoadStationInfo.html", "structCaptain_1_1RoadStationInfo" ],
+    [ "RailStationInfo", "structCaptain_1_1RailStationInfo.html", "structCaptain_1_1RailStationInfo" ],
+    [ "VehicleStatistics", "structCaptain_1_1VehicleStatistics.html", "structCaptain_1_1VehicleStatistics" ],
+    [ "UserStatistics", "structCaptain_1_1UserStatistics.html", "structCaptain_1_1UserStatistics" ],
+    [ "SubtripIdentifier", "structCaptain_1_1SubtripIdentifier.html", "structCaptain_1_1SubtripIdentifier" ],
+    [ "Train", "classCaptain_1_1Train.html", "classCaptain_1_1Train" ],
+    [ "TRT", "classCaptain_1_1TRT.html", "classCaptain_1_1TRT" ],
     [ "UnitIdentifier", "structCaptain_1_1UnitIdentifier.html", "structCaptain_1_1UnitIdentifier" ],
     [ "UnitConnectionDescriptor", "structCaptain_1_1UnitConnectionDescriptor.html", "structCaptain_1_1UnitConnectionDescriptor" ],
+    [ "User", "classCaptain_1_1User.html", "classCaptain_1_1User" ],
+    [ "Driver", "classCaptain_1_1Driver.html", "classCaptain_1_1Driver" ],
+    [ "Passenger", "classCaptain_1_1Passenger.html", "classCaptain_1_1Passenger" ],
+    [ "UserInfo", "structCaptain_1_1UserInfo.html", "structCaptain_1_1UserInfo" ],
+    [ "UserState", "structCaptain_1_1UserState.html", "structCaptain_1_1UserState" ],
+    [ "UserDescriptor", "structCaptain_1_1UserDescriptor.html", "structCaptain_1_1UserDescriptor" ],
+    [ "UserTrip", "structCaptain_1_1UserTrip.html", "structCaptain_1_1UserTrip" ],
     [ "V2X", "classCaptain_1_1V2X.html", "classCaptain_1_1V2X" ],
     [ "Vehicle", "classCaptain_1_1Vehicle.html", "classCaptain_1_1Vehicle" ],
     [ "VehicleInfo", "structCaptain_1_1VehicleInfo.html", "structCaptain_1_1VehicleInfo" ],
@@ -97,6 +110,7 @@ var namespaceCaptain =
     [ "UniformDistribution", "classCaptain_1_1UniformDistribution.html", "classCaptain_1_1UniformDistribution" ],
     [ "ExponentialDistribution", "classCaptain_1_1ExponentialDistribution.html", "classCaptain_1_1ExponentialDistribution" ],
     [ "PoissonDistribution", "classCaptain_1_1PoissonDistribution.html", "classCaptain_1_1PoissonDistribution" ],
+    [ "RouteGenerator", "classCaptain_1_1RouteGenerator.html", "classCaptain_1_1RouteGenerator" ],
     [ "SharedObjectInfo", "structCaptain_1_1SharedObjectInfo.html", "structCaptain_1_1SharedObjectInfo" ],
     [ "WeakPtr", "classCaptain_1_1WeakPtr.html", "classCaptain_1_1WeakPtr" ],
     [ "SharedPtr", "classCaptain_1_1SharedPtr.html", "classCaptain_1_1SharedPtr" ],
@@ -105,22 +119,21 @@ var namespaceCaptain =
     [ "SpinLockQueue", "classCaptain_1_1SpinLockQueue.html", "classCaptain_1_1SpinLockQueue" ],
     [ "SpinLockVehicleQueue", "classCaptain_1_1SpinLockVehicleQueue.html", "classCaptain_1_1SpinLockVehicleQueue" ],
     [ "IVehicleQueue", "classCaptain_1_1IVehicleQueue.html", "classCaptain_1_1IVehicleQueue" ],
+    [ "DriverPtr", "namespaceCaptain.html#a89449bf7a898edec7fb98c96a7a34a16", null ],
+    [ "DriverWeakPtr", "namespaceCaptain.html#afc0bdaa00e49226261aa3c2e62d15f34", null ],
     [ "PassengerPtr", "namespaceCaptain.html#a31830f1f6ac90d080996b34b36170ad3", null ],
+    [ "PassengerPtrOld", "namespaceCaptain.html#af5b6980b0263f2a0d68d37b38065a187", null ],
     [ "PassengerWeakPtr", "namespaceCaptain.html#a22b42a5e2a77a04db363e1827757c5f1", null ],
-    [ "VehiclePtr", "namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646", null ],
-    [ "VehicleWeakPtr", "namespaceCaptain.html#a1975db5013e457f81b82eeeeecece75b", null ],
-    [ "CellType", "namespaceCaptain.html#a30c8c0c15377d931e0085ffe62bea481", [
-      [ "Head", "namespaceCaptain.html#a30c8c0c15377d931e0085ffe62bea481a98921133d10fbdb0fb6dbb7b2648befe", null ],
-      [ "Body", "namespaceCaptain.html#a30c8c0c15377d931e0085ffe62bea481aac101b32dda4448cf13a93fe283dddd8", null ]
-    ] ],
+    [ "PassengerWeakPtrOld", "namespaceCaptain.html#ab747bf77433903dc5c481f8c6da7b6f4", null ],
+    [ "TrainPtr", "namespaceCaptain.html#a3afad55cb34703f9ec06740ddaf8fcab", null ],
+    [ "TrainWeakPtr", "namespaceCaptain.html#aa461256fe85b1b423ca397e052e59a88", null ],
+    [ "UserPtr", "namespaceCaptain.html#a39eebc3a45016d2cfd577676947d476c", null ],
+    [ "UserWeakPtr", "namespaceCaptain.html#a54c359b616da9c1b50b374cb6bbda735", null ],
+    [ "VehiclePtr", "namespaceCaptain.html#a216511ecbfdfceeeb2b08b0860e32a41", null ],
+    [ "VehicleWeakPtr", "namespaceCaptain.html#aa54f65f7cb0f9ded270daa8bc10dd3af", null ],
     [ "Communication", "namespaceCaptain.html#a4534e2a65e59cb670cb8dbc573f1c38f", [
       [ "off", "namespaceCaptain.html#a4534e2a65e59cb670cb8dbc573f1c38fa3262d48df5d75e3452f0f16b313b7808", null ],
       [ "on", "namespaceCaptain.html#a4534e2a65e59cb670cb8dbc573f1c38faed2b5c0139cec8ad2873829dc1117d50", null ]
-    ] ],
-    [ "Distribution", "namespaceCaptain.html#a7beee45092c6ec8047abf2040729bfca", [
-      [ "Normal", "namespaceCaptain.html#a7beee45092c6ec8047abf2040729bfcaa960b44c579bc2f6818d2daaf9e4c16f0", null ],
-      [ "Exponential", "namespaceCaptain.html#a7beee45092c6ec8047abf2040729bfcaac1e19c09f700938f0ff7f1fd4722a3ac", null ],
-      [ "Standard", "namespaceCaptain.html#a7beee45092c6ec8047abf2040729bfcaaeb6d8ae6f20283755b339c0dc273988b", null ]
     ] ],
     [ "DriveMode", "namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b", [
       [ "None", "namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2ba6adf97f83acf6453d4a6a4b1070f3754", null ],
@@ -147,10 +160,32 @@ var namespaceCaptain =
       [ "Start", "namespaceCaptain.html#acad91f3763fbece108bb2ff4be71f671aa6122a65eaa676f700ae68d393054a37", null ],
       [ "End", "namespaceCaptain.html#acad91f3763fbece108bb2ff4be71f671a87557f11575c0ad78e4e28abedc13b6e", null ]
     ] ],
+    [ "LaneAccessType", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0", [
+      [ "All", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0ab1c94ca2fbc3e78fc30069c8d0f01680", null ],
+      [ "BusOnly", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0acc71476bc0b500043fa8970fc6d79e9c", null ],
+      [ "BikeOnly", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0a0c8550e434d68ee4f81d5aeda18d90fc", null ],
+      [ "HOVOnly", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0a742c4b50640cebb0f2f2abe534499558", null ],
+      [ "TramOnly", "namespaceCaptain.html#a5b501f7005b466463da2ee7ef42c59c0a7977bb8afbfd5495a439bffb33f932ab", null ]
+    ] ],
     [ "LCDirection", "namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1", [
       [ "Left", "namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1a945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Straight", "namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1ab6bd418b8879851e86bcaccd553b74db", null ],
       [ "Right", "namespaceCaptain.html#a927ff1d41f2ef80492f167e3a502f5c1a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
+    [ "NetworkType", "namespaceCaptain.html#a07e2d9e8b5f6d11b528084bb71dcc763", [
+      [ "Undefined", "namespaceCaptain.html#a07e2d9e8b5f6d11b528084bb71dcc763aec0fc0100c4fc1ce4eea230c3dc10360", null ],
+      [ "Road", "namespaceCaptain.html#a07e2d9e8b5f6d11b528084bb71dcc763ad11aed2ff81f20a2e2b7e0cf06ee1a37", null ],
+      [ "Rail", "namespaceCaptain.html#a07e2d9e8b5f6d11b528084bb71dcc763a569cfa311dfdfa035b1e7d4b38dc9ca0", null ]
+    ] ],
+    [ "OutputEventType", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357", [
+      [ "VehicleDebugging", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a438c484c1a01991342d3c415ead1a92d", null ],
+      [ "VehicleVisualizer", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a39feae6659ab106a146ed4c177dce82c", null ],
+      [ "VehicleStatistics", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a73ed5e9c5901b596601d87b0f819e16f", null ],
+      [ "Passenger", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357abf2528a296adb62d041a7519aa77f248", null ],
+      [ "Cell", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a1a66ab62bfc858b7bcf9e01aa9cd1841", null ],
+      [ "Station", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a394a844cc3d6d99eb45b4e71afde2c99", null ],
+      [ "Sink", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a1eb558b5d865ebabb06575f5f0042599", null ],
+      [ "Signal", "namespaceCaptain.html#a858f2c1bc3e59db20c385bceb6ae6357a085fea7abdc5d904fe69a3081efd7398", null ]
     ] ],
     [ "Pedestrian", "namespaceCaptain.html#aecb02cf9f74ad64710715ed7fe080298", [
       [ "Normal", "namespaceCaptain.html#aecb02cf9f74ad64710715ed7fe080298a960b44c579bc2f6818d2daaf9e4c16f0", null ],
@@ -158,36 +193,62 @@ var namespaceCaptain =
       [ "Elderly", "namespaceCaptain.html#aecb02cf9f74ad64710715ed7fe080298a7b9fcf513cbace72bc9ccafc492bce86", null ],
       [ "Kid", "namespaceCaptain.html#aecb02cf9f74ad64710715ed7fe080298aeead4a0e1ca42500ee379c3ead73cfdb", null ]
     ] ],
+    [ "PTType", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077ae", [
+      [ "Undefined", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aeaec0fc0100c4fc1ce4eea230c3dc10360", null ],
+      [ "Bus", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aea6e4b38bfd57741ac1597c440a1c98074", null ],
+      [ "Subway", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aea59e6c9bc4380c7ff71a3cd3eb9515b30", null ],
+      [ "Tram", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aea8f95e20d7297046ebf984ba8d54fcb91", null ],
+      [ "TRT", "namespaceCaptain.html#a70ad9da01d39ab2530c6f95624d077aea0cb90c600ef1eb286fb4cd9437af8f03", null ]
+    ] ],
+    [ "RoutePreference", "namespaceCaptain.html#af8237de003e1c42407c67287d6b41ecd", [
+      [ "Time", "namespaceCaptain.html#af8237de003e1c42407c67287d6b41ecdaa76d4ef5f3f6a672bbfab2865563e530", null ],
+      [ "Distance", "namespaceCaptain.html#af8237de003e1c42407c67287d6b41ecda0aa6f4210bf373c95eda00232e93cd98", null ],
+      [ "Financial", "namespaceCaptain.html#af8237de003e1c42407c67287d6b41ecda35f156073cb9314e5ddcabd2d16f443c", null ]
+    ] ],
     [ "SignalMode", "namespaceCaptain.html#abc914229623e9ca890ab012482a5e89c", [
       [ "Red", "namespaceCaptain.html#abc914229623e9ca890ab012482a5e89caee38e4d5dd68c4e440825018d549cb47", null ],
       [ "Yellow", "namespaceCaptain.html#abc914229623e9ca890ab012482a5e89ca51e6cd92b6c45f9affdc158ecca2b8b8", null ],
       [ "Green", "namespaceCaptain.html#abc914229623e9ca890ab012482a5e89cad382816a3cbeed082c9e216e7392eed1", null ]
     ] ],
-    [ "TurnDirection", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1", [
-      [ "LeftTurn", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1ab1c6e5076cf20c389cdb5cca0e92650d", null ],
-      [ "Straight", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1ab6bd418b8879851e86bcaccd553b74db", null ],
-      [ "RightTurn", "namespaceCaptain.html#a57c53407dc91f0be843e431471a9a5d1a57475f3e2fb784e9e212be1d32b28b7d", null ]
+    [ "SubtripMode", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87", [
+      [ "Undefined", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87aec0fc0100c4fc1ce4eea230c3dc10360", null ],
+      [ "Waiting", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a5706de961fb376d701be6e7762d8b09c", null ],
+      [ "Walking", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87adb6ea77c7cd8a86b17014c3b688fd1a1", null ],
+      [ "Bus", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a6e4b38bfd57741ac1597c440a1c98074", null ],
+      [ "Subway", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a59e6c9bc4380c7ff71a3cd3eb9515b30", null ],
+      [ "Tram", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a8f95e20d7297046ebf984ba8d54fcb91", null ],
+      [ "TRT", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a0cb90c600ef1eb286fb4cd9437af8f03", null ],
+      [ "Taxi", "namespaceCaptain.html#ade388de51b0809004c81f7a00893db87a0dcfdb3caf2dcc0998f250e9aba65cee", null ]
     ] ],
     [ "UnitType", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12ed", [
       [ "Undefined", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaec0fc0100c4fc1ce4eea230c3dc10360", null ],
       [ "Meso", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaae1ac935aee0c16c09744ec83d152e2c", null ],
       [ "Micro", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edadb1ce45d604c6b1d54c31dbc69bcdb56", null ],
+      [ "Node", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda6c3a6944a808a7c0bbb6788dbec54a9f", null ],
       [ "Uniform", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaf19516d11f2946f894070e92fcb56b6d", null ],
       [ "Sink", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda1eb558b5d865ebabb06575f5f0042599", null ],
       [ "Source", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaf31bbdd1b3e85bccd652680e16935819", null ],
-      [ "Vehicle", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edad6af9c1eaff2a89ebd3f8d0c542be12b", null ],
       [ "Station", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda394a844cc3d6d99eb45b4e71afde2c99", null ],
       [ "Intersection", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaa06d31c2ee920b4d53e8c9c06d90ba24", null ],
-      [ "RoutingUniform", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edaea4183f28c3f3da4146055d953cb9cb4", null ],
       [ "Garage", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda92e85ee2aa52444e3dd71d2f2f4f2c0f", null ],
+      [ "Vehicle", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edad6af9c1eaff2a89ebd3f8d0c542be12b", null ],
+      [ "User", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda8f9bfe9d1345237cb3b2b205864da075", null ],
+      [ "Driver", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda48cf24486d9a8e65a142b25682f19949", null ],
+      [ "Passenger", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12edabf2528a296adb62d041a7519aa77f248", null ],
       [ "Simulation", "namespaceCaptain.html#a38149aa61f72b199b74c440c961e12eda4f502b57d2835715eaa382c7d4c32e94", null ]
+    ] ],
+    [ "UserType", "namespaceCaptain.html#ae535089df766798dbf4979da318c16d1", [
+      [ "Undefined", "namespaceCaptain.html#ae535089df766798dbf4979da318c16d1aec0fc0100c4fc1ce4eea230c3dc10360", null ],
+      [ "Driver", "namespaceCaptain.html#ae535089df766798dbf4979da318c16d1a48cf24486d9a8e65a142b25682f19949", null ],
+      [ "Passenger", "namespaceCaptain.html#ae535089df766798dbf4979da318c16d1abf2528a296adb62d041a7519aa77f248", null ]
     ] ],
     [ "VehicleDummyType", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181", [
       [ "Regular", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181ad2203cb1237cb6460cbad94564e39345", null ],
       [ "Segment", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181a4b77e2a9d8e9cfc299f504b32d6e3d2b", null ],
       [ "Event", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181aa4ecfc70574394990cf17bd83df499f7", null ],
       [ "Stop", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181a11a755d598c0c417f9a36758c3da7481", null ],
-      [ "Virtual", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181a615e6f9baca5553d44683a098d342b70", null ]
+      [ "Virtual", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181a615e6f9baca5553d44683a098d342b70", null ],
+      [ "Station", "namespaceCaptain.html#ac119685cba80fd1d1731e2884cf70181a394a844cc3d6d99eb45b4e71afde2c99", null ]
     ] ],
     [ "VehicleType", "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794", [
       [ "NV", "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794a5343f615ee8aea842a0c5220a4df8d1c", null ],
@@ -197,13 +258,28 @@ var namespaceCaptain =
       [ "TR", "namespaceCaptain.html#ac533d4017e18de335bff05cd16abd794aebe021079e5a3c4f42ca6119eab92633", null ]
     ] ],
     [ "EnumToString", "namespaceCaptain.html#a9162fe75a28e680c8abba340e844a76b", null ],
+    [ "stringToDriveMode", "namespaceCaptain.html#a29b49a971fc8e4b2b9e3876a97e058f5", null ],
+    [ "stringToDummyType", "namespaceCaptain.html#a301e96f1ed07d8c1596910d55c387065", null ],
+    [ "stringToLaneAccessType", "namespaceCaptain.html#a50ff208b9d186e8f83204a62bf68a937", null ],
     [ "stringToLCDirection", "namespaceCaptain.html#ae878d781e24eaa4c9fe1b3832bfb217d", null ],
+    [ "stringToNetworkType", "namespaceCaptain.html#a5dec2bcadca057ab6d91af477011acfc", null ],
+    [ "stringToPTType", "namespaceCaptain.html#a19d75df9dc56aad8bb0a9de5c38ccbd0", null ],
+    [ "stringToRoutePreference", "namespaceCaptain.html#af26c4e6707cafda19fb20fa14e04774b", null ],
+    [ "stringToSignalMode", "namespaceCaptain.html#a1ec9db9209a53bf0a5bf6725effa9233", null ],
+    [ "stringToSubtripMode", "namespaceCaptain.html#a3b399959b64b7acfa30ed2820a183d5a", null ],
     [ "stringToUnitType", "namespaceCaptain.html#a2839ae080c58ca1e5a6352702ef3e66f", null ],
+    [ "stringToUserType", "namespaceCaptain.html#a5f49549d245baa40bb829a76eb788b52", null ],
     [ "stringToVehicleType", "namespaceCaptain.html#aa8ee17f19a04cae1d6a431dde8505655", null ],
-    [ "CellTypeStr", "namespaceCaptain.html#ad9134db3fb6e8b8afe674759ca37d8d1", null ],
-    [ "DistributionStr", "namespaceCaptain.html#a744a747473201c733503248f52af1ae3", null ],
     [ "DriveModeStr", "namespaceCaptain.html#ad5a194919baf321bca700287dd3c4681", null ],
+    [ "LaneAccessTypeStr", "namespaceCaptain.html#a315693114354c25b41bc10a09e984652", null ],
     [ "LCDirectionStr", "namespaceCaptain.html#a483dc1122e57e7b7f95a6a0413020ef6", null ],
+    [ "NetworkTypeStr", "namespaceCaptain.html#a657d6925a6c84ccd0e058f1e6fe8b556", null ],
+    [ "PTTypeStr", "namespaceCaptain.html#a50503150d0c2e33282dc3b1d163582b4", null ],
+    [ "RoutePreferenceStr", "namespaceCaptain.html#a3b115e3de0824f6a6fd0feb98b275bf8", null ],
+    [ "SignalModeStr", "namespaceCaptain.html#a6ed444ae51eac54148f283410ed9f630", null ],
+    [ "SubtripModeStr", "namespaceCaptain.html#ad475d329079855b204c1dee423176c6a", null ],
     [ "UnitTypeStr", "namespaceCaptain.html#a975c16a554baae29d9b7a6a287b71461", null ],
+    [ "UserTypeStr", "namespaceCaptain.html#aadfd5ae1ac15019e05ca2d687b3c9b44", null ],
+    [ "VehicleDummyTypeStr", "namespaceCaptain.html#a22786f3688fcfd692a75fc3695bc2428", null ],
     [ "VehicleTypeStr", "namespaceCaptain.html#a7779b0118dcbc8b63fafb7d55d9e8f25", null ]
 ];

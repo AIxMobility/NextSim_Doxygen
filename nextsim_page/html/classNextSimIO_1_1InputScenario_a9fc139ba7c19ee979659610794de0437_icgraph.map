@@ -1,0 +1,4 @@
+<map id="NextSimIO::InputScenario::GetDuration" name="NextSimIO::InputScenario::GetDuration">
+<area shape="rect" id="node1" title="Get duration." alt="" coords="220,5,409,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#ac0904ae79bd4e4f114c09bed594c1717" title="Initialize scenario info." alt="" coords="5,5,172,47"/>
+</map>

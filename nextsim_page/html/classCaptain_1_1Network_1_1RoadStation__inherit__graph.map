@@ -1,0 +1,4 @@
+<map id="Captain::Network::RoadStation" name="Captain::Network::RoadStation">
+<area shape="rect" id="node1" title="Class of information about a station on the road network, including their ID, passenger." alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="19,5,214,32"/>
+</map>

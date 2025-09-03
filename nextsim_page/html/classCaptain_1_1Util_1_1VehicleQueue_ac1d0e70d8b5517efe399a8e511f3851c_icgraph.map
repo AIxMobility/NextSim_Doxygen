@@ -1,6 +1,6 @@
 <map id="Captain::Util::VehicleQueue::FindAllLeaders" name="Captain::Util::VehicleQueue::FindAllLeaders">
-<area shape="rect" id="node1" title=" " alt="" coords="493,39,693,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MicroLane.html#ac13f7e93c3aef3609ba111a87de75cae" title=" " alt="" coords="256,5,445,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLink.html#afe7e9bf179ef87db6b554e87439fd6e9" title=" " alt="" coords="258,71,443,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1UniformLink.html#adeaa564e18ba049036ac53c093049f95" title=" " alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="508,39,708,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLane.html#a87b2779c29aa1836dd6d1724d6481326" title=" " alt="" coords="249,5,460,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MicroLink.html#a1b35a5939701b9100785c4a5651ab08a" title=" " alt="" coords="251,71,458,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1UniformLink.html#a67a2cfed9fa0ac6a0bee82f34016a82d" title=" " alt="" coords="5,71,201,112"/>
 </map>

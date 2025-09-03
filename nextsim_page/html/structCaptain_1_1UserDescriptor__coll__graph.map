@@ -1,0 +1,6 @@
+<map id="Captain::UserDescriptor" name="Captain::UserDescriptor">
+<area shape="rect" id="node1" title="Struct of a user by storing both its information and its current state." alt="" coords="65,184,243,211"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1UserInfo.html" title="Struct of information about a user." alt="" coords="5,95,140,121"/>
+<area shape="rect" id="node3" href="$classUserType.html" title="Class of UserType : Driver, Passenger." alt="" coords="31,5,114,32"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1UserState.html" title="Struct of state about a user." alt="" coords="165,95,309,121"/>
+</map>

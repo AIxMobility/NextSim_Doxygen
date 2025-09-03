@@ -1,9 +1,22 @@
 var searchData=
 [
-  ['unitpriorityvector_3192',['UnitPriorityVector',['../structCaptain_1_1Node_1_1UnitConnectionInfo.html#a721d6f65cafcee1dc300c1b910749e4d',1,'Captain::Node::UnitConnectionInfo']]],
-  ['unitptrvector_3193',['UnitPtrVector',['../structCaptain_1_1Node_1_1UnitConnectionInfo.html#ae658d7c785483f58643d797942f3db8c',1,'Captain::Node::UnitConnectionInfo']]],
-  ['unittypestr_3194',['UnitTypeStr',['../namespaceCaptain.html#a975c16a554baae29d9b7a6a287b71461',1,'Captain']]],
-  ['unitv2x_3195',['UnitV2X',['../structCaptain_1_1Node_1_1UnitConnectionInfo.html#a388cadc3f4d5bb75f1b6ce064f07af97',1,'Captain::Node::UnitConnectionInfo']]],
-  ['unitvector_3196',['UnitVector',['../structCaptain_1_1Route.html#a7470979c24438697eb99adb77bd371e6',1,'Captain::Route']]],
-  ['urbanleadersearchlimit_3197',['UrbanLeaderSearchLimit',['../namespaceCaptain_1_1ExceptionParams.html#a6551b4b4fb4ea315b612f5b504396469',1,'Captain::ExceptionParams']]]
+  ['targetlaneindex_4133',['TargetLaneIndex',['../structCaptain_1_1VehicleState.html#a76859d4f204ea72e662177bf70fa1a17',1,'Captain::VehicleState']]],
+  ['targetlanevector_4134',['TargetLaneVector',['../structCaptain_1_1RouteIdentifier.html#a0461747a112e28d98db4ae8974f72b66',1,'Captain::RouteIdentifier::TargetLaneVector()'],['../structCaptain_1_1VehicleState.html#a77b472baf2f7bab4b1939c1d5c18ad1c',1,'Captain::VehicleState::TargetLaneVector()']]],
+  ['terminalnodevector_4135',['terminalNodeVector',['../classCaptain_1_1NetInitializer.html#a3c92b56c314b28a95ca693ee6b855e43',1,'Captain::NetInitializer']]],
+  ['text_4136',['TEXT',['../namespaceSQLite.html#a80a6477232f9c09e65b4001eff1bee9d',1,'SQLite']]],
+  ['time_4137',['Time',['../structCaptain_1_1PaxRoute.html#a6946f6ed2992543bb2370e142ac9a47d',1,'Captain::PaxRoute']]],
+  ['timeperiod_4138',['TimePeriod',['../structCaptain_1_1UnitConnectionDescriptor.html#a48575ee22f3987f59181d19330716f20',1,'Captain::UnitConnectionDescriptor']]],
+  ['timetablevector_4139',['TimeTableVector',['../structCaptain_1_1RailStationInfo.html#a80812c28205e7d870d4e1e587d89fd26',1,'Captain::RailStationInfo']]],
+  ['todvector_4140',['todVector',['../classCaptain_1_1NetInitializer.html#a1b7e11de26990273d514a9ef2aad24e9',1,'Captain::NetInitializer']]],
+  ['transfercount_4141',['TransferCount',['../structCaptain_1_1PaxRoute.html#aa8d132116da2d785517bc3c95111a77b',1,'Captain::PaxRoute']]],
+  ['transferstationvector_4142',['transferStationVector',['../structCaptain_1_1PaxRoute.html#a27c7118c04986e3f24208c9ff1197d75',1,'Captain::PaxRoute']]],
+  ['transittype_4143',['TransitType',['../structCaptain_1_1StationInfo.html#a902f9fc11e8b5a6ca9cd3a303daba919',1,'Captain::StationInfo']]],
+  ['traveldistance_4144',['TravelDistance',['../structCaptain_1_1VehicleStatistics.html#abda67d3a0cf4dc81fe924f4fdb00c1a1',1,'Captain::VehicleStatistics::TravelDistance()'],['../structCaptain_1_1UserStatistics.html#a3b05905aa9f6142a205f9df6a77817d2',1,'Captain::UserStatistics::TravelDistance()']]],
+  ['traveltime_4145',['TravelTime',['../structCaptain_1_1VehicleStatistics.html#aa13e8ab6746ebc77bfb52eb82d10a3a6',1,'Captain::VehicleStatistics::TravelTime()'],['../structCaptain_1_1UserStatistics.html#a2eb182e6584287947230a980ccf47157',1,'Captain::UserStatistics::TravelTime()']]],
+  ['trip_4146',['Trip',['../classCaptain_1_1User.html#a202a5ca53b8fd7453867e4c6ffd4ca0f',1,'Captain::User']]],
+  ['tripcost_4147',['TripCost',['../structCaptain_1_1UserTrip.html#a8825485bee2fb4cbda5ad2255c10e822',1,'Captain::UserTrip']]],
+  ['tripdest_4148',['TripDest',['../structCaptain_1_1UserTrip.html#a3f92c30fc89c82d08bfee2ce79a29041',1,'Captain::UserTrip']]],
+  ['tripid_4149',['TripID',['../structCaptain_1_1UserTrip.html#acb24f874308dc59b4dfb7072d97779e4',1,'Captain::UserTrip']]],
+  ['triporigin_4150',['TripOrigin',['../structCaptain_1_1UserTrip.html#a1f5eb620680252e69b31e54dbb3a579d',1,'Captain::UserTrip']]],
+  ['type_4151',['Type',['../structCaptain_1_1RouteIdentifier.html#a5377f83ae2ce7a854edbca2be2bb75f5',1,'Captain::RouteIdentifier::Type()'],['../structCaptain_1_1StationInfo.html#ac0417f0b14ee49243e165bb75d1f7707',1,'Captain::StationInfo::Type()'],['../structCaptain_1_1UnitIdentifier.html#ac105f7546699da74ab3db76adb3f2a48',1,'Captain::UnitIdentifier::Type()'],['../structCaptain_1_1UserInfo.html#aa215a38e9762184d101d7b1dbfc0249d',1,'Captain::UserInfo::Type()'],['../structCaptain_1_1VehicleInfo.html#a945bbae239b0a3b3a786eab5c82f5870',1,'Captain::VehicleInfo::Type()']]]
 ];

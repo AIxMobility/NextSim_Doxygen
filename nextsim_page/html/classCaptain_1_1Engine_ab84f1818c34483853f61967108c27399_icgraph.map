@@ -1,0 +1,8 @@
+<map id="Captain::Engine::GetScenarioInfo" name="Captain::Engine::GetScenarioInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="472,111,708,138"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a18168f4ac79f4b68c5b387672885d25e" title="Initialize passenger demand." alt="" coords="217,5,424,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#a2039ac690f905af99b084ab6ffda3393" title="Initialize public transit." alt="" coords="237,71,405,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#a70dc9b895950858ba5680fc043fb2a8a" title=" " alt="" coords="227,136,415,177"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1NetInitializer.html#abe39a1449b8678a27202f2f814f73bb9" title="Initialize vehicle demand." alt="" coords="227,201,415,243"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1NetInitializer.html#a02b74742a268612c6942692790b5c11a" title="Initialize signal." alt="" coords="5,136,169,177"/>
+</map>

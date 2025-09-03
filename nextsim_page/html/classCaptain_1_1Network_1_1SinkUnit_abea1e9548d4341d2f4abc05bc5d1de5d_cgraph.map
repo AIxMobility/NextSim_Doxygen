@@ -1,0 +1,4 @@
+<map id="Captain::Network::SinkUnit::GetCurrentNumVehicles" name="Captain::Network::SinkUnit::GetCurrentNumVehicles">
+<area shape="rect" id="node1" title="Gets current number of vehicles stored in internal vehicleQueue." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="252,5,452,47"/>
+</map>

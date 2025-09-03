@@ -1,0 +1,9 @@
+<map id="Captain::Network::UniformLink::UpdateV2XMessage" name="Captain::Network::UniformLink::UpdateV2XMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,201,157"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLink.html#a1b35a5939701b9100785c4a5651ab08a" title=" " alt="" coords="249,115,456,157"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="505,5,728,32"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1VehicleQueue.html#ac1d0e70d8b5517efe399a8e511f3851c" title=" " alt="" coords="517,57,717,98"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1V2X.html#aa8718d96a1d4de06a0defa7a489337d8" title=" " alt="" coords="523,123,710,149"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1V2X.html#adf234c791e4dc09f585e415f77f3c961" title=" " alt="" coords="504,173,729,200"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="517,225,717,266"/>
+</map>

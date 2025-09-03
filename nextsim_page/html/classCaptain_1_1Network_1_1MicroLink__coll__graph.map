@@ -1,0 +1,11 @@
+<map id="Captain::Network::MicroLink" name="Captain::Network::MicroLink">
+<area shape="rect" id="node1" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="720,245,927,272"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="385,169,587,196"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="383,220,589,247"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,51,189,77"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,213,186,240"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,288,187,315"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="433,271,539,297"/>
+<area shape="rect" id="node8" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="403,327,569,353"/>
+<area shape="rect" id="node9" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="58,339,137,365"/>
+</map>

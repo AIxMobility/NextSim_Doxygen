@@ -1,0 +1,7 @@
+<map id="Captain::Network::MesoUnit::UpdateVehiclePosition" name="Captain::Network::MesoUnit::UpdateVehiclePosition">
+<area shape="rect" id="node1" title="Enqueues a vehicle pointer to the vehicle queue." alt="" coords="5,74,211,115"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a60555e9d58471dbaf547d89f9b89fa1b" title=" " alt="" coords="259,5,481,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1TRT.html#a70aa8b64478cb3f3c323b732c9a22fe6" title=" " alt="" coords="278,56,462,83"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1TRT.html#ab503245a78e3444fc877eee87f653513" title=" " alt="" coords="284,107,456,133"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="270,158,470,199"/>
+</map>

@@ -1,7 +1,7 @@
 <map id="Captain::stringToUnitType" name="Captain::stringToUnitType">
-<area shape="rect" id="node1" title=" " alt="" coords="520,46,708,73"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a89fee0cfc4a9fbf438b8561628684979" title=" " alt="" coords="257,5,472,47"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#aeb38364cc648e650ffddbdaf643aece6" title=" " alt="" coords="257,71,472,112"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a6cd29623750e0874cb7b4b6080570035" title=" " alt="" coords="6,13,209,39"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="5,70,209,97"/>
+<area shape="rect" id="node1" title=" " alt="" coords="757,46,945,73"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a89fee0cfc4a9fbf438b8561628684979" title=" " alt="" coords="495,5,709,47"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#accbd9565518157b00cec3f7055267565" title=" " alt="" coords="495,71,709,112"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#af256ec7a83b9a7d1cf794aac0c978dd9" title=" " alt="" coords="243,46,447,73"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1NetInitializer.html#a56786f6817502d00b9c8c645c5e23f5c" title="Initialize previous vehicle." alt="" coords="5,39,195,80"/>
 </map>

@@ -1,4 +1,10 @@
 <map id="Captain::SharedPtr::GetCurrentRefCount" name="Captain::SharedPtr::GetCurrentRefCount">
-<area shape="rect" id="node1" title=" " alt="" coords="196,5,357,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1SharedPtr.html#ad86df0632eeaef19a75127d9345d8342" title=" " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="720,104,881,145"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1SharedPtr.html#ad86df0632eeaef19a75127d9345d8342" title=" " alt="" coords="529,104,672,145"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MicroLane.html#a809c65483d0fe0c8f52a2cb91a8ae733" title=" " alt="" coords="271,5,481,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MicroLane.html#af72aeeb5fbc04ca2104afb0f4ee1a06b" title=" " alt="" coords="271,71,481,112"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1MicroLane.html#a01a7b44e98fd5b2701769c51cd5d0d88" title=" " alt="" coords="271,136,481,177"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Network_1_1MicroLink.html#a39fcbede53d64d3141b5b254387a2c86" title=" " alt="" coords="273,201,479,243"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1MicroLane.html#aacef0baa730743fcbfdcde0e5903a7ca" title=" " alt="" coords="5,71,223,112"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Network_1_1MicroLink.html#a0414a23da0f7917db2ead4000547c228" title=" " alt="" coords="11,201,217,243"/>
 </map>

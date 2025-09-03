@@ -1,0 +1,5 @@
+<map id="Captain::Engine::SetStationMap" name="Captain::Engine::SetStationMap">
+<area shape="rect" id="node1" title=" " alt="" coords="217,46,444,73"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a0afdc72a7a975815c97d1da592d1108f" title="Initialize garages." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#a42afbce28cc65f96cbc26033e6ce1468" title="Initialize terminals." alt="" coords="5,71,169,112"/>
+</map>

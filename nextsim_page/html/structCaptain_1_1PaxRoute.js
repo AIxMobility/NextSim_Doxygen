@@ -5,7 +5,7 @@ var structCaptain_1_1PaxRoute =
     [ "Distance", "structCaptain_1_1PaxRoute.html#a0350c1bf063667a2cb30f0d456dd4cec", null ],
     [ "originStation", "structCaptain_1_1PaxRoute.html#ad7614aa7c1dff7cfd954b68149fa37cc", null ],
     [ "passengerRecords", "structCaptain_1_1PaxRoute.html#acd4b7af63e02dd41448041c14c57b33a", null ],
-    [ "ptlineVector", "structCaptain_1_1PaxRoute.html#a06debd5e57f5c683c2e8daa0474c55c4", null ],
+    [ "ptlineVector", "structCaptain_1_1PaxRoute.html#a5b854ac6bd1ff35af06096f7b4026148", null ],
     [ "stationVector", "structCaptain_1_1PaxRoute.html#ada3d9d0a3c842eac220bddc8c797d0ea", null ],
     [ "Time", "structCaptain_1_1PaxRoute.html#a6946f6ed2992543bb2370e142ac9a47d", null ],
     [ "TransferCount", "structCaptain_1_1PaxRoute.html#aa8d132116da2d785517bc3c95111a77b", null ],

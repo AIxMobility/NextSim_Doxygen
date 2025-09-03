@@ -4,6 +4,7 @@ var classCaptain_1_1DriveModeDescriptor =
     [ "ComputePosition", "classCaptain_1_1DriveModeDescriptor.html#a88fc2bc346771611b078fb611a7eef64", null ],
     [ "GetActivatedDriveModes", "classCaptain_1_1DriveModeDescriptor.html#af3491c2332a4fd909bebdb026a6559bd", null ],
     [ "IsInLCState", "classCaptain_1_1DriveModeDescriptor.html#a3d7f6586729040e0639e54bb2dd62c73", null ],
+    [ "UpdateBestPosition", "classCaptain_1_1DriveModeDescriptor.html#a26e5edacbff8b0e555629f785aaa561c", null ],
     [ "AdjSpeedMode", "classCaptain_1_1DriveModeDescriptor.html#a9bf14e277101f2ee8d4e0fcc42a74a16", null ],
     [ "AlcMode", "classCaptain_1_1DriveModeDescriptor.html#afe9f68ce12b72428ab97cde44cd4903a", null ],
     [ "ApproachStationMode", "classCaptain_1_1DriveModeDescriptor.html#af9a4b99a9db589c7225461bd5b3721f8", null ],

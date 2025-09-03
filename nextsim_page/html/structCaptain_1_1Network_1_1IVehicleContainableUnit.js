@@ -1,0 +1,28 @@
+var structCaptain_1_1Network_1_1IVehicleContainableUnit =
+[
+    [ "IVehicleContainableUnit", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a6401daf8da70ca608293026f6400e9e3", null ],
+    [ "FindFollowerVehicleByPosition", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a32fd08898ab3af6a97c6bd687bd07d79", null ],
+    [ "FindLeaderVehicleByPosition", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a52ea1078d056c0f4880a66797e134fe5", null ],
+    [ "GetCurrentNumVehicles", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#ac7945ef0939119a0ab73ff3401229fd9", null ],
+    [ "GetFollowingVehiclePtr", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a7d7f70c54b78723a3ace08afc8223c70", null ],
+    [ "GetFreeFlowSpeed", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#aee55378b261a7b06cde8709168a84791", null ],
+    [ "GetLeadingVehiclePtr", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#afc6c72a2f4f993fbf23933a69a3b314b", null ],
+    [ "GetLength", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a0ca2cbeb37c84a1149116c91e074036a", null ],
+    [ "GetNumVehicleInCell", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#aa1ba5d18ff12b140d4e3aaa395da0186", null ],
+    [ "GetSignalMode", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a5c2cae4bb87f4aeff41ca64b09b5d3a3", null ],
+    [ "GetStopLine", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a93722a314ad1b8584c696023e6ab3160", null ],
+    [ "GetStopVehicle", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a221ddc1c14b5b781de0e5fd207e30211", null ],
+    [ "GetVehicleQueue", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a7c8051ce33b14fe1eb36f064b7a55f6c", null ],
+    [ "GetWidth", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#ad8438b501feb0d78804ae32066757ba2", null ],
+    [ "Identifier", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a3aa4ffc2147538019fcb54947215f6a2", null ],
+    [ "PeekVehicle", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a4f359742d6c8c7880385c6e79d13780e", null ],
+    [ "PopVehicle", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a1c041c3eec204aa4b98ce259f9a8c03c", null ],
+    [ "PushVehicle", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a784eca4d395f6d5df28e764f01312f17", null ],
+    [ "SetSignal", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#afe63c49bce2544a14a6e808fb978b939", null ],
+    [ "SetStopVehicle", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#adc77ba0bf63ee34a18c2deeb3870d649", null ],
+    [ "m_eventRecorder", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a9b49e7ced8f8101d675a2982d37e6289", null ],
+    [ "m_identifier", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a3d6de42484120960b1704b842237c981", null ],
+    [ "m_signalMap", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a678c54b9b68c200bed169ca118fe7246", null ],
+    [ "m_stopVehicleMap", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a7fda7ee774a1d6cecbdf37f7a245d22c", null ],
+    [ "ParentLinkUnitType", "structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a32c16c28585c7e87795dedf3ddba3eca", null ]
+];

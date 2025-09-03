@@ -91,41 +91,99 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>Identifier()
-: <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a200a71997b29c63d95109fd3c821909c">Captain::Node::IVehicleContainableUnit</a>
-, <a class="el" href="classCaptain_1_1Node_1_1Station.html#a189155df186ad1bfa512c1f233709a79">Captain::Node::Station</a>
+: <a class="el" href="structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a3aa4ffc2147538019fcb54947215f6a2">Captain::Network::IVehicleContainableUnit</a>
+, <a class="el" href="classCaptain_1_1Network_1_1RailStation.html#a4e81f231746a66019bb6066e9b160070">Captain::Network::RailStation</a>
+, <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#a3f6256708367e946348f7e3ef95d8271">Captain::Network::RoadStation</a>
+, <a class="el" href="classCaptain_1_1Train.html#a9536951a3d83d1354675fb84dbb4493c">Captain::Train</a>
+, <a class="el" href="classCaptain_1_1TRT.html#ad660a292f2899173e8a7c5a9c048ff94">Captain::TRT</a>
+, <a class="el" href="classCaptain_1_1User.html#ad8be5dd85a4fc7c8aece5807e671a5d2">Captain::User</a>
 , <a class="el" href="classCaptain_1_1Vehicle.html#a76be06ede91b502122b2c9f43a627e07">Captain::Vehicle</a>
 </li>
 <li>identifierToJson()
 : <a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#aa019b7ef54940c16e806e77c8e9f781b">Captain::Util::JsonWriter</a>
 </li>
 <li>Initialize()
-: <a class="el" href="structCaptain_1_1Node_1_1ILinkable.html#a486dc97cf759f1aaa1a711244c6ca60d">Captain::Node::ILinkable</a>
-, <a class="el" href="classCaptain_1_1Node_1_1MesoLink.html#a0942f8c3c10a975234e453d0dcc66f13">Captain::Node::MesoLink</a>
-, <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#a22413ef0efda5709f522a72cca96bce7">Captain::Node::MicroLink</a>
-, <a class="el" href="classCaptain_1_1Node_1_1UniformIntersectionLink.html#acf29dec344b5b4845b0a5464d6b44a06">Captain::Node::UniformIntersectionLink</a>
-, <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a855d32334913df4bfc9e3cf37c39f931">Captain::Node::UniformLink</a>
+: <a class="el" href="structCaptain_1_1Network_1_1ILinkable.html#a64cb9633a531e1edc54eafbf6b211d29">Captain::Network::ILinkable</a>
+, <a class="el" href="classCaptain_1_1Network_1_1MesoLink.html#ae94e0c43ffee3ece41bc96f0ba1fb39e">Captain::Network::MesoLink</a>
+, <a class="el" href="classCaptain_1_1Network_1_1MicroLink.html#a4d44f05ad1508cd5b5e4076a23894d6f">Captain::Network::MicroLink</a>
+, <a class="el" href="classCaptain_1_1Network_1_1Node.html#a85311f0731af3c802ae867482576a193">Captain::Network::Node</a>
+, <a class="el" href="classCaptain_1_1Network_1_1UniformIntersectionLink.html#a4b62ef65110dbc1d3e4c7b3a640a9b51">Captain::Network::UniformIntersectionLink</a>
+, <a class="el" href="classCaptain_1_1Network_1_1UniformLink.html#ad4776eb287d2e2c80a8a8a6582633086">Captain::Network::UniformLink</a>
 </li>
-<li>InitializeExtractingRoutes()
-: <a class="el" href="classCaptain_1_1Engine.html#a0444f771c729ba6f40d29ec9c57b0a5f">Captain::Engine</a>
+<li>InitializeBackgroundTraffic()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a7efdb2cda8fc66cdc89d41d6bba4af92">Captain::NetInitializer</a>
 </li>
-<li>initializeFollowersAsRed()
-: <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#a9c953cc67e1c0d9c612579baa73ef8a9">Captain::Node::MesoUnit</a>
-, <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#ab2671f2ee50f6987b4ef431594f2bac9">Captain::Node::MicroLane</a>
+<li>InitializeEvents()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#afc398e3f3d4ade4641e652ef72891a5d">Captain::NetInitializer</a>
+</li>
+<li>InitializeGarages()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a0afdc72a7a975815c97d1da592d1108f">Captain::NetInitializer</a>
+</li>
+<li>InitializeIntersections()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#aedb3eba68b4eb733205e4f2470059e90">Captain::NetInitializer</a>
 </li>
 <li>InitializeLinks()
 : <a class="el" href="classCaptain_1_1Engine.html#a7c12b81f74b1951b2a8297438e1873b8">Captain::Engine</a>
 </li>
+<li>InitializeNetwork()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#ad31e6da0467dcaa7c867a78bb233a1ae">Captain::NetInitializer</a>
+</li>
+<li>InitializeNodes()
+: <a class="el" href="classCaptain_1_1Engine.html#a3026f3c64b16e1b6f924e7fdff0444dc">Captain::Engine</a>
+</li>
+<li>InitializeNodeTurnMap()
+: <a class="el" href="classCaptain_1_1Engine.html#acdafa855e6f5c202b2a2403a462a5344">Captain::Engine</a>
+</li>
+<li>InitializePassengerDemand()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a18168f4ac79f4b68c5b387672885d25e">Captain::NetInitializer</a>
+</li>
+<li>InitializePreviousVehicle()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a56786f6817502d00b9c8c645c5e23f5c">Captain::NetInitializer</a>
+</li>
+<li>InitializePublicTransit()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a2039ac690f905af99b084ab6ffda3393">Captain::NetInitializer</a>
+</li>
 <li>InitializeRecordInfo()
-: <a class="el" href="classCaptain_1_1Vehicle.html#a4e6d14a8ff1c0daa08c82f65a8569b8b">Captain::Vehicle</a>
+: <a class="el" href="classCaptain_1_1TRT.html#a0956df49c35420a9fd51d233656f776c">Captain::TRT</a>
+, <a class="el" href="classCaptain_1_1Vehicle.html#a4e6d14a8ff1c0daa08c82f65a8569b8b">Captain::Vehicle</a>
 </li>
 <li>InitializeRecordings()
 : <a class="el" href="classCaptain_1_1Engine.html#ac6d69a2cb8dd2929a442d84aa986b9e7">Captain::Engine</a>
+, <a class="el" href="classCaptain_1_1NetInitializer.html#a5c85d586227ce9a01e8ee3e31d5d47b6">Captain::NetInitializer</a>
+</li>
+<li>InitializeRoutes()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a7b37b501313ba3a8c9214dc2b1df178a">Captain::NetInitializer</a>
+</li>
+<li>InitializeScenario()
+: <a class="el" href="classCaptain_1_1Engine.html#a1a8e0d5a78f89e3b5b69e7923270f745">Captain::Engine</a>
+</li>
+<li>InitializeScenarioInfo()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#ac0904ae79bd4e4f114c09bed594c1717">Captain::NetInitializer</a>
 </li>
 <li>InitializeSignal()
-: <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a1e88a800cb808f28b715444d5999eb02">Captain::Node::IVehicleContainableUnit</a>
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a02b74742a268612c6942692790b5c11a">Captain::NetInitializer</a>
+</li>
+<li>InitializeSignalMap()
+: <a class="el" href="classCaptain_1_1Engine.html#a70dc9b895950858ba5680fc043fb2a8a">Captain::Engine</a>
 </li>
 <li>InitializeState()
-: <a class="el" href="classCaptain_1_1Vehicle.html#aa39db0c3d5437419b231a132414a11c2">Captain::Vehicle</a>
+: <a class="el" href="classCaptain_1_1TRT.html#a53d5aceac72f902f2fdc74439ba24408">Captain::TRT</a>
+, <a class="el" href="classCaptain_1_1Vehicle.html#aa39db0c3d5437419b231a132414a11c2">Captain::Vehicle</a>
+</li>
+<li>InitializeStations()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#aa8957503ead603ad40eaa9170642b66d">Captain::NetInitializer</a>
+</li>
+<li>InitializeTerminals()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a42afbce28cc65f96cbc26033e6ce1468">Captain::NetInitializer</a>
+</li>
+<li>InitializeUniformLinks()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a2b63e7a9c95c5871c1b871d401b04961">Captain::NetInitializer</a>
+</li>
+<li>InitializeV2X()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#a20959bf9654c8e1d742c3378f33bd7d2">Captain::NetInitializer</a>
+</li>
+<li>InitializeVehicleDemand()
+: <a class="el" href="classCaptain_1_1NetInitializer.html#abe39a1449b8678a27202f2f814f73bb9">Captain::NetInitializer</a>
 </li>
 <li>InitializeWriter()
 : <a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#a5540025af897a9700d3173f613458a2c">Captain::Util::JsonWriter</a>
@@ -134,10 +192,16 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="classCaptain_1_1Util_1_1JsonWriter.html#a7c7e3bdf839e54ef13a7f6930a8b6c66">Captain::Util::JsonWriter</a>
 </li>
 <li>InputAgentPax()
-: <a class="el" href="classNextSimIO_1_1InputAgentPax.html#a608c5ff5724f535402615fe3a1949499">NextSimIO::InputAgentPax</a>
+: <a class="el" href="classNextSimIO_1_1InputAgentPax.html#a4d3be60e4124c8e5755831157e2f6c04">NextSimIO::InputAgentPax</a>
+</li>
+<li>InputAgentPaxTrip()
+: <a class="el" href="classNextSimIO_1_1InputAgentPaxTrip.html#ae9a5f637f5e762ad4d226df030be7e62">NextSimIO::InputAgentPaxTrip</a>
 </li>
 <li>InputAgents()
 : <a class="el" href="classNextSimIO_1_1InputAgents.html#ad769cadd9a0c6e1f2e78d829bc219850">NextSimIO::InputAgents</a>
+</li>
+<li>InputBackgroundTraffic()
+: <a class="el" href="classNextSimIO_1_1InputBackgroundTraffic.html#a11daba67da50b2d7aa4c9e873d7b4cde">NextSimIO::InputBackgroundTraffic</a>
 </li>
 <li>InputCell()
 : <a class="el" href="classNextSimIO_1_1InputCell.html#a5fe56d0eff22404099b2f2820d03ba6e">NextSimIO::InputCell</a>
@@ -154,8 +218,14 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 <li>InputFlow()
 : <a class="el" href="classNextSimIO_1_1InputFlow.html#a49a01de4a8c0b19fb7679eff6f7cc9d9">NextSimIO::InputFlow</a>
 </li>
+<li>InputGraphArc()
+: <a class="el" href="classNextSimIO_1_1InputGraphArc.html#a4b7d8d96c5b7c415fe51a126c2b5e537">NextSimIO::InputGraphArc</a>
+</li>
+<li>InputGraphVertex()
+: <a class="el" href="classNextSimIO_1_1InputGraphVertex.html#a2a8a31a718475c5509dda3354568b14e">NextSimIO::InputGraphVertex</a>
+</li>
 <li>InputLane()
-: <a class="el" href="classNextSimIO_1_1InputLane.html#ab947453b02b63393999ba09791430a91">NextSimIO::InputLane</a>
+: <a class="el" href="classNextSimIO_1_1InputLane.html#a3c15c443118af704f70decad89d39fd4">NextSimIO::InputLane</a>
 </li>
 <li>InputLink()
 : <a class="el" href="classNextSimIO_1_1InputLink.html#ab29076c8b73c32166ec4e2e51ab34092">NextSimIO::InputLink</a>
@@ -164,7 +234,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="classNextSimIO_1_1InputMessage.html#aa8b93cf4ac151f78acdeed160109d70a">NextSimIO::InputMessage</a>
 </li>
 <li>InputMode()
-: <a class="el" href="classNextSimIO_1_1InputMode.html#ae97e4be0019467b37b4c2dd5f3c5b6fb">NextSimIO::InputMode</a>
+: <a class="el" href="classNextSimIO_1_1InputMode.html#aec3ea80f6a37072acba46818d295dc4d">NextSimIO::InputMode</a>
 </li>
 <li>InputNode()
 : <a class="el" href="classNextSimIO_1_1InputNode.html#ada814ee39e1cf469c3237ca40812834d">NextSimIO::InputNode</a>
@@ -176,16 +246,34 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="classNextSimIO_1_1InputODPax.html#aca756247c90f8a613e60c4301482fc96">NextSimIO::InputODPax</a>
 </li>
 <li>InputPTline()
-: <a class="el" href="classNextSimIO_1_1InputPTline.html#a2a7a71a2071ff56a7a4e4eb01daace41">NextSimIO::InputPTline</a>
+: <a class="el" href="classNextSimIO_1_1InputPTline.html#a9081273c541697340e8bb2b193ef672c">NextSimIO::InputPTline</a>
+</li>
+<li>InputRailLine()
+: <a class="el" href="classNextSimIO_1_1InputRailLine.html#a6dc322822501e43ece31bc84aa56e57a">NextSimIO::InputRailLine</a>
+</li>
+<li>InputRailStation()
+: <a class="el" href="classNextSimIO_1_1InputRailStation.html#a91b6d417551da503c752f18be5cf6a60">NextSimIO::InputRailStation</a>
+</li>
+<li>InputRecordMode()
+: <a class="el" href="classNextSimIO_1_1InputRecordMode.html#a2bd76fce67660c3709bf26ab8abe99c4">NextSimIO::InputRecordMode</a>
+</li>
+<li>InputScenario()
+: <a class="el" href="classNextSimIO_1_1InputScenario.html#ac66b60e0eef18bf4ee2c1867fab190e1">NextSimIO::InputScenario</a>
 </li>
 <li>InputSegment()
-: <a class="el" href="classNextSimIO_1_1InputSegment.html#a0e40bcc1d06690e51617936a3415124d">NextSimIO::InputSegment</a>
+: <a class="el" href="classNextSimIO_1_1InputSegment.html#acc32d08d5bd34465cfec098a91af93ff">NextSimIO::InputSegment</a>
+</li>
+<li>InputSignal()
+: <a class="el" href="classNextSimIO_1_1InputSignal.html#a1807d6036bfa49f11e30f9ef80219cb8">NextSimIO::InputSignal</a>
 </li>
 <li>InputStation()
 : <a class="el" href="classNextSimIO_1_1InputStation.html#a028af10d97c2aea8572c951788ef4d71">NextSimIO::InputStation</a>
 </li>
+<li>InputTOD()
+: <a class="el" href="classNextSimIO_1_1InputTOD.html#ad73917f4b618ca51db03aee68e44233a">NextSimIO::InputTOD</a>
+</li>
 <li>InputVehicleTypes()
-: <a class="el" href="classNextSimIO_1_1InputVehicleTypes.html#af3579b8cd4a8d9b65038cde37ae350ab">NextSimIO::InputVehicleTypes</a>
+: <a class="el" href="classNextSimIO_1_1InputVehicleTypes.html#a7721edaf379173235da5e96db21c454f">NextSimIO::InputVehicleTypes</a>
 </li>
 <li>Insert()
 : <a class="el" href="classCaptain_1_1IVehicleQueue.html#a37018bf8b9e23c24f00a568a6fadd412">Captain::IVehicleQueue</a>
@@ -194,43 +282,56 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 , <a class="el" href="classCaptain_1_1Util_1_1VehicleQueue.html#a1c4f0d6747fd7ab18a55b3de33ec74cf">Captain::Util::VehicleQueue</a>
 </li>
 <li>IntersectionMicroLink()
-: <a class="el" href="classCaptain_1_1Node_1_1IntersectionMicroLink.html#afa49e757490e644e7360f034fb57a31d">Captain::Node::IntersectionMicroLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1IntersectionMicroLink.html#a7f1e38b203cccdc51d71cd1eb46c9f55">Captain::Network::IntersectionMicroLink</a>
 </li>
 <li>intersectionPhase()
 : <a class="el" href="classNextSimIO_1_1intersectionPhase.html#ab337ea8bbcc0bd89073c9378d62f07e2">NextSimIO::intersectionPhase</a>
 </li>
 <li>IsAcceptable()
-: <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#a893c9001359acfef6909400471705bdf">Captain::Node::MesoUnit</a>
+: <a class="el" href="classCaptain_1_1Network_1_1MesoUnit.html#a69dd73a6faa9b7f886db51beae6d8313">Captain::Network::MesoUnit</a>
 </li>
 <li>IsActivated()
 : <a class="el" href="classCaptain_1_1DMode_1_1DriveModel.html#a579b3cc1c2042306bc22a1edb357f9f7">Captain::DMode::DriveModel</a>
 </li>
+<li>IsBusLineAssigned()
+: <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#a68759d9e5d339eeddfe0ca8de63691d1">Captain::Network::RoadStation</a>
+</li>
 <li>isConnectedToSink()
-: <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#a959a4d69243c099f02ed2cabe799eb3b">Captain::Node::MicroLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1MicroLink.html#a15c015cd52edc457637bc6a781dc5b5d">Captain::Network::MicroLink</a>
 </li>
 <li>IsEqual()
-: <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a1aedde0c7a1f383f31fbff1f2e8f1b63">Captain::Node::IVehicleContainableUnit</a>
+: <a class="el" href="structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a742da7a268f13a3696924e5785a9ba01">Captain::Network::IVehicleContainableUnit</a>
 </li>
 <li>IsFromMicro()
-: <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a8834f2201e78dce61735ea61c5c5708c">Captain::Node::UniformLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1UniformLink.html#a896254d7400bf249bd3d0b9f104c83ab">Captain::Network::UniformLink</a>
 </li>
 <li>isInELCRegion()
-: <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#aaf12df1aa22916a9281876db683319f9">Captain::Node::MicroLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1MicroLink.html#af840da575e169979da7816b6c91fed36">Captain::Network::MicroLink</a>
 </li>
 <li>IsInLCState()
 : <a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a3d7f6586729040e0639e54bb2dd62c73">Captain::DriveModeDescriptor</a>
 </li>
 <li>isLCpossible()
-: <a class="el" href="classCaptain_1_1Node_1_1MicroLink.html#af6d868bf40ccc300b2b8d31308435032">Captain::Node::MicroLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1MicroLink.html#a07de6ccee4acc5a3f4a4e849c5d1051d">Captain::Network::MicroLink</a>
 </li>
 <li>IsMicro()
-: <a class="el" href="classCaptain_1_1Node_1_1UniformLink.html#a9959362900b59da90a3e93352538a45b">Captain::Node::UniformLink</a>
+: <a class="el" href="classCaptain_1_1Network_1_1UniformLink.html#a7d2bf198b2ff262e57923b6ba2848f98">Captain::Network::UniformLink</a>
+</li>
+<li>IsSpotOccupied()
+: <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#a25353dd87d13ece06bf71935522b8b2c">Captain::Network::RoadStation</a>
+</li>
+<li>IsTargetLaneIndexValid()
+: <a class="el" href="classCaptain_1_1TRT.html#acc8467a577e9b9435b1fdda5ee8b687a">Captain::TRT</a>
+, <a class="el" href="classCaptain_1_1Vehicle.html#a08224daa0bd2a3e23299d2d820b14541">Captain::Vehicle</a>
 </li>
 <li>IsValid()
 : <a class="el" href="classCaptain_1_1SharedPtr.html#ad86df0632eeaef19a75127d9345d8342">Captain::SharedPtr&lt; T &gt;</a>
 </li>
+<li>IsWaitingForParking()
+: <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#aeffcfeac944ad412c157a7e36f3e11f4">Captain::Network::RoadStation</a>
+</li>
 <li>IVehicleContainableUnit()
-: <a class="el" href="structCaptain_1_1Node_1_1IVehicleContainableUnit.html#a3db1dd4b55b697a798f64e8f5900b02c">Captain::Node::IVehicleContainableUnit</a>
+: <a class="el" href="structCaptain_1_1Network_1_1IVehicleContainableUnit.html#a6401daf8da70ca608293026f6400e9e3">Captain::Network::IVehicleContainableUnit</a>
 </li>
 <li>IVehicleQueue()
 : <a class="el" href="classCaptain_1_1IVehicleQueue.html#a4f30e70d936d820af99235f03b1acd9c">Captain::IVehicleQueue</a>

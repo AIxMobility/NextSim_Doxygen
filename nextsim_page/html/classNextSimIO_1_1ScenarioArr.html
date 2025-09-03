@@ -96,23 +96,23 @@ $(document).ready(function(){initNavTree('classNextSimIO_1_1ScenarioArr.html',''
 </div><!--header-->
 <div class="contents">
 
-<p>Class for origin-destination scenario information from odscenario.xml.  
+<p>Class for scenario information from scenario.xml.  
  <a href="classNextSimIO_1_1ScenarioArr.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a7935ffbd8e376a56750f786ab3bdc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNextSimIO_1_1ScenarioArr.html#a1a7935ffbd8e376a56750f786ab3bdc7">ScenarioArr</a> ()</td></tr>
 <tr class="separator:a1a7935ffbd8e376a56750f786ab3bdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221dea1a414753f15f72b1550e8cb9f3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNextSimIO_1_1ScenarioArr.html#a221dea1a414753f15f72b1550e8cb9f3">GetScenarios</a> ()</td></tr>
-<tr class="separator:a221dea1a414753f15f72b1550e8cb9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7accf65921b8bb27e606e2203835a78"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classNextSimIO_1_1InputScenario.html">InputScenario</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNextSimIO_1_1ScenarioArr.html#ad7accf65921b8bb27e606e2203835a78">GetScenarios</a> ()</td></tr>
+<tr class="separator:ad7accf65921b8bb27e606e2203835a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a00a76fb9300ab881c9ac3b8ddaa9eb20"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNextSimIO_1_1ScenarioArr.html#a00a76fb9300ab881c9ac3b8ddaa9eb20">m_odScenarios</a></td></tr>
-<tr class="separator:a00a76fb9300ab881c9ac3b8ddaa9eb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66537416b5e3c91011402625e56cce23"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classNextSimIO_1_1InputScenario.html">InputScenario</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNextSimIO_1_1ScenarioArr.html#a66537416b5e3c91011402625e56cce23">m_scenarios</a></td></tr>
+<tr class="separator:a66537416b5e3c91011402625e56cce23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class for origin-destination scenario information from odscenario.xml. </p>
+<div class="textblock"><p>Class for scenario information from scenario.xml. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1a7935ffbd8e376a56750f786ab3bdc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a7935ffbd8e376a56750f786ab3bdc7">&#9670;&nbsp;</a></span>ScenarioArr()</h2>
@@ -128,13 +128,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor (Parse OD scenario information from odscenario.xml) </p>
+<p>Constructor </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a221dea1a414753f15f72b1550e8cb9f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a221dea1a414753f15f72b1550e8cb9f3">&#9670;&nbsp;</a></span>GetScenarios()</h2>
+<a id="ad7accf65921b8bb27e606e2203835a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7accf65921b8bb27e606e2203835a78">&#9670;&nbsp;</a></span>GetScenarios()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +143,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;int, int&gt; &gt; NextSimIO::ScenarioArr::GetScenarios </td>
+          <td class="memname">std::vector&lt;<a class="el" href="classNextSimIO_1_1InputScenario.html">InputScenario</a>&gt; NextSimIO::ScenarioArr::GetScenarios </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -155,13 +155,22 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get origin-destination scenario </p><dl class="section return"><dt>Returns</dt><dd>OD scenario (Pair of simulation Iter ID and OD matrix ID) </dd></dl>
+<p>Get scenario information </p><dl class="section return"><dt>Returns</dt><dd>Scenario information (Vector of <a class="el" href="classNextSimIO_1_1InputScenario.html" title="Class for each simulation mode information.">InputScenario</a>) </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classNextSimIO_1_1ScenarioArr_ad7accf65921b8bb27e606e2203835a78_icgraph.png" border="0" usemap="#aclassNextSimIO_1_1ScenarioArr_ad7accf65921b8bb27e606e2203835a78_icgraph" alt=""/></div>
+<map name="aclassNextSimIO_1_1ScenarioArr_ad7accf65921b8bb27e606e2203835a78_icgraph" id="aclassNextSimIO_1_1ScenarioArr_ad7accf65921b8bb27e606e2203835a78_icgraph">
+<area shape="rect" title=" " alt="" coords="217,5,392,47"/>
+<area shape="rect" href="classCaptain_1_1NetInitializer.html#af1039c38baed86ca0b78e3caa6d01343" title=" " alt="" coords="5,5,169,47"/>
+</map>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a00a76fb9300ab881c9ac3b8ddaa9eb20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00a76fb9300ab881c9ac3b8ddaa9eb20">&#9670;&nbsp;</a></span>m_odScenarios</h2>
+<a id="a66537416b5e3c91011402625e56cce23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66537416b5e3c91011402625e56cce23">&#9670;&nbsp;</a></span>m_scenarios</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +179,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;int, int&gt; &gt; NextSimIO::ScenarioArr::m_odScenarios</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classNextSimIO_1_1InputScenario.html">InputScenario</a>&gt; NextSimIO::ScenarioArr::m_scenarios</td>
         </tr>
       </table>
   </td>
@@ -179,7 +188,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Pair of simulation Iter ID and OD matrix ID </p>
+<p>Vector of scenario information </p>
 
 </div>
 </div>

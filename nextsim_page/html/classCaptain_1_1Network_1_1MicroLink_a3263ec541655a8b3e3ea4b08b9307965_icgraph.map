@@ -1,0 +1,4 @@
+<map id="Captain::Network::MicroLink::AppendStation" name="Captain::Network::MicroLink::AppendStation">
+<area shape="rect" id="node1" title="Appends a station to the station vector for this link." alt="" coords="249,5,456,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1UniformLink.html#a8535cc44cc6fbe37f01c10d8701b6d2a" title="Appends a station to this uniform link." alt="" coords="5,5,201,47"/>
+</map>

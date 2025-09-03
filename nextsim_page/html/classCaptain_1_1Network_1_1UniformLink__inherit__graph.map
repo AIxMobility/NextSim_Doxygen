@@ -1,0 +1,5 @@
+<map id="Captain::Network::UniformLink" name="Captain::Network::UniformLink">
+<area shape="rect" id="node1" title="Represents a link that can operate at both micro and meso scales, supporting uniform operations for b..." alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1UniformIntersectionLink.html" title="Represents a link at an intersection with uniform behavior for both meso and micro scale." alt="" coords="19,155,215,196"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="16,5,217,32"/>
+</map>

@@ -1,5 +1,6 @@
 <map id="NextSimIO::InputLane::GetID" name="NextSimIO::InputLane::GetID">
-<area shape="rect" id="node1" title=" " alt="" coords="408,5,572,47"/>
-<area shape="rect" id="node2" href="$classNextSimIO_1_1InputLink.html#a9471b8d9fa5438b720939434384ee9fc" title=" " alt="" coords="200,5,360,47"/>
-<area shape="rect" id="node3" href="$classNextSimIO_1_1LinkArr.html#ac497171fa82ba595bb571985511565f1" title=" " alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="421,39,585,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a2b63e7a9c95c5871c1b871d401b04961" title="Initialize uniform links." alt="" coords="200,5,373,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputLink.html#a9471b8d9fa5438b720939434384ee9fc" title=" " alt="" coords="207,71,367,112"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1LinkArr.html#ac497171fa82ba595bb571985511565f1" title=" " alt="" coords="5,71,152,112"/>
 </map>

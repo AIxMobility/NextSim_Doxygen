@@ -1,0 +1,7 @@
+<map id="Captain::ScenarioInfo::GetBGTDuration" name="Captain::ScenarioInfo::GetBGTDuration">
+<area shape="rect" id="node1" title=" " alt="" coords="521,39,683,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#acc0d6e5f5308d5cd17d9af9380d6f41a" title=" " alt="" coords="256,15,473,42"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#a70dc9b895950858ba5680fc043fb2a8a" title=" " alt="" coords="271,68,459,109"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#a7efdb2cda8fc66cdc89d41d6bba4af92" title="Initialize background traffic." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1NetInitializer.html#a02b74742a268612c6942692790b5c11a" title="Initialize signal." alt="" coords="25,71,189,112"/>
+</map>

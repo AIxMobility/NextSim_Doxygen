@@ -1,5 +1,7 @@
 <map id="Captain::Util::XmlWriter::WriteHeader" name="Captain::Util::XmlWriter::WriteHeader">
-<area shape="rect" id="node1" title=" " alt="" coords="325,35,503,76"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#ac6d69a2cb8dd2929a442d84aa986b9e7" title=" " alt="" coords="47,5,235,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#aa855c79d2d2ad9b28fbf9a66786c575b" title=" " alt="" coords="5,71,277,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="583,64,760,105"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#ac6d69a2cb8dd2929a442d84aa986b9e7" title=" " alt="" coords="329,5,517,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#aaabc9e1e33d6656ad9bf5fa17c4685b5" title=" " alt="" coords="5,101,264,127"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html#ac26934d6c2d50ea2f477f55f80f8ccba" title=" " alt="" coords="312,123,535,164"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#a5c85d586227ce9a01e8ee3e31d5d47b6" title="Initialize recordings." alt="" coords="53,5,217,47"/>
 </map>

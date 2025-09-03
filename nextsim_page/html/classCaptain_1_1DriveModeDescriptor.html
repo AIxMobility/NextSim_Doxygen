@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classCaptain_1_1DriveModeDescriptor.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classCaptain_1_1DriveModeDescriptor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Captain::DriveModeDescriptor Class Reference</div>  </div>
@@ -107,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d7f6586729040e0639e54bb2dd62c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3491c2332a4fd909bebdb026a6559bd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DriveModeDescriptor.html#af3491c2332a4fd909bebdb026a6559bd">GetActivatedDriveModes</a> () const</td></tr>
 <tr class="separator:af3491c2332a4fd909bebdb026a6559bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88fc2bc346771611b078fb611a7eef64"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; <a class="el" href="structCaptain_1_1Position.html">Position</a>, double, double, <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a>, int, double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a88fc2bc346771611b078fb611a7eef64">ComputePosition</a> (<a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">DMode::VehicleInfoStatePair</a> subject) const</td></tr>
+<tr class="memitem:a88fc2bc346771611b078fb611a7eef64"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; Position, double, double, <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a>, int, double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a88fc2bc346771611b078fb611a7eef64">ComputePosition</a> (<a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">DMode::VehicleInfoStatePair</a> subject) const</td></tr>
 <tr class="separator:a88fc2bc346771611b078fb611a7eef64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -136,6 +137,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a496a42a6eacbb25453e453b9799bc4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b410b5b05c1e57129f42a561a14bd9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classCaptain_1_1DMode_1_1Stop.html">DMode::Stop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DriveModeDescriptor.html#aa2b410b5b05c1e57129f42a561a14bd9">StopMode</a></td></tr>
 <tr class="separator:aa2b410b5b05c1e57129f42a561a14bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a26e5edacbff8b0e555629f785aaa561c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCaptain_1_1DriveModeDescriptor.html#a26e5edacbff8b0e555629f785aaa561c">UpdateBestPosition</a> (<a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a> newMode, std::tuple&lt; Position, double, double, int, double, double &gt; candidate, Position &amp;bestPosition, double &amp;bestSpeed, double &amp;bestAccel, <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a> &amp;bestDriveMode, int &amp;bestLeaderId, double &amp;bestDistance, double &amp;bestLeaderSpeed) const</td></tr>
+<tr class="memdesc:a26e5edacbff8b0e555629f785aaa561c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the best calculated position if the new candidate is better.  <a href="classCaptain_1_1DriveModeDescriptor.html#a26e5edacbff8b0e555629f785aaa561c">More...</a><br /></td></tr>
+<tr class="separator:a26e5edacbff8b0e555629f785aaa561c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class of functors of various drive modes that vehicle can have, and provides access, set operators for them. </p>
@@ -174,7 +181,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::tuple&lt; <a class="el" href="structCaptain_1_1Position.html">Position</a>, double, double, <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a>, int, double, double &gt; Captain::DriveModeDescriptor::ComputePosition </td>
+          <td class="memname">std::tuple&lt; Position, double, double, <a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a>, int, double, double &gt; Captain::DriveModeDescriptor::ComputePosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f">DMode::VehicleInfoStatePair</a>&#160;</td>
           <td class="paramname"><em>subject</em></td><td>)</td>
@@ -182,7 +189,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>ComputePosition: Computes <a class="el" href="structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system.">Position</a> of the vehicle with integrated driveModes, Finds functor that updates the position for the least amount </p><dl class="params"><dt>Parameters</dt><dd>
+<p>ComputePosition: Computes Position of the vehicle with integrated driveModes, Finds functor that updates the position for the least amount </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">subject</td><td>information and state pair of subject vehicle </td></tr>
   </table>
@@ -225,6 +232,100 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>IsInLCState: Determine whether drive mode is in LC state </p><dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+</div>
+</div>
+<a id="a26e5edacbff8b0e555629f785aaa561c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e5edacbff8b0e555629f785aaa561c">&#9670;&nbsp;</a></span>UpdateBestPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Captain::DriveModeDescriptor::UpdateBestPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a>&#160;</td>
+          <td class="paramname"><em>newMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::tuple&lt; Position, double, double, int, double, double &gt;&#160;</td>
+          <td class="paramname"><em>candidate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Position &amp;&#160;</td>
+          <td class="paramname"><em>bestPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>bestSpeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>bestAccel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceCaptain.html#adb2da0ffbadc1747f448261fec9e7d2b">DriveMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>bestDriveMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>bestLeaderId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>bestDistance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>bestLeaderSpeed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the best calculated position if the new candidate is better. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newMode</td><td>The drive mode being considered. </td></tr>
+    <tr><td class="paramname">candidate</td><td>A tuple containing the new position, speed, and other state info. </td></tr>
+    <tr><td class="paramname">bestPosition</td><td>The current best position. </td></tr>
+    <tr><td class="paramname">bestSpeed</td><td>The current best speed. </td></tr>
+    <tr><td class="paramname">bestAccel</td><td>The current best acceleration. </td></tr>
+    <tr><td class="paramname">bestDriveMode</td><td>The enum of the current best drive mode. </td></tr>
+    <tr><td class="paramname">bestLeaderId</td><td>The current best leader ID. </td></tr>
+    <tr><td class="paramname">bestDistance</td><td>The current best distance to leader. </td></tr>
+    <tr><td class="paramname">bestLeaderSpeed</td><td>The current best leader speed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

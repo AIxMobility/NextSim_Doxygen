@@ -1,0 +1,9 @@
+<map id="Captain::Network::IVehicleContainableUnit" name="Captain::Network::IVehicleContainableUnit">
+<area shape="rect" id="node1" title=" " alt="" coords="151,301,346,343"/>
+<area shape="rect" id="node2" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="16,5,94,32"/>
+<area shape="rect" id="node7" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="166,212,331,239"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="356,212,562,239"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="162,5,346,32"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="370,5,548,32"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="572,5,751,32"/>
+</map>

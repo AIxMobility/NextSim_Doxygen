@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3d_3d_3318',['operator==',['../structCaptain_1_1Position.html#a43b37cd759c5fb664cec04e6ca4c31ae',1,'Captain::Position']]]
+  ['microlink_4309',['MicroLink',['../classCaptain_1_1Network_1_1RoadStation.html#a284dd0b0f61162d159cc3db6ef7ade08',1,'Captain::Network::RoadStation']]]
 ];

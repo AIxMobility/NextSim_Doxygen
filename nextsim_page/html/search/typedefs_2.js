@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['vehicleinfostatepair_3238',['VehicleInfoStatePair',['../namespaceCaptain_1_1DMode.html#ac11d2da272bdc01671f3b6bd54570b7f',1,'Captain::DMode']]],
-  ['vehicleptr_3239',['VehiclePtr',['../namespaceCaptain.html#a5301b096b0d2f6c9fba1ee250dacb646',1,'Captain']]],
-  ['vehicleweakptr_3240',['VehicleWeakPtr',['../namespaceCaptain.html#a1975db5013e457f81b82eeeeecece75b',1,'Captain']]]
+  ['trainptr_4201',['TrainPtr',['../namespaceCaptain.html#a3afad55cb34703f9ec06740ddaf8fcab',1,'Captain']]],
+  ['trainweakptr_4202',['TrainWeakPtr',['../namespaceCaptain.html#aa461256fe85b1b423ca397e052e59a88',1,'Captain']]]
 ];

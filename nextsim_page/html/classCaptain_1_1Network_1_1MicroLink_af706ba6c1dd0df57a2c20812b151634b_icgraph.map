@@ -1,0 +1,5 @@
+<map id="Captain::Network::MicroLink::GetFollowerLaneConnectionInfo" name="Captain::Network::MicroLink::GetFollowerLaneConnectionInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="317,43,555,84"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1UniformLink.html#adab32ec747447c730dc5d8fe224bbd6a" title="Gets the connection information for a downstream follower lane." alt="" coords="5,5,269,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1UniformIntersectionLink.html#a551dac788a8309e70f48f55c6655af51" title=" " alt="" coords="16,71,259,127"/>
+</map>

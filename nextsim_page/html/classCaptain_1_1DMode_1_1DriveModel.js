@@ -1,11 +1,10 @@
 var classCaptain_1_1DMode_1_1DriveModel =
 [
-    [ "Activate", "classCaptain_1_1DMode_1_1DriveModel.html#ae946fe843d24650a74d1c19517829e74", null ],
+    [ "Activate", "classCaptain_1_1DMode_1_1DriveModel.html#ac7139533db910f24e707bf73ddde329b", null ],
     [ "Deactivate", "classCaptain_1_1DMode_1_1DriveModel.html#a2cdf4ab6b5bb7d2dcafb5bf3404f89a7", null ],
-    [ "evaluateYPosition", "classCaptain_1_1DMode_1_1DriveModel.html#a7d965dcc7c6a59a65916915e2fbff59c", null ],
     [ "getARM", "classCaptain_1_1DMode_1_1DriveModel.html#a069e15833e3174b9ceaadc1db1e71d0f", null ],
     [ "getArmShortGap", "classCaptain_1_1DMode_1_1DriveModel.html#abeb580928b18162d5adcc59c9a8e395d", null ],
-    [ "GetElapsedTime", "classCaptain_1_1DMode_1_1DriveModel.html#a2c98ad2020e3a5ebb6f42d9197219c14", null ],
+    [ "GetElapsedCycles", "classCaptain_1_1DMode_1_1DriveModel.html#adb0f2d176577a66efd1875dc09ed4d76", null ],
     [ "GetLeaderID", "classCaptain_1_1DMode_1_1DriveModel.html#a0197fbb4e0f8948bd8c517c1d01d7d02", null ],
     [ "GetLeaderVehicleInfo", "classCaptain_1_1DMode_1_1DriveModel.html#a38fee8bacc2d8872f29d96e3cd8b7c7e", null ],
     [ "GetLeaderVehicleState", "classCaptain_1_1DMode_1_1DriveModel.html#a78314bb455dbf5350bc031ce7cf18f2c", null ],

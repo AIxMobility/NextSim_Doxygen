@@ -1,3 +1,5 @@
 <map id="Captain::VehicleInfo" name="Captain::VehicleInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,157,347"/>
+<area shape="rect" id="node1" title="Struck of information about a vehicle." alt="" coords="53,95,205,121"/>
+<area shape="rect" id="node2" href="$classVehicleType.html" title="Class of VehicleType: NV(Normal Vehicle), AV(Autonomous Vehicle), NB(Normal Bus), AB(Autonomous Bus),..." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node3" href="$classVehicleDummyType.html" title="Class of vehicle dummy type : regular(0), segment, event, stop, virtual." alt="" coords="129,5,279,32"/>
 </map>

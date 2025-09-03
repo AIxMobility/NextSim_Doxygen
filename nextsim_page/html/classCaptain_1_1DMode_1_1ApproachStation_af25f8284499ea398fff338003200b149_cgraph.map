@@ -1,4 +1,5 @@
 <map id="Captain::DMode::ApproachStation::operator()" name="Captain::DMode::ApproachStation::operator()">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ApproachStation.html#a4a71da56a5d3f556d5cd321b661784f1" title=" " alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,200,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1DMode_1_1ApproachStation.html#a4a71da56a5d3f556d5cd321b661784f1" title=" " alt="" coords="255,5,450,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1DMode_1_1DriveModel.html#a069e15833e3174b9ceaadc1db1e71d0f" title=" " alt="" coords="248,71,457,112"/>
 </map>

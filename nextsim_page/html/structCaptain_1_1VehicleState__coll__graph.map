@@ -1,7 +1,6 @@
 <map id="Captain::VehicleState" name="Captain::VehicleState">
-<area shape="rect" id="node1" title="Struck of current state and trajectory information for a vehicle." alt="" coords="176,199,337,225"/>
-<area shape="rect" id="node2" href="$structCaptain_1_1Position.html" title="Struct of a 2D position in a coordinate system." alt="" coords="5,95,137,121"/>
-<area shape="rect" id="node3" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="177,5,256,32"/>
-<area shape="rect" id="node5" href="$structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="329,95,505,121"/>
-<area shape="rect" id="node4" href="$classLCDirection.html" title="Class of direction of lane changing direction : straight(0), left(&#45;1), right(1)" alt="" coords="529,95,627,121"/>
+<area shape="rect" id="node1" title="Struck of current state and trajectory information for a vehicle." alt="" coords="155,199,316,225"/>
+<area shape="rect" id="node2" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1RouteIdentifier.html" title="Struct of a route based on type, subtype, link ID, lane IDs, and optional station IDs." alt="" coords="157,95,333,121"/>
+<area shape="rect" id="node3" href="$classLCDirection.html" title="Class of direction of lane changing direction : straight(0), left(&#45;1), right(1)" alt="" coords="367,95,464,121"/>
 </map>

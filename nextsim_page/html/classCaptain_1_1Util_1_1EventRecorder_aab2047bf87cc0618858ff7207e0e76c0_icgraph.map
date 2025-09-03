@@ -1,5 +1,5 @@
 <map id="Captain::Util::EventRecorder::RecordCell" name="Captain::Util::EventRecorder::RecordCell">
-<area shape="rect" id="node1" title=" " alt="" coords="243,39,449,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html#ab09b7181c64a8b8cc48f5c0ac2ddd418" title=" " alt="" coords="8,5,192,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html#a1a70849c68e9dccdb5e08d01dd043766" title=" " alt="" coords="5,71,195,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="264,39,471,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MesoUnit.html#a10bee0f4b8f3db475f8fdf734caaf294" title=" " alt="" coords="8,5,213,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MicroLane.html#a6511f03b250298b6dbbc7c06b2796e76" title=" " alt="" coords="5,71,216,112"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="NextSimIO::SignalArr::SignalArr" name="NextSimIO::SignalArr::SignalArr">
+<area shape="rect" id="node1" title=" " alt="" coords="5,100,164,141"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1InputSignal.html#a0ee09eec89f59146c33d93651a4ee0e5" title=" " alt="" coords="235,5,408,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputSignal.html#a561aa51caf965980cba466dda25c4610" title=" " alt="" coords="235,71,408,112"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1turn.html#ab897a97b560e57857f7783c734c0368e" title="Set list of connection ids." alt="" coords="216,137,427,163"/>
+<area shape="rect" id="node5" href="$classNextSimIO_1_1phase.html#af968e7c9c74db03500f02ffe7ab5e5d4" title="Set list of turn ids." alt="" coords="212,187,431,214"/>
+</map>

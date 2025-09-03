@@ -1,0 +1,4 @@
+<map id="Captain::Network::UnitConnectionInfo" name="Captain::Network::UnitConnectionInfo">
+<area shape="rect" id="node1" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths." alt="" coords="5,95,273,121"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="86,5,193,32"/>
+</map>

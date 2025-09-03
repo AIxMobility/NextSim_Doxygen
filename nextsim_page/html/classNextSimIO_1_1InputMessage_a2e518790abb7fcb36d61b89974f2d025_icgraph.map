@@ -1,0 +1,4 @@
+<map id="NextSimIO::InputMessage::GetVehID" name="NextSimIO::InputMessage::GetVehID">
+<area shape="rect" id="node1" title="Get vehicle ID." alt="" coords="217,5,408,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a20959bf9654c8e1d742c3378f33bd7d2" title="Initialize V2X." alt="" coords="5,5,169,47"/>
+</map>

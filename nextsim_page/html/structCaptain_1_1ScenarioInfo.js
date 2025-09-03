@@ -1,0 +1,26 @@
+var structCaptain_1_1ScenarioInfo =
+[
+    [ "ScenarioInfo", "structCaptain_1_1ScenarioInfo.html#aedf1bb0aea795a9d5228be32452384a0", null ],
+    [ "ScenarioInfo", "structCaptain_1_1ScenarioInfo.html#a7bbe8a75d1e9bc0ce284add109e01ca4", null ],
+    [ "GetBGTDuration", "structCaptain_1_1ScenarioInfo.html#abcd93d4e9e3f7d8621cd9bea3cd68bb4", null ],
+    [ "GetDuration", "structCaptain_1_1ScenarioInfo.html#a08934de71dee2ae8d86c7c0ec433c13e", null ],
+    [ "GetID", "structCaptain_1_1ScenarioInfo.html#a2337ce0781b1a83c63c13fc5bec4336b", null ],
+    [ "GetModes", "structCaptain_1_1ScenarioInfo.html#a56a52d245b62a3e614a632c70f6e6d16", null ],
+    [ "GetOD", "structCaptain_1_1ScenarioInfo.html#ac613559d930231137aecf41e6f84f3e6", null ],
+    [ "GetSignalTOD", "structCaptain_1_1ScenarioInfo.html#a4554d70b3befb360d162ab222ae5ca78", null ],
+    [ "GetStartTime", "structCaptain_1_1ScenarioInfo.html#aaf909d62d448748500de07e587acd0b4", null ],
+    [ "SetBGTDuration", "structCaptain_1_1ScenarioInfo.html#a99c7a0a49d3f39257a66121a9d583a99", null ],
+    [ "SetDuration", "structCaptain_1_1ScenarioInfo.html#ad2f62a40a7fd288b6f47b7a6b841a03c", null ],
+    [ "SetID", "structCaptain_1_1ScenarioInfo.html#acc3fa525cefb88996782b1a2e61203e6", null ],
+    [ "SetModes", "structCaptain_1_1ScenarioInfo.html#aad51be0339ee8cb010966bbfed4eca7b", null ],
+    [ "SetOD", "structCaptain_1_1ScenarioInfo.html#a34301a24c2cae91027a3a424ddcd004e", null ],
+    [ "SetSignalTOD", "structCaptain_1_1ScenarioInfo.html#aefeb4648fd7ebe3a4adc56aaa35961a2", null ],
+    [ "SetStartTime", "structCaptain_1_1ScenarioInfo.html#a04ec985f265c7f06fe0b2db057c7d889", null ],
+    [ "BGTDuration", "structCaptain_1_1ScenarioInfo.html#adce49032b87a9d36c30e7d2ecfb96f02", null ],
+    [ "Duration", "structCaptain_1_1ScenarioInfo.html#a1a41c6186c83b8c432687bfe9600b823", null ],
+    [ "ID", "structCaptain_1_1ScenarioInfo.html#a19baeb6a6a7e976d01d96f54b022f24c", null ],
+    [ "Modes", "structCaptain_1_1ScenarioInfo.html#a1027320937a0f8c95f3678cace27e591", null ],
+    [ "ODID", "structCaptain_1_1ScenarioInfo.html#a9ee8e879eff297eae7e199e324901b67", null ],
+    [ "SignalTOD", "structCaptain_1_1ScenarioInfo.html#a7f472661a71e5f0bae16fd17ad687c8e", null ],
+    [ "StartTime", "structCaptain_1_1ScenarioInfo.html#a44f11f33fad36c4255ad4c4dcff71056", null ]
+];

@@ -1,0 +1,14 @@
+<map id="Captain::NetInitializer::InitializeV2X" name="Captain::NetInitializer::InitializeV2X">
+<area shape="rect" id="node1" title="Initialize V2X." alt="" coords="5,332,169,373"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a5bff3f601f84b2b9d43762bbc3a4c147" title=" " alt="" coords="217,5,408,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputMessage.html#adbf0dee906965a98868f09a715924436" title="Get end time." alt="" coords="217,71,408,112"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1InputMessage.html#afaea39664d764dc1c685aa0e5fe9330c" title="Get message ID." alt="" coords="217,136,408,177"/>
+<area shape="rect" id="node5" href="$classNextSimIO_1_1InputNode.html#a21a21ec5e91eb1faf894385e49ac2368" title=" " alt="" coords="229,201,396,243"/>
+<area shape="rect" id="node6" href="$classNextSimIO_1_1InputMessage.html#a9544fa4c095763352e1ae2ff31654bbe" title="Get message type." alt="" coords="217,267,408,308"/>
+<area shape="rect" id="node7" href="$classNextSimIO_1_1InputMessage.html#a8c8f338afa8416a7215db2c5925a41c6" title="Get node ID." alt="" coords="217,332,408,373"/>
+<area shape="rect" id="node8" href="$classNextSimIO_1_1InputMessage.html#a08c24e75558a178c414e97bee246cd7f" title="Get start time." alt="" coords="217,397,408,439"/>
+<area shape="rect" id="node9" href="$classNextSimIO_1_1InputNode.html#a0a268c2326f314daa274a09ecbc02e45" title=" " alt="" coords="229,463,396,504"/>
+<area shape="rect" id="node10" href="$classNextSimIO_1_1InputMessage.html#ac266c875fd9d485ca9595e23b0c3aef6" title="Get speed value." alt="" coords="217,528,408,569"/>
+<area shape="rect" id="node11" href="$classNextSimIO_1_1InputMessage.html#a2e518790abb7fcb36d61b89974f2d025" title="Get vehicle ID." alt="" coords="217,593,408,635"/>
+<area shape="rect" id="node12" href="$classCaptain_1_1Engine.html#a0a2e7c68a3718c8b683b5545fe78363b" title=" " alt="" coords="223,659,402,686"/>
+</map>

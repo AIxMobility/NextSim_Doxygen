@@ -1,0 +1,4 @@
+<map id="Captain::Network::UniformIntersectionLink::SetLeaderLaneConnectionInfo" name="Captain::Network::UniformIntersectionLink::SetLeaderLaneConnectionInfo">
+<area shape="rect" id="node1" title="Sets the connection information for the upstream leader lane." alt="" coords="5,5,236,61"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLink.html#aaa5acf35f6c2b8dd648dac867e57b730" title="Sets the connection information to the upstream leader for a specific lane." alt="" coords="284,13,508,54"/>
+</map>

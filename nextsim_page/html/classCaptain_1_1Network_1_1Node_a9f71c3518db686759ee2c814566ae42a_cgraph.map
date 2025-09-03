@@ -1,0 +1,8 @@
+<map id="Captain::Network::Node::UpdateSignal" name="Captain::Network::Node::UpdateSignal">
+<area shape="rect" id="node1" title=" " alt="" coords="5,122,183,163"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1turn.html#ac45975c8183f5fc68d6058122367389e" title=" " alt="" coords="231,5,444,32"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1SignalPhase.html#a247bfc324788e5e6e2b062b441c3b6d9" title=" " alt="" coords="258,57,417,98"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1SignalController.html#a23013450ce9259398ef4813fb7aef11a" title=" " alt="" coords="245,122,429,163"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1SignalController.html#a77ccb1a0434d3c57ace5ce4dc580e234" title=" " alt="" coords="245,187,429,229"/>
+<area shape="rect" id="node6" href="$structCaptain_1_1SignalPhase.html#a2f36681ffe01ef18ed33dfefbffe031d" title=" " alt="" coords="258,253,417,294"/>
+</map>

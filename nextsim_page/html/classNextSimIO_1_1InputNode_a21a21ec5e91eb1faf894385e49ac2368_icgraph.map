@@ -1,0 +1,8 @@
+<map id="NextSimIO::InputNode::GetId" name="NextSimIO::InputNode::GetId">
+<area shape="rect" id="node1" title=" " alt="" coords="224,136,391,177"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a0afdc72a7a975815c97d1da592d1108f" title="Initialize garages." alt="" coords="9,5,173,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#aedb3eba68b4eb733205e4f2470059e90" title="Initialize intersections." alt="" coords="5,71,176,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1NetInitializer.html#ad31e6da0467dcaa7c867a78bb233a1ae" title="Initialize network." alt="" coords="9,136,173,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1NetInitializer.html#a42afbce28cc65f96cbc26033e6ce1468" title="Initialize terminals." alt="" coords="9,201,173,243"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1NetInitializer.html#a20959bf9654c8e1d742c3378f33bd7d2" title="Initialize V2X." alt="" coords="9,267,173,308"/>
+</map>

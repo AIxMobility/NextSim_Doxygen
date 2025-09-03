@@ -1,5 +1,5 @@
 <map id="Captain::Util::EventRecorder::WriteSinkToFile" name="Captain::Util::EventRecorder::WriteSinkToFile">
-<area shape="rect" id="node1" title=" " alt="" coords="249,39,456,80"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1GarageUnit.html#abe9b66ad08c75083d460cb28954be9c9" title=" " alt="" coords="5,5,201,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1SinkUnit.html#a82bb056e96cbf734a45ab9fb959371cf" title=" " alt="" coords="15,71,192,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="252,39,459,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1GarageUnit.html#a895f9503297e77446b98655c76ccc6d7" title=" " alt="" coords="9,5,200,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1SinkUnit.html#a738bd51bde951f1047235cb3d9cb586a" title=" " alt="" coords="5,71,204,112"/>
 </map>

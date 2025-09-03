@@ -1,0 +1,5 @@
+<map id="Captain::Engine::ReserveAgentVehicle" name="Captain::Engine::ReserveAgentVehicle">
+<area shape="rect" id="node1" title=" " alt="" coords="241,39,427,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#a2039ac690f905af99b084ab6ffda3393" title="Initialize public transit." alt="" coords="15,5,183,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1NetInitializer.html#abe39a1449b8678a27202f2f814f73bb9" title="Initialize vehicle demand." alt="" coords="5,71,193,112"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Captain::Network::RoadStation" name="Captain::Network::RoadStation">
+<area shape="rect" id="node1" title="Class of information about a station on the road network, including their ID, passenger." alt="" coords="1035,315,1257,341"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="625,188,819,215"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1StationPassengerList.html" title="Struct of passenger in station." alt="" coords="615,239,829,265"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="619,289,825,316"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="237,52,421,79"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="241,215,418,241"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="240,289,419,316"/>
+<area shape="rect" id="node8" href="$structCaptain_1_1RoadStationInfo.html" title=" " alt="" coords="630,340,814,367"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1StationInfo.html" title="Struct of information about a station." alt="" coords="254,340,405,367"/>
+<area shape="rect" id="node10" href="$classPTType.html" title="Class of Public Transit Type : Bus, Subway, Tram, TRT, BRT." alt="" coords="25,315,93,341"/>
+<area shape="rect" id="node11" href="$classNetworkType.html" title="Class of Public Transit Network : Road, Rail." alt="" coords="5,365,112,392"/>
+<area shape="rect" id="node12" href="$classCaptain_1_1Util_1_1VehicleQueue.html" title="Class for managing vehicle queue." alt="" coords="622,391,822,417"/>
+<area shape="rect" id="node13" href="$classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="243,391,416,417"/>
+<area shape="rect" id="node14" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="639,441,805,468"/>
+<area shape="rect" id="node15" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="290,441,369,468"/>
+</map>

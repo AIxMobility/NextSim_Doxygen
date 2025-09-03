@@ -102,27 +102,26 @@ Inheritance diagram for Captain::IEventRecordable:</div>
 <div class="dyncontent">
 <div class="center"><img src="structCaptain_1_1IEventRecordable__inherit__graph.png" border="0" usemap="#aCaptain_1_1IEventRecordable_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCaptain_1_1IEventRecordable_inherit__map" id="aCaptain_1_1IEventRecordable_inherit__map">
-<area shape="rect" title="Interface for units that can record events." alt="" coords="211,5,405,32"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MesoUnit.html" title="Represents a mesoscopic cell unit used in meso&#45;level traffic flow algorithms." alt="" coords="5,80,189,107"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1MicroLane.html" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="213,80,403,107"/>
-<area shape="rect" href="classCaptain_1_1Node_1_1Station.html" title="Represents a station where vehicles can park and passengers can board or alight." alt="" coords="427,80,595,107"/>
+<area shape="rect" title="Interface for units that can record events." alt="" coords="5,81,200,108"/>
+<area shape="rect" href="classCaptain_1_1Network_1_1MesoUnit.html" title="Represents a mesoscopic cell unit used in meso&#45;level traffic flow algorithms." alt="" coords="257,5,462,32"/>
+<area shape="rect" href="classCaptain_1_1Network_1_1MicroLane.html" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="254,56,465,83"/>
+<area shape="rect" href="classCaptain_1_1Network_1_1RailStation.html" title="Class of information about a station on the rail network, including their ID, passenger." alt="" coords="252,107,467,133"/>
+<area shape="rect" href="classCaptain_1_1Network_1_1RoadStation.html" title="Class of information about a station on the road network, including their ID, passenger." alt="" coords="248,157,471,184"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7056daa9c8bb0712b5086f695481d232"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#a7056daa9c8bb0712b5086f695481d232">Record</a> (size_t cycle)=0</td></tr>
-<tr class="separator:a7056daa9c8bb0712b5086f695481d232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2eaf40e08403136410233b363909285"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#ab2eaf40e08403136410233b363909285">FlushRecordings</a> (std::vector&lt; std::pair&lt; std::string, bool &gt;&gt; recordMode)=0</td></tr>
-<tr class="separator:ab2eaf40e08403136410233b363909285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc2cbece40bb830c49854ecc2211fc3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#a3fc2cbece40bb830c49854ecc2211fc3">FlushRecordings</a> ()=0</td></tr>
+<tr class="separator:a3fc2cbece40bb830c49854ecc2211fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa84d827817e17a117fb9db090efd1605"><td class="memItemLeft" align="right" valign="top">virtual std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCaptain_1_1IEventRecordable.html#aa84d827817e17a117fb9db090efd1605">GetFilePath</a> ()=0</td></tr>
 <tr class="separator:aa84d827817e17a117fb9db090efd1605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for units that can record events. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab2eaf40e08403136410233b363909285"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2eaf40e08403136410233b363909285">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
+<a id="a3fc2cbece40bb830c49854ecc2211fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc2cbece40bb830c49854ecc2211fc3">&#9670;&nbsp;</a></span>FlushRecordings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,8 +132,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void Captain::IEventRecordable::FlushRecordings </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; std::string, bool &gt;&gt;&#160;</td>
-          <td class="paramname"><em>recordMode</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -144,9 +142,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Writes all recordings in the temporary buffer to file and flushes the buffer Creates file if file does not exist by calling RemoveExistingFile() It will append recordings to file if file already exists </p>
+<p>Records information to temporary buffer record operation runs internally Writes all recordings in the temporary buffer to file and flushes the buffer Creates file if file does not exist by calling RemoveExistingFile() It will append recordings to file if file already exists </p>
 
-<p>Implemented in <a class="el" href="classCaptain_1_1Node_1_1Station.html#aa7df675c7e628da0f2891757e1277f2b">Captain::Node::Station</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#a8a4cf7b2332d6146cefe0c6265c602b9">Captain::Node::MicroLane</a>, and <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#aea41e9725a7553a5aaf18d92c0a6f653">Captain::Node::MesoUnit</a>.</p>
+<p>Implemented in <a class="el" href="classCaptain_1_1Network_1_1RailStation.html#a144edc791838f6525ec430bdf3c978e3">Captain::Network::RailStation</a>, <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#aebfcad203dc25fecacb836f076e2c722">Captain::Network::RoadStation</a>, <a class="el" href="classCaptain_1_1Network_1_1MicroLane.html#a9a6ad1d5e2dbc148b3ada2f8b25dbd8f">Captain::Network::MicroLane</a>, and <a class="el" href="classCaptain_1_1Network_1_1MesoUnit.html#a5f4d9071b8d3910de1682f66b181c61c">Captain::Network::MesoUnit</a>.</p>
 
 </div>
 </div>
@@ -174,34 +172,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Gets current target file path </p><dl class="section return"><dt>Returns</dt><dd>: filepath that recordings are getting stored </dd></dl>
 
-<p>Implemented in <a class="el" href="classCaptain_1_1Node_1_1Station.html#a6c4ad417b2a1884cdeb1b89c90f5f614">Captain::Node::Station</a>, <a class="el" href="classCaptain_1_1Node_1_1MicroLane.html#a487037fc2028c7378ad01b9a417080d4">Captain::Node::MicroLane</a>, and <a class="el" href="classCaptain_1_1Node_1_1MesoUnit.html#a189c11b81db2470f3d6553b38f09c435">Captain::Node::MesoUnit</a>.</p>
-
-</div>
-</div>
-<a id="a7056daa9c8bb0712b5086f695481d232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7056daa9c8bb0712b5086f695481d232">&#9670;&nbsp;</a></span>Record()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Captain::IEventRecordable::Record </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>cycle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Records information to temporary buffer record operation runs internally </p>
+<p>Implemented in <a class="el" href="classCaptain_1_1Network_1_1RailStation.html#a66fdb3794a6ee9a1ad73daa905077701">Captain::Network::RailStation</a>, <a class="el" href="classCaptain_1_1Network_1_1RoadStation.html#a105b3c76d8b3f6f54199d515f18d8214">Captain::Network::RoadStation</a>, <a class="el" href="classCaptain_1_1Network_1_1MicroLane.html#a904556ef1a0e34f42f394ead13ad89c4">Captain::Network::MicroLane</a>, and <a class="el" href="classCaptain_1_1Network_1_1MesoUnit.html#ab76c940dd86cbc880a24586b9e58fa44">Captain::Network::MesoUnit</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,18 @@
+<map id="Captain::Network::MicroLane" name="Captain::Network::MicroLane">
+<area shape="rect" id="node1" title="Represents a lane in the micro&#45;scale traffic simulation model." alt="" coords="1237,247,1448,273"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Network_1_1IVehicleContainableUnit.html" title=" " alt="" coords="794,42,989,83"/>
+<area shape="rect" id="node3" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="58,5,137,32"/>
+<area shape="rect" id="node8" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="403,49,569,76"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="383,177,589,204"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,97,189,124"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,260,186,287"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,335,187,361"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="794,108,989,135"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1SharedPtr.html" title=" " alt="" coords="812,159,971,215"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1SharedPtr.html" title=" " alt="" coords="820,239,963,281"/>
+<area shape="rect" id="node12" href="$structCaptain_1_1Network_1_1UnitConnectionInfo.html" title="Stores connection information for lanes, including previous units, priorities, and cycle lengths." alt="" coords="757,305,1025,332"/>
+<area shape="rect" id="node13" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="433,305,539,332"/>
+<area shape="rect" id="node14" href="$classCaptain_1_1Util_1_1VehicleQueue.html" title="Class for managing vehicle queue." alt="" coords="791,356,991,383"/>
+<area shape="rect" id="node15" href="$classCaptain_1_1IVehicleQueue.html" title=" " alt="" coords="399,356,573,383"/>
+<area shape="rect" id="node16" href="$classLaneAccessType.html" title="Class of lane access type." alt="" coords="827,407,955,433"/>
+</map>

@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['acc_2675',['Acc',['../structCaptain_1_1VehicleRecordInfo.html#a4fc50ec6af4a7cf5bc0563e5d60f75fa',1,'Captain::VehicleRecordInfo']]],
-  ['acceleration_2676',['Acceleration',['../structCaptain_1_1VehicleInfo.html#ad9af994362a0786bc6975be196511dbe',1,'Captain::VehicleInfo::Acceleration()'],['../structCaptain_1_1VehicleState.html#acff96d972062a5691b4e4ae6d46c024a',1,'Captain::VehicleState::Acceleration()']]],
-  ['acfkeeptime_2677',['ACFKeepTime',['../namespaceCaptain_1_1MicroDriveModeParams.html#afc1ebf915a69c95ca256237d6427dfe4',1,'Captain::MicroDriveModeParams']]],
-  ['actioncycle_2678',['ActionCycle',['../structCaptain_1_1MicroLinkEventInfo.html#a63bfb7e8b1ca255d4a5ac5c9d8413b2d',1,'Captain::MicroLinkEventInfo']]],
-  ['actiontype_2679',['ActionType',['../structCaptain_1_1MicroLinkEventInfo.html#aed670bc80b3b585f14efa435f710eb3c',1,'Captain::MicroLinkEventInfo']]],
-  ['adjspeedmode_2680',['AdjSpeedMode',['../classCaptain_1_1DriveModeDescriptor.html#a9bf14e277101f2ee8d4e0fcc42a74a16',1,'Captain::DriveModeDescriptor']]],
-  ['alcmode_2681',['AlcMode',['../classCaptain_1_1DriveModeDescriptor.html#afe9f68ce12b72428ab97cde44cd4903a',1,'Captain::DriveModeDescriptor']]],
-  ['alpha1_2682',['alpha1',['../namespaceCaptain_1_1LaneChangeParams.html#a9d8fdb44726b8928fabd34506c01ae90',1,'Captain::LaneChangeParams']]],
-  ['alpha2_2683',['alpha2',['../namespaceCaptain_1_1LaneChangeParams.html#a1a4b425a405be75d3e662c762c50d3a9',1,'Captain::LaneChangeParams']]],
-  ['approachstationmode_2684',['ApproachStationMode',['../classCaptain_1_1DriveModeDescriptor.html#af9a4b99a9db589c7225461bd5b3721f8',1,'Captain::DriveModeDescriptor']]],
-  ['arrivaltime_2685',['ArrivalTime',['../structCaptain_1_1VehicleLinkRecordInfo.html#a9e891badf9081ca36062a40d7a634409',1,'Captain::VehicleLinkRecordInfo']]],
-  ['avgspeed_2686',['AvgSpeed',['../structCaptain_1_1VehicleLinkRecordInfo.html#ad0362a4820f846ece4defadd2700a109',1,'Captain::VehicleLinkRecordInfo::AvgSpeed()'],['../structCaptain_1_1VehicleRecordInfo.html#af380c964fcce91c9ff915b293639eed0',1,'Captain::VehicleRecordInfo::AvgSpeed()'],['../structCaptain_1_1VehicleState.html#a82cb7d2c50a344363c7a9a90925b6079',1,'Captain::VehicleState::AvgSpeed()']]]
+  ['acceleration_3534',['Acceleration',['../structCaptain_1_1VehicleState.html#acff96d972062a5691b4e4ae6d46c024a',1,'Captain::VehicleState::Acceleration()'],['../structCaptain_1_1VehicleInfo.html#ad9af994362a0786bc6975be196511dbe',1,'Captain::VehicleInfo::Acceleration()']]],
+  ['accesstime_3535',['AccessTime',['../structCaptain_1_1StationExit.html#a547479d744e796014de8eee593f9028c',1,'Captain::StationExit']]],
+  ['acfkeeptime_3536',['ACFKeepTime',['../namespaceCaptain_1_1MicroDriveModeParams.html#afc1ebf915a69c95ca256237d6427dfe4',1,'Captain::MicroDriveModeParams']]],
+  ['adjacentstationvector_3537',['AdjacentStationVector',['../structCaptain_1_1StationInfo.html#a18e69cf104192d01b063fafe3f58ee56',1,'Captain::StationInfo']]],
+  ['adjspeedmode_3538',['AdjSpeedMode',['../classCaptain_1_1DriveModeDescriptor.html#a9bf14e277101f2ee8d4e0fcc42a74a16',1,'Captain::DriveModeDescriptor']]],
+  ['agentarr_3539',['agentArr',['../classCaptain_1_1NetInitializer.html#ac2230750936592411f2c493c6cde7cf7',1,'Captain::NetInitializer']]],
+  ['agentpaxvector_3540',['agentpaxVector',['../classCaptain_1_1NetInitializer.html#a8aafcb652c9572c1597788b0fc563e9a',1,'Captain::NetInitializer']]],
+  ['agentvector_3541',['agentVector',['../classCaptain_1_1NetInitializer.html#a9be0573340b0567ef4da3901a39b8cd9',1,'Captain::NetInitializer']]],
+  ['alcmode_3542',['AlcMode',['../classCaptain_1_1DriveModeDescriptor.html#afe9f68ce12b72428ab97cde44cd4903a',1,'Captain::DriveModeDescriptor']]],
+  ['alpha1_3543',['alpha1',['../namespaceCaptain_1_1LaneChangeParams.html#a9d8fdb44726b8928fabd34506c01ae90',1,'Captain::LaneChangeParams']]],
+  ['alpha2_3544',['alpha2',['../namespaceCaptain_1_1LaneChangeParams.html#a1a4b425a405be75d3e662c762c50d3a9',1,'Captain::LaneChangeParams']]],
+  ['approachstationmode_3545',['ApproachStationMode',['../classCaptain_1_1DriveModeDescriptor.html#af9a4b99a9db589c7225461bd5b3721f8',1,'Captain::DriveModeDescriptor']]],
+  ['arcarr_3546',['arcArr',['../classCaptain_1_1RouteGenerator.html#a757c16e79c608be9984fbfb3c892bee9',1,'Captain::RouteGenerator']]],
+  ['arcinfo_3547',['arcInfo',['../classCaptain_1_1RouteGenerator.html#a46bad93403d0476284317618323595f9',1,'Captain::RouteGenerator']]],
+  ['arcs_3548',['arcs',['../classCaptain_1_1RouteGenerator.html#aa2ef9ef5764d90787c79cf94b6d21424',1,'Captain::RouteGenerator']]],
+  ['arctoarc_3549',['arcToArc',['../classCaptain_1_1RouteGenerator.html#afa725c2c93ea17e0465815be815cc8e7',1,'Captain::RouteGenerator']]],
+  ['arrivaltime_3550',['ArrivalTime',['../structCaptain_1_1VehicleStatistics.html#a5c853ab8499eb5fd331829cef277da90',1,'Captain::VehicleStatistics::ArrivalTime()'],['../structCaptain_1_1UserStatistics.html#a4d219d81a0b6e34ff15a1b7f64733906',1,'Captain::UserStatistics::ArrivalTime()']]],
+  ['avgspeed_3551',['AvgSpeed',['../structCaptain_1_1VehicleStatistics.html#ad335c28fd2fe86a2d3678b1b42e7c831',1,'Captain::VehicleStatistics']]]
 ];

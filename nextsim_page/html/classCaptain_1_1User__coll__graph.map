@@ -1,0 +1,13 @@
+<map id="Captain::User" name="Captain::User">
+<area shape="rect" id="node1" title="Class of information about a user, including their ID, activity status, and path." alt="" coords="923,335,1033,361"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="548,272,755,299"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="171,40,355,67"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="174,203,351,229"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="173,277,352,304"/>
+<area shape="rect" id="node6" href="$structCaptain_1_1UserDescriptor.html" title="Struct of a user by storing both its information and its current state." alt="" coords="563,335,740,361"/>
+<area shape="rect" id="node7" href="$structCaptain_1_1UserInfo.html" title="Struct of information about a user." alt="" coords="195,328,330,355"/>
+<area shape="rect" id="node8" href="$classUserType.html" title="Class of UserType : Driver, Passenger." alt="" coords="5,328,88,355"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1UserState.html" title="Struct of state about a user." alt="" coords="191,379,335,405"/>
+<area shape="rect" id="node10" href="$structCaptain_1_1UserTrip.html" title="Struct of trip information for a user." alt="" coords="585,411,718,437"/>
+<area shape="rect" id="node11" href="$classRoutePreference.html" title="Class of route preference : time, distance, financial." alt="" coords="197,429,328,456"/>
+</map>

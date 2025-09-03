@@ -1,0 +1,13 @@
+<map id="Captain::TRT::GetStatisticsRef" name="Captain::TRT::GetStatisticsRef">
+<area shape="rect" id="node1" title=" " alt="" coords="840,111,1056,138"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MesoUnit.html#a027dc10bb5842ca8f82c9cd541397680" title=" " alt="" coords="584,5,789,47"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1GarageUnit.html#a1dd4cc3a29bc01dce07bcad1cf4d76f6" title=" " alt="" coords="581,71,792,112"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Network_1_1MicroLane.html#a6bc759b537e222d088cd80ccbb26d145" title=" " alt="" coords="581,136,792,177"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Network_1_1SinkUnit.html#a711be335facdf8e4f1412ce740b6ef49" title=" " alt="" coords="587,233,786,275"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MesoUnit.html#a9da4e3d8f76d43047d5e5cf808f950f2" title=" " alt="" coords="285,5,507,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MesoUnit.html#a246bc6de85122733e95ff4232df95890" title=" " alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1GarageUnit.html#a3255b6b74029d5309f6ac851837bc69b" title=" " alt="" coords="291,71,501,112"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Network_1_1MicroLane.html#a9f185f60f6bd3238ef906f4dade2f816" title=" " alt="" coords="291,136,501,177"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1Network_1_1MicroLane.html#a9580d3c8e35de60c3cbf3cd8ca0018e3" title=" " alt="" coords="259,201,533,243"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1Network_1_1SinkUnit.html#a8457e4548eceb2cd14a7cb4c9b338a0a" title=" " alt="" coords="297,267,495,308"/>
+</map>

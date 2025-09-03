@@ -1,0 +1,9 @@
+<map id="Captain::Engine::InitializeSignalMap" name="Captain::Engine::InitializeSignalMap">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,193,171"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1ScenarioInfo.html#abcd93d4e9e3f7d8621cd9bea3cd68bb4" title=" " alt="" coords="279,5,440,47"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1ScenarioInfo.html#a08934de71dee2ae8d86c7c0ec433c13e" title=" " alt="" coords="279,71,440,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#ab84f1818c34483853f61967108c27399" title=" " alt="" coords="241,137,477,163"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1ScenarioInfo.html#aaf909d62d448748500de07e587acd0b4" title=" " alt="" coords="279,188,440,229"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Engine.html#ab1139875f6a8cd9931cc6300877869c8" title=" " alt="" coords="244,254,475,281"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1SignalController.html#a7549e7c879d23270b541ad837413b5ee" title=" " alt="" coords="525,247,709,288"/>
+</map>

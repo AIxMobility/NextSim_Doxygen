@@ -1,0 +1,4 @@
+<map id="Captain::TRT" name="Captain::TRT">
+<area shape="rect" id="node1" title="Class of a vehicle in the system, handling its state, position, route, and other functionalities." alt="" coords="17,80,121,107"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Vehicle.html" title="Class of a vehicle in the system, handling its state, position, route, and other functionalities." alt="" coords="5,5,132,32"/>
+</map>

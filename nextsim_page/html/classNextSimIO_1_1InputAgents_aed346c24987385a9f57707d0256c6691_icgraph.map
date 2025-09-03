@@ -1,0 +1,4 @@
+<map id="NextSimIO::InputAgents::GetDepartureTime" name="NextSimIO::InputAgents::GetDepartureTime">
+<area shape="rect" id="node1" title=" " alt="" coords="241,5,420,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1NetInitializer.html#abe39a1449b8678a27202f2f814f73bb9" title="Initialize vehicle demand." alt="" coords="5,5,193,47"/>
+</map>

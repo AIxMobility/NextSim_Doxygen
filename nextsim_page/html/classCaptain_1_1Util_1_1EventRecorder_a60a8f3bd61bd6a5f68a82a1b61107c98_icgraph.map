@@ -1,5 +1,8 @@
 <map id="Captain::Util::EventRecorder::RecordStation" name="Captain::Util::EventRecorder::RecordStation">
-<area shape="rect" id="node1" title=" " alt="" coords="437,5,644,47"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1Station.html#aa9543a171a1c6267c1d80bf62b7ce4c6" title=" " alt="" coords="221,5,389,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1Station.html#ac64cf39d44bb567bac5413d4debe8529" title=" " alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="817,39,1024,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1RoadStation.html#a38307afaedd4f4e450348d330c0d2c36" title=" " alt="" coords="547,5,769,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1RoadStation.html#a96db78026ae553cbab9168e601ff8527" title=" " alt="" coords="547,71,769,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1RoadStation.html#a4eaad12832f91fb59e6b936ea55d5214" title=" " alt="" coords="5,41,228,83"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1RoadStation.html#a7eaba9bce28261d16fa34f2acb8cec41" title=" " alt="" coords="276,71,499,112"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1RoadStation.html#a2c002ef03cca985eb61269a14ebc8c11" title=" " alt="" coords="276,136,499,177"/>
 </map>

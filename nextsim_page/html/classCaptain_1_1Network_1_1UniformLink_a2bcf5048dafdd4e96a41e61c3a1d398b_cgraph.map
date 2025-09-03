@@ -1,0 +1,5 @@
+<map id="Captain::Network::UniformLink::SetVirtualVehicle" name="Captain::Network::UniformLink::SetVirtualVehicle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MesoLink.html#a5b92850a82f6130d830be391fb623136" title=" " alt="" coords="250,5,455,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MicroLink.html#a48d997e75bb46b6d8c90ccd581ae2efe" title=" " alt="" coords="249,71,456,112"/>
+</map>

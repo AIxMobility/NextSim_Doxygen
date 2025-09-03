@@ -1,0 +1,7 @@
+<map id="Captain::NetInitializer::InitializeGarages" name="Captain::NetInitializer::InitializeGarages">
+<area shape="rect" id="node1" title="Initialize garages." alt="" coords="5,64,169,105"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#ab0b16a7e9679c3a75efb5103ff09aeb9" title=" " alt="" coords="217,13,448,39"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1InputNode.html#a21a21ec5e91eb1faf894385e49ac2368" title=" " alt="" coords="249,64,416,105"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#a0f30bb460d88f2819d7d24d2732955ce" title=" " alt="" coords="219,130,446,157"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="496,5,639,47"/>
+</map>

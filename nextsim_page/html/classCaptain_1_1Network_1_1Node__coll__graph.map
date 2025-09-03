@@ -1,0 +1,5 @@
+<map id="Captain::Network::Node" name="Captain::Network::Node">
+<area shape="rect" id="node1" title="Represents a node that includes intersection links." alt="" coords="5,184,183,211"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="11,95,177,121"/>
+<area shape="rect" id="node3" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="55,5,133,32"/>
+</map>

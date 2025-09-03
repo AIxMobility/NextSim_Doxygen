@@ -1,3 +1,6 @@
 <map id="Captain::PassengerReservationInfo" name="Captain::PassengerReservationInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,255,215"/>
+<area shape="rect" id="node1" title="Class of reservation information for a passenger, including ID, departure cycle, &#160;&#160;origin and destina..." alt="" coords="40,184,289,211"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1UserInfo.html" title="Struct of information about a user." alt="" coords="5,95,140,121"/>
+<area shape="rect" id="node3" href="$classUserType.html" title="Class of UserType : Driver, Passenger." alt="" coords="31,5,114,32"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1PassengerRoute.html" title="Struct of a passenger route for public transit." alt="" coords="165,95,349,121"/>
 </map>

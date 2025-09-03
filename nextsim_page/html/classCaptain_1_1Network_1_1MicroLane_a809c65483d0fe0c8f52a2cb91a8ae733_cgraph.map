@@ -1,0 +1,6 @@
+<map id="Captain::Network::MicroLane::DeactivateVirtualVehicle" name="Captain::Network::MicroLane::DeactivateVirtualVehicle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,216,69"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1TRT.html#a72ca932d9bf6f7eb389df48a684b5162" title=" " alt="" coords="264,5,455,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1SharedPtr.html#ad86df0632eeaef19a75127d9345d8342" title=" " alt="" coords="288,57,431,98"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1SharedPtr.html#a02f4ef6c21d3064ee6d191951b8bd478" title=" " alt="" coords="503,57,664,98"/>
+</map>

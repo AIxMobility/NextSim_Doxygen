@@ -1,0 +1,5 @@
+<map id="Captain::Network::IntersectionMicroLink" name="Captain::Network::IntersectionMicroLink">
+<area shape="rect" id="node1" title="Repesents a specialized micro link for intersections." alt="" coords="5,155,225,196"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MicroLink.html" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="12,80,219,107"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="15,5,216,32"/>
+</map>

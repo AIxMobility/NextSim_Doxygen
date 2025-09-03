@@ -1,0 +1,13 @@
+<map id="Captain::NetInitializer::InitializeBackgroundTraffic" name="Captain::NetInitializer::InitializeBackgroundTraffic">
+<area shape="rect" id="node1" title="Initialize background traffic." alt="" coords="5,169,208,211"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Engine.html#a9e53ed510e42f39b0a23d1f25b273f50" title=" " alt="" coords="270,71,459,112"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Engine.html#a9ef1a84e37cb66770632d386e511242a" title=" " alt="" coords="273,136,456,177"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Engine.html#a2567fed582f34c1edbcf3879252d7fe2" title=" " alt="" coords="273,201,456,243"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Engine.html#acc0d6e5f5308d5cd17d9af9380d6f41a" title=" " alt="" coords="256,270,473,297"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#a7b8a9bc95ba310c1faf3d0bd2b80d9d4" title=" " alt="" coords="521,5,725,47"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1VehicleTypesArr.html#aeeb2fd65bfb7e81e68f9a7241c2d7b42" title=" " alt="" coords="522,71,725,112"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="552,136,695,177"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1SignalController.html#ad684a81f7958d1422789bcfb3c730219" title=" " alt="" coords="531,201,715,243"/>
+<area shape="rect" id="node9" href="$structCaptain_1_1ScenarioInfo.html#aaf909d62d448748500de07e587acd0b4" title=" " alt="" coords="773,201,935,243"/>
+<area shape="rect" id="node11" href="$structCaptain_1_1ScenarioInfo.html#abcd93d4e9e3f7d8621cd9bea3cd68bb4" title=" " alt="" coords="543,267,704,308"/>
+</map>

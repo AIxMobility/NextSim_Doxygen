@@ -1,0 +1,13 @@
+<map id="Captain::Network::UniformLink" name="Captain::Network::UniformLink">
+<area shape="rect" id="node1" title="Represents a link that can operate at both micro and meso scales, supporting uniform operations for b..." alt="" coords="1064,92,1287,119"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="385,5,587,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MesoLink.html" title="Represents a directional road connecting two intersections." alt="" coords="721,65,926,92"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1MicroLink.html" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="720,179,927,205"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="403,95,569,121"/>
+<area shape="rect" id="node5" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="58,57,137,84"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="383,264,589,291"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,132,189,159"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,295,186,321"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,369,187,396"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="433,197,539,224"/>
+</map>

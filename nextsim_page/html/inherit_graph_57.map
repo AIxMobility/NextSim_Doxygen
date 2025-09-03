@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classDistribution.html" title="Class of distribution : normal(0), exponential, standard." alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node1" href="$classCaptain_1_1Vehicle.html" title="Class of a vehicle in the system, handling its state, position, route, and other functionalities." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1TRT.html" title="Class of a vehicle in the system, handling its state, position, route, and other functionalities." alt="" coords="180,5,284,32"/>
 </map>

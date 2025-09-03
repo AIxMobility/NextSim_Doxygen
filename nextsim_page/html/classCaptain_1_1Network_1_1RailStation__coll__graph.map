@@ -1,0 +1,15 @@
+<map id="Captain::Network::RailStation" name="Captain::Network::RailStation">
+<area shape="rect" id="node1" title="Class of information about a station on the rail network, including their ID, passenger." alt="" coords="997,207,1212,233"/>
+<area shape="rect" id="node2" href="$structCaptain_1_1IEventRecordable.html" title="Interface for units that can record events." alt="" coords="625,105,819,132"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1StationPassengerList.html" title="Struct of passenger in station." alt="" coords="615,156,829,183"/>
+<area shape="rect" id="node4" href="$structCaptain_1_1RailStationInfo.html" title=" " alt="" coords="634,207,810,233"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1StationInfo.html" title="Struct of information about a station." alt="" coords="254,31,405,57"/>
+<area shape="rect" id="node6" href="$classPTType.html" title="Class of Public Transit Type : Bus, Subway, Tram, TRT, BRT." alt="" coords="25,5,93,32"/>
+<area shape="rect" id="node7" href="$classNetworkType.html" title="Class of Public Transit Network : Road, Rail." alt="" coords="5,56,112,83"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="619,257,825,284"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="237,95,421,121"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="241,257,418,284"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="240,332,419,359"/>
+<area shape="rect" id="node12" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="639,345,805,372"/>
+<area shape="rect" id="node13" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="290,383,369,409"/>
+</map>

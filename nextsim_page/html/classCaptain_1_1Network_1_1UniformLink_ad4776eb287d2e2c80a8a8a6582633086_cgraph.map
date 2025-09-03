@@ -1,0 +1,8 @@
+<map id="Captain::Network::UniformLink::Initialize" name="Captain::Network::UniformLink::Initialize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,201,145"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1MesoLink.html#ae94e0c43ffee3ece41bc96f0ba1fb39e" title="Initializes the link with lanes and cells based on provided information." alt="" coords="250,5,455,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MicroLink.html#a4d44f05ad1508cd5b5e4076a23894d6f" title=" " alt="" coords="249,71,456,112"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1MesoLink.html#aa8994e2341ff6cf8ccb707c173297929" title=" " alt="" coords="250,136,455,177"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1MicroLink.html#acefdbb725bd1f070e9d88a24eb9295ba" title=" " alt="" coords="249,201,456,243"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1SharedPtr.html#a3ce867882c9bd7bafb68250d0b475e60" title=" " alt="" coords="504,39,647,80"/>
+</map>

@@ -1,25 +1,23 @@
 <map id="Captain::Util::VehicleQueue::Enqueue" name="Captain::Util::VehicleQueue::Enqueue">
-<area shape="rect" id="node1" title=" " alt="" coords="612,593,812,635"/>
-<area shape="rect" id="node2" href="$classCaptain_1_1Node_1_1MesoUnit.html#acee45a419f557a0fc2afe0ca2d3718d9" title=" " alt="" coords="354,5,538,47"/>
-<area shape="rect" id="node3" href="$classCaptain_1_1Node_1_1MicroLane.html#a5b02e0582aa2f9544619f8b33e593657" title=" " alt="" coords="351,71,541,112"/>
-<area shape="rect" id="node4" href="$classCaptain_1_1Node_1_1GarageUnit.html#a155123b5454171ac054fa3116dfcf7db" title=" " alt="" coords="348,136,544,177"/>
-<area shape="rect" id="node5" href="$classCaptain_1_1Node_1_1GarageUnit.html#a59f952655c873b370cae0d3ccee3e678" title=" " alt="" coords="343,201,549,243"/>
-<area shape="rect" id="node6" href="$classCaptain_1_1Node_1_1SourceUnit.html#a965464c356d41e5254bf792e85fd0e62" title=" " alt="" coords="347,267,545,308"/>
-<area shape="rect" id="node7" href="$classCaptain_1_1Node_1_1MesoUnit.html#acfe154722823d4618cacfd61617f263c" title=" " alt="" coords="335,332,557,373"/>
-<area shape="rect" id="node9" href="$classCaptain_1_1Node_1_1MicroLane.html#a854d8e7c87fe5ba08096094dd2b7e66e" title=" " alt="" coords="351,463,541,504"/>
-<area shape="rect" id="node11" href="$classCaptain_1_1Node_1_1MicroLane.html#a42b20c2cf27ae08b5d5a9dc4aa514950" title=" " alt="" coords="351,397,541,439"/>
-<area shape="rect" id="node13" href="$classCaptain_1_1Node_1_1MicroLane.html#a4515ab6a7052d663e549249d5af7b3e2" title=" " alt="" coords="351,528,541,569"/>
-<area shape="rect" id="node14" href="$classCaptain_1_1Node_1_1MicroLane.html#a97a7638790392c8c9a58bf3c52b3fec5" title=" " alt="" coords="351,593,541,635"/>
-<area shape="rect" id="node15" href="$classCaptain_1_1Node_1_1GarageUnit.html#a179286f529d6150b6ecfaf0dd8cb201e" title=" " alt="" coords="328,659,564,700"/>
-<area shape="rect" id="node16" href="$classCaptain_1_1Node_1_1SinkUnit.html#a56ed609eeebbdbbb785650664c2a5945" title=" " alt="" coords="328,724,564,765"/>
-<area shape="rect" id="node17" href="$classCaptain_1_1Node_1_1GarageUnit.html#a5d9475337c0f519a4c081d4a0b7b9d40" title=" " alt="" coords="348,789,544,831"/>
-<area shape="rect" id="node18" href="$classCaptain_1_1Node_1_1MesoUnit.html#a942d8030b0dd71d82f7e769c51715be1" title="Receives a vehicle from the previous link." alt="" coords="354,855,538,896"/>
-<area shape="rect" id="node19" href="$classCaptain_1_1Node_1_1MicroLane.html#a1268626fcdf20aef960d86d49efa668e" title="Pushes a vehicle into this lane." alt="" coords="351,920,541,961"/>
-<area shape="rect" id="node20" href="$classCaptain_1_1Node_1_1SinkUnit.html#aea5b2945e46b9e08182cf383b3acad5a" title="Pushes a vehicle into this sink unit." alt="" coords="357,985,535,1027"/>
-<area shape="rect" id="node21" href="$classCaptain_1_1Node_1_1SourceUnit.html#ade7c8ac0982c32e4da89c11320e65ddc" title="Pushes a vehicle into this source unit." alt="" coords="349,1051,543,1092"/>
-<area shape="rect" id="node22" href="$classCaptain_1_1Node_1_1MesoUnit.html#ab4f1dd7c471411b28a2262740bcb930b" title=" " alt="" coords="354,1116,538,1157"/>
-<area shape="rect" id="node23" href="$classCaptain_1_1Node_1_1MicroLane.html#a712b396e7cfb48a3fdf0292e1d38b32c" title=" " alt="" coords="351,1181,541,1223"/>
-<area shape="rect" id="node8" href="$classCaptain_1_1Node_1_1MesoUnit.html#ad5e8f0ec18876f1c39157b27b8ef6884" title=" " alt="" coords="51,332,235,373"/>
-<area shape="rect" id="node10" href="$classCaptain_1_1Node_1_1MicroLane.html#af76a177c26d2913f37b977f9a9b0a6f9" title=" " alt="" coords="48,463,237,504"/>
-<area shape="rect" id="node12" href="$classCaptain_1_1Node_1_1MicroLane.html#a1b7a35256242768fde5f54fb27145804" title=" " alt="" coords="5,397,280,439"/>
+<area shape="rect" id="node1" title=" " alt="" coords="599,528,799,569"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1RoadStation.html#a3ff42f898eb46355751797cb6ee74b2c" title=" " alt="" coords="328,5,551,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1MesoUnit.html#a373d3910df5ae7dcaa64917728b935f3" title=" " alt="" coords="337,71,542,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MicroLane.html#a5b95d12b6e41286369ff090dbddffae8" title=" " alt="" coords="334,136,545,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1MesoUnit.html#a9da4e3d8f76d43047d5e5cf808f950f2" title=" " alt="" coords="329,201,550,243"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Network_1_1MicroLane.html#ab42961b2c4bb6cf2d0b2d421c3f72374" title=" " alt="" coords="334,332,545,373"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1Network_1_1MicroLane.html#a1a47928c310e97280ad634ecb374b709" title=" " alt="" coords="334,267,545,308"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1Network_1_1MicroLane.html#aca79df3fdfedc13022f089283f4c75a6" title=" " alt="" coords="334,397,545,439"/>
+<area shape="rect" id="node12" href="$classCaptain_1_1Network_1_1GarageUnit.html#a3255b6b74029d5309f6ac851837bc69b" title=" " alt="" coords="335,463,544,504"/>
+<area shape="rect" id="node13" href="$classCaptain_1_1Network_1_1SinkUnit.html#a8457e4548eceb2cd14a7cb4c9b338a0a" title=" " alt="" coords="340,528,539,569"/>
+<area shape="rect" id="node14" href="$classCaptain_1_1Network_1_1MicroLane.html#a2dcbe3981be0938be09fd55803808048" title=" " alt="" coords="334,593,545,635"/>
+<area shape="rect" id="node15" href="$classCaptain_1_1Network_1_1GarageUnit.html#a51cd2f68a93d008443852f5357e610b8" title=" " alt="" coords="344,659,535,700"/>
+<area shape="rect" id="node16" href="$classCaptain_1_1Network_1_1MesoUnit.html#a1b7dbe928cfe9e296450041a4eca7642" title="Receives a vehicle from the previous link." alt="" coords="337,724,542,765"/>
+<area shape="rect" id="node17" href="$classCaptain_1_1Network_1_1MicroLane.html#a79a1a92c0bf31accedf39d46b986f5d5" title="Pushes a vehicle into this lane." alt="" coords="334,789,545,831"/>
+<area shape="rect" id="node18" href="$classCaptain_1_1Network_1_1SinkUnit.html#ade357fda49b21e7a0689d84903d49cc3" title="Pushes a vehicle into this sink unit." alt="" coords="340,855,539,896"/>
+<area shape="rect" id="node19" href="$classCaptain_1_1Network_1_1SourceUnit.html#ac046b86a2e378ead38d5effba7103f9b" title="Pushes a vehicle into this source unit." alt="" coords="346,920,533,961"/>
+<area shape="rect" id="node20" href="$classCaptain_1_1Network_1_1MesoUnit.html#a3e143af474c46a99525ff79a7a9e670d" title=" " alt="" coords="337,985,542,1027"/>
+<area shape="rect" id="node21" href="$classCaptain_1_1Network_1_1MicroLane.html#ab2450e58ac0b7dc144945a86afa66e0e" title=" " alt="" coords="334,1051,545,1092"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Network_1_1MesoUnit.html#a246bc6de85122733e95ff4232df95890" title=" " alt="" coords="40,201,245,243"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Network_1_1MicroLane.html#a9f185f60f6bd3238ef906f4dade2f816" title=" " alt="" coords="37,332,248,373"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Network_1_1MicroLane.html#a9580d3c8e35de60c3cbf3cd8ca0018e3" title=" " alt="" coords="5,267,280,308"/>
 </map>

@@ -1,6 +1,6 @@
 var classNextSimIO_1_1InputVehicleTypes =
 [
-    [ "InputVehicleTypes", "classNextSimIO_1_1InputVehicleTypes.html#af3579b8cd4a8d9b65038cde37ae350ab", null ],
+    [ "InputVehicleTypes", "classNextSimIO_1_1InputVehicleTypes.html#a7721edaf379173235da5e96db21c454f", null ],
     [ "GenJamgap", "classNextSimIO_1_1InputVehicleTypes.html#a7934336750707c953841cf5c7c1db085", null ],
     [ "GenLcParam", "classNextSimIO_1_1InputVehicleTypes.html#aae00f2a9e3c9203ac87e13a7a8f22b6f", null ],
     [ "GenLcSensitivity", "classNextSimIO_1_1InputVehicleTypes.html#a2301c714512ed206b01e6e61de772bf6", null ],
@@ -8,6 +8,7 @@ var classNextSimIO_1_1InputVehicleTypes =
     [ "GenMaxDec", "classNextSimIO_1_1InputVehicleTypes.html#aa2b797c6131c745b5e74bcb447a12df5", null ],
     [ "GenReactionTime", "classNextSimIO_1_1InputVehicleTypes.html#a8f801981233aa3f314769bb222ea2924", null ],
     [ "GenVehLen", "classNextSimIO_1_1InputVehicleTypes.html#a428fe2c8ecb9d814971667b34b3a9d95", null ],
+    [ "GenVehWidth", "classNextSimIO_1_1InputVehicleTypes.html#a5a7dc8269d0917c4c6b5dbe9d112c791", null ],
     [ "GenVf", "classNextSimIO_1_1InputVehicleTypes.html#aa4296061be52c3bd123b6e27d04ce47c", null ],
     [ "GetMaxPax", "classNextSimIO_1_1InputVehicleTypes.html#ab00f906c16d6d57575ed0d3e6d3a288a", null ],
     [ "GetV2xActive", "classNextSimIO_1_1InputVehicleTypes.html#abfc05a65e207d75ceaed467e2560dfab", null ],
@@ -23,5 +24,6 @@ var classNextSimIO_1_1InputVehicleTypes =
     [ "m_v2xActive", "classNextSimIO_1_1InputVehicleTypes.html#ae128127cb9fbcb8d7df5fe25be79b27d", null ],
     [ "m_vehLen", "classNextSimIO_1_1InputVehicleTypes.html#aae5d37114f359c10aa8ed28d0de7b954", null ],
     [ "m_vehType", "classNextSimIO_1_1InputVehicleTypes.html#ac75a517cc042e343d855656627ac7e34", null ],
+    [ "m_vehWidth", "classNextSimIO_1_1InputVehicleTypes.html#a01bd494f8347ab98567338642da55665", null ],
     [ "m_vf", "classNextSimIO_1_1InputVehicleTypes.html#aa11adb516f7af2cbe7c23d9edc0b5ed2", null ]
 ];

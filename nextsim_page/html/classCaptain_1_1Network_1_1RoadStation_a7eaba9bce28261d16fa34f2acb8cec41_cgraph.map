@@ -1,0 +1,6 @@
+<map id="Captain::Network::RoadStation::ParkBus" name="Captain::Network::RoadStation::ParkBus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,228,69"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1WeakPtr.html#ad950a8d15e114ef80c955a5b95a11377" title=" " alt="" coords="564,5,736,32"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1RoadStation.html#a96db78026ae553cbab9168e601ff8527" title=" " alt="" coords="276,57,499,98"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html#a60a8f3bd61bd6a5f68a82a1b61107c98" title=" " alt="" coords="547,57,753,98"/>
+</map>

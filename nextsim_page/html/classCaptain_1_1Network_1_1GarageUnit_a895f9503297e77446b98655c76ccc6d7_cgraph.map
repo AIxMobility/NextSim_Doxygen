@@ -1,0 +1,7 @@
+<map id="Captain::Network::GarageUnit::FlushRecordings" name="Captain::Network::GarageUnit::FlushRecordings">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,112"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a615e903a007fbedb5111262c2867b269" title=" " alt="" coords="247,5,447,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Util_1_1VehicleQueue.html#a3d4c31f703ddc93aec3976f825ed7b23" title=" " alt="" coords="247,71,447,112"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Util_1_1EventRecorder.html#a745210bbc0f7c8904631e1d0bbb8775d" title=" " alt="" coords="244,136,451,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Util_1_1XmlWriter.html#a068e93e5ceb77516b3ff3b2ff22f7ec2" title=" " alt="" coords="499,136,676,177"/>
+</map>

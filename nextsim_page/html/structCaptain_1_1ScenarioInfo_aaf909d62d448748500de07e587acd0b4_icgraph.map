@@ -1,0 +1,9 @@
+<map id="Captain::ScenarioInfo::GetStartTime" name="Captain::ScenarioInfo::GetStartTime">
+<area shape="rect" id="node1" title=" " alt="" coords="723,104,884,145"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1SignalController.html#ad684a81f7958d1422789bcfb3c730219" title=" " alt="" coords="489,71,673,112"/>
+<area shape="rect" id="node6" href="$classCaptain_1_1Engine.html#a70dc9b895950858ba5680fc043fb2a8a" title=" " alt="" coords="487,136,675,177"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Engine.html#ac233e58322c6fb049c7be0d53e5c442f" title=" " alt="" coords="256,5,439,47"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Engine.html#a2567fed582f34c1edbcf3879252d7fe2" title=" " alt="" coords="256,71,439,112"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1NetInitializer.html#a7efdb2cda8fc66cdc89d41d6bba4af92" title="Initialize background traffic." alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1NetInitializer.html#a02b74742a268612c6942692790b5c11a" title="Initialize signal." alt="" coords="265,136,429,177"/>
+</map>

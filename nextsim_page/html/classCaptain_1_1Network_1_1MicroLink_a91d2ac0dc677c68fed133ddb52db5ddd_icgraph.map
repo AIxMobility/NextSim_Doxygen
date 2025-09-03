@@ -1,0 +1,7 @@
+<map id="Captain::Network::MicroLink::GetLeaderLaneConnectionInfo" name="Captain::Network::MicroLink::GetLeaderLaneConnectionInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="561,79,788,120"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1UniformLink.html#ad200d20fdab9fc05cf9831b3c58e3f02" title=" " alt="" coords="260,5,513,47"/>
+<area shape="rect" id="node3" href="$classCaptain_1_1Network_1_1UniformIntersectionLink.html#aa2ba965ade046943dc6ffd4df25e8054" title=" " alt="" coords="271,71,503,127"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MicroLink.html#ac2e860a330621217b40eb17949d3c645" title=" " alt="" coords="283,152,490,193"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Network_1_1MicroLink.html#a0414a23da0f7917db2ead4000547c228" title=" " alt="" coords="5,152,212,193"/>
+</map>

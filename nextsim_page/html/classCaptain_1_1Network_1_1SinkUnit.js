@@ -1,0 +1,27 @@
+var classCaptain_1_1Network_1_1SinkUnit =
+[
+    [ "SinkUnit", "classCaptain_1_1Network_1_1SinkUnit.html#aaa76c288c8e10beabedae9d1988b365e", null ],
+    [ "FlushRecordings", "classCaptain_1_1Network_1_1SinkUnit.html#a738bd51bde951f1047235cb3d9cb586a", null ],
+    [ "GetCurrentNumVehicles", "classCaptain_1_1Network_1_1SinkUnit.html#abea1e9548d4341d2f4abc05bc5d1de5d", null ],
+    [ "GetFollowingVehiclePtr", "classCaptain_1_1Network_1_1SinkUnit.html#a71b136f124aa98c1c1bf5bdb7ec07dae", null ],
+    [ "GetFreeFlowSpeed", "classCaptain_1_1Network_1_1SinkUnit.html#ad3d5959c410e25b1c8c70c41ca0e8f1e", null ],
+    [ "GetLeadingVehiclePtr", "classCaptain_1_1Network_1_1SinkUnit.html#a665b5673dc554dda6319381eb8d3629b", null ],
+    [ "GetLength", "classCaptain_1_1Network_1_1SinkUnit.html#ac86b40899feeffc6c3d31dde29078d75", null ],
+    [ "GetNumVehicleInCell", "classCaptain_1_1Network_1_1SinkUnit.html#a8ffbf12f88978d10d402c63d0d35fadd", null ],
+    [ "GetRecordings", "classCaptain_1_1Network_1_1SinkUnit.html#aeecd1e1a971237202a4dd1e1a63280e3", null ],
+    [ "GetSignalMode", "classCaptain_1_1Network_1_1SinkUnit.html#aa2f6ecc67f39f1353c5c49989ad580fb", null ],
+    [ "GetStopLine", "classCaptain_1_1Network_1_1SinkUnit.html#a8ad769193f7affb115a5003c8b822c45", null ],
+    [ "GetVehicleQueue", "classCaptain_1_1Network_1_1SinkUnit.html#ab1e55805d5edce059825645b014da018", null ],
+    [ "GetWidth", "classCaptain_1_1Network_1_1SinkUnit.html#a6a902d6ba25e6af9464fbbe8b7dc8bfd", null ],
+    [ "MoveFromPreviousUnit", "classCaptain_1_1Network_1_1SinkUnit.html#a8457e4548eceb2cd14a7cb4c9b338a0a", null ],
+    [ "MoveFromPreviousUnitForBGT", "classCaptain_1_1Network_1_1SinkUnit.html#aa0517437716849555649f6cd6c0f546c", null ],
+    [ "PeekVehicle", "classCaptain_1_1Network_1_1SinkUnit.html#ab9ec9870419c766b8c9c0b985a04635f", null ],
+    [ "PopVehicle", "classCaptain_1_1Network_1_1SinkUnit.html#ab2baced4d4c1dd7661e3de91a60ecd2b", null ],
+    [ "PushVehicle", "classCaptain_1_1Network_1_1SinkUnit.html#ade357fda49b21e7a0689d84903d49cc3", null ],
+    [ "Record", "classCaptain_1_1Network_1_1SinkUnit.html#ab39e67748c726ed0de2a3d20a225b91a", null ],
+    [ "SetFollowerConnectionInfo", "classCaptain_1_1Network_1_1SinkUnit.html#a4532ce89fdd5598d71b13f8077668932", null ],
+    [ "SetStopVehicleMap", "classCaptain_1_1Network_1_1SinkUnit.html#a37006b01b4868b7bf96e7c7761dbeb61", null ],
+    [ "UpdateVehicleStatistics", "classCaptain_1_1Network_1_1SinkUnit.html#a711be335facdf8e4f1412ce740b6ef49", null ],
+    [ "m_followerConnectionInfo", "classCaptain_1_1Network_1_1SinkUnit.html#abbd8ef50036760dbf4d2c895cf4ff4f2", null ],
+    [ "m_vehicleQueue", "classCaptain_1_1Network_1_1SinkUnit.html#ad05a27797785254b38633ec54bfa8630", null ]
+];

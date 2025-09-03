@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mesounitptr_3235',['MesoUnitPtr',['../namespaceCaptain_1_1Node.html#ae652b300b4a8e68968f730b8bb621980',1,'Captain::Node']]]
+  ['driverptr_4195',['DriverPtr',['../namespaceCaptain.html#a89449bf7a898edec7fb98c96a7a34a16',1,'Captain']]],
+  ['driverweakptr_4196',['DriverWeakPtr',['../namespaceCaptain.html#afc0bdaa00e49226261aa3c2e62d15f34',1,'Captain']]]
 ];

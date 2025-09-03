@@ -1,0 +1,15 @@
+<map id="Captain::Network::UniformIntersectionLink" name="Captain::Network::UniformIntersectionLink">
+<area shape="rect" id="node1" title="Represents a link at an intersection with uniform behavior for both meso and micro scale." alt="" coords="1500,191,1696,233"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1UniformLink.html" title="Represents a link that can operate at both micro and meso scales, supporting uniform operations for b..." alt="" coords="1064,160,1287,187"/>
+<area shape="rect" id="node3" href="$structCaptain_1_1Network_1_1ILinkable.html" title=" " alt="" coords="385,160,587,187"/>
+<area shape="rect" id="node4" href="$classCaptain_1_1Network_1_1MesoLink.html" title="Represents a directional road connecting two intersections." alt="" coords="721,109,926,136"/>
+<area shape="rect" id="node7" href="$classCaptain_1_1Network_1_1MicroLink.html" title="Represents a micro&#45;level link in the network, handling multiple lanes and connecting stations." alt="" coords="720,220,927,247"/>
+<area shape="rect" id="node5" href="$structCaptain_1_1UnitIdentifier.html" title="Struct of a unique identifier for a unit, including its primary ID, sub ID, type, and subtype." alt="" coords="403,20,569,47"/>
+<area shape="rect" id="node6" href="$classUnitType.html" title="Class of unit tpye : Undefined, meso, micro, uniform, sink, source, vehicle, station,..." alt="" coords="58,5,137,32"/>
+<area shape="rect" id="node13" href="$classCaptain_1_1Network_1_1IntersectionMicroLink.html" title="Repesents a specialized micro link for intersections." alt="" coords="1065,221,1285,262"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Util_1_1EventRecorder.html" title="Class for recording events in the simulation." alt="" coords="383,228,589,255"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1Util_1_1JsonReader.html" title=" " alt="" coords="5,317,189,344"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Util_1_1XmlWriter.html" title=" " alt="" coords="9,168,186,195"/>
+<area shape="rect" id="node11" href="$classCaptain_1_1Util_1_1JsonWriter.html" title=" " alt="" coords="8,243,187,269"/>
+<area shape="rect" id="node12" href="$classCaptain_1_1V2X.html" title="Class of a Vehicle&#45;to&#45;Everything (V2X) communication system, &#160;managing messages sent and received alo..." alt="" coords="433,279,539,305"/>
+</map>

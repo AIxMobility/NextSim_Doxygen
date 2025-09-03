@@ -1,0 +1,4 @@
+<map id="Captain::Network::MesoLink::GetLeadingMesoUnitPtr" name="Captain::Network::MesoLink::GetLeadingMesoUnitPtr">
+<area shape="rect" id="node1" title="Gets the most upstream meso unit in a specified lane." alt="" coords="304,5,509,47"/>
+<area shape="rect" id="node2" href="$classCaptain_1_1Network_1_1UniformLink.html#a251248336d2a38a66e5e60856a3afbd7" title="Sets the connection information for an upstream leader lane." alt="" coords="5,5,256,47"/>
+</map>

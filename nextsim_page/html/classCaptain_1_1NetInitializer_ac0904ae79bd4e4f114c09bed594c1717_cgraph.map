@@ -1,0 +1,13 @@
+<map id="Captain::NetInitializer::InitializeScenarioInfo" name="Captain::NetInitializer::InitializeScenarioInfo">
+<area shape="rect" id="node1" title="Initialize scenario info." alt="" coords="5,224,172,265"/>
+<area shape="rect" id="node2" href="$classNextSimIO_1_1InputScenario.html#acee25db84c892355c52b235f75f42353" title="Get background traffic duration." alt="" coords="251,5,440,47"/>
+<area shape="rect" id="node3" href="$classNextSimIO_1_1InputScenario.html#a9fc139ba7c19ee979659610794de0437" title="Get duration." alt="" coords="251,71,440,112"/>
+<area shape="rect" id="node4" href="$classNextSimIO_1_1InputScenario.html#a52962f677145a1163c4c5dcd8c83220d" title="Get OD matrix ID." alt="" coords="251,136,440,177"/>
+<area shape="rect" id="node5" href="$classCaptain_1_1Engine.html#a87ec6953828768111701ca4b62dc3503" title=" " alt="" coords="220,202,471,229"/>
+<area shape="rect" id="node6" href="$classNextSimIO_1_1InputScenario.html#ac28c7fe6899ba562c27a724fd907c0d2" title="Get start time." alt="" coords="251,253,440,295"/>
+<area shape="rect" id="node7" href="$classNextSimIO_1_1InputScenario.html#a903e747b6e0513095c9f9d566cb6d228" title="Get TOD matrix ID." alt="" coords="251,319,440,360"/>
+<area shape="rect" id="node8" href="$classCaptain_1_1Engine.html#a1a8e0d5a78f89e3b5b69e7923270f745" title=" " alt="" coords="251,384,439,425"/>
+<area shape="rect" id="node10" href="$classCaptain_1_1Engine.html#a476b564cb75067e2b57c418a24a711cd" title=" " alt="" coords="251,449,440,491"/>
+<area shape="rect" id="node9" href="$classCaptain_1_1SignalController.html#a211c9b818fdf4ee55a1c634626870a25" title=" " alt="" coords="519,384,703,425"/>
+<area shape="rect" id="node11" href="$structCaptain_1_1ScenarioInfo.html#aad51be0339ee8cb010966bbfed4eca7b" title=" " alt="" coords="530,449,691,491"/>
+</map>
